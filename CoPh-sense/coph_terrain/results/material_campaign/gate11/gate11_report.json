@@ -1,0 +1,377 @@
+{
+  "status": "failed",
+  "scope": "Gate 1.1 development rerun; no test/OOD",
+  "arguments": {
+    "steps": 160,
+    "train_device": "cuda",
+    "natural_train_groups": 6,
+    "natural_validation_groups": 3
+  },
+  "stratified_train_counts": {
+    "Natural": 20,
+    "Complementarity": 4,
+    "Moving-A5": 8
+  },
+  "manifests": {
+    "train": "1f9612e74a42c80e6933a4aac27aae000811714a75fbb401443027b469044042",
+    "validation": "d336c90afe68147c4d35a1ec542573059eeeca9f31d13103d42fda8c47323f06"
+  },
+  "calibration_sha256": "8432339b8a4324b2355fac2ea093cfd1a45855fca086c81baceb5be671bc5b22",
+  "source_sha256": {
+    "generator.py": "dccf1d27c84e9535c3437016932c13e14d3c0aca815e87bb2ba7f4ec2c169bc0",
+    "scenario.py": "819981bb1e7a81ea0addee480b671ad86cbeb737dd475e665065f81f0a4da8d3",
+    "environment.py": "01e6e810c91dec5a7f36169ae253aafd0e4d2ddc4f4540e58b827ddf4e8bb653",
+    "planning.py": "224b06899d7a9d4334810552587fee168341afcdc89b0421e1d4c3dda9c8b272",
+    "execution.py": "1ca11e96ef65021e68e564654b1af8c460e6759eb9b8c1737db6861aedfa3fd2",
+    "material_executor.py": "73e2ee32b8a1e52251805087bfa125e7d24a3147d6a4789913a01871eb14f481",
+    "algorithm.py": "b7849184bf2fff321a3528e16f3e931136cb913dbcfd49ed18abd977d14b74f6",
+    "value_model.py": "54edee4fc343f6ddb5f927cc2f27b99a7767d6c1f698b4f586910533b8106913",
+    "train_material_a35.py": "fef0e90a02fd36779f484d0cb226e0d06fe8d20558643c44df2bf28ffaaddd20",
+    "train_material_a35_gate11.py": "19fe1b615c02c485782d63e2fccf0f7b9d4c1ecedba599e31222a61ad638ba0b"
+  },
+  "train": {
+    "Natural": {
+      "count": 20,
+      "mean_realized_regret": 1.767311191558838,
+      "max_realized_regret": 9.380949974060059,
+      "exact_action_rate": 0.8,
+      "pair_optimal_states": 0,
+      "regret_by_phase": {
+        "Natural_A3": 2.945518652598063,
+        "Natural_A5_retained": 0.0,
+        "Natural_A5_withheld": 0.0
+      }
+    },
+    "Complementarity": {
+      "count": 4,
+      "mean_realized_regret": 0.5757789611816406,
+      "max_realized_regret": 2.3031158447265625,
+      "exact_action_rate": 0.75,
+      "pair_optimal_states": 0,
+      "regret_by_phase": {
+        "Complementarity": 0.5757789611816406
+      }
+    },
+    "Moving-A5": {
+      "count": 8,
+      "mean_realized_regret": 6.46100515127182,
+      "max_realized_regret": 9.59532642364502,
+      "exact_action_rate": 0.25,
+      "pair_optimal_states": 1,
+      "regret_by_phase": {
+        "Moving-A5_retained": 6.358805179595947,
+        "Moving-A5_withheld": 6.563205122947693
+      }
+    }
+  },
+  "validation": {
+    "Natural": {
+      "count": 8,
+      "mean_realized_regret": 0.05085456371307373,
+      "max_realized_regret": 0.36269187927246094,
+      "exact_action_rate": 0.75,
+      "pair_optimal_states": 0,
+      "regret_by_phase": {
+        "Natural_A3": 0.06780608495076497,
+        "Natural_A5_retained": 0.0,
+        "Natural_A5_withheld": 0.0
+      }
+    },
+    "Complementarity": {
+      "count": 4,
+      "mean_realized_regret": 0.0,
+      "max_realized_regret": 0.0,
+      "exact_action_rate": 1.0,
+      "pair_optimal_states": 0,
+      "regret_by_phase": {
+        "Complementarity": 0.0
+      }
+    },
+    "Moving-A5": {
+      "count": 8,
+      "mean_realized_regret": 0.0,
+      "max_realized_regret": 0.0,
+      "exact_action_rate": 1.0,
+      "pair_optimal_states": 0,
+      "regret_by_phase": {
+        "Moving-A5_retained": 0.0,
+        "Moving-A5_withheld": 0.0
+      }
+    }
+  },
+  "validation_global": {
+    "count": 20,
+    "mean_realized_regret": 0.020341825485229493,
+    "max_realized_regret": 0.36269187927246094,
+    "exact_action_rate": 0.9,
+    "pair_optimal_states": 0,
+    "regret_by_phase": {
+      "Natural_A3": 0.06780608495076497,
+      "Natural_A5_retained": 0.0,
+      "Natural_A5_withheld": 0.0,
+      "Complementarity": 0.0,
+      "Moving-A5_retained": 0.0,
+      "Moving-A5_withheld": 0.0
+    }
+  },
+  "validation_macro_mean_regret": 0.016951521237691242,
+  "validation_macro_exact_rate": 0.9166666666666666,
+  "validation_memory_switches": 0,
+  "gate": {
+    "global_mean_regret_below_0.02": false,
+    "global_exact_rate_at_least_0.90": true,
+    "complementarity_pair_optimal_present": false,
+    "moving_a5_memory_switch_present": false,
+    "natural_mean_regret_below_0.02": false
+  },
+  "collection": {
+    "train": [
+      {
+        "group": "train/bottleneck/0000",
+        "status": "a3_only_acquire_failed"
+      },
+      {
+        "group": "train/labyrinth/0000",
+        "status": "collected",
+        "examples": 4,
+        "memory_optimum_changed": false
+      },
+      {
+        "group": "train/open/0000",
+        "status": "a3_only_acquire_failed"
+      },
+      {
+        "group": "train/bottleneck/0001",
+        "status": "collected",
+        "examples": 4,
+        "memory_optimum_changed": false
+      },
+      {
+        "group": "train/labyrinth/0001",
+        "status": "collected",
+        "examples": 4,
+        "memory_optimum_changed": false
+      },
+      {
+        "group": "train/open/0001",
+        "status": "collected",
+        "examples": 4,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Complementarity",
+        "parent_seed": 1100000,
+        "world_bits": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "examples": 1,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Complementarity",
+        "parent_seed": 1100000,
+        "world_bits": [
+          false,
+          false,
+          false,
+          true
+        ],
+        "examples": 1,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Complementarity",
+        "parent_seed": 1100000,
+        "world_bits": [
+          false,
+          false,
+          true,
+          false
+        ],
+        "examples": 1,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Complementarity",
+        "parent_seed": 1100000,
+        "world_bits": [
+          false,
+          false,
+          true,
+          true
+        ],
+        "examples": 1,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Moving-A5",
+        "parent_seed": 1100000,
+        "world_bits": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "examples": 2,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Moving-A5",
+        "parent_seed": 1100000,
+        "world_bits": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "examples": 2,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Moving-A5",
+        "parent_seed": 1100000,
+        "world_bits": [
+          false,
+          false,
+          true,
+          true
+        ],
+        "examples": 2,
+        "memory_optimum_changed": true
+      },
+      {
+        "stratum": "Moving-A5",
+        "parent_seed": 1100000,
+        "world_bits": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "examples": 2,
+        "memory_optimum_changed": false
+      }
+    ],
+    "validation": [
+      {
+        "group": "validation/bottleneck/0000",
+        "status": "a3_only_acquire_failed"
+      },
+      {
+        "group": "validation/labyrinth/0000",
+        "status": "collected",
+        "examples": 4,
+        "memory_optimum_changed": false
+      },
+      {
+        "group": "validation/open/0000",
+        "status": "collected",
+        "examples": 2,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Complementarity",
+        "parent_seed": 1200000,
+        "world_bits": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "examples": 1,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Complementarity",
+        "parent_seed": 1200000,
+        "world_bits": [
+          false,
+          false,
+          false,
+          true
+        ],
+        "examples": 1,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Complementarity",
+        "parent_seed": 1200000,
+        "world_bits": [
+          false,
+          false,
+          true,
+          false
+        ],
+        "examples": 1,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Complementarity",
+        "parent_seed": 1200000,
+        "world_bits": [
+          false,
+          false,
+          true,
+          true
+        ],
+        "examples": 1,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Moving-A5",
+        "parent_seed": 1200000,
+        "world_bits": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "examples": 2,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Moving-A5",
+        "parent_seed": 1200000,
+        "world_bits": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "examples": 2,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Moving-A5",
+        "parent_seed": 1200000,
+        "world_bits": [
+          false,
+          false,
+          true,
+          true
+        ],
+        "examples": 2,
+        "memory_optimum_changed": false
+      },
+      {
+        "stratum": "Moving-A5",
+        "parent_seed": 1200000,
+        "world_bits": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "examples": 2,
+        "memory_optimum_changed": false
+      }
+    ]
+  },
+  "train_loss": 18.22806167602539,
+  "checkpoint": "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/results/material_campaign/gate11/a3_a5_candidate_failed.pt",
+  "checkpoint_sha256": "7b31162fb8bcad570bec7f7f05eb669ef1e0f7674b5e56380dcb2f81cef05be7",
+  "test_manifests_opened": false
+}

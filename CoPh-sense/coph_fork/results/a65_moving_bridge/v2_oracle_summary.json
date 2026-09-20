@@ -1,0 +1,50 @@
+[
+  {
+    "delay_steps": 3,
+    "delay_seconds": 0.15000000000000002,
+    "uniform_prior": "top geometry {false,true} x top traction {0.30,0.90}",
+    "mean_decision_cost": {
+      "always": 1.254319201853371,
+      "never": 1.098327874594391
+    },
+    "oracle_choice": "never",
+    "forecast_gate_choice": "always",
+    "old_gate_choice": "always",
+    "forecast_gate_regret": 0.15599132725898013,
+    "old_gate_regret_with_corrected_A4": 0.15599132725898013,
+    "old_slack": 4.300939620444858,
+    "rollout_slack": 6.800000000000001
+  },
+  {
+    "delay_steps": 100,
+    "delay_seconds": 5.0,
+    "uniform_prior": "top geometry {false,true} x top traction {0.30,0.90}",
+    "mean_decision_cost": {
+      "always": 1.5372689977385932,
+      "never": 1.098327874594391
+    },
+    "oracle_choice": "never",
+    "forecast_gate_choice": "always",
+    "old_gate_choice": "never",
+    "forecast_gate_regret": 0.4389411231442022,
+    "old_gate_regret_with_corrected_A4": 0.0,
+    "old_slack": 4.300939620444858,
+    "rollout_slack": 6.800000000000001
+  },
+  {
+    "delay_steps": 140,
+    "delay_seconds": 7.0,
+    "uniform_prior": "top geometry {false,true} x top traction {0.30,0.90}",
+    "mean_decision_cost": {
+      "always": 1.2011018171539625,
+      "never": 1.098327874594391
+    },
+    "oracle_choice": "never",
+    "forecast_gate_choice": "never",
+    "old_gate_choice": "never",
+    "forecast_gate_regret": 0.0,
+    "old_gate_regret_with_corrected_A4": 0.0,
+    "old_slack": 4.300939620444858,
+    "rollout_slack": 6.800000000000001
+  }
+]

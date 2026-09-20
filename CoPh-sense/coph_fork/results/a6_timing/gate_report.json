@@ -1,0 +1,40 @@
+{
+  "scope": "local scout inspect/skip gate trained on exact values under frozen A4-v2 and A5-v2 continuations",
+  "inputs": "public separation, range, return time/cost, network delay, delivery probability, decision slack, acquisition duration, and exact public timely flag",
+  "train_context_seed": 26011,
+  "validation_context_seed": 26012,
+  "confirmation_context_seed": 26013,
+  "selected_epoch": 91,
+  "training": {
+    "decision_accuracy": 0.9731481671333313,
+    "mean_regret": 0.0016109987627714872,
+    "fixed_always_inspect_mean_regret": 0.05779439955949783,
+    "oracle_inspect_fraction": 0.37962964177131653,
+    "late_inspection_rate": 0.0,
+    "early_inspection_accuracy": 0.9499136209487915,
+    "examples": 1080
+  },
+  "validation": {
+    "decision_accuracy": 0.9694444537162781,
+    "mean_regret": 0.0016795899718999863,
+    "fixed_always_inspect_mean_regret": 0.048993464559316635,
+    "oracle_inspect_fraction": 0.4611110985279083,
+    "late_inspection_rate": 0.0,
+    "early_inspection_accuracy": 0.9483568072319031,
+    "examples": 360
+  },
+  "confirmation": {
+    "decision_accuracy": 0.9736111164093018,
+    "mean_regret": 0.0018162754131481051,
+    "fixed_always_inspect_mean_regret": 0.058845870196819305,
+    "oracle_inspect_fraction": 0.36666667461395264,
+    "late_inspection_rate": 0.0,
+    "early_inspection_accuracy": 0.9485095143318176,
+    "examples": 720
+  },
+  "previously_inspected_grid": {
+    "decision_accuracy": 0.9654320987654321,
+    "mean_regret": 0.002605185185185262,
+    "examples": 810
+  }
+}

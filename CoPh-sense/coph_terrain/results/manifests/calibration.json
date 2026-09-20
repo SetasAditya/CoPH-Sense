@@ -1,0 +1,808 @@
+{
+  "episode_realizations_per_test_group": null,
+  "generator_sha256": "55b2dd336040a9d09f57a86a90eb7357a06dad80a584fe4cb9a1634d13ed0540",
+  "groups": [
+    {
+      "family": "open",
+      "group_id": "calibration/open/0000",
+      "map_sha256": "77e99ddf1e1cd1c9dfadeeadbec98339ce9b3105804a461d43ecced7b1774d2c",
+      "obstacle_count": 5,
+      "parent_seed": 300000,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0001",
+      "map_sha256": "de452ca50ab0af00a47637e665ccbb4bc6a872880fcf782d8f10e1babf89c42e",
+      "obstacle_count": 5,
+      "parent_seed": 300001,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0002",
+      "map_sha256": "9f3ebc008c8db01cbe9b892c1424ff6dab4be835ffecec09fc73d7eec822730f",
+      "obstacle_count": 7,
+      "parent_seed": 300002,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0003",
+      "map_sha256": "9295e603437f9741d3849755fc1071e70156a9b484b942a433506187f732fc8c",
+      "obstacle_count": 7,
+      "parent_seed": 300003,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0004",
+      "map_sha256": "f459e5050e5556974f51c069972fd952cb7104c423a386ed5c682dea5be7777a",
+      "obstacle_count": 8,
+      "parent_seed": 300004,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0005",
+      "map_sha256": "230c5e38d941c2fd72b3fd86e72200a53964b31d3997c995cff59212e7669c3e",
+      "obstacle_count": 7,
+      "parent_seed": 300005,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0006",
+      "map_sha256": "3969f5dffd8f8c4e0f601d29555c81ed07eb9d1217fd95e883d8df437745cf60",
+      "obstacle_count": 6,
+      "parent_seed": 300006,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0007",
+      "map_sha256": "009dfe762437139b050e42f0a759d68b971da5b1741acffb11ed991f1628fc05",
+      "obstacle_count": 8,
+      "parent_seed": 300007,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0008",
+      "map_sha256": "2e61a1cdd22d4dd5bf191d35e310f58340bd9c737249c4c76bb6c049a4fe31d0",
+      "obstacle_count": 7,
+      "parent_seed": 300008,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0009",
+      "map_sha256": "3e05bbdf9142a62d47aa8d8ff7decc7574afb755b8e8ec73b067abddf420ca33",
+      "obstacle_count": 4,
+      "parent_seed": 300009,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0010",
+      "map_sha256": "f5d5b38eeebcc3f17bc068d4afc8458ff4cf284b1aa6711e35b01cc3619cea4b",
+      "obstacle_count": 5,
+      "parent_seed": 300010,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0011",
+      "map_sha256": "08d89b5e080e5d126a63764968a26061f21d5c9cf929f58a76cb5409aff46bbb",
+      "obstacle_count": 7,
+      "parent_seed": 300011,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0012",
+      "map_sha256": "6340e505c6fbe7229e004877d2c9343cb5d4ac3bf48d4c415fcab61a454a8292",
+      "obstacle_count": 8,
+      "parent_seed": 300012,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0013",
+      "map_sha256": "7befbb9c054bed2026575aa49761689ac9e7ea49a7852e2d491a7e6961dbc880",
+      "obstacle_count": 5,
+      "parent_seed": 300013,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0014",
+      "map_sha256": "258c8657d5df506122fe33f086d4160a08af3338290817bf9e1c67f9e40c81dc",
+      "obstacle_count": 5,
+      "parent_seed": 300014,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0015",
+      "map_sha256": "de030afc4aebee68569b877633cc7abaa7302f7c8ee936efbdf1c756afe2a961",
+      "obstacle_count": 6,
+      "parent_seed": 300015,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0016",
+      "map_sha256": "ff13473444247c472fa3e207c0ad732dbebf07fefb390031e129b5ba76dedd8d",
+      "obstacle_count": 6,
+      "parent_seed": 300016,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0017",
+      "map_sha256": "ed2aca2af3bbd71921046140fd600ff2f5a64b57d2e6e1ba8e3876056ccf70af",
+      "obstacle_count": 5,
+      "parent_seed": 300017,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0018",
+      "map_sha256": "a1e0408c5dce1b174178ba571f7fa374cb267fcb30ca9294f25067e9cc2d9eb6",
+      "obstacle_count": 5,
+      "parent_seed": 300018,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0019",
+      "map_sha256": "7d3fbe37bbecb3f78369056e9a9ed33411f492597af95c01b43717ca11c2a96c",
+      "obstacle_count": 7,
+      "parent_seed": 300019,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0020",
+      "map_sha256": "3702bb4b7c4fb23e33c84d0fc37ad29e568746552e4caa5b2599552bb1652035",
+      "obstacle_count": 8,
+      "parent_seed": 300020,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0021",
+      "map_sha256": "ff317c34a2b5b6ed05dd20816d4e1d209cd5777167148cc4b074036af7548a07",
+      "obstacle_count": 5,
+      "parent_seed": 300021,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0022",
+      "map_sha256": "d100b8442ccaa7522d76706793a117529da1418c7ad0f5430a35b175d961a9ad",
+      "obstacle_count": 7,
+      "parent_seed": 300022,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0023",
+      "map_sha256": "5e48271350285f750c98ec11e635b011ece979d554d90c8b5bf85f759daa4d99",
+      "obstacle_count": 6,
+      "parent_seed": 300023,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0024",
+      "map_sha256": "1be1fda10996be3e517ac636f16657dc2515fe45283b10873941138968cf6b34",
+      "obstacle_count": 5,
+      "parent_seed": 300024,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0025",
+      "map_sha256": "41791c3f3db2cbf5899e69b58fc5ad279ccefb0ab7ee8cff2f0f678f6dbfd379",
+      "obstacle_count": 8,
+      "parent_seed": 300025,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0026",
+      "map_sha256": "a7f9e36cae3bf69e7ca172334eb6d8b5e9d0e63cd18cbf04e8e65fd72e05fc16",
+      "obstacle_count": 6,
+      "parent_seed": 300026,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0027",
+      "map_sha256": "9fa8a8a98fa812dfff53d82c59a79c8659db2dd6772e362c8f6d5a97632a8021",
+      "obstacle_count": 7,
+      "parent_seed": 300027,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0028",
+      "map_sha256": "c7a6aa1d221c19a436f826596ce0982f4ded65292891d65e12d08c948ac180fc",
+      "obstacle_count": 5,
+      "parent_seed": 300028,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0029",
+      "map_sha256": "295441e58dbb8bdbe88d7eb3869b35ea4a3bbb351fe82532af543ef3cea40fec",
+      "obstacle_count": 6,
+      "parent_seed": 300029,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0030",
+      "map_sha256": "9a6b1c3d925b5cc3eefc5a304c5ff945421a7a7d6d36291d4bc29411d1225660",
+      "obstacle_count": 8,
+      "parent_seed": 300030,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0031",
+      "map_sha256": "3bb03985f2de7761490fba5dc3344cf7a890f206c8eb405f9dd0416886111304",
+      "obstacle_count": 8,
+      "parent_seed": 300031,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0032",
+      "map_sha256": "4a073a55524018913d5c8287056ae47639eacf502954686b11e48ca2080fa6ee",
+      "obstacle_count": 6,
+      "parent_seed": 300032,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0033",
+      "map_sha256": "f7608279c0c8546610484f9038ebd9916d6f55d402d2acb175e5fdef3be3dfde",
+      "obstacle_count": 6,
+      "parent_seed": 300033,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0034",
+      "map_sha256": "289f208f53909964367379535c6bc773c23234ccc86e2ddedb5fccd862a76377",
+      "obstacle_count": 8,
+      "parent_seed": 300034,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0035",
+      "map_sha256": "250cd8def1a5b549fe3d08035656e5e1f745755f36d7d1ecf4b76201edbc1779",
+      "obstacle_count": 6,
+      "parent_seed": 300035,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0036",
+      "map_sha256": "2625434756786a51e166e1682fd8b8826fb28d24c487fc86ae5b2d2bda2d4bbd",
+      "obstacle_count": 6,
+      "parent_seed": 300036,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0037",
+      "map_sha256": "737c702cba1cfc022efca9e3e29b68b80066129d5f602e1b5531bc720f5574da",
+      "obstacle_count": 5,
+      "parent_seed": 300037,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0038",
+      "map_sha256": "7e186e642705737938b761b8b279620f375396c950d6f53bd2f64e9f66b6b30e",
+      "obstacle_count": 7,
+      "parent_seed": 300038,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "calibration/open/0039",
+      "map_sha256": "516d5bcad16c755d50eacf5961d500dbcbd5a0fd3638018c2a3384d02a59aa5b",
+      "obstacle_count": 7,
+      "parent_seed": 300039,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0000",
+      "map_sha256": "39648e6146bcc0431cd6c6fd77241c5154ede7575ff9d3fb52978cd5b9439373",
+      "obstacle_count": 7,
+      "parent_seed": 300040,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0001",
+      "map_sha256": "1a0ca895146fb9b22fb9daab100c75f402d84d0ca9254c557b92e14d4f9071bf",
+      "obstacle_count": 7,
+      "parent_seed": 300041,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0002",
+      "map_sha256": "9e95a222085f446c28228ee5f72742cb2e31d6752f44cd1afae183b461b7516f",
+      "obstacle_count": 7,
+      "parent_seed": 300042,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0003",
+      "map_sha256": "06799c4ccfe4d3a29ee27e03ca699f8637ef29dbbc0a89516af52d15a71132a4",
+      "obstacle_count": 7,
+      "parent_seed": 300043,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0004",
+      "map_sha256": "99bf4fd00c02fd2dd788598882177c60c0b7699100a2163664d476759a8fb936",
+      "obstacle_count": 7,
+      "parent_seed": 300044,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0005",
+      "map_sha256": "c146b8453b4f67ec1a30bc486d9968a5f81ad44e95334de0e52cee990aa4e7bd",
+      "obstacle_count": 7,
+      "parent_seed": 300045,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0006",
+      "map_sha256": "1f18aa802abe508240169c40bc46769e5d1840822cf9727115dc7fe7316707eb",
+      "obstacle_count": 7,
+      "parent_seed": 300046,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0007",
+      "map_sha256": "db0337711dd1ec1d20d3ba7f27139b22c3090f23527af28dd1205b4094ab6a96",
+      "obstacle_count": 7,
+      "parent_seed": 300047,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0008",
+      "map_sha256": "9d4a37529d9041cc4d074de7e385c897ea4224e9bb86ff9d6ae2d62c51194095",
+      "obstacle_count": 7,
+      "parent_seed": 300048,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0009",
+      "map_sha256": "f3232a7c955f871f2f470de5c79c47132c06d2aabef1cf325651ac2f17896752",
+      "obstacle_count": 7,
+      "parent_seed": 300049,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0010",
+      "map_sha256": "142abcba982572894d1f0de67172444303edbcbfad5ae03c668dc0f45f11ee8d",
+      "obstacle_count": 7,
+      "parent_seed": 300050,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0011",
+      "map_sha256": "0909244388c559dfb9ad3843a20510d05cb39777bca21ff41ffe1b8c29e4fd23",
+      "obstacle_count": 7,
+      "parent_seed": 300051,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0012",
+      "map_sha256": "473dfb020000d42bff3b1a41466b872996b824f32258fa3fe93aa44e69553fe5",
+      "obstacle_count": 7,
+      "parent_seed": 300052,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0013",
+      "map_sha256": "750a65b87edcd2ee8221da31e59f52c3377ee4025cfcbe43220be240503609d0",
+      "obstacle_count": 7,
+      "parent_seed": 300053,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0014",
+      "map_sha256": "cb0c95026875a66324f140e900d378529e5799bdb40b4ac85e04becf290bfe6b",
+      "obstacle_count": 7,
+      "parent_seed": 300054,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0015",
+      "map_sha256": "156ad001e97fe118422ead8f619119b7db3d2547f9804afc50369a7fa29fa940",
+      "obstacle_count": 7,
+      "parent_seed": 300055,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0016",
+      "map_sha256": "517aae18989ba14c9d95b0945f0289694b2b268497689e96d6c1c04ff8c3ad5d",
+      "obstacle_count": 7,
+      "parent_seed": 300056,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0017",
+      "map_sha256": "4fc4f1dcb18b85dd2d5cf3e975738845b0fa49597892cf752b3dacff0a36295d",
+      "obstacle_count": 7,
+      "parent_seed": 300057,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0018",
+      "map_sha256": "f28dc4fcaf759ae882a9d6903a2c44dff3c957356718a8c7bb3524f65f3538c6",
+      "obstacle_count": 7,
+      "parent_seed": 300058,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0019",
+      "map_sha256": "3c43949a448d35e264a046405b6818a3bdf0148aa4b4af6ab95851eedcf8ef77",
+      "obstacle_count": 7,
+      "parent_seed": 300059,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0020",
+      "map_sha256": "1c10ced913b4dcd2f70ca586e1b36fce8a89ede9bbb49c392477bd77138ec238",
+      "obstacle_count": 7,
+      "parent_seed": 300060,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0021",
+      "map_sha256": "8935833a0d9e07165090cf2b8887ddc725d9fb3c99ac4c4c697bb4ae3900b5e6",
+      "obstacle_count": 7,
+      "parent_seed": 300061,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0022",
+      "map_sha256": "36dc42f483366a7a48521a94748e9929f0ac76780904be60b96bf33417eff3a7",
+      "obstacle_count": 7,
+      "parent_seed": 300062,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0023",
+      "map_sha256": "6708eeeab0b7e065a66ecfd749d3bf3c75e8ecf58317b46c7f492ae36377c686",
+      "obstacle_count": 7,
+      "parent_seed": 300063,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0024",
+      "map_sha256": "4297da65c0ac6df8a48f092f1233a292532461b0cb42354be0c5640823987d73",
+      "obstacle_count": 6,
+      "parent_seed": 300064,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0025",
+      "map_sha256": "70a679b9ce10b00e1eb2a963261566543cacce306fc3f869cf2dacd95a38d43f",
+      "obstacle_count": 7,
+      "parent_seed": 300065,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0026",
+      "map_sha256": "197b7dab42754510780f50783a4cedfb15b68b31e7d00b5060c3bbe058656e36",
+      "obstacle_count": 7,
+      "parent_seed": 300066,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0027",
+      "map_sha256": "cb27bfd7fcd6483291ddf13ef7d49fa2f4755e9ce2e2cf19d603ff5644013af1",
+      "obstacle_count": 7,
+      "parent_seed": 300067,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0028",
+      "map_sha256": "6e79dc3becc1eb42863ad3354c292ca4dbc962b5b487d3310d3f2e6b4e4a5827",
+      "obstacle_count": 7,
+      "parent_seed": 300068,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "calibration/bottleneck/0029",
+      "map_sha256": "fe54aae8737c9549ef66e96c8f23385611b139207bff7ea4d81ee0d681fa6722",
+      "obstacle_count": 7,
+      "parent_seed": 300069,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0000",
+      "map_sha256": "da9e4c56860ebec0bd8621ce6838b47a48067f16f3fdf9539ad41b2ef82a504c",
+      "obstacle_count": 16,
+      "parent_seed": 300070,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0001",
+      "map_sha256": "712bf228047373a9969cb96eed7576433bcac7ff1186d4db7d5edd5e37980944",
+      "obstacle_count": 16,
+      "parent_seed": 300071,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0002",
+      "map_sha256": "47d0daceb755f7999899633aaae9c69bfe0ccf650ed91e75b6a54a3c3cce6b0f",
+      "obstacle_count": 17,
+      "parent_seed": 300072,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0003",
+      "map_sha256": "c77a1dbd02b0b9166b227013da23b324ecddcf57fd53aae65accab4d6582fbfe",
+      "obstacle_count": 17,
+      "parent_seed": 300073,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0004",
+      "map_sha256": "c1c7aa764518fb304b3a27af114688f5dac7a0c8175d43ec8dbd880c4f4ae0ed",
+      "obstacle_count": 17,
+      "parent_seed": 300074,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0005",
+      "map_sha256": "5cbbad497e9c0a16d8e14b5bcb3c636e8554e6f55e8f2c53f40c8d0ff6add59b",
+      "obstacle_count": 16,
+      "parent_seed": 300075,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0006",
+      "map_sha256": "073f63f00499f41e90f55897bc6a32786e0fd1080215df254f3246549e843a09",
+      "obstacle_count": 17,
+      "parent_seed": 300076,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0007",
+      "map_sha256": "397fafe9ccb4cdb4d91688742d10832646d2c5b4a5ba77b2aa2d9081de3066fe",
+      "obstacle_count": 17,
+      "parent_seed": 300077,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0008",
+      "map_sha256": "96097b3edd605305c3366dfd1d3684c1a8cfa92ffe191b5417ec1638b2957ae7",
+      "obstacle_count": 17,
+      "parent_seed": 300078,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0009",
+      "map_sha256": "6fa4a1f91e14e1037d17bf9902f963ff605223c3a445c66a2ff8e9d974240ba8",
+      "obstacle_count": 17,
+      "parent_seed": 300079,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0010",
+      "map_sha256": "c525b5d916536e82b4bd6fa3d227d6e5077d30831527ddbe605cc8f2b5fb40a3",
+      "obstacle_count": 16,
+      "parent_seed": 300080,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0011",
+      "map_sha256": "8aa974f85687c3439bb9b51834b0bc2cfc20563fc3022eade8bee89c9666e30c",
+      "obstacle_count": 17,
+      "parent_seed": 300081,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0012",
+      "map_sha256": "3a0df0ae8356dff6f53091bc5b8f7f79a209481787133a05d7e21ab5591ab06d",
+      "obstacle_count": 17,
+      "parent_seed": 300082,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0013",
+      "map_sha256": "35328d5f4d1e2e6ce6875606a0f888327c3bbca67e891da049bfec5025dbfaa5",
+      "obstacle_count": 15,
+      "parent_seed": 300083,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0014",
+      "map_sha256": "76438c75821b2c1ca4c8cbf48e5168b0482c7da8f525868e030363c86313782e",
+      "obstacle_count": 17,
+      "parent_seed": 300084,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0015",
+      "map_sha256": "4d6b71e15e2a41852dde1b66e9ae76b75c11fdf1513247a76659c247731af0e4",
+      "obstacle_count": 17,
+      "parent_seed": 300085,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0016",
+      "map_sha256": "26486175862d0c1c38ff3d07eb19a2caca1b1034d625a91509221d5839bcaff0",
+      "obstacle_count": 16,
+      "parent_seed": 300086,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0017",
+      "map_sha256": "ca87f0be098ce9adb51d9b3490180d3ddaf2b5fb07d705e76616fff017e5cb2a",
+      "obstacle_count": 17,
+      "parent_seed": 300087,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0018",
+      "map_sha256": "1cc11377b27c67e7ece878de0db4dc4cd50d8186c28b257313c0c3a35417dc28",
+      "obstacle_count": 17,
+      "parent_seed": 300088,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0019",
+      "map_sha256": "b155375aa51d23ed887294fbb64a82f59a554ef58fd83415eb2f34a7cbf26cb9",
+      "obstacle_count": 17,
+      "parent_seed": 300089,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0020",
+      "map_sha256": "9acf4b58a669202a2b4cda1f132e49da471674b5cf07300a24097a1437adccd0",
+      "obstacle_count": 17,
+      "parent_seed": 300090,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0021",
+      "map_sha256": "1694c2704fe150444a4638aab8f712cfd550e22eae6e794840580116e92669a9",
+      "obstacle_count": 16,
+      "parent_seed": 300091,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0022",
+      "map_sha256": "59b78d37e19d6b2884559230cb65de5256c8b05b48c0c85447ccb82c4dabc5e9",
+      "obstacle_count": 16,
+      "parent_seed": 300092,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0023",
+      "map_sha256": "dce39b0c2aceeea1ea9e5f0e02bcd6393755d82a6d199dabb97ac5c7ca2bcdf6",
+      "obstacle_count": 17,
+      "parent_seed": 300093,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0024",
+      "map_sha256": "a9d2be717d68a5191b9daa629638d615e3cb03d5137fc68e69d54125398f1a9a",
+      "obstacle_count": 17,
+      "parent_seed": 300094,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0025",
+      "map_sha256": "f4a26854d90865ebf40e0b60f6df5ff57faafbcdb85c8946c70078cbcff89e67",
+      "obstacle_count": 17,
+      "parent_seed": 300095,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0026",
+      "map_sha256": "5d5e98f1dbd763421ec7e6b60fbfde9751b20ea17c6f4327b899a03ee6d48439",
+      "obstacle_count": 17,
+      "parent_seed": 300096,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0027",
+      "map_sha256": "4a16c285298c2e536b51d5f679bb47819f918659c50dc9846e083aa2820e7de6",
+      "obstacle_count": 17,
+      "parent_seed": 300097,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0028",
+      "map_sha256": "b6e0e82b7ccf02c8663daaab557b6af44e14f99e370ca59f662365d2d6ee3657",
+      "obstacle_count": 17,
+      "parent_seed": 300098,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "calibration/labyrinth/0029",
+      "map_sha256": "bffb93aa4867b68bf94c01c7566b73f22be1093e33de1b14a12c52914f903ae5",
+      "obstacle_count": 17,
+      "parent_seed": 300099,
+      "patch_count": 9
+    }
+  ],
+  "schema_version": 1,
+  "split": "calibration"
+}

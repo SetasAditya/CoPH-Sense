@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "steps": 537,
+  "route_commitment": "top",
+  "ledger": {
+    "time": 1.0740000000000007,
+    "motion": 0.021570143215490986,
+    "risk": 0.0,
+    "sensing": 0.08,
+    "communication": 0.048799999999999996,
+    "collision": 0.0,
+    "invalid_action": 0.0,
+    "terminal_failure": 0.0
+  },
+  "total_cost": 1.2243701432154916,
+  "observations_acquired": 2,
+  "observations_delivered": 2,
+  "replay_sha256": "ddf1fbcd1e505129d22c100f8ae45d98e6e404bc85ce9c2c8b1fd3a9e598d336"
+}

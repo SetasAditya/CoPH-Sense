@@ -1,0 +1,84 @@
+{
+  "stage": "physical-oracle-only map selection; before A5 evaluation",
+  "frozen_at_utc": "2026-09-16T21:27:55.456678+00:00",
+  "layout": {
+    "backup_y1": -0.72,
+    "backup_y2": -0.5,
+    "backup_traction_1": 0.18,
+    "backup_traction_2": 0.25,
+    "sensing_cost": 0.02,
+    "safe_prior_1": 0.65,
+    "safe_prior_2": 0.6
+  },
+  "horizon": 2600,
+  "communication_delay_steps": 3,
+  "packet_drop_probability": 0.0,
+  "candidate_actions": [
+    "skip",
+    "R1_G",
+    "R1_T",
+    "R1",
+    "R2_G",
+    "R2_T",
+    "R2"
+  ],
+  "q": {
+    "M0": {
+      "skip": 3.6468278104819936,
+      "R1": 3.470471471140381,
+      "R2": 3.637656379834124,
+      "R1_G": 3.8500506610495004,
+      "R1_T": 3.8500506610495004,
+      "R2_G": 3.7459039447612263,
+      "R2_T": 3.7459039447612263
+    },
+    "M1": {
+      "skip": 2.7995551553594678,
+      "R1": 2.920851425821436,
+      "R2": 2.634267939553601,
+      "R1_G": 2.8988608936015003,
+      "R1_T": 2.8988608936015003,
+      "R2_G": 2.9984055821407805,
+      "R2_T": 2.9984055821407805
+    }
+  },
+  "best": {
+    "M0": "R1",
+    "M1": "R2"
+  },
+  "required_margin": 0.05,
+  "margins": {
+    "M0_R1_vs_skip": 0.17635633934161277,
+    "M0_R1_vs_R2": 0.16718490869374314,
+    "M1_R2_vs_skip": 0.1652872158058667,
+    "M1_R2_vs_R1": 0.28658348626783514
+  },
+  "local_perturbations_passing": 27,
+  "local_perturbations_total": 27,
+  "neighbor_layout": {
+    "backup_y1": -0.78,
+    "backup_y2": -0.53,
+    "backup_traction_1": 0.15,
+    "backup_traction_2": 0.24,
+    "sensing_cost": 0.02,
+    "safe_prior_1": 0.65,
+    "safe_prior_2": 0.6
+  },
+  "neighbor_margins": {
+    "M0_R1_vs_skip": 0.29678392892522343,
+    "M0_R1_vs_R2": 0.2757122633432312,
+    "M1_R2_vs_skip": 0.1866123878746624,
+    "M1_R2_vs_R1": 0.3079086533147346
+  },
+  "scope": "restricted scripted VMAS carrier continuation from matched pre-Fork-1 snapshots; development family, not held-out generalization",
+  "sha256": {
+    "results/a5_moving_bridge/physical_search/layout_01_geometry.json": "5a3572991160e533dcd5658b9051cac4af2b00dc0fd518d8835e1923828ee5dc",
+    "results/a5_moving_bridge/physical_search/layout_01_full_seven_action_oracle.json": "3a21d6eae63cfe642ce5956177bc288e1e960a6b71009e1481ec47ce7114411d",
+    "results/a5_moving_bridge/physical_search/layout_01_geometry_local_pricing.json": "4814097081bbc88d070d0f19e9ff36951435d9ac899fe81ec867af536a35f3d5",
+    "results/a5_moving_bridge/physical_search/layout_deep_geometry.json": "3b3fa268931cf6fba2509ce943ac8096f6a7ee97d039eb8a744a799d896af770",
+    "two_fork_scenario.py": "e3b84c529901c9ba046e9bd6df29aa42e04f36365dfa49ee3bff281580df3dab",
+    "two_fork_environment.py": "45c77ea94990dd0f6dac7af748a0026c88ceff53be48a2cabe1d8bb88edec419",
+    "two_fork_motion.py": "a2cb11fd3cefc6272ee259e283380f44cd660311badbd6ff335542d2a102de9d",
+    "search_two_fork_physical_family.py": "6301d9cc3d259d5914a63c3fe943983e96adbb8961972a7fdc6a65b72c96415d"
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "condition": "weak_link",
+    "communication_range": 0.9,
+    "delivery_probability": 0.2,
+    "mean_decision_cost": {
+      "inspect": 3.108131417506083,
+      "skip": 3.031791224669657
+    },
+    "oracle_choice": "skip",
+    "frozen_gate_choice": "inspect",
+    "frozen_gate_regret": 0.07634019283642601,
+    "world_values": [
+      {
+        "geometry": false,
+        "traction": 0.3,
+        "inspect": 3.1413915973622455,
+        "skip": 3.031791224669657,
+        "frozen_gate_inspects": true
+      },
+      {
+        "geometry": false,
+        "traction": 0.9,
+        "inspect": 3.126591226516931,
+        "skip": 3.031791224669657,
+        "frozen_gate_inspects": true
+      },
+      {
+        "geometry": true,
+        "traction": 0.3,
+        "inspect": 3.126591226516931,
+        "skip": 3.031791224669657,
+        "frozen_gate_inspects": true
+      },
+      {
+        "geometry": true,
+        "traction": 0.9,
+        "inspect": 3.037951619628224,
+        "skip": 3.031791224669657,
+        "frozen_gate_inspects": true
+      }
+    ]
+  },
+  {
+    "condition": "short_range",
+    "communication_range": 0.45,
+    "delivery_probability": 1.0,
+    "mean_decision_cost": {
+      "inspect": 2.650405158148506,
+      "skip": 3.031791224669657
+    },
+    "oracle_choice": "inspect",
+    "frozen_gate_choice": "inspect",
+    "frozen_gate_regret": 0.0,
+    "world_values": [
+      {
+        "geometry": false,
+        "traction": 0.3,
+        "inspect": 3.160720594134059,
+        "skip": 3.031791224669657,
+        "frozen_gate_inspects": true
+      },
+      {
+        "geometry": false,
+        "traction": 0.9,
+        "inspect": 3.160720594134059,
+        "skip": 3.031791224669657,
+        "frozen_gate_inspects": true
+      },
+      {
+        "geometry": true,
+        "traction": 0.3,
+        "inspect": 3.160720594134059,
+        "skip": 3.031791224669657,
+        "frozen_gate_inspects": true
+      },
+      {
+        "geometry": true,
+        "traction": 0.9,
+        "inspect": 1.1194588501918472,
+        "skip": 3.031791224669657,
+        "frozen_gate_inspects": true
+      }
+    ]
+  }
+]

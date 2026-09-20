@@ -1,0 +1,87 @@
+{
+  "status": "engineering_smoke_only",
+  "collection": [
+    {
+      "group": "train/open/0000",
+      "status": "collected",
+      "a3_states": 2,
+      "a5_states": 2,
+      "share_teacher": "hold",
+      "delivered": true
+    },
+    {
+      "group": "train/open/0001",
+      "status": "collected",
+      "a3_states": 2,
+      "a5_states": 2,
+      "share_teacher": "hold",
+      "delivered": true
+    },
+    {
+      "group": "train/bottleneck/0000",
+      "status": "collected",
+      "a3_states": 2,
+      "a5_states": 2,
+      "share_teacher": "hold",
+      "delivered": true
+    },
+    {
+      "group": "train/bottleneck/0001",
+      "status": "collected",
+      "a3_states": 2,
+      "a5_states": 2,
+      "share_teacher": "hold",
+      "delivered": true
+    },
+    {
+      "group": "train/labyrinth/0000",
+      "status": "collected",
+      "a3_states": 2,
+      "a5_states": 2,
+      "share_teacher": "hold",
+      "delivered": true
+    },
+    {
+      "group": "train/labyrinth/0001",
+      "status": "collected",
+      "a3_states": 2,
+      "a5_states": 2,
+      "share_teacher": "hold",
+      "delivered": true
+    }
+  ],
+  "acquisition_examples": 24,
+  "sharing_examples": 6,
+  "final_train_losses": {
+    "acquisition": 12.389213562011719,
+    "sharing": 6.113441467285156
+  },
+  "unforced_replay": {
+    "status": "complete",
+    "a3": [
+      -1,
+      -1
+    ],
+    "a4": "not_reached",
+    "a5": "not_reached",
+    "cost": 1.0714278433294515,
+    "success": true
+  },
+  "forced_stage_replay": {
+    "status": "complete",
+    "a3": [
+      0,
+      -1
+    ],
+    "a4": "hold",
+    "a5": "not_delivered",
+    "cost": 1.1094927495779363,
+    "success": true
+  },
+  "limitations": [
+    "single realized world per teacher branch",
+    "scripted A4 teacher continuation",
+    "first A3 pair action not fully executed",
+    "no on-policy refresh or final risk calibration"
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "scope": "finite route-cost diagnostic; A3 pairwise checkpoint paired with A4-v2 weighted pairwise checkpoint",
+  "protocol": "A4 no-silence-inference sharing, charged evidence and expected ACK attempts; no initial recipient ACKs",
+  "original_A2_labels_are_not_same_protocol": "A2 uses content-conditional send rules and omits ACK cost; bridge shift is reported separately",
+  "subsets": [
+    [],
+    [
+      "top_geometry"
+    ],
+    [
+      "top_traction"
+    ],
+    [
+      "bottom_geometry"
+    ],
+    [
+      "bottom_traction"
+    ],
+    [
+      "top_geometry",
+      "top_traction"
+    ],
+    [
+      "top_geometry",
+      "bottom_geometry"
+    ],
+    [
+      "top_geometry",
+      "bottom_traction"
+    ],
+    [
+      "top_traction",
+      "bottom_geometry"
+    ],
+    [
+      "top_traction",
+      "bottom_traction"
+    ],
+    [
+      "bottom_geometry",
+      "bottom_traction"
+    ],
+    [
+      "top_geometry",
+      "top_traction",
+      "bottom_geometry"
+    ],
+    [
+      "top_geometry",
+      "top_traction",
+      "bottom_traction"
+    ],
+    [
+      "top_geometry",
+      "bottom_geometry",
+      "bottom_traction"
+    ],
+    [
+      "top_traction",
+      "bottom_geometry",
+      "bottom_traction"
+    ],
+    [
+      "top_geometry",
+      "top_traction",
+      "bottom_geometry",
+      "bottom_traction"
+    ]
+  ],
+  "by_seed": {
+    "1701": {
+      "count": 120,
+      "mean_gap_over_all_sensing_sets": {
+        "mean": 0.03282744222590259,
+        "p90": 0.056965499695841734,
+        "max": 0.0721357189841822
+      },
+      "max_gap_over_sensing_sets": {
+        "mean": 0.06393683553279086,
+        "p90": 0.10934816007581967,
+        "max": 0.17876177588432807
+      },
+      "gap_at_A3_selected_set": {
+        "mean": 0.032607649605386556,
+        "p90": 0.08991308751357369,
+        "max": 0.1318695993639989
+      },
+      "A3_regret_under_original_A2": {
+        "mean": 0.0025090316931406656,
+        "p90": 0.0034012794494628924,
+        "max": 0.05490255355834961
+      },
+      "A3_regret_under_new_exact_A4": {
+        "mean": 0.0029334862987480817,
+        "p90": 0.0,
+        "max": 0.06616170930641241
+      },
+      "nested_regret_under_learned_A4": {
+        "mean": 0.0038644628476383574,
+        "p90": 0.0006188290749303244,
+        "max": 0.10978765254858791
+      },
+      "original_A2_vs_new_exact_A4_mean_abs_value_shift": {
+        "mean": 0.0016852123233902807,
+        "p90": 0.0034382275631995867,
+        "max": 0.005613001983695742
+      },
+      "A2_and_new_exact_A4_optimum_disagree": 3,
+      "new_exact_and_learned_A4_optimum_disagree": 12,
+      "A3_choice_equals_learned_continuation_optimum": 108,
+      "new_oracle_pair_ordering_count": 75,
+      "learned_A4_preserves_pair_ordering_count": 64
+    },
+    "1702": {
+      "count": 120,
+      "mean_gap_over_all_sensing_sets": {
+        "mean": 0.014570601402053546,
+        "p90": 0.03387946666575223,
+        "max": 0.06051344221300406
+      },
+      "max_gap_over_sensing_sets": {
+        "mean": 0.046893191778405986,
+        "p90": 0.07387203747511452,
+        "max": 0.22837564411778466
+      },
+      "gap_at_A3_selected_set": {
+        "mean": 0.01771066402141947,
+        "p90": 0.06044284621030221,
+        "max": 0.12421026736633278
+      },
+      "A3_regret_under_original_A2": {
+        "mean": 0.004957651098569234,
+        "p90": 0.024502754211425795,
+        "max": 0.05157613754272461
+      },
+      "A3_regret_under_new_exact_A4": {
+        "mean": 0.005352809075910989,
+        "p90": 0.024434099858189125,
+        "max": 0.06594906355625207
+      },
+      "nested_regret_under_learned_A4": {
+        "mean": 0.006478541247640713,
+        "p90": 0.024434099858189125,
+        "max": 0.11285190207357543
+      },
+      "original_A2_vs_new_exact_A4_mean_abs_value_shift": {
+        "mean": 0.0018554239376123507,
+        "p90": 0.0033125403439497594,
+        "max": 0.004926985148459878
+      },
+      "A2_and_new_exact_A4_optimum_disagree": 3,
+      "new_exact_and_learned_A4_optimum_disagree": 8,
+      "A3_choice_equals_learned_continuation_optimum": 89,
+      "new_oracle_pair_ordering_count": 71,
+      "learned_A4_preserves_pair_ordering_count": 69
+    },
+    "1703": {
+      "count": 120,
+      "mean_gap_over_all_sensing_sets": {
+        "mean": 0.021360260805110384,
+        "p90": 0.05299866084171981,
+        "max": 0.0760797415886707
+      },
+      "max_gap_over_sensing_sets": {
+        "mean": 0.06629431570350128,
+        "p90": 0.12201773572737067,
+        "max": 0.1860106945161033
+      },
+      "gap_at_A3_selected_set": {
+        "mean": 0.029159260141044568,
+        "p90": 0.08785293889941771,
+        "max": 0.1860106945161033
+      },
+      "A3_regret_under_original_A2": {
+        "mean": 0.005224148432413737,
+        "p90": 0.02881054878234866,
+        "max": 0.061632633209228516
+      },
+      "A3_regret_under_new_exact_A4": {
+        "mean": 0.0051086677320427674,
+        "p90": 0.026360491590282073,
+        "max": 0.06163259542320043
+      },
+      "nested_regret_under_learned_A4": {
+        "mean": 0.010792706598138479,
+        "p90": 0.03608059498330442,
+        "max": 0.13828600443380923
+      },
+      "original_A2_vs_new_exact_A4_mean_abs_value_shift": {
+        "mean": 0.0019172228595657863,
+        "p90": 0.003944658944307126,
+        "max": 0.005752181683950197
+      },
+      "A2_and_new_exact_A4_optimum_disagree": 3,
+      "new_exact_and_learned_A4_optimum_disagree": 7,
+      "A3_choice_equals_learned_continuation_optimum": 96,
+      "new_oracle_pair_ordering_count": 71,
+      "learned_A4_preserves_pair_ordering_count": 64
+    }
+  },
+  "aggregate": {
+    "count": 360,
+    "mean_gap_over_all_sensing_sets": {
+      "mean": 0.022919434811022172,
+      "p90": 0.05031313253727338,
+      "max": 0.0760797415886707
+    },
+    "max_gap_over_sensing_sets": {
+      "mean": 0.05904144767156604,
+      "p90": 0.1074043946961436,
+      "max": 0.22837564411778466
+    },
+    "gap_at_A3_selected_set": {
+      "mean": 0.02649252458928353,
+      "p90": 0.08233185914346763,
+      "max": 0.1860106945161033
+    },
+    "A3_regret_under_original_A2": {
+      "mean": 0.004230277074707879,
+      "p90": 0.01748416423797612,
+      "max": 0.061632633209228516
+    },
+    "A3_regret_under_new_exact_A4": {
+      "mean": 0.0044649877022339465,
+      "p90": 0.022312050074195535,
+      "max": 0.06616170930641241
+    },
+    "nested_regret_under_learned_A4": {
+      "mean": 0.0070452368978058495,
+      "p90": 0.02401562387404029,
+      "max": 0.13828600443380923
+    },
+    "original_A2_vs_new_exact_A4_mean_abs_value_shift": {
+      "mean": 0.0018192863735228058,
+      "p90": 0.003537604671237777,
+      "max": 0.005752181683950197
+    },
+    "A2_and_new_exact_A4_optimum_disagree": 9,
+    "new_exact_and_learned_A4_optimum_disagree": 27,
+    "A3_choice_equals_learned_continuation_optimum": 293,
+    "new_oracle_pair_ordering_count": 217,
+    "learned_A4_preserves_pair_ordering_count": 197
+  },
+  "canonical": {
+    "1801": {
+      "new_exact_Q": [
+        3.0,
+        3.04,
+        3.04,
+        3.04,
+        3.04,
+        2.6866,
+        3.08,
+        3.08,
+        3.08,
+        3.08,
+        3.08,
+        2.7266,
+        2.7266,
+        3.12,
+        3.12,
+        2.7666
+      ],
+      "learned_A4_Q": [
+        3.0,
+        3.0632,
+        3.0632,
+        3.04,
+        3.04,
+        2.7214,
+        3.1032,
+        3.1032,
+        3.1032,
+        3.1032,
+        3.08,
+        2.7614,
+        2.7614,
+        3.1432,
+        3.1432,
+        2.8014
+      ],
+      "new_exact_pair_ordering": true,
+      "learned_A4_pair_ordering": true
+    },
+    "1802": {
+      "new_exact_Q": [
+        3.0,
+        3.04,
+        3.04,
+        3.04,
+        3.04,
+        2.6866,
+        3.08,
+        3.08,
+        3.08,
+        3.08,
+        3.08,
+        2.7266,
+        2.7266,
+        3.12,
+        3.12,
+        2.7666
+      ],
+      "learned_A4_Q": [
+        3.0,
+        3.0632,
+        3.04,
+        3.04,
+        3.04,
+        2.7098,
+        3.1032,
+        3.1032,
+        3.08,
+        3.08,
+        3.08,
+        2.7266,
+        2.7266,
+        3.1432,
+        3.12,
+        2.7666
+      ],
+      "new_exact_pair_ordering": true,
+      "learned_A4_pair_ordering": true
+    },
+    "1803": {
+      "new_exact_Q": [
+        3.0,
+        3.04,
+        3.04,
+        3.04,
+        3.04,
+        2.6866,
+        3.08,
+        3.08,
+        3.08,
+        3.08,
+        3.08,
+        2.7266,
+        2.7266,
+        3.12,
+        3.12,
+        2.7666
+      ],
+      "learned_A4_Q": [
+        3.0,
+        3.0632,
+        3.0632,
+        3.04,
+        3.04,
+        2.7156,
+        3.1032,
+        3.1032,
+        3.08,
+        3.0916,
+        3.08,
+        2.7729999999999997,
+        2.7498,
+        3.1432,
+        3.12,
+        2.8129999999999997
+      ],
+      "new_exact_pair_ordering": true,
+      "learned_A4_pair_ordering": true
+    }
+  }
+}

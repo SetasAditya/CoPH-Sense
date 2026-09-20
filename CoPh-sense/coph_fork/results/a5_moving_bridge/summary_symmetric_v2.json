@@ -1,0 +1,165 @@
+{
+  "scope": "symmetric moving two-fork restricted acquisition benchmark; frozen A4/A5",
+  "persistent_by_signature": [
+    {
+      "memory_signature": [
+        [
+          1,
+          "geometry",
+          false
+        ],
+        [
+          1,
+          "traction",
+          false
+        ]
+      ],
+      "world_count": 4,
+      "a5_action_index": 6,
+      "a5_downstream_cost": 2.8921264760883374,
+      "oracle_action_index": 0,
+      "oracle_downstream_cost": 2.784376251404665,
+      "regret": 0.10775022468367235,
+      "all_success": true
+    },
+    {
+      "memory_signature": [
+        [
+          1,
+          "geometry",
+          false
+        ],
+        [
+          1,
+          "traction",
+          true
+        ]
+      ],
+      "world_count": 4,
+      "a5_action_index": 6,
+      "a5_downstream_cost": 2.8901010488766965,
+      "oracle_action_index": 0,
+      "oracle_downstream_cost": 2.782350824193024,
+      "regret": 0.10775022468367235,
+      "all_success": true
+    },
+    {
+      "memory_signature": [
+        [
+          1,
+          "geometry",
+          true
+        ],
+        [
+          1,
+          "traction",
+          false
+        ]
+      ],
+      "world_count": 4,
+      "a5_action_index": 6,
+      "a5_downstream_cost": 2.8921264760883374,
+      "oracle_action_index": 0,
+      "oracle_downstream_cost": 2.784376251404665,
+      "regret": 0.10775022468367235,
+      "all_success": true
+    },
+    {
+      "memory_signature": [
+        [
+          1,
+          "geometry",
+          true
+        ],
+        [
+          1,
+          "traction",
+          true
+        ]
+      ],
+      "world_count": 4,
+      "a5_action_index": 6,
+      "a5_downstream_cost": 2.646359843153074,
+      "oracle_action_index": 0,
+      "oracle_downstream_cost": 2.6049615842434664,
+      "regret": 0.04139825890960758,
+      "all_success": true
+    }
+  ],
+  "mean_persistent_regret": 0.09116223324015615,
+  "mean_persistent_downstream_cost": 2.830178461051611,
+  "mean_physical_oracle_downstream_cost": 2.7390162278114554,
+  "no_memory_probe_q": {
+    "0": 2.785421217534732,
+    "3": 2.9734589235392987,
+    "6": 2.8911393204320555
+  },
+  "canonical": [
+    {
+      "condition": "independent",
+      "action": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "team_cost": 2.921805438744287,
+      "success": true
+    },
+    {
+      "condition": "shared_reset",
+      "action": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "team_cost": 2.974599218936169,
+      "success": true
+    },
+    {
+      "condition": "persistent",
+      "action": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ],
+      "team_cost": 2.1963276733193204,
+      "success": true
+    },
+    {
+      "condition": "shuffled",
+      "action": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "team_cost": 2.974599218936169,
+      "success": true
+    },
+    {
+      "condition": "oracle_memory",
+      "action": [],
+      "team_cost": 2.813302953304086,
+      "success": true
+    }
+  ]
+}

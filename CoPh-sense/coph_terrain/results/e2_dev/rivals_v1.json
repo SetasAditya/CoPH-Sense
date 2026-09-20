@@ -1,0 +1,239 @@
+{
+  "status": "engineering_comparison_only",
+  "matched_continuation": "same fitted A4 and A5 for every acquisition method",
+  "groups": [
+    {
+      "group": "train/open/0006",
+      "methods": {
+        "no_sensing": {
+          "status": "complete",
+          "a3": [
+            -1,
+            -1
+          ],
+          "a4": "not_reached",
+          "a5": "not_reached",
+          "mission_cost": 1.23775164737551,
+          "material_exposure": 0.2410065282261571,
+          "cost": 1.478758175601667,
+          "success": true
+        },
+        "fixed_first": {
+          "status": "complete",
+          "a3": [
+            0,
+            -1
+          ],
+          "a4": [
+            "hold"
+          ],
+          "a5": "not_delivered",
+          "mission_cost": 1.2456364743585269,
+          "material_exposure": 0.25024834166961585,
+          "cost": 1.4958848160281426,
+          "success": true
+        },
+        "max_uncertainty": {
+          "status": "complete",
+          "a3": [
+            0,
+            -1
+          ],
+          "a4": [
+            "hold"
+          ],
+          "a5": "not_delivered",
+          "mission_cost": 1.2456364743585269,
+          "material_exposure": 0.25024834166961585,
+          "cost": 1.4958848160281426,
+          "success": true
+        },
+        "least_public_cost": {
+          "status": "complete",
+          "a3": [
+            0,
+            -1
+          ],
+          "a4": [
+            "hold"
+          ],
+          "a5": "not_delivered",
+          "mission_cost": 1.2456364743585269,
+          "material_exposure": 0.25024834166961585,
+          "cost": 1.4958848160281426,
+          "success": true
+        },
+        "learned": {
+          "status": "complete",
+          "a3": [
+            -1,
+            -1
+          ],
+          "a4": "not_reached",
+          "a5": "not_reached",
+          "mission_cost": 1.23775164737551,
+          "material_exposure": 0.2410065282261571,
+          "cost": 1.478758175601667,
+          "success": true
+        }
+      }
+    },
+    {
+      "group": "train/bottleneck/0006",
+      "methods": {
+        "no_sensing": {
+          "status": "complete",
+          "a3": [
+            -1,
+            -1
+          ],
+          "a4": "not_reached",
+          "a5": "not_reached",
+          "mission_cost": 1.45345494223157,
+          "material_exposure": 0.19357716505917247,
+          "cost": 1.6470321072907423,
+          "success": true
+        },
+        "fixed_first": {
+          "status": "complete",
+          "a3": [
+            0,
+            -1
+          ],
+          "a4": [
+            "hold"
+          ],
+          "a5": "not_delivered",
+          "mission_cost": 1.5695456528010694,
+          "material_exposure": 0.2153277206349259,
+          "cost": 1.7848733734359952,
+          "success": true
+        },
+        "max_uncertainty": {
+          "status": "complete",
+          "a3": [
+            0,
+            -1
+          ],
+          "a4": [
+            "hold"
+          ],
+          "a5": "not_delivered",
+          "mission_cost": 1.5695456528010694,
+          "material_exposure": 0.2153277206349259,
+          "cost": 1.7848733734359952,
+          "success": true
+        },
+        "least_public_cost": {
+          "status": "complete",
+          "a3": [
+            0,
+            -1
+          ],
+          "a4": [
+            "hold"
+          ],
+          "a5": "not_delivered",
+          "mission_cost": 1.5695456528010694,
+          "material_exposure": 0.2153277206349259,
+          "cost": 1.7848733734359952,
+          "success": true
+        },
+        "learned": {
+          "status": "complete",
+          "a3": [
+            -1,
+            -1
+          ],
+          "a4": "not_reached",
+          "a5": "not_reached",
+          "mission_cost": 1.45345494223157,
+          "material_exposure": 0.19357716505917247,
+          "cost": 1.6470321072907423,
+          "success": true
+        }
+      }
+    },
+    {
+      "group": "train/labyrinth/0006",
+      "methods": {
+        "no_sensing": {
+          "status": "complete",
+          "a3": [
+            -1,
+            -1
+          ],
+          "a4": "not_reached",
+          "a5": "not_reached",
+          "mission_cost": 1.759773154376279,
+          "material_exposure": 0.16405782248446518,
+          "cost": 1.923830976860744,
+          "success": true
+        },
+        "fixed_first": {
+          "status": "complete",
+          "a3": [
+            0,
+            -1
+          ],
+          "a4": [
+            "hold"
+          ],
+          "a5": "not_delivered",
+          "mission_cost": 1.7895847943902874,
+          "material_exposure": 0.16232170020836856,
+          "cost": 1.951906494598656,
+          "success": true
+        },
+        "max_uncertainty": {
+          "status": "complete",
+          "a3": [
+            0,
+            -1
+          ],
+          "a4": [
+            "hold"
+          ],
+          "a5": "not_delivered",
+          "mission_cost": 1.7895847943902874,
+          "material_exposure": 0.16232170020836856,
+          "cost": 1.951906494598656,
+          "success": true
+        },
+        "least_public_cost": {
+          "status": "complete",
+          "a3": [
+            0,
+            -1
+          ],
+          "a4": [
+            "hold"
+          ],
+          "a5": "not_delivered",
+          "mission_cost": 1.7895847943902874,
+          "material_exposure": 0.16232170020836856,
+          "cost": 1.951906494598656,
+          "success": true
+        },
+        "learned": {
+          "status": "complete",
+          "a3": [
+            -1,
+            -1
+          ],
+          "a4": "not_reached",
+          "a5": "not_reached",
+          "mission_cost": 1.759773154376279,
+          "material_exposure": 0.16405782248446518,
+          "cost": 1.923830976860744,
+          "success": true
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "three current-generator train seed IDs only",
+    "not the complete final rival set",
+    "no independent fitted seeds or tail inference"
+  ]
+}

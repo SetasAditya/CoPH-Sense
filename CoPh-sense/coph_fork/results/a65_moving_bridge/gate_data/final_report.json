@@ -1,0 +1,163 @@
+[
+  {
+    "method": "VMAS_advantage_MLP",
+    "n": 12,
+    "inspect_count": 6,
+    "oracle_inspect_count": 6,
+    "decision_accuracy": 1.0,
+    "mean_physical_regret": 0.0,
+    "max_physical_regret": 0.0,
+    "predictions": [
+      0.5571445822715759,
+      0.7984615564346313,
+      0.8312838077545166,
+      0.6141635775566101,
+      -0.494286447763443,
+      -0.4478515088558197,
+      -0.48863518238067627,
+      0.6134525537490845,
+      -0.4954030215740204,
+      -0.37311652302742004,
+      -0.3942856192588806,
+      0.30323874950408936
+    ]
+  },
+  {
+    "method": "always_inspect",
+    "n": 12,
+    "inspect_count": 12,
+    "oracle_inspect_count": 6,
+    "decision_accuracy": 0.5,
+    "mean_physical_regret": 0.26362851676455173,
+    "max_physical_regret": 0.6435436860893413,
+    "predictions": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "method": "never_inspect",
+    "n": 12,
+    "inspect_count": 0,
+    "oracle_inspect_count": 6,
+    "decision_accuracy": 0.5,
+    "mean_physical_regret": 0.3205856350140118,
+    "max_physical_regret": 0.9300389557214523,
+    "predictions": [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+    ]
+  },
+  {
+    "method": "deadline_only",
+    "n": 12,
+    "inspect_count": 7,
+    "oracle_inspect_count": 6,
+    "decision_accuracy": 0.9166666666666666,
+    "mean_physical_regret": 0.03867718656701217,
+    "max_physical_regret": 0.46412623880414605,
+    "predictions": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ]
+  },
+  {
+    "method": "finite_A6",
+    "n": 12,
+    "inspect_count": 7,
+    "oracle_inspect_count": 6,
+    "decision_accuracy": 0.9166666666666666,
+    "mean_physical_regret": 0.03867718656701217,
+    "max_physical_regret": 0.46412623880414605,
+    "predictions": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+    ]
+  },
+  {
+    "method": "analytic_VoI",
+    "n": 12,
+    "inspect_count": 6,
+    "oracle_inspect_count": 6,
+    "decision_accuracy": 1.0,
+    "mean_physical_regret": 0.0,
+    "max_physical_regret": 0.0,
+    "predictions": [
+      0.5870180554014616,
+      0.6269545598809535,
+      0.8942168210959217,
+      0.9316600463071345,
+      -0.4552742659329077,
+      -0.6525738698746156,
+      -0.522729033257058,
+      0.3630210995657208,
+      -0.6008926455348381,
+      -0.5141844923518065,
+      -0.6779374277220853,
+      0.43976826533668306
+    ]
+  },
+  {
+    "method": "VMAS_oracle",
+    "n": 12,
+    "inspect_count": 6,
+    "oracle_inspect_count": 6,
+    "decision_accuracy": 1.0,
+    "mean_physical_regret": 0.0,
+    "max_physical_regret": 0.0,
+    "predictions": [
+      0.5927383965959665,
+      0.6212836478052037,
+      0.892086420055517,
+      0.9300389557214523,
+      -0.46412623880414605,
+      -0.6172364512887278,
+      -0.49535368715741024,
+      0.3768427791409339,
+      -0.566530529613342,
+      -0.37675160822165266,
+      -0.6435436860893413,
+      0.4340374208490685
+    ]
+  }
+]

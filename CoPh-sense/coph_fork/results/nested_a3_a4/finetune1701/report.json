@@ -1,0 +1,49 @@
+{
+  "a3_seed": 1701,
+  "a4_seed": 1801,
+  "confirmation_seed": 2101,
+  "train_states": 320,
+  "validation_states": 80,
+  "confirmation_states": 120,
+  "continuation": "frozen A4-v2 weighted pairwise; exact expected finite outcome labels",
+  "checkpoint_rule": "lowest validation mean nested regret, including epoch 0",
+  "selected_epoch": 3,
+  "validation_before": {
+    "mean_nested_regret": 0.0074503945923005185,
+    "p90_nested_regret": 0.018918841228542944,
+    "max_nested_regret": 0.12115897353088467,
+    "mean_executed_normalized_cost": 3.36355454419688,
+    "optimal_set_accuracy": 0.775,
+    "pair_relevant_count": 45,
+    "pair_selection_recall": 0.8888888888888888,
+    "extraneous_bottom_sensing_rate": 0.025,
+    "mean_oracle_sharing_gap_at_selection": 0.04066928083625343
+  },
+  "validation_best_regret": 0.0036456792269787706,
+  "confirmation_before": {
+    "mean_nested_regret": 0.011273339049485472,
+    "p90_nested_regret": 0.04733511427210662,
+    "max_nested_regret": 0.138087838053627,
+    "mean_executed_normalized_cost": 3.1892351360873574,
+    "optimal_set_accuracy": 0.7916666666666666,
+    "pair_relevant_count": 58,
+    "mean_nested_regret_on_pair_relevant": 0.0030648867034884213,
+    "p90_nested_regret_on_pair_relevant": 0.004315263560368106,
+    "pair_selection_recall": 0.9310344827586207,
+    "extraneous_bottom_sensing_rate": 0.025,
+    "mean_oracle_sharing_gap_at_selection": 0.03425562803788481
+  },
+  "confirmation_after": {
+    "mean_nested_regret": 0.007881263520340964,
+    "p90_nested_regret": 0.0176726955550804,
+    "max_nested_regret": 0.138087838053627,
+    "mean_executed_normalized_cost": 3.1858430605582133,
+    "optimal_set_accuracy": 0.8333333333333334,
+    "pair_relevant_count": 58,
+    "mean_nested_regret_on_pair_relevant": 0.004153820034727161,
+    "p90_nested_regret_on_pair_relevant": 0.009006670554082132,
+    "pair_selection_recall": 0.8793103448275862,
+    "extraneous_bottom_sensing_rate": 0.008333333333333333,
+    "mean_oracle_sharing_gap_at_selection": 0.028529434592039552
+  }
+}

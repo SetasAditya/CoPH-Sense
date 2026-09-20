@@ -1,0 +1,1433 @@
+{
+  "source": "dense_information_screen_excluded40_v1.json",
+  "records": [
+    {
+      "seed": 840001,
+      "family": "bottleneck",
+      "step": 120,
+      "cell": [
+        46,
+        18
+      ],
+      "baseline": {
+        "cost": 1.5601409636820018,
+        "success": true,
+        "route_digest": "405dcfb8b52d319f",
+        "route_cells": 53
+      },
+      "ideal_V_GT": 0.0810125862769826,
+      "ideal_S_GT": 0.15924319191689817,
+      "menu_G": false,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 1.7219300951902003,
+            "success": true,
+            "route_digest": "7a111d2c661cc2bd",
+            "route_cells": 53
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.702062212989106,
+            "success": true,
+            "route_digest": "b540f92e2b54117a",
+            "route_cells": 52
+          },
+          "physical": {
+            "score_single_world": 1.5562310814194058,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 1.5601409636820018,
+            "success": true,
+            "route_digest": "b4c3bdb81a9358c0",
+            "route_cells": 53
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.5319445591063598,
+            "success": true,
+            "route_digest": "90cfeaee0dac4982",
+            "route_cells": 52
+          },
+          "physical": {
+            "score_single_world": 1.5808083135357993,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.7219300951902003,
+            "success": true,
+            "route_digest": "8723c522b6f017e3",
+            "route_cells": 53
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.6812170301515028,
+            "success": true,
+            "route_digest": "c7656d3e08c746c8",
+            "route_cells": 51
+          },
+          "physical": {
+            "score_single_world": 1.647662371793474,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840002,
+      "family": "labyrinth",
+      "step": 120,
+      "cell": [
+        35,
+        39
+      ],
+      "baseline": {
+        "cost": 1.9776734399659253,
+        "success": true,
+        "route_digest": "f389af194be33d31",
+        "route_cells": 69
+      },
+      "ideal_V_GT": 0.054411080017387814,
+      "ideal_S_GT": -0.034415189912544886,
+      "menu_G": false,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 1.9177364238327048,
+            "success": true,
+            "route_digest": "2a631425ad9c4853",
+            "route_cells": 69
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.041278056005456,
+            "success": true,
+            "route_digest": "c29f6e3c28695e2e",
+            "route_cells": 68
+          },
+          "physical": {
+            "score_single_world": 2.058537748191629,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 1.9646241572068783,
+            "success": true,
+            "route_digest": "daa65a06a09c70c6",
+            "route_cells": 69
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.118178117515817,
+            "success": true,
+            "route_digest": "272ffb382066e361",
+            "route_cells": 68
+          },
+          "physical": {
+            "score_single_world": 2.088052808902155,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.9321950003739992,
+            "success": true,
+            "route_digest": "8e3fa6a26e613a43",
+            "route_cells": 69
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.0994213855862314,
+            "success": true,
+            "route_digest": "ade44ef108c20a65",
+            "route_cells": 68
+          },
+          "physical": {
+            "score_single_world": 2.1210997477220537,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840002,
+      "family": "labyrinth",
+      "step": 360,
+      "cell": [
+        36,
+        41
+      ],
+      "baseline": {
+        "cost": 1.9776734399659253,
+        "success": true,
+        "route_digest": "66cf7c9d008d9bc4",
+        "route_cells": 40
+      },
+      "ideal_V_GT": 0.05566163571667393,
+      "ideal_S_GT": 0.02618434319727836,
+      "menu_G": true,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 1.980897057040827,
+            "success": true,
+            "route_digest": "e157aa521a8e7526",
+            "route_cells": 40
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.0053876137016378,
+            "success": true,
+            "route_digest": "e157aa521a8e7526",
+            "route_cells": 40
+          },
+          "physical": {
+            "score_single_world": 2.056658525757548,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 1.9778610859367287,
+            "success": true,
+            "route_digest": "d13cf34dfba30e1b",
+            "route_cells": 40
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.022207642585152,
+            "success": true,
+            "route_digest": "ad29751b3c73de5c",
+            "route_cells": 39
+          },
+          "physical": {
+            "score_single_world": 2.1316656995768586,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.980897057040827,
+            "success": true,
+            "route_digest": "c9b307d75bcf4554",
+            "route_cells": 40
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.0336143074066464,
+            "success": true,
+            "route_digest": "c56e482b1b6e0ebd",
+            "route_cells": 39
+          },
+          "physical": {
+            "score_single_world": 2.1650516839996534,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840005,
+      "family": "labyrinth",
+      "step": 120,
+      "cell": [
+        35,
+        15
+      ],
+      "baseline": {
+        "cost": 2.401777005259317,
+        "success": true,
+        "route_digest": "3ad277205d1df16b",
+        "route_cells": 83
+      },
+      "ideal_V_GT": 0.08239185979365748,
+      "ideal_S_GT": -0.007766540640993025,
+      "menu_G": false,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 2.393256689226678,
+            "success": true,
+            "route_digest": "5fad8f1eefe15a4d",
+            "route_cells": 83
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.4067422832996637,
+            "success": true,
+            "route_digest": "5fad8f1eefe15a4d",
+            "route_cells": 83
+          },
+          "physical": {
+            "score_single_world": 2.5670472135904703,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 2.3916615297758885,
+            "success": true,
+            "route_digest": "402af9c047324df0",
+            "route_cells": 83
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.4390546926094374,
+            "success": true,
+            "route_digest": "364e3f484bd32462",
+            "route_cells": 82
+          },
+          "physical": {
+            "score_single_world": 2.648761024543836,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 2.393256689226678,
+            "success": true,
+            "route_digest": "a38cca05ebe927bb",
+            "route_cells": 83
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.4704474501862395,
+            "success": true,
+            "route_digest": "cc673d9e3464cd93",
+            "route_cells": 82
+          },
+          "physical": {
+            "score_single_world": 2.641767958845705,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840005,
+      "family": "labyrinth",
+      "step": 360,
+      "cell": [
+        32,
+        17
+      ],
+      "baseline": {
+        "cost": 2.401777005259317,
+        "success": true,
+        "route_digest": "1454033637312c3d",
+        "route_cells": 44
+      },
+      "ideal_V_GT": 0.08630074545539701,
+      "ideal_S_GT": 0.0012408203648495153,
+      "menu_G": true,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 2.3949593770458004,
+            "success": true,
+            "route_digest": "a842769d6e99daf1",
+            "route_cells": 44
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.470476895274667,
+            "success": true,
+            "route_digest": "653b0204ee28413e",
+            "route_cells": 43
+          },
+          "physical": {
+            "score_single_world": 2.5729232391580097,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 2.4579214438412547,
+            "success": true,
+            "route_digest": "567e481910d96149",
+            "route_cells": 44
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 11.615758890866324,
+            "success": false,
+            "route_digest": "fcd96b16786b20d3",
+            "route_cells": 43
+          },
+          "physical": {
+            "score_single_world": 2.545811118148485,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 2.391533370087479,
+            "success": true,
+            "route_digest": "c76120879424f3ea",
+            "route_cells": 44
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.5240894368885347,
+            "success": true,
+            "route_digest": "de03228c987ed46a",
+            "route_cells": 43
+          },
+          "physical": {
+            "score_single_world": 2.5726143518305613,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840011,
+      "family": "labyrinth",
+      "step": 120,
+      "cell": [
+        41,
+        18
+      ],
+      "baseline": {
+        "cost": 2.3983603900962707,
+        "success": true,
+        "route_digest": "14a09bd0d184619b",
+        "route_cells": 86
+      },
+      "ideal_V_GT": 0.5196760773222917,
+      "ideal_S_GT": -0.5196760773222917,
+      "menu_G": false,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 1.878684312773979,
+            "success": true,
+            "route_digest": "ba6456d5e29a3645",
+            "route_cells": 86
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.9107569208658497,
+            "success": true,
+            "route_digest": "ba6456d5e29a3645",
+            "route_cells": 86
+          },
+          "physical": {
+            "score_single_world": 2.4493651827630774,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 2.3983603900962707,
+            "success": true,
+            "route_digest": "1793049f928cab5f",
+            "route_cells": 86
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.388304212752577,
+            "success": true,
+            "route_digest": "1793049f928cab5f",
+            "route_cells": 86
+          },
+          "physical": {
+            "score_single_world": 2.415016960041286,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.878684312773979,
+            "success": true,
+            "route_digest": "e18b5d81dee28798",
+            "route_cells": 86
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.929134553931342,
+            "success": true,
+            "route_digest": "852fde9b771de7ac",
+            "route_cells": 84
+          },
+          "physical": {
+            "score_single_world": 2.5158170583622064,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840011,
+      "family": "labyrinth",
+      "step": 360,
+      "cell": [
+        42,
+        2
+      ],
+      "baseline": {
+        "cost": 2.3983603900962707,
+        "success": true,
+        "route_digest": "760a732cb3d9e6bb",
+        "route_cells": 50
+      },
+      "ideal_V_GT": 0.5526294294671918,
+      "ideal_S_GT": 0.49021678229847376,
+      "menu_G": true,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 2.38951852994082,
+            "success": true,
+            "route_digest": "fbf06fa1f8c95c7a",
+            "route_cells": 50
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.4112408265755123,
+            "success": true,
+            "route_digest": "ed8901057b9e7f75",
+            "route_cells": 49
+          },
+          "physical": {
+            "score_single_world": 2.44662021627253,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 2.3983603900962707,
+            "success": true,
+            "route_digest": "a4251071e64ec91d",
+            "route_cells": 50
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.37375395058287,
+            "success": true,
+            "route_digest": "29a14ee6b58e063f",
+            "route_cells": 49
+          },
+          "physical": {
+            "score_single_world": 2.4956009789495908,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.8783022245729573,
+            "success": true,
+            "route_digest": "4e704d056987541a",
+            "route_cells": 50
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.9101841670668656,
+            "success": true,
+            "route_digest": "677e76ac2a5772e2",
+            "route_cells": 48
+          },
+          "physical": {
+            "score_single_world": 2.5285517859853877,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840014,
+      "family": "labyrinth",
+      "step": 120,
+      "cell": [
+        14,
+        2
+      ],
+      "baseline": {
+        "cost": 2.0728081964676655,
+        "success": true,
+        "route_digest": "b559a80c040d9218",
+        "route_cells": 86
+      },
+      "ideal_V_GT": 0.08643091351012933,
+      "ideal_S_GT": -0.03801927841566366,
+      "menu_G": false,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 2.022897218322105,
+            "success": true,
+            "route_digest": "f4aa018113fb42ac",
+            "route_cells": 86
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.0592342465731175,
+            "success": true,
+            "route_digest": "b7c01b68fc372a16",
+            "route_cells": 85
+          },
+          "physical": {
+            "score_single_world": 2.2011482775129583,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 2.073097834572138,
+            "success": true,
+            "route_digest": "8616c3d081fe487c",
+            "route_cells": 86
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.0828594464817543,
+            "success": true,
+            "route_digest": "2b970692e921cabd",
+            "route_cells": 85
+          },
+          "physical": {
+            "score_single_world": 2.21333369286584,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 2.0163502584808977,
+            "success": true,
+            "route_digest": "de0452a76c9ff21c",
+            "route_cells": 86
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.1435067804378107,
+            "success": true,
+            "route_digest": "b8665907f604aab9",
+            "route_cells": 85
+          },
+          "physical": {
+            "score_single_world": 2.2893820973546073,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840023,
+      "family": "labyrinth",
+      "step": 120,
+      "cell": [
+        28,
+        26
+      ],
+      "baseline": {
+        "cost": 1.8977902441576078,
+        "success": true,
+        "route_digest": "3f6ebcd6d916ff6c",
+        "route_cells": 71
+      },
+      "ideal_V_GT": 0.05040810349483227,
+      "ideal_S_GT": -0.014484363913021436,
+      "menu_G": true,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 1.865313670678976,
+            "success": true,
+            "route_digest": "a6c86f48c0fa1299",
+            "route_cells": 71
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.9288116616830364,
+            "success": true,
+            "route_digest": "2044ca91e22e5f83",
+            "route_cells": 70
+          },
+          "physical": {
+            "score_single_world": 1.9065922358968372,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 1.8977902441576078,
+            "success": true,
+            "route_digest": "1e5d7c46fb39651a",
+            "route_cells": 71
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.941637526849074,
+            "success": true,
+            "route_digest": "77e247dc798ca909",
+            "route_cells": 70
+          },
+          "physical": {
+            "score_single_world": 1.9171192791527667,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.8653838874204238,
+            "success": true,
+            "route_digest": "eb673dde33ebf5b6",
+            "route_cells": 71
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.9053019092909693,
+            "success": true,
+            "route_digest": "03bf295e7bdf369c",
+            "route_cells": 70
+          },
+          "physical": {
+            "score_single_world": 2.0006975726624407,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840025,
+      "family": "bottleneck",
+      "step": 120,
+      "cell": [
+        23,
+        26
+      ],
+      "baseline": {
+        "cost": 2.214005002229355,
+        "success": true,
+        "route_digest": "9897d1f5dbd15c60",
+        "route_cells": 69
+      },
+      "ideal_V_GT": 0.06031568819464672,
+      "ideal_S_GT": 0.04736801340942565,
+      "menu_G": true,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 2.2205416708150856,
+            "success": true,
+            "route_digest": "545ff9a89b3d5d10",
+            "route_cells": 69
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.24111375855721,
+            "success": true,
+            "route_digest": "545ff9a89b3d5d10",
+            "route_cells": 69
+          },
+          "physical": {
+            "score_single_world": 2.4429814840791657,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 2.1626187884485146,
+            "success": true,
+            "route_digest": "62673244ae719e29",
+            "route_cells": 69
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.253288947131416,
+            "success": true,
+            "route_digest": "62673244ae719e29",
+            "route_cells": 69
+          },
+          "physical": {
+            "score_single_world": 2.383407189046068,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 2.2356534426997006,
+            "success": true,
+            "route_digest": "0f1a41f4ced14abc",
+            "route_cells": 69
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.249329948935189,
+            "success": true,
+            "route_digest": "a339e4a0c4b8fba5",
+            "route_cells": 68
+          },
+          "physical": {
+            "score_single_world": 2.5267738905117545,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840028,
+      "family": "bottleneck",
+      "step": 120,
+      "cell": [
+        23,
+        31
+      ],
+      "baseline": {
+        "cost": 1.3907169187238189,
+        "success": true,
+        "route_digest": "add61bc1011ce2b7",
+        "route_cells": 60
+      },
+      "ideal_V_GT": 0.05588739907577578,
+      "ideal_S_GT": -0.01381539810887844,
+      "menu_G": true,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 1.335042582542011,
+            "success": true,
+            "route_digest": "fb67b9c9ca82a7e8",
+            "route_cells": 60
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.3962890266061234,
+            "success": true,
+            "route_digest": "eb3e22edac3d28dc",
+            "route_cells": 59
+          },
+          "physical": {
+            "score_single_world": 1.4829794425554654,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 1.3436133582572534,
+            "success": true,
+            "route_digest": "1f6a16bd158f50c5",
+            "route_cells": 60
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.43970620620122,
+            "success": true,
+            "route_digest": "40b2fe189eb2fb53",
+            "route_cells": 59
+          },
+          "physical": {
+            "score_single_world": 1.4673869961666581,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.3381097609831543,
+            "success": true,
+            "route_digest": "38ad11481ca9c5a3",
+            "route_cells": 60
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.403630280181464,
+            "success": true,
+            "route_digest": "1400a03d0f29203c",
+            "route_cells": 59
+          },
+          "physical": {
+            "score_single_world": 1.516798729433802,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840031,
+      "family": "bottleneck",
+      "step": 120,
+      "cell": [
+        41,
+        40
+      ],
+      "baseline": {
+        "cost": 1.9473676594635758,
+        "success": true,
+        "route_digest": "86e4aa59eb1a5bed",
+        "route_cells": 66
+      },
+      "ideal_V_GT": 0.06293424280819648,
+      "ideal_S_GT": 0.06387174098410875,
+      "menu_G": false,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 1.9950624959063537,
+            "success": true,
+            "route_digest": "3d672d43b3eff512",
+            "route_cells": 66
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.0312084092885616,
+            "success": true,
+            "route_digest": "3d672d43b3eff512",
+            "route_cells": 66
+          },
+          "physical": {
+            "score_single_world": 2.128841561255209,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 1.9327722274563497,
+            "success": true,
+            "route_digest": "ddcd02403fef0983",
+            "route_cells": 66
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.9823811699972405,
+            "success": true,
+            "route_digest": "a16645ff8916b903",
+            "route_cells": 65
+          },
+          "physical": {
+            "score_single_world": 2.1934979166811686,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.9885419719425543,
+            "success": true,
+            "route_digest": "1c87e39d1b0a8a40",
+            "route_cells": 66
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.0750640557112576,
+            "success": true,
+            "route_digest": "7df395614fdaadbd",
+            "route_cells": 65
+          },
+          "physical": {
+            "score_single_world": 2.23442804951313,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840031,
+      "family": "bottleneck",
+      "step": 360,
+      "cell": [
+        42,
+        43
+      ],
+      "baseline": {
+        "cost": 1.9473676594635758,
+        "success": true,
+        "route_digest": "2557cb36a37f0f99",
+        "route_cells": 35
+      },
+      "ideal_V_GT": 0.0610614755012453,
+      "ideal_S_GT": -0.02349841994106705,
+      "menu_G": true,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 1.899354148558565,
+            "success": true,
+            "route_digest": "67192e598c152945",
+            "route_cells": 35
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.9630181753774492,
+            "success": true,
+            "route_digest": "67192e598c152945",
+            "route_cells": 35
+          },
+          "physical": {
+            "score_single_world": 2.065199050028359,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 1.9256920620002353,
+            "success": true,
+            "route_digest": "12bd96302cd7fe54",
+            "route_cells": 35
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.968215514026197,
+            "success": true,
+            "route_digest": "18e180ef630bc679",
+            "route_cells": 34
+          },
+          "physical": {
+            "score_single_world": 2.065098923234659,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.900914461532412,
+            "success": true,
+            "route_digest": "77bf89b9073a8a63",
+            "route_cells": 35
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.9972837818394984,
+            "success": true,
+            "route_digest": "506c6405850ffe83",
+            "route_cells": 34
+          },
+          "physical": {
+            "score_single_world": 2.133312510337345,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840032,
+      "family": "labyrinth",
+      "step": 120,
+      "cell": [
+        48,
+        10
+      ],
+      "baseline": {
+        "cost": 2.227371180009564,
+        "success": true,
+        "route_digest": "c1f0b9765b9d081b",
+        "route_cells": 84
+      },
+      "ideal_V_GT": 0.24861535344906427,
+      "ideal_S_GT": -0.21944667176739818,
+      "menu_G": false,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 1.9899633551981981,
+            "success": true,
+            "route_digest": "c6b7e1e8acf6666e",
+            "route_cells": 84
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.0212749373000456,
+            "success": true,
+            "route_digest": "fce64e29f9ff60a3",
+            "route_cells": 83
+          },
+          "physical": {
+            "score_single_world": 2.2167710339175604,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 2.206533163285672,
+            "success": true,
+            "route_digest": "2a903e2527db06f1",
+            "route_cells": 84
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.2843203641635768,
+            "success": true,
+            "route_digest": "418f9a98279f5b9d",
+            "route_cells": 83
+          },
+          "physical": {
+            "score_single_world": 2.312687182139941,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.9899633551981981,
+            "success": true,
+            "route_digest": "c6b7e1e8acf6666e",
+            "route_cells": 84
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.060464415763101,
+            "success": true,
+            "route_digest": "a3bc8c9cfb2fa93c",
+            "route_cells": 82
+          },
+          "physical": {
+            "score_single_world": 2.321573106944833,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840034,
+      "family": "bottleneck",
+      "step": 120,
+      "cell": [
+        26,
+        31
+      ],
+      "baseline": {
+        "cost": 2.5250477996057192,
+        "success": true,
+        "route_digest": "3d859e8fe4637e24",
+        "route_cells": 61
+      },
+      "ideal_V_GT": 0.14167026926873305,
+      "ideal_S_GT": 0.18385744775356372,
+      "menu_G": true,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 2.50823636968862,
+            "success": true,
+            "route_digest": "6e6bec81c91c6e25",
+            "route_cells": 61
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.621701532104002,
+            "success": true,
+            "route_digest": "6e6bec81c91c6e25",
+            "route_cells": 61
+          },
+          "physical": {
+            "score_single_world": 2.6124792605719667,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 2.545522372149704,
+            "success": true,
+            "route_digest": "d6ea7f778f12c1a5",
+            "route_cells": 61
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.5930858801999284,
+            "success": true,
+            "route_digest": "8205c147f5be574d",
+            "route_cells": 60
+          },
+          "physical": {
+            "score_single_world": 2.7010974835728345,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 2.6200534587841067,
+            "success": true,
+            "route_digest": "05288833055b0bc6",
+            "route_cells": 61
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.650573025605414,
+            "success": true,
+            "route_digest": "0daff463efa6215f",
+            "route_cells": 60
+          },
+          "physical": {
+            "score_single_world": 2.734758307048967,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840034,
+      "family": "bottleneck",
+      "step": 360,
+      "cell": [
+        45,
+        22
+      ],
+      "baseline": {
+        "cost": 2.5250477996057192,
+        "success": true,
+        "route_digest": "91d521329e66b605",
+        "route_cells": 41
+      },
+      "ideal_V_GT": 0.06962971296989284,
+      "ideal_S_GT": 0.11691806697051899,
+      "menu_G": false,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 2.5939074200285446,
+            "success": true,
+            "route_digest": "c62ed87cb3115d9a",
+            "route_cells": 41
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.61458871537114,
+            "success": true,
+            "route_digest": "c62ed87cb3115d9a",
+            "route_cells": 41
+          },
+          "physical": {
+            "score_single_world": 2.7627778146452027,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 2.547540603609243,
+            "success": true,
+            "route_digest": "35844bac87358cb4",
+            "route_cells": 41
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.6365724390566365,
+            "success": true,
+            "route_digest": "35844bac87358cb4",
+            "route_cells": 41
+          },
+          "physical": {
+            "score_single_world": 2.6619084308021583,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 2.5939074200285446,
+            "success": true,
+            "route_digest": "5f1b34325d99dd46",
+            "route_cells": 41
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 2.7190970048068746,
+            "success": true,
+            "route_digest": "5f1b34325d99dd46",
+            "route_cells": 41
+          },
+          "physical": {
+            "score_single_world": 2.812213071261806,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    },
+    {
+      "seed": 840037,
+      "family": "bottleneck",
+      "step": 120,
+      "cell": [
+        23,
+        26
+      ],
+      "baseline": {
+        "cost": 1.7157293419608848,
+        "success": true,
+        "route_digest": "e5c550b139de21d8",
+        "route_cells": 41
+      },
+      "ideal_V_GT": 0.3464738499752067,
+      "ideal_S_GT": -0.13626668925553265,
+      "menu_G": true,
+      "menu_T": false,
+      "tiers": {
+        "G": {
+          "zero_travel": {
+            "cost": 1.4954628189749006,
+            "success": true,
+            "route_digest": "06d629f9234d42fa",
+            "route_cells": 41
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.5199165478159078,
+            "success": true,
+            "route_digest": "06d629f9234d42fa",
+            "route_cells": 41
+          },
+          "physical": {
+            "score_single_world": 1.5097893413839714,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "T": {
+          "zero_travel": {
+            "cost": 1.7157293419608848,
+            "success": true,
+            "route_digest": "c588e903982366ae",
+            "route_cells": 41
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.7638966651096597,
+            "success": true,
+            "route_digest": "c588e903982366ae",
+            "route_cells": 41
+          },
+          "physical": {
+            "score_single_world": 1.5482201799915989,
+            "success": true,
+            "measurements": 1,
+            "packets": 1,
+            "delivered": 1
+          }
+        },
+        "GT": {
+          "zero_travel": {
+            "cost": 1.6762868880095152,
+            "success": true,
+            "route_digest": "94d286885ea190c9",
+            "route_cells": 41
+          },
+          "dwell_no_viewpoint_travel": {
+            "cost": 1.7802957947462505,
+            "success": true,
+            "route_digest": "45a1daa694c4eab0",
+            "route_cells": 40
+          },
+          "physical": {
+            "score_single_world": 1.608592956609609,
+            "success": true,
+            "measurements": 2,
+            "packets": 2,
+            "delivered": 2
+          }
+        }
+      }
+    }
+  ]
+}

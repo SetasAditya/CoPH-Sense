@@ -1,0 +1,40 @@
+{
+  "fresh_parent_range": [
+    850012,
+    850039
+  ],
+  "excluded_reused_parent_range": [
+    850000,
+    850011
+  ],
+  "physical": {
+    "scheduled": 56,
+    "evaluated": 54,
+    "covered": 56,
+    "best_set_class": {
+      "skip": 51,
+      "single": 3,
+      "pair": 0
+    }
+  },
+  "value_funnel": {
+    "scheduled": 56,
+    "evaluated": 51,
+    "high_ideal_G": 6,
+    "high_ideal_T": 9,
+    "high_ideal_GT": 8,
+    "strong_ideal_interaction": 3,
+    "high_top_menu_G": 5,
+    "high_top_menu_T": 3,
+    "high_top_actual_GT_positive": 7,
+    "high_top_dwell_GT_positive": 2,
+    "high_top_physical_GT_positive": 0,
+    "median_values": {
+      "ideal": 0.07929988363672891,
+      "actual": 0.040262996505531445,
+      "dwell": -0.016265239982206747,
+      "physical": -0.27180185651076494
+    }
+  },
+  "scope": "single-world restricted scripted pH continuation, not belief Q*"
+}

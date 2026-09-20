@@ -1,0 +1,149 @@
+{
+  "source": "settled_joint_pose_fresh20_value_funnel_v1.json",
+  "records": [
+    {
+      "seed": 890001,
+      "family": "bottleneck",
+      "step": 120,
+      "top_cell": [
+        45,
+        22
+      ],
+      "ideal_value": 0.13020837141817587,
+      "baseline_cost": 2.6550932141156673,
+      "results": {}
+    },
+    {
+      "seed": 890002,
+      "family": "labyrinth",
+      "step": 120,
+      "top_cell": [
+        13,
+        8
+      ],
+      "ideal_value": 0.056564410143736144,
+      "baseline_cost": 1.6169082620441435,
+      "results": {}
+    },
+    {
+      "seed": 890007,
+      "family": "bottleneck",
+      "step": 120,
+      "top_cell": [
+        19,
+        40
+      ],
+      "ideal_value": 0.09426082517994638,
+      "baseline_cost": 2.171128479440596,
+      "results": {
+        "G": {
+          "value": -0.1175974327450171,
+          "success": true,
+          "measurements": 1,
+          "packets": 1,
+          "target_region_covered": [
+            true
+          ],
+          "poses": [
+            [
+              17,
+              38
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 890008,
+      "family": "labyrinth",
+      "step": 120,
+      "top_cell": [
+        12,
+        1
+      ],
+      "ideal_value": 0.051943571609071704,
+      "baseline_cost": 1.8676743188398062,
+      "results": {
+        "G": {
+          "value": -1.1453954509366158,
+          "success": true,
+          "measurements": 1,
+          "packets": 1,
+          "target_region_covered": [
+            true
+          ],
+          "poses": [
+            [
+              13,
+              5
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 890012,
+      "family": "open",
+      "step": 120,
+      "top_cell": [
+        48,
+        27
+      ],
+      "ideal_value": 0.08989455187906503,
+      "baseline_cost": 1.7828916611078944,
+      "results": {}
+    },
+    {
+      "seed": 890018,
+      "family": "open",
+      "step": 120,
+      "top_cell": [
+        42,
+        24
+      ],
+      "ideal_value": 0.06658010401521985,
+      "baseline_cost": 1.2232970626188289,
+      "results": {}
+    },
+    {
+      "seed": 890019,
+      "family": "bottleneck",
+      "step": 120,
+      "top_cell": [
+        48,
+        24
+      ],
+      "ideal_value": 0.09562333487852537,
+      "baseline_cost": 1.5390218142848642,
+      "results": {}
+    },
+    {
+      "seed": 890019,
+      "family": "bottleneck",
+      "step": 360,
+      "top_cell": [
+        43,
+        25
+      ],
+      "ideal_value": 0.06023428755026394,
+      "baseline_cost": 1.5390218142848642,
+      "results": {
+        "G": {
+          "value": -0.3084651560303582,
+          "success": true,
+          "measurements": 1,
+          "packets": 1,
+          "target_region_covered": [
+            true
+          ],
+          "poses": [
+            [
+              43,
+              25
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

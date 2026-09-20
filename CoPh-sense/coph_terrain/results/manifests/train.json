@@ -1,0 +1,4008 @@
+{
+  "episode_realizations_per_test_group": null,
+  "generator_sha256": "55b2dd336040a9d09f57a86a90eb7357a06dad80a584fe4cb9a1634d13ed0540",
+  "groups": [
+    {
+      "family": "open",
+      "group_id": "train/open/0000",
+      "map_sha256": "3f55bae4390d560cfce49d63010c1490b91fbe9c1410f9bdb5005e339a3fbe29",
+      "obstacle_count": 5,
+      "parent_seed": 100000,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0001",
+      "map_sha256": "ae9f102e3adeef2e5529f908d330146901eb284608bbbc05ae7217d6ab4f5631",
+      "obstacle_count": 6,
+      "parent_seed": 100001,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0002",
+      "map_sha256": "ef7480b6f0831e050944634c38ac84465b170ee634808ece36247daaca950ff9",
+      "obstacle_count": 7,
+      "parent_seed": 100002,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0003",
+      "map_sha256": "71c6409e0790046810a5caba3a1b748f4a38986632b7025c5ebb693898de1bea",
+      "obstacle_count": 6,
+      "parent_seed": 100003,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0004",
+      "map_sha256": "198d5ba60c271370275c9202834787f7ab54ae2a40f7a4d3b06b7ac88ecde666",
+      "obstacle_count": 7,
+      "parent_seed": 100004,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0005",
+      "map_sha256": "53cdd0159b64e2857892b355b1380cf8018b0741de58e543cf84adcf3f2d134e",
+      "obstacle_count": 7,
+      "parent_seed": 100005,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0006",
+      "map_sha256": "ee9f63d72671580739fa4dcf236479e72c6be99e17aee85d44b8feb74d200559",
+      "obstacle_count": 6,
+      "parent_seed": 100006,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0007",
+      "map_sha256": "c5e94dfa70bcde9f47af7a759e22e52981e8c5b5914777d036b5917c72f9ea37",
+      "obstacle_count": 6,
+      "parent_seed": 100007,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0008",
+      "map_sha256": "5b3c8da30025edd4b5048d2b0c145711e4df7ebd785747cc3fed88afd054c9e8",
+      "obstacle_count": 8,
+      "parent_seed": 100008,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0009",
+      "map_sha256": "4d1fdafd3d553d03f6ec34579621e1bdaad052f7502baa3d890835c1092c2653",
+      "obstacle_count": 7,
+      "parent_seed": 100009,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0010",
+      "map_sha256": "90c555a018917bbc2ef9c5c5fe6568e88b46004f8e40414dae1593670aafaf5d",
+      "obstacle_count": 7,
+      "parent_seed": 100010,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0011",
+      "map_sha256": "83b642abf05bd798cee30d987a3d5e0941f676aa2ab29f908a6b2729bb6bec93",
+      "obstacle_count": 6,
+      "parent_seed": 100011,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0012",
+      "map_sha256": "d8caceeaed0af0ac1689364ba2ff2cde725df1b1cd60519a12fe35e30a47c28d",
+      "obstacle_count": 7,
+      "parent_seed": 100012,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0013",
+      "map_sha256": "a817d195695b9ae610f65f6c7715d9806d47d317fc52be0e994da9ce14c9fbd1",
+      "obstacle_count": 5,
+      "parent_seed": 100013,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0014",
+      "map_sha256": "13170fd7807e3c86308b5d257dd3bc00c58408064dbd393831f5a0610c3adb78",
+      "obstacle_count": 6,
+      "parent_seed": 100014,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0015",
+      "map_sha256": "7b7275f28cb69e0a2c62ad20dc417a49e177396979c4fcf0d9cbad2932a1000f",
+      "obstacle_count": 6,
+      "parent_seed": 100015,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0016",
+      "map_sha256": "4f1608d794c8d9af5cc93d3c84b3b607f9d100d756d046487c694ba1754ad57d",
+      "obstacle_count": 6,
+      "parent_seed": 100016,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0017",
+      "map_sha256": "8c8aff8d5a1b7aae56fc6f103aa62bf7a682837eb404d7f4dae388bfaa09c27a",
+      "obstacle_count": 6,
+      "parent_seed": 100017,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0018",
+      "map_sha256": "0aaa99080324a66f936eefc9aeae03f8bdbc64b80c3cc16e757c9c7bf096de45",
+      "obstacle_count": 8,
+      "parent_seed": 100018,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0019",
+      "map_sha256": "995b511fb1025a1a37591e17162e2a8f82454e3abfcf0325e01280820cd4180c",
+      "obstacle_count": 8,
+      "parent_seed": 100019,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0020",
+      "map_sha256": "9168ce6b9b979404705558cc1c9a4d0a038f660cccd720968d1c414a4e2e7056",
+      "obstacle_count": 7,
+      "parent_seed": 100020,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0021",
+      "map_sha256": "7e0de4f503c1c3ee02acff0f757ef93d9ff1977d6b25edbdfff0c6a35af89390",
+      "obstacle_count": 5,
+      "parent_seed": 100021,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0022",
+      "map_sha256": "8a117439b0b7561d74683d2b743a97f42b5f10fda9e12005e49bb34dbe5d49a3",
+      "obstacle_count": 8,
+      "parent_seed": 100022,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0023",
+      "map_sha256": "09a1087a3c9882dff8bb23c09eb0d2f6524430be4087f2ee925e4c7e3961cec1",
+      "obstacle_count": 6,
+      "parent_seed": 100023,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0024",
+      "map_sha256": "7a788fb4e3df8dde560df9ad657f369e316bb6f2adca65cae85651b3ef4f032e",
+      "obstacle_count": 8,
+      "parent_seed": 100024,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0025",
+      "map_sha256": "4833c06d3ce2e38a7b556946db0c8511b6b0b62749d083bdbd0592374848ccce",
+      "obstacle_count": 7,
+      "parent_seed": 100025,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0026",
+      "map_sha256": "d236c71f231af01a8cc2d32a741d741c87b772ce8e3daefa3ba7ac2219f6d91f",
+      "obstacle_count": 6,
+      "parent_seed": 100026,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0027",
+      "map_sha256": "a23dde37c1236d2fb5ce82ce69f0551829a0850684e46ec2601e6555ab2748bf",
+      "obstacle_count": 6,
+      "parent_seed": 100027,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0028",
+      "map_sha256": "4c9d8c20edae5c532374af5173bb10101e40e67eb3896fe99b49cc575eb956be",
+      "obstacle_count": 8,
+      "parent_seed": 100028,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0029",
+      "map_sha256": "40ffc41131a614b821628cdd8c3e228a3d4008926c3d672f4e15285df69fd633",
+      "obstacle_count": 7,
+      "parent_seed": 100029,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0030",
+      "map_sha256": "39e4dbe53ce7f959058935d34a4d7824ea7558addbf9202ab2c3e5669b552575",
+      "obstacle_count": 5,
+      "parent_seed": 100030,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0031",
+      "map_sha256": "4dc13a578f65130d794128eb86b47d6e9517393abc749e72bacaa2653e970d02",
+      "obstacle_count": 7,
+      "parent_seed": 100031,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0032",
+      "map_sha256": "ca136cffbfac52cfad76dbd04f31f9e9a87924aef52dc413b32e50d1d5b44023",
+      "obstacle_count": 6,
+      "parent_seed": 100032,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0033",
+      "map_sha256": "35ca38a028c38efdfa170171eaeeaefc823503fedea0164c7ce0efd2599c4cec",
+      "obstacle_count": 7,
+      "parent_seed": 100033,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0034",
+      "map_sha256": "c5f247ab80aa5d86a83a9fab49d33f2a82f533883500fba79b4b336edc2fa753",
+      "obstacle_count": 8,
+      "parent_seed": 100034,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0035",
+      "map_sha256": "75516c94cd694bb235ad8cc1bc4062dfae54eb15adf91fe6925ebd6cbcfd788a",
+      "obstacle_count": 6,
+      "parent_seed": 100035,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0036",
+      "map_sha256": "8db0e1c5973cfa98e3ddb7f3a0a9367302ac698b59a75e1915425a04677b8fec",
+      "obstacle_count": 5,
+      "parent_seed": 100036,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0037",
+      "map_sha256": "843867c8616d3e865aa20ee7929cdd1809885aef8cecbaea17c532ff89106190",
+      "obstacle_count": 8,
+      "parent_seed": 100037,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0038",
+      "map_sha256": "b7012b9e53efd92c1e2d798f50ef37ea94320210cec30496789a1d2de9c08534",
+      "obstacle_count": 8,
+      "parent_seed": 100038,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0039",
+      "map_sha256": "35d15a81a1b9c8318ea18ca31201d482895a91231d68a896048593575bdb9d9f",
+      "obstacle_count": 6,
+      "parent_seed": 100039,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0040",
+      "map_sha256": "b22bf4df178f9bf447914b918576e3ef59f9279656a3a0a6cd207d45d4763e3c",
+      "obstacle_count": 7,
+      "parent_seed": 100040,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0041",
+      "map_sha256": "bbedc43315e123896008d78e99dc85c86b61e0a8f4b11ac5203dd7b3076391d3",
+      "obstacle_count": 5,
+      "parent_seed": 100041,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0042",
+      "map_sha256": "5f7fe981eda7d1eb82b4f45fb3796a0c78eba899773a5a17aef8b167cea43e65",
+      "obstacle_count": 8,
+      "parent_seed": 100042,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0043",
+      "map_sha256": "101e36703a0a1de17cbb1b1e2fd8d5ec2ee922b350a0b99a9cbf660ec3b1e00f",
+      "obstacle_count": 7,
+      "parent_seed": 100043,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0044",
+      "map_sha256": "121c63801e9a525ad518222a49bd983af7dd2cb47c8a5b94dfa18e5aef4f3d31",
+      "obstacle_count": 7,
+      "parent_seed": 100044,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0045",
+      "map_sha256": "a15bb03023cfc255e157559c2a0dce22486ac15a1467969afb426af29a6c774c",
+      "obstacle_count": 8,
+      "parent_seed": 100045,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0046",
+      "map_sha256": "81d15262ee22289cc12ecb8c06b8ed16b4ba65094974e6efb081d11b0b7fe21e",
+      "obstacle_count": 6,
+      "parent_seed": 100046,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0047",
+      "map_sha256": "6bdfe5b06a6452cccc0c2830b4be3dbdd41b2f0e032680efa6e93228069f0f35",
+      "obstacle_count": 5,
+      "parent_seed": 100047,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0048",
+      "map_sha256": "06d817bd7be02eba7dadd5526d4a92d036ea4dc08a0e88a9e5310a88e6cf13c4",
+      "obstacle_count": 7,
+      "parent_seed": 100048,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0049",
+      "map_sha256": "11820b59cdb9d60279965950d122f0c63e37b239f6447fdb62d49dc6cec8f094",
+      "obstacle_count": 7,
+      "parent_seed": 100049,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0050",
+      "map_sha256": "bd1bd823faa32a1c547490e9a11dfea6e041a32b396074c1493d757d3f300f02",
+      "obstacle_count": 5,
+      "parent_seed": 100050,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0051",
+      "map_sha256": "f93029fc5f429da4987dc4e18a9f679495982f9fba37fcf370c4aec70e5b3233",
+      "obstacle_count": 8,
+      "parent_seed": 100051,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0052",
+      "map_sha256": "d87dca02fceb644b2a8ec4eacd62bed6fd7946d18024229c7d3e9858fa1f3bd0",
+      "obstacle_count": 5,
+      "parent_seed": 100052,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0053",
+      "map_sha256": "fe7dcf39952e4de6ce86f8d27558390d413d4377b0612a4798911668e7ffa615",
+      "obstacle_count": 6,
+      "parent_seed": 100053,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0054",
+      "map_sha256": "1a7367460915d5487d676ee6edde70ff23d38a81a1ae2ea74be57b40b0c9ac32",
+      "obstacle_count": 6,
+      "parent_seed": 100054,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0055",
+      "map_sha256": "a09cae2d48c835f47403cf7edc2ead240f0b77fe9f41848777601c888ec9e536",
+      "obstacle_count": 6,
+      "parent_seed": 100055,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0056",
+      "map_sha256": "87567b16d8eb9faf774b5b86b5f00ee173f892b099d47d6e6b7a9b4552e2896f",
+      "obstacle_count": 5,
+      "parent_seed": 100056,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0057",
+      "map_sha256": "db9874529742bfaed3effcc62933514f0ecc562910f0cd1d105f9bf4594300b1",
+      "obstacle_count": 5,
+      "parent_seed": 100057,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0058",
+      "map_sha256": "2c016b3255c8251c77bfd42c293faea90e0d2353a8324c53fc964597cb7a15fb",
+      "obstacle_count": 6,
+      "parent_seed": 100058,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0059",
+      "map_sha256": "105994cbfccdd5acaa8f699810b303a364bfe033965bbcd5216d1bc7bab00824",
+      "obstacle_count": 4,
+      "parent_seed": 100059,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0060",
+      "map_sha256": "dd27e1e91ba61e24cc174fa393903001ecf25e353ea0204aeb3d9193578bc2e9",
+      "obstacle_count": 7,
+      "parent_seed": 100060,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0061",
+      "map_sha256": "d5ef8dbbfe4f2d3bebfc4b319f738894a4686a73412a7a0c5d49f9a63dcd1dce",
+      "obstacle_count": 6,
+      "parent_seed": 100061,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0062",
+      "map_sha256": "d4ecbf1066035fca3942b66359288fb7774260fbe34b6ba60086ff3541322fb0",
+      "obstacle_count": 7,
+      "parent_seed": 100062,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0063",
+      "map_sha256": "8db53994fb6a6a303f53e6a40e1f2af7b00add0b9f5080dc5452d0bea55c5871",
+      "obstacle_count": 7,
+      "parent_seed": 100063,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0064",
+      "map_sha256": "32af9d7c117af0dee860b9138bd286e4d57282126790451f3a5951c1288ff065",
+      "obstacle_count": 7,
+      "parent_seed": 100064,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0065",
+      "map_sha256": "d65ed2b4f4d40a0bed82d13710ff175ef91ba3c501796072b4856c50c4c5d471",
+      "obstacle_count": 7,
+      "parent_seed": 100065,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0066",
+      "map_sha256": "987c4360c2d8fcd84d2a8adbd25e0583e8c263c2ffc124ec9e627af1dcb0a915",
+      "obstacle_count": 5,
+      "parent_seed": 100066,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0067",
+      "map_sha256": "8954837a97770689c542f795e4b51020108f1c6dcbfaabd5ebd71b9c468c0da1",
+      "obstacle_count": 8,
+      "parent_seed": 100067,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0068",
+      "map_sha256": "2e923fd5e221a50928f7cb409a3e2bdd5ef873cae6704efca8e66c8a46bb6230",
+      "obstacle_count": 7,
+      "parent_seed": 100068,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0069",
+      "map_sha256": "f29afb203f825026bca121660f36e405c411c30e99271842ef1c1898ca81518d",
+      "obstacle_count": 5,
+      "parent_seed": 100069,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0070",
+      "map_sha256": "42908e46009083a38dfd06a2bf06263af0e3476c67c92ec6ce9594392a048371",
+      "obstacle_count": 7,
+      "parent_seed": 100070,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0071",
+      "map_sha256": "a36c326491b54bd9d048adf0fa633871df599f245ea766c3c728af37fca92050",
+      "obstacle_count": 8,
+      "parent_seed": 100071,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0072",
+      "map_sha256": "1398867416050788d72fe814833b932a119ba2c97b5a528ab751156742beaf91",
+      "obstacle_count": 6,
+      "parent_seed": 100072,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0073",
+      "map_sha256": "5576c1e85915ca1bea208f204d6b175d5ca4c93958712a775f023b9a4af035cf",
+      "obstacle_count": 5,
+      "parent_seed": 100073,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0074",
+      "map_sha256": "e5eb57889f8eca56aa650c728b5fcd737826c9f1e24fa1d875d898f2f792308a",
+      "obstacle_count": 6,
+      "parent_seed": 100074,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0075",
+      "map_sha256": "87a03d2ec00bf49ce0d838c8e09f85c39b2762d7fecbc88e949bcbea1cc3c304",
+      "obstacle_count": 8,
+      "parent_seed": 100075,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0076",
+      "map_sha256": "817df11ba63858fedf9d60007892126078dc0856b731510afcd735cc6e3b4c54",
+      "obstacle_count": 7,
+      "parent_seed": 100076,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0077",
+      "map_sha256": "648eb3c4e191363896dc3f692d5bd05190a3a2b8e82f7f63d44db507cd2e78e2",
+      "obstacle_count": 7,
+      "parent_seed": 100077,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0078",
+      "map_sha256": "64b985fe54e4377475529f933f4347a395ebb40226c617a322c215fa20bc6763",
+      "obstacle_count": 6,
+      "parent_seed": 100078,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0079",
+      "map_sha256": "e94335bbba5e6c14b18cf68c4ade4e50285cb87a01686e7656ad8a9ff6e1691f",
+      "obstacle_count": 8,
+      "parent_seed": 100079,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0080",
+      "map_sha256": "891615882bc633307efd537253db61c5ea6157ea637f8c93de1d32e201d4098d",
+      "obstacle_count": 7,
+      "parent_seed": 100080,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0081",
+      "map_sha256": "7736f439b8fccc1a6c45f03c7ad2cc73f6752d96973ee41b39e989115ccfe012",
+      "obstacle_count": 8,
+      "parent_seed": 100081,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0082",
+      "map_sha256": "458cbd0cbf095bae8c1f5dfafc7a5c963d7c3bd0450b0b532edb8feb66d2d73b",
+      "obstacle_count": 6,
+      "parent_seed": 100082,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0083",
+      "map_sha256": "f32538d4c4fccae685f5226b8fed9c6fbb6991ade38777fafe14be32952feed4",
+      "obstacle_count": 7,
+      "parent_seed": 100083,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0084",
+      "map_sha256": "89dd5b572c77414381c100c7a8fc52bee210e8ab56407ab998fd57c10e9ac4c0",
+      "obstacle_count": 6,
+      "parent_seed": 100084,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0085",
+      "map_sha256": "4abab53acceee594680393666501e676bc5177bd56373d82931f250465a41141",
+      "obstacle_count": 6,
+      "parent_seed": 100085,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0086",
+      "map_sha256": "2af82f9a1884db0a2649b937038644e973f5cd704bb5d2f286066d7941899248",
+      "obstacle_count": 5,
+      "parent_seed": 100086,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0087",
+      "map_sha256": "a513d0432c6331dfca2a9a793a1f2066411bfd91ff14b5a03967117086d909cd",
+      "obstacle_count": 5,
+      "parent_seed": 100087,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0088",
+      "map_sha256": "232cefde9c5e3306b81626e24d52ad7ad271a95a47e026139370dac9b2b1ea6b",
+      "obstacle_count": 8,
+      "parent_seed": 100088,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0089",
+      "map_sha256": "7cd0fdd01920f4aaa196a70e1806db0698b9a9a0493f12178fc262b662ff3e47",
+      "obstacle_count": 8,
+      "parent_seed": 100089,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0090",
+      "map_sha256": "b8f09b24a623f1c59d64b27673aef2ba3f4344e9ab3b72678f96126c7d390d33",
+      "obstacle_count": 7,
+      "parent_seed": 100090,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0091",
+      "map_sha256": "41158560b8b1bba15dc69fdfecd792eb63d7ba0fd9f66044310b9e94e0bf3765",
+      "obstacle_count": 6,
+      "parent_seed": 100091,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0092",
+      "map_sha256": "b7ff27a09369c5f709029787f25846eae142c04bf0bf253b3674c95c4841362f",
+      "obstacle_count": 8,
+      "parent_seed": 100092,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0093",
+      "map_sha256": "8fffdeffb48a99cbbc6ef14a39652a578f25de8792573656dea3f3ec704e0235",
+      "obstacle_count": 5,
+      "parent_seed": 100093,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0094",
+      "map_sha256": "6bef1357dbf4effbb5f0630637acfe254fdac6f6d0ae17b06745c73c0ad53955",
+      "obstacle_count": 8,
+      "parent_seed": 100094,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0095",
+      "map_sha256": "3c34664fd16972edd946c4f5d0cd759356cb401142765e8e03a94d1b9e5e8d72",
+      "obstacle_count": 6,
+      "parent_seed": 100095,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0096",
+      "map_sha256": "8010658ce772117a40c367ed91a666e1932e93349a720b97765509ec81c294f7",
+      "obstacle_count": 6,
+      "parent_seed": 100096,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0097",
+      "map_sha256": "6d405325e06b21c8240f173db73eedb729ee9979fd24877f2a1a560aa9ae58b5",
+      "obstacle_count": 7,
+      "parent_seed": 100097,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0098",
+      "map_sha256": "64cb626997d4ffe378814318d3345136c598dae3d281119a4ebc2885cc3009dc",
+      "obstacle_count": 6,
+      "parent_seed": 100098,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0099",
+      "map_sha256": "533cbfbbeb5ad0f05dfd612466cd2e15db8f827f9a57a4193bd929cf4d836b29",
+      "obstacle_count": 8,
+      "parent_seed": 100099,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0100",
+      "map_sha256": "4ab4d3260c35a5bab2f821a048dbc0bba5e467377cdf1377413bd43e8ee68362",
+      "obstacle_count": 8,
+      "parent_seed": 100100,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0101",
+      "map_sha256": "dbe165444a1fb2ad8d4ca3c210cd7bfb3b082c91725158af94df7ef3e05b971b",
+      "obstacle_count": 5,
+      "parent_seed": 100101,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0102",
+      "map_sha256": "23ac4802985b5a4f0707fb353cc7f775372e24efd7490a98620d75a7ae7747b5",
+      "obstacle_count": 7,
+      "parent_seed": 100102,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0103",
+      "map_sha256": "4a68c9b51ff9133291a5ee7111428f3a4005c7dd30618edcf817c895a8bd2752",
+      "obstacle_count": 6,
+      "parent_seed": 100103,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0104",
+      "map_sha256": "3f5d239e87b6095ede924ebc9583065762a3ec826afd5b2b3a1bca4982570234",
+      "obstacle_count": 6,
+      "parent_seed": 100104,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0105",
+      "map_sha256": "4ea45ddd4f056ce9c3e393e2b03966538e08609b440187e55410e65158c5a20e",
+      "obstacle_count": 8,
+      "parent_seed": 100105,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0106",
+      "map_sha256": "f0e08398290950b19f08d008afcdcb5503eb39bca4e21ce92f95fef69a3bcb7b",
+      "obstacle_count": 5,
+      "parent_seed": 100106,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0107",
+      "map_sha256": "eb358867e61d96c290b98f610c7b6b511f161fe8a39341d4e705872c69d388de",
+      "obstacle_count": 5,
+      "parent_seed": 100107,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0108",
+      "map_sha256": "73f49c89db455c7ccb3afa79562fcf39675d36f6df3b5c54c985fd473f9dc43f",
+      "obstacle_count": 5,
+      "parent_seed": 100108,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0109",
+      "map_sha256": "a80982def055aab0b8553d14376ed926c62fa4aded13185294467a8e1827eb5c",
+      "obstacle_count": 7,
+      "parent_seed": 100109,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0110",
+      "map_sha256": "bcfaa3b9727ff2db404c1d53e1432db37b94aebe2fbab3eb6afa3c62a98ed1a0",
+      "obstacle_count": 6,
+      "parent_seed": 100110,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0111",
+      "map_sha256": "8c531c7fbbc182cc07f3b508a525a58970cb4a2ef21e119e9fb27c19accbd6aa",
+      "obstacle_count": 6,
+      "parent_seed": 100111,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0112",
+      "map_sha256": "ab01e100fb7c58b923a60ed052180ba89596915931e9ef9889f6c5a541b60e26",
+      "obstacle_count": 5,
+      "parent_seed": 100112,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0113",
+      "map_sha256": "adb519734a301aed194f8080b585e7e20a5e5810cb6f5ee1c1cbbfe062c715f0",
+      "obstacle_count": 7,
+      "parent_seed": 100113,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0114",
+      "map_sha256": "249ea6b038aaea6ac496c949e1f3cb941d8c039d5c1246cf1f5dd620a238cad5",
+      "obstacle_count": 5,
+      "parent_seed": 100114,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0115",
+      "map_sha256": "0e4657857686eeb28f0c7d5c535493ce9889f1b60d0f60abb6a2258408d8d74f",
+      "obstacle_count": 8,
+      "parent_seed": 100115,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0116",
+      "map_sha256": "098b3118026a0c6b54f4b30589513e0b874c67de525407a166cf3c3a65b067a4",
+      "obstacle_count": 6,
+      "parent_seed": 100116,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0117",
+      "map_sha256": "dc10475a1fb60474e8a341c75f00d8603ae086041d1a42d67ef91759f633b822",
+      "obstacle_count": 7,
+      "parent_seed": 100117,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0118",
+      "map_sha256": "d129de7c0e152fe760e6496357b6be4befbe10980792102f7b727b800c831a07",
+      "obstacle_count": 5,
+      "parent_seed": 100118,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0119",
+      "map_sha256": "15471c8e739a217848cdd9e38ec82eb9f341c00a1762bf102a2b983effd68403",
+      "obstacle_count": 5,
+      "parent_seed": 100119,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0120",
+      "map_sha256": "00c1cce5acdcfb26c7fa3928581b62a880a9f2cbc7806bce2161907273445b54",
+      "obstacle_count": 7,
+      "parent_seed": 100120,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0121",
+      "map_sha256": "19a4ad57220fd01ad6811b62c68ad9e5aed0ac4a8c0188d25d08799452973510",
+      "obstacle_count": 5,
+      "parent_seed": 100121,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0122",
+      "map_sha256": "1a76edaf32128efe3e0775a9df55e395aa6f02d0c6f174c977ad453e4fa07586",
+      "obstacle_count": 4,
+      "parent_seed": 100122,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0123",
+      "map_sha256": "fcb68979abb0de8a5d3df25a7e24dd6b39ccb539a3ada4c6a3bc4c10de781ee8",
+      "obstacle_count": 6,
+      "parent_seed": 100123,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0124",
+      "map_sha256": "2aa442cf911fc6b33209022212baaceef35d763724fee33384f95277db6771b0",
+      "obstacle_count": 8,
+      "parent_seed": 100124,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0125",
+      "map_sha256": "993770205b6843b8a0fdf0e2cb912930b93f81ae63de82021c507ba10da88d11",
+      "obstacle_count": 6,
+      "parent_seed": 100125,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0126",
+      "map_sha256": "dcf24bba717fe9e4807d846dd1a77c129580102f9f27056c433226a0db65badf",
+      "obstacle_count": 7,
+      "parent_seed": 100126,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0127",
+      "map_sha256": "d6df40f1c05a19ea271728dba389e6ca9f53524c4a4f2df30e6c8d6394a0fcad",
+      "obstacle_count": 5,
+      "parent_seed": 100127,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0128",
+      "map_sha256": "c2dd253677c50ebb111399001bec86cf6b5ececf31c6c63618a82d681a8670b1",
+      "obstacle_count": 7,
+      "parent_seed": 100128,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0129",
+      "map_sha256": "01c14ec7051dfb8a1479d16cb6f04ea99b8a5951f266915b28b9f8dcc730e7c7",
+      "obstacle_count": 8,
+      "parent_seed": 100129,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0130",
+      "map_sha256": "be2d4488a0679b740924bd5f212726a46a28570314ef82001441ee3713e31704",
+      "obstacle_count": 5,
+      "parent_seed": 100130,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0131",
+      "map_sha256": "f9f301286fb5ea17ae3b0e3ffc82f0c213c57d27130319fde741732c8c41413a",
+      "obstacle_count": 6,
+      "parent_seed": 100131,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0132",
+      "map_sha256": "94f0fbdff9f1c9f3410d4eddc2603b4397d315b347abe728b3e1eec072bfac1f",
+      "obstacle_count": 5,
+      "parent_seed": 100132,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0133",
+      "map_sha256": "44ca2c87003a245815d3cec44b8e4b26fc0590b74a5a25bff05ac47a39920ac0",
+      "obstacle_count": 8,
+      "parent_seed": 100133,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0134",
+      "map_sha256": "3d6987ea6bcb8cb6d8053121f9436baf99ed24a62fd5596a90a6af6758394986",
+      "obstacle_count": 5,
+      "parent_seed": 100134,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0135",
+      "map_sha256": "8d82cb4ba6b237a1ae91580d3c3f4a69b270da1a5c50d4fdf660661590cd2a1d",
+      "obstacle_count": 8,
+      "parent_seed": 100135,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0136",
+      "map_sha256": "c1aed1ba0a4742fd9ae33e584a5d5eb07b6b3b0ab82765c97069c66223306371",
+      "obstacle_count": 5,
+      "parent_seed": 100136,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0137",
+      "map_sha256": "2e89c249cdf285aeb4b1888e6bf7d0bbad29727611cb76a7bf4962da38eb563b",
+      "obstacle_count": 6,
+      "parent_seed": 100137,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0138",
+      "map_sha256": "7d2330a06eb2f7507b2fe35c62a5187e94c2de8682ba25beb2d21b02d63a4158",
+      "obstacle_count": 6,
+      "parent_seed": 100138,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0139",
+      "map_sha256": "f8bfd940ed33130bc05cbb34be7b1fce4c7f38dcc5444cae0274384d28df5b14",
+      "obstacle_count": 6,
+      "parent_seed": 100139,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0140",
+      "map_sha256": "471d90d4f54720ef7a3dc842aade0c6511bb1f962ce558c64475a114790e8a51",
+      "obstacle_count": 7,
+      "parent_seed": 100140,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0141",
+      "map_sha256": "05b9cbb8b51b486d44e6869035232b7c55679192c9a32148d45b69ad2c0bcc50",
+      "obstacle_count": 8,
+      "parent_seed": 100141,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0142",
+      "map_sha256": "244c1ea3e1043d866b4337c195ff500bbc6020cc9db362e0bafb8762aa958ff5",
+      "obstacle_count": 5,
+      "parent_seed": 100142,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0143",
+      "map_sha256": "cd94b4fdf7a51bc6447c5aae2ca825618c3815f7987b5d5fd8b91ad0d5db4762",
+      "obstacle_count": 8,
+      "parent_seed": 100143,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0144",
+      "map_sha256": "052a539861b4d1dc8839f17dddac7512babaaca0166cf75dca7e29a1705d3587",
+      "obstacle_count": 5,
+      "parent_seed": 100144,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0145",
+      "map_sha256": "7be867abcca020c6db71610f2f646cb3dff12ef508c2b46b34e10764117b1fd6",
+      "obstacle_count": 5,
+      "parent_seed": 100145,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0146",
+      "map_sha256": "ba298dd6f88ea35c4407061a0a8e35b3eb1250ccbae2169721e4c0ef1bd74b70",
+      "obstacle_count": 5,
+      "parent_seed": 100146,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0147",
+      "map_sha256": "07cb2ab46ddd7a6e7418e6147b01e4d347c6c801f4ffa59af9235590b94e9555",
+      "obstacle_count": 8,
+      "parent_seed": 100147,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0148",
+      "map_sha256": "d74eb1facac2e1efc4c9b8d17d75707595d235bcf278b759de2eee5ba9b9dfda",
+      "obstacle_count": 5,
+      "parent_seed": 100148,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0149",
+      "map_sha256": "c4d8b896fe452d3d0a826b7de6d04dd7d10fddfce35ee4d7b54cda058f647121",
+      "obstacle_count": 7,
+      "parent_seed": 100149,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0150",
+      "map_sha256": "2c0e17ce3504924e61fb049a2eb337c5338957578d53c0e3246d5f94e956ff20",
+      "obstacle_count": 6,
+      "parent_seed": 100150,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0151",
+      "map_sha256": "6086a534f81d7212ce3b39ecce1ef647beb74bc9b78cfa182e3ee765df9a29a9",
+      "obstacle_count": 6,
+      "parent_seed": 100151,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0152",
+      "map_sha256": "fe1bdd9d89546c988c1e32519563e94c8594d39d98c00e4e9c418cc196c26ca4",
+      "obstacle_count": 7,
+      "parent_seed": 100152,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0153",
+      "map_sha256": "93bee863a60b73eb07e329da81174fcd95a54da7ecc67914e23faa770d7e2b77",
+      "obstacle_count": 7,
+      "parent_seed": 100153,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0154",
+      "map_sha256": "099cc9aaae5371b9e55d6bd18d4d6f9d167eed08eda34ab216b3d58e2f09f347",
+      "obstacle_count": 8,
+      "parent_seed": 100154,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0155",
+      "map_sha256": "c560d83c3a8e1dea1b95d0371c5685f5e5e78a57b15972cb9832a38f64c8dbe8",
+      "obstacle_count": 7,
+      "parent_seed": 100155,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0156",
+      "map_sha256": "01083d12ab557d06ea271f4c1b46a532f75b61d39aa07fd0b3b2a33e3fb68b7e",
+      "obstacle_count": 4,
+      "parent_seed": 100156,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0157",
+      "map_sha256": "851b65161fe98db2feddc55b722bebecbf5b8226d1f3dca84d4acf5598b327fe",
+      "obstacle_count": 7,
+      "parent_seed": 100157,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0158",
+      "map_sha256": "aaccfa08923aa65258a180a3a1cd7a9e89ac53a096a5d44476621296a87475d5",
+      "obstacle_count": 6,
+      "parent_seed": 100158,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0159",
+      "map_sha256": "8e18ae6ceb5cdaba4c8fd6244436e40f4651aa84a1dbbf3fedff44af81fa2405",
+      "obstacle_count": 7,
+      "parent_seed": 100159,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0160",
+      "map_sha256": "37ea05ee4334819d183c9842cfca8ec5c75e92fb6bbf302b7d98e89e3495bd69",
+      "obstacle_count": 6,
+      "parent_seed": 100160,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0161",
+      "map_sha256": "6ef0fb5057301729a056f48688b27b796dded16d84f9be01b39144f3bdfc485f",
+      "obstacle_count": 8,
+      "parent_seed": 100161,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0162",
+      "map_sha256": "7ed622d835d1a6b5a03897b9dabc425a97e6188f504e8576cbe4af5b9a4c5945",
+      "obstacle_count": 8,
+      "parent_seed": 100162,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0163",
+      "map_sha256": "22ae3b261e16c75d6dbcb145a3b815ceae43f039c7a027880bba96be2a390a02",
+      "obstacle_count": 7,
+      "parent_seed": 100163,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0164",
+      "map_sha256": "83cd8ffa8bd76101eea6b9775ab7e828516ec98d86c706f706699bf2288f4539",
+      "obstacle_count": 8,
+      "parent_seed": 100164,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0165",
+      "map_sha256": "a69af01e4bfda6f859d8790a34253396c81458f372565979d8eee5d55a37c79b",
+      "obstacle_count": 8,
+      "parent_seed": 100165,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0166",
+      "map_sha256": "e24f49ad1becf031eb6b12f2481f5be7c39c66fac19a4f7d464b44466a26df98",
+      "obstacle_count": 5,
+      "parent_seed": 100166,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0167",
+      "map_sha256": "e60bc740976c4ec16d708659ad6d2ed97d5a08b7318b76f92da2c17fcf56f364",
+      "obstacle_count": 5,
+      "parent_seed": 100167,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0168",
+      "map_sha256": "52af538de6f238a9f7feaf5c2fe73c14912bdec3fdda8e3b688c6c47b5a8a7a5",
+      "obstacle_count": 4,
+      "parent_seed": 100168,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0169",
+      "map_sha256": "8072b0dfa66e99856a34bac235219cddb41532f96c281f63a3ff68a12241dd1c",
+      "obstacle_count": 6,
+      "parent_seed": 100169,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0170",
+      "map_sha256": "5df6fa4d1f9dfafec9b61fcb68810aae92a4d4342a5eb38662dec3628a07e735",
+      "obstacle_count": 6,
+      "parent_seed": 100170,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0171",
+      "map_sha256": "41ab89cf629571db31047d46764dedff3d89391266f7f18306dc57ec49f40bdc",
+      "obstacle_count": 5,
+      "parent_seed": 100171,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0172",
+      "map_sha256": "1ff47ba0be854f012f342ae4162c6c38b734ff41580efa769be20393faf4d7a4",
+      "obstacle_count": 7,
+      "parent_seed": 100172,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0173",
+      "map_sha256": "2a68fe871fda25b42f93952a861b6b19e4e6a35030b30822bae818112ba1f09f",
+      "obstacle_count": 8,
+      "parent_seed": 100173,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0174",
+      "map_sha256": "c58f4c4dda0ad7c221bb5970f8d6e3f638b7d301fb0dcb5a54c0fbf3fcf9c06d",
+      "obstacle_count": 6,
+      "parent_seed": 100174,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0175",
+      "map_sha256": "cb56f8553ae11f00e8712063a2076f0fe27a4ee59b227a00e2067eebbd26e928",
+      "obstacle_count": 6,
+      "parent_seed": 100175,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0176",
+      "map_sha256": "cb8bfd2884c95ef1d2aa49c4cfa922a14bddbb866e3f6d97c665af1ec98fc942",
+      "obstacle_count": 8,
+      "parent_seed": 100176,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0177",
+      "map_sha256": "3bf1530439d1e689e801ac6a07960ffbd492dfd0362319ed1d4ccd48f73a9b72",
+      "obstacle_count": 8,
+      "parent_seed": 100177,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0178",
+      "map_sha256": "e3f6ddf556a182c92c0a1b31313802d7df002f8a8be676c4b5b359441a85c8f6",
+      "obstacle_count": 5,
+      "parent_seed": 100178,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0179",
+      "map_sha256": "683a5e44d58706ad8fff3e877b0c444d640bee090b31a0c32463ff70271bb071",
+      "obstacle_count": 8,
+      "parent_seed": 100179,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0180",
+      "map_sha256": "6b8d09468f39cfb93fa3a3fae76950811418342500f06d700f73a6cd795fb3a6",
+      "obstacle_count": 6,
+      "parent_seed": 100180,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0181",
+      "map_sha256": "ed6fb342debc9c3e9b40cd8da5cb34a3e333411cf8589cd0adb8d778172c968d",
+      "obstacle_count": 6,
+      "parent_seed": 100181,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0182",
+      "map_sha256": "3f93bf662aa6fd6dbebaa111db4c3911b0fb24d7adc8d6bd4f8248752fd266f7",
+      "obstacle_count": 5,
+      "parent_seed": 100182,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0183",
+      "map_sha256": "a310a9cf78e5975188cb1a29b10fc99c4d9e58b8ece9fd314088b4ee04ded679",
+      "obstacle_count": 6,
+      "parent_seed": 100183,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0184",
+      "map_sha256": "ac9b4ee81a2c59c159f1e90dae213c8dcf7ce9d59de188aa99060f9d6c902dee",
+      "obstacle_count": 5,
+      "parent_seed": 100184,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0185",
+      "map_sha256": "93faaf372fd1d48e732f63fe8cf43dba5c2182e26fd3b41c66a90978b365f414",
+      "obstacle_count": 7,
+      "parent_seed": 100185,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0186",
+      "map_sha256": "009b177122cb17e92b966d1846dc41731a8f9373720b9e939718799c168bff07",
+      "obstacle_count": 6,
+      "parent_seed": 100186,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0187",
+      "map_sha256": "608256cd98aeca7833d2a55066b6dbeaf9b312e2711c0bcf5fc0e9771cd13296",
+      "obstacle_count": 6,
+      "parent_seed": 100187,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0188",
+      "map_sha256": "eef673d0ec91064d9f51062875dc76c4cc8d04670313d38f7c81be43ee336754",
+      "obstacle_count": 4,
+      "parent_seed": 100188,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0189",
+      "map_sha256": "fbfb799a46fd5491c263d3fe3e4ae4278ac7ffe934dc080175551727026796d6",
+      "obstacle_count": 8,
+      "parent_seed": 100189,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0190",
+      "map_sha256": "7e2735cf4f89678ffbee0b3b8d92d0fa97559144b166c6fd60f9639e29f0e2c1",
+      "obstacle_count": 5,
+      "parent_seed": 100190,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0191",
+      "map_sha256": "8ed3b33699f4a245464d73870cc72b3b171dddbbf42be27db36dc5eae92df792",
+      "obstacle_count": 6,
+      "parent_seed": 100191,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0192",
+      "map_sha256": "80df383b4e20663a24aac589cab3b4e8f28f17850259b2cf5ca972a94c85f246",
+      "obstacle_count": 8,
+      "parent_seed": 100192,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0193",
+      "map_sha256": "4965731a99fb383127af799c6eb4b73849fb96aadd71fb05624df35a8a580ad6",
+      "obstacle_count": 8,
+      "parent_seed": 100193,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0194",
+      "map_sha256": "4d1bb58a713d127584d0e1da79b79fb0d1311cafbbb84a3873892029793b88b9",
+      "obstacle_count": 5,
+      "parent_seed": 100194,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0195",
+      "map_sha256": "a0fd593c6710bde04a14fd1fab07404e0099eb5f105e45f3392575e018fee398",
+      "obstacle_count": 5,
+      "parent_seed": 100195,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0196",
+      "map_sha256": "79c6e1fc366f8be36b8f08f6379095efedb2c4d8ada17b87f92a71f214bbc389",
+      "obstacle_count": 7,
+      "parent_seed": 100196,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0197",
+      "map_sha256": "b5adcc78e321a70dde85d264f8101b02233ac7385147422aa94aa7c4e40eba4b",
+      "obstacle_count": 7,
+      "parent_seed": 100197,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0198",
+      "map_sha256": "eb451f582acd2f9bcb2bf098b24985782492ca7cab822b03d4c65c67d71cb1bd",
+      "obstacle_count": 5,
+      "parent_seed": 100198,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "train/open/0199",
+      "map_sha256": "42255a2c4496579f1307b67846aca0426c2fae64fe2ea23d73efae2a78572824",
+      "obstacle_count": 7,
+      "parent_seed": 100199,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0000",
+      "map_sha256": "f88d8338035408a0e4b7d0ec1864e2deadc58f6d18d4223402be98587bf01564",
+      "obstacle_count": 7,
+      "parent_seed": 100200,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0001",
+      "map_sha256": "173689406acf7a9f3476114383093d671834ef462a1e079fc0c643e190c9c0ee",
+      "obstacle_count": 7,
+      "parent_seed": 100201,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0002",
+      "map_sha256": "d4808686dc4ac6ed984df3664b856abaf6bf4892e55139a35945cc29c5d2597d",
+      "obstacle_count": 7,
+      "parent_seed": 100202,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0003",
+      "map_sha256": "1829ec760775a4ac54ed400c15fa1fa831048ee6f372c7cf2050bebfed733cc6",
+      "obstacle_count": 7,
+      "parent_seed": 100203,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0004",
+      "map_sha256": "9aa976c17891e3a947ad1146bb59974306be3d14e94b5669bc29ab5038c4beba",
+      "obstacle_count": 7,
+      "parent_seed": 100204,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0005",
+      "map_sha256": "4b39350f63f0560ffaa18fc6d720d9a018fce7022c9a9b031b2b34f9624cb7b5",
+      "obstacle_count": 7,
+      "parent_seed": 100205,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0006",
+      "map_sha256": "d482593f2b85d831172e79a1ad14fccd11a637ddcffcd23cd0d31e8b804e6f44",
+      "obstacle_count": 7,
+      "parent_seed": 100206,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0007",
+      "map_sha256": "2c85fdf31726f21209f0e122a5b02040f467d6f5d6c3d98eca16dbd8cb2bf73a",
+      "obstacle_count": 6,
+      "parent_seed": 100207,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0008",
+      "map_sha256": "8102190c7df0321d2c7e893bb95c08fe33edf917d730bd93c37e287c9e825d50",
+      "obstacle_count": 7,
+      "parent_seed": 100208,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0009",
+      "map_sha256": "4b852cb10893d83d794a150d904e4e2673f621601f87347dbf71fd739cf9df27",
+      "obstacle_count": 6,
+      "parent_seed": 100209,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0010",
+      "map_sha256": "1b2dadedb5cfd1d07ec37b46724cfb7c7f5924918b4f754687299080225776c0",
+      "obstacle_count": 7,
+      "parent_seed": 100210,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0011",
+      "map_sha256": "8581361a279d6b924cb569d51a384a0c82287287cb22aac450ca69b6895546f6",
+      "obstacle_count": 7,
+      "parent_seed": 100211,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0012",
+      "map_sha256": "8133c1a94298fc516d4ec5af18b07690ef4946e45c0595ad1e68d0cd4d2ffd2c",
+      "obstacle_count": 7,
+      "parent_seed": 100212,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0013",
+      "map_sha256": "7dc0c717c9e60bf658b952ad9f44791657b1cda5834662e49edb0eeb4f6b372e",
+      "obstacle_count": 7,
+      "parent_seed": 100213,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0014",
+      "map_sha256": "f73d907d891438384791bda906e3846691d93944489fb54237573a99f13b9b40",
+      "obstacle_count": 7,
+      "parent_seed": 100214,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0015",
+      "map_sha256": "d30fb67bc6350a211cfe193d6e4ba8317a697fedc0f00550d0baaff9f755f666",
+      "obstacle_count": 7,
+      "parent_seed": 100215,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0016",
+      "map_sha256": "5fc667ccf405565e92ff24c81a418ca95ef6c9d9d2bead9b7a71ab8f6bb62774",
+      "obstacle_count": 7,
+      "parent_seed": 100216,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0017",
+      "map_sha256": "bbebe297a2babd468a8dffa8ea8ecd16c1fdfd124e85c58db1d5b6b549b15dce",
+      "obstacle_count": 7,
+      "parent_seed": 100217,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0018",
+      "map_sha256": "9ff5d02edb5ab9f6f68b3ae724ece3a181093404b1f172da811bed40b6d0a990",
+      "obstacle_count": 7,
+      "parent_seed": 100218,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0019",
+      "map_sha256": "886765e3c751ca3783984b7adbdb60bba7ddfba54fe45a95a1edabaaa52fd7d2",
+      "obstacle_count": 7,
+      "parent_seed": 100219,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0020",
+      "map_sha256": "f957c10313516a42f75e1512032da60e76c058baf16f177cd04793c2e5a7aaf4",
+      "obstacle_count": 7,
+      "parent_seed": 100220,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0021",
+      "map_sha256": "9885b131657511d9aca64bf9f3ecccde57d640a0f908696fc714cf6659ee1ca7",
+      "obstacle_count": 7,
+      "parent_seed": 100221,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0022",
+      "map_sha256": "08cc94d362889e9de864ed0dade854858e154889af071a81a8ea13acc50173d1",
+      "obstacle_count": 7,
+      "parent_seed": 100222,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0023",
+      "map_sha256": "40724ca998ec30dc6a85328367488752d24334b8ad5d18e70e74ec9265993f02",
+      "obstacle_count": 7,
+      "parent_seed": 100223,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0024",
+      "map_sha256": "2ad0b03f0d3f2eb872e3383f3e124916f6384fe97177dc94901b84b9210a76b4",
+      "obstacle_count": 7,
+      "parent_seed": 100224,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0025",
+      "map_sha256": "41db24823b8447fcba1cd4ff1c060a247d860d3f326d69079223e2976f3e120f",
+      "obstacle_count": 6,
+      "parent_seed": 100225,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0026",
+      "map_sha256": "630fc3abed1d19b0e9f86709cc146b90dd02aba3b59959b995970cdba0640f64",
+      "obstacle_count": 7,
+      "parent_seed": 100226,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0027",
+      "map_sha256": "d873551afecad1182cc773109cf65914837c144f6fb1c784333cc687e8f2fe24",
+      "obstacle_count": 7,
+      "parent_seed": 100227,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0028",
+      "map_sha256": "8c6a4dee1a875968e45c89a39c47d45e86521b2aada08a8f8aa03e1b1bbacfef",
+      "obstacle_count": 7,
+      "parent_seed": 100228,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0029",
+      "map_sha256": "0bccfaf3d045ce761cdd712deb64d7cd73bd5381d3c22f02cf443fff2829bba8",
+      "obstacle_count": 7,
+      "parent_seed": 100229,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0030",
+      "map_sha256": "4ce91a835b168a035042c0e494dbaafce86c4a2a9d05a4370a633f2c1d1c1808",
+      "obstacle_count": 7,
+      "parent_seed": 100230,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0031",
+      "map_sha256": "d39e35db4ba15870dbb36ab85d94015aeead1f7acb5223c1a13dea40f481212b",
+      "obstacle_count": 7,
+      "parent_seed": 100231,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0032",
+      "map_sha256": "e271bf99569bddc69c5ff091c031d1e96455328d9fd5a150988af183cabb69fd",
+      "obstacle_count": 7,
+      "parent_seed": 100232,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0033",
+      "map_sha256": "5ab1a00281febf80feef1eb34316227d7eada80bde3d4102e5ec999ac12bd23a",
+      "obstacle_count": 7,
+      "parent_seed": 100233,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0034",
+      "map_sha256": "f410ce29a8b2e5ad52a12dd6b8523a6573b273e801643bfeca9357fa24ef439e",
+      "obstacle_count": 7,
+      "parent_seed": 100234,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0035",
+      "map_sha256": "bf374e46827a4973cd9348fccaa3350ecfc76d779e2dda4d83bdc2c23a3604d8",
+      "obstacle_count": 7,
+      "parent_seed": 100235,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0036",
+      "map_sha256": "2f3e84d8d9b407f45fa3010066621ed9e520e3d57ce425f50e3d2324fce49787",
+      "obstacle_count": 7,
+      "parent_seed": 100236,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0037",
+      "map_sha256": "04f7a69b88e993db17498bdfeb96978637711fd680e62ce71fbe63b4f1069934",
+      "obstacle_count": 7,
+      "parent_seed": 100237,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0038",
+      "map_sha256": "5131663b558637ea7a086963a86b1f3743789b4a920e5c6cf4f15235968ca98e",
+      "obstacle_count": 7,
+      "parent_seed": 100238,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0039",
+      "map_sha256": "7e800235d172357964395fb3acdc608942372c61d6bd80f5cb4abf3346d57813",
+      "obstacle_count": 7,
+      "parent_seed": 100239,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0040",
+      "map_sha256": "bfae6b1bb597f5b8e9e9e9cce71b712ed7548769324496620dd9235c670c5f37",
+      "obstacle_count": 7,
+      "parent_seed": 100240,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0041",
+      "map_sha256": "b8a65bea6e8b54bf8501e038b68e05a0690a982ffb1dfc6c036584b380522372",
+      "obstacle_count": 7,
+      "parent_seed": 100241,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0042",
+      "map_sha256": "f71e0fb19c8aeb5b9d2394c4613189cfebb06baa321f4a3d5959f129b8c14c6c",
+      "obstacle_count": 7,
+      "parent_seed": 100242,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0043",
+      "map_sha256": "0ce328d35d0ee4243f9f617c10187cdd167f81530ea6e896c211bb45e98528c6",
+      "obstacle_count": 7,
+      "parent_seed": 100243,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0044",
+      "map_sha256": "160989a0d30ccdb3f8881568dff88e5a74a239549cead2586ffad9e70aabc3cd",
+      "obstacle_count": 7,
+      "parent_seed": 100244,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0045",
+      "map_sha256": "01a577c3374dd904eab249714a339b2835a4e3635ac7f1a57b9690c0a4b5b64f",
+      "obstacle_count": 7,
+      "parent_seed": 100245,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0046",
+      "map_sha256": "dd23c5d9cd43befab59bc921b7268632d03e1019e1955ace38c2bc14bed2215c",
+      "obstacle_count": 7,
+      "parent_seed": 100246,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0047",
+      "map_sha256": "e9d5164dbb53a4dde9cd7c54c7fdb6b80883150528db1c717b65f45e6064bc2c",
+      "obstacle_count": 7,
+      "parent_seed": 100247,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0048",
+      "map_sha256": "edcdd5441884cb76260f35b6e0381b5ddcf0fb6d676808403a641cc1b6d2e689",
+      "obstacle_count": 7,
+      "parent_seed": 100248,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0049",
+      "map_sha256": "c59b74092286c5ccc3a6f6810062fd644c7c97a127bffc2526fb5441e470baf0",
+      "obstacle_count": 7,
+      "parent_seed": 100249,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0050",
+      "map_sha256": "e0bf8a0c772fc7935e0a9881ceea9c2273fd708e2cd5f827faabfbe4766e2841",
+      "obstacle_count": 7,
+      "parent_seed": 100250,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0051",
+      "map_sha256": "d12fae36b7210e83ec737ad4ba9748958a90f35c00a5a100a84b8cfa707263ca",
+      "obstacle_count": 7,
+      "parent_seed": 100251,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0052",
+      "map_sha256": "278904da3b84b57a259b4485e46c0c3d315cd877ceb0e0cc6fee816f65940fa4",
+      "obstacle_count": 7,
+      "parent_seed": 100252,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0053",
+      "map_sha256": "7aee424ed68761d86919aa17cded2f813ddff9423ff9787c570b83ec63a39843",
+      "obstacle_count": 7,
+      "parent_seed": 100253,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0054",
+      "map_sha256": "52f0295235ee103650401d2587b53c6ab7f93b3703a9da44234b27c69a9fc127",
+      "obstacle_count": 6,
+      "parent_seed": 100254,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0055",
+      "map_sha256": "979925071df6b8f42fb65bbb84aa2432c36c3d81eed1bfbbc9754ab839a112f5",
+      "obstacle_count": 6,
+      "parent_seed": 100255,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0056",
+      "map_sha256": "8d07672e9c1f42282b018f5b28c54e8c4c29297cc7df20bfd85f09082224bd41",
+      "obstacle_count": 7,
+      "parent_seed": 100256,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0057",
+      "map_sha256": "ef7a5cb11425b3a825ddccb208c6e1d4fa8cb14ce5a07e352845a70fca265c95",
+      "obstacle_count": 7,
+      "parent_seed": 100257,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0058",
+      "map_sha256": "1b332d558d5842f3aa26881b9edc0cf36cd81ddd1dc179964d6b68d6fd2baf4e",
+      "obstacle_count": 7,
+      "parent_seed": 100258,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0059",
+      "map_sha256": "c2bab872dbfb9a11ee637e389964d84bf76f57d1fff9694ba7ce8f3f6339b26f",
+      "obstacle_count": 7,
+      "parent_seed": 100259,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0060",
+      "map_sha256": "0ede96037102bf00c134195dcccb4074fdcbb1ab992a268a9d8713cf8c03b8ec",
+      "obstacle_count": 7,
+      "parent_seed": 100260,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0061",
+      "map_sha256": "74e5326d6541d25a3e71d4e45e0aa1735a5afc727ded319564fd4105f5f6cfdb",
+      "obstacle_count": 7,
+      "parent_seed": 100261,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0062",
+      "map_sha256": "10d04e1e5a20abf4dbd6135dcb4431735e084f67552c97260ea1dcaf6414bbce",
+      "obstacle_count": 7,
+      "parent_seed": 100262,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0063",
+      "map_sha256": "baeb2f9070202d601c687d759fe769aeab4cf32ab6ff3d5191b5e08b909d4959",
+      "obstacle_count": 7,
+      "parent_seed": 100263,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0064",
+      "map_sha256": "7ba081c48946b14f4ee4f3c73f8f165b988cfec37f34bd6514bdf9e521cd3f81",
+      "obstacle_count": 7,
+      "parent_seed": 100264,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0065",
+      "map_sha256": "8303064b32541bf58fc70ad305a86dfe0abb5f7b3873dbea62ad934ccc429afa",
+      "obstacle_count": 7,
+      "parent_seed": 100265,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0066",
+      "map_sha256": "f8173dc4dbfb46556d9d4379a6487d48ed265bcf98b3a32c08ea410f8cefca8d",
+      "obstacle_count": 7,
+      "parent_seed": 100266,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0067",
+      "map_sha256": "8d2da0325b884fbeca2e62cd992318506a4b13a09be75ed5b58113bd63602076",
+      "obstacle_count": 7,
+      "parent_seed": 100267,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0068",
+      "map_sha256": "597615c96dfb3ea566a1a5d722a1b811e9cc0247a21d0a42c6368430bc6717ab",
+      "obstacle_count": 7,
+      "parent_seed": 100268,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0069",
+      "map_sha256": "25bc7d8e4b18abbe84f8a4c1c2d270f9edb62e115d7eac832ac7cc55808a7bdd",
+      "obstacle_count": 7,
+      "parent_seed": 100269,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0070",
+      "map_sha256": "3c75d66a5ae7677e6639f3ed375905223b6ab74b18c506b128ba6d3c8b1a724c",
+      "obstacle_count": 6,
+      "parent_seed": 100270,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0071",
+      "map_sha256": "2c8dad3fca16fe9e07447aa0a58337fda68d414ab08dca0060d780a26b866c9a",
+      "obstacle_count": 7,
+      "parent_seed": 100271,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0072",
+      "map_sha256": "804b635fcbebf400a1f715fd5bbf40c0d90373634f3487fb2c90a367b4338f89",
+      "obstacle_count": 7,
+      "parent_seed": 100272,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0073",
+      "map_sha256": "3b5d6bd9abcc76a90d21b53d9668e44abb2132a79483d36237a3552b1dcb4ee0",
+      "obstacle_count": 7,
+      "parent_seed": 100273,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0074",
+      "map_sha256": "69096b74fadd1cfb76602ab8f5c1d540ee5557753d36e230d655f9c87a8aaa66",
+      "obstacle_count": 7,
+      "parent_seed": 100274,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0075",
+      "map_sha256": "c696f69243dd6e8fd129572016b22028922947e438c6b76fea71ed8c76570e5e",
+      "obstacle_count": 7,
+      "parent_seed": 100275,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0076",
+      "map_sha256": "fc1471b3a679a68833d47c162239c35f8104cd16d74ba1fb62ef52a4ebd1bc8e",
+      "obstacle_count": 7,
+      "parent_seed": 100276,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0077",
+      "map_sha256": "60e12ac64b82ad82d7d7321dfa326349eddbd91bee382b8a871806c9c1a8a2ac",
+      "obstacle_count": 7,
+      "parent_seed": 100277,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0078",
+      "map_sha256": "7dd77bc8253b801ae51adc9292e10b5584e0663c033a3bb68bf577c77457357c",
+      "obstacle_count": 7,
+      "parent_seed": 100278,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0079",
+      "map_sha256": "2c8b30b31cf3efc707b5e90aecc65c3cd73a4691e66fba51feb49a6190f670ab",
+      "obstacle_count": 7,
+      "parent_seed": 100279,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0080",
+      "map_sha256": "73b5490cd584e9af8b0f4f8d4b25a2d41167922cc980d0cb5b82b7378f005db8",
+      "obstacle_count": 7,
+      "parent_seed": 100280,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0081",
+      "map_sha256": "9d42c0360e7896d134039caeb00a598b8ba5237def9e9746e5c81804439e19db",
+      "obstacle_count": 7,
+      "parent_seed": 100281,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0082",
+      "map_sha256": "b6005f4ec2a4ede1f803ba24c08b113c4100dd61b6e637ab3b543bc96e5a8eaf",
+      "obstacle_count": 7,
+      "parent_seed": 100282,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0083",
+      "map_sha256": "753fb166aa829a4c8eac3940780814b466a3a6cddddfc780e6bcd5e45b38000b",
+      "obstacle_count": 7,
+      "parent_seed": 100283,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0084",
+      "map_sha256": "65eda5161e859bc22409299a1fc0cb87d826e101f99c16d358eb8a684e3bcbc4",
+      "obstacle_count": 6,
+      "parent_seed": 100284,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0085",
+      "map_sha256": "32fca1c7a8d048ec246db352a674d1e57c612e40e77bf5dad887fae3ee7bb51f",
+      "obstacle_count": 7,
+      "parent_seed": 100285,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0086",
+      "map_sha256": "c1296345535cedaaee58a13142cf676582c56eae49211ead2872f32a47d4b220",
+      "obstacle_count": 7,
+      "parent_seed": 100286,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0087",
+      "map_sha256": "3c0b3f08ce617c4a503f1d7f317b4813c3ee7e6941ce3f8c9958e1223f130826",
+      "obstacle_count": 7,
+      "parent_seed": 100287,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0088",
+      "map_sha256": "4333b0a192985641ea6dfaa1b636a9d0aa7b9858fb24782527a394d34ec2da43",
+      "obstacle_count": 6,
+      "parent_seed": 100288,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0089",
+      "map_sha256": "e3f0d5d1cb4178168042b587c75b271474e879d804dcb0ffa9df169a64a7c62a",
+      "obstacle_count": 7,
+      "parent_seed": 100289,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0090",
+      "map_sha256": "8a9c4828931fc2aa5de8bc502e2f92a1af01ae3bff3de390f92218fbf8d41384",
+      "obstacle_count": 7,
+      "parent_seed": 100290,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0091",
+      "map_sha256": "625b305010870b51f5754e7e175c46faa88f8cec6b61e04c3838f72c590de99e",
+      "obstacle_count": 7,
+      "parent_seed": 100291,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0092",
+      "map_sha256": "c84a8ab701aff937a0418a5ba5acc564c278a22f730357d6aae38117439ea3bd",
+      "obstacle_count": 7,
+      "parent_seed": 100292,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0093",
+      "map_sha256": "37bc53e2485926a0eab7df9645fa8f4ed91905c2d97590b474231b5f7c26815c",
+      "obstacle_count": 7,
+      "parent_seed": 100293,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0094",
+      "map_sha256": "e8d6318d7d5af0bbbfca422693b481351012c006dc5e7be6954485f30c575491",
+      "obstacle_count": 7,
+      "parent_seed": 100294,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0095",
+      "map_sha256": "cd4393b44d4001039f1b20b84d725acd909bb6fa1f92a9acdf316da7725bdb9f",
+      "obstacle_count": 7,
+      "parent_seed": 100295,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0096",
+      "map_sha256": "a45ab62ce061b81c8ce44363ca959738afbecdd9e7e3fa3144007402363b31d2",
+      "obstacle_count": 6,
+      "parent_seed": 100296,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0097",
+      "map_sha256": "15132c274166ea83d7421201c604360362eb5e0afdc34305399b6e6c1f2f176f",
+      "obstacle_count": 7,
+      "parent_seed": 100297,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0098",
+      "map_sha256": "f33e7c5b1e67c9a47e1caef3b1257cf77be099527fd429187cf354bc0b58314a",
+      "obstacle_count": 7,
+      "parent_seed": 100298,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0099",
+      "map_sha256": "1d8178dcb268c93c7f4adb21a3baa2ad911ff8a3f036e76ec162158f082f8f10",
+      "obstacle_count": 7,
+      "parent_seed": 100299,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0100",
+      "map_sha256": "4784386dcc55688c2815ed887f3bf26036d617608f698670148e74acc0f910ca",
+      "obstacle_count": 7,
+      "parent_seed": 100300,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0101",
+      "map_sha256": "59a2d7dd2938f4b1406b84542b84308715671ec65a17d1489fa3beec08dbd695",
+      "obstacle_count": 7,
+      "parent_seed": 100301,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0102",
+      "map_sha256": "5cbcda0a063a610999147a73b9a39acaefb69d78a6ea0116c75932a78c62aaf4",
+      "obstacle_count": 7,
+      "parent_seed": 100302,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0103",
+      "map_sha256": "0e07d938ea8be767cc801b5794dccdbb557a73c836101181deb4f0dba8b9d61f",
+      "obstacle_count": 7,
+      "parent_seed": 100303,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0104",
+      "map_sha256": "1b586a0a3ce974d9831ff28dfcbfdbc872e328777cd0ac27d150155dc055b146",
+      "obstacle_count": 7,
+      "parent_seed": 100304,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0105",
+      "map_sha256": "4e73cc390959f4e3535e3883f738006f6638ec53d8a8652affecad8559e56f3d",
+      "obstacle_count": 7,
+      "parent_seed": 100305,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0106",
+      "map_sha256": "b61208a191e0cf74171e7ddcee26146919bc3f04e6920b5a73d79e0dbe8f0d2f",
+      "obstacle_count": 7,
+      "parent_seed": 100306,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0107",
+      "map_sha256": "3f9c154aa0b4c1a5b89315c27e833a7c55f9418473d0def62fa90e891bf42e52",
+      "obstacle_count": 7,
+      "parent_seed": 100307,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0108",
+      "map_sha256": "262e552d5d463e8948cc06e08d6977fdea00f164e5093de1dfcb31ab2ffe11a1",
+      "obstacle_count": 7,
+      "parent_seed": 100308,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0109",
+      "map_sha256": "368a86ae95474cd80f292882d93fe87952f1ed962cba13b97ec8786f828a1309",
+      "obstacle_count": 7,
+      "parent_seed": 100309,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0110",
+      "map_sha256": "567b1037f6ca787f626647441294e8d917df158bf1ce64ef2de22919a142f2cf",
+      "obstacle_count": 7,
+      "parent_seed": 100310,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0111",
+      "map_sha256": "73e2dbbc5490e73a5b1b80e7f6eb6850575f91015c50ef42befcbf6c8087dfdf",
+      "obstacle_count": 7,
+      "parent_seed": 100311,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0112",
+      "map_sha256": "8d8fc9cefbcb1d65a24d48e1aca02c9c937927a3e8fae5524ecd820093435763",
+      "obstacle_count": 7,
+      "parent_seed": 100312,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0113",
+      "map_sha256": "c2468c85d98f856afa99d6796ae461c155b889b2f92f9ce75820696e78600fad",
+      "obstacle_count": 7,
+      "parent_seed": 100313,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0114",
+      "map_sha256": "d99798e1fe5724f47fa86dc2751f18181502150cf7701da1eeb144c3ec1e647f",
+      "obstacle_count": 7,
+      "parent_seed": 100314,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0115",
+      "map_sha256": "2bd52d5a218105fbca4af3bb55cc38c547900a88313f953b5a5b92186b05ffed",
+      "obstacle_count": 6,
+      "parent_seed": 100315,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0116",
+      "map_sha256": "1bf95131ce98a8341b773dbbdda72c8130f60de967a1e5400f79ee91438e9b24",
+      "obstacle_count": 7,
+      "parent_seed": 100316,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0117",
+      "map_sha256": "60e948e387565754a261d6e761b3478df290277a46804cc94e35af4225f44a9e",
+      "obstacle_count": 7,
+      "parent_seed": 100317,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0118",
+      "map_sha256": "ab5e17472319398d2657d3e3e4318b4f49f5e3b25abc7ba1566be09b45d72bc6",
+      "obstacle_count": 7,
+      "parent_seed": 100318,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0119",
+      "map_sha256": "df7a2c1cab9e69563e1be5f72584145546fb8901e2418d11a6e945e01ed251a6",
+      "obstacle_count": 7,
+      "parent_seed": 100319,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0120",
+      "map_sha256": "c2c4985052d07aa0e7b4f729f3b21874bdebb2eab7388b8ad58fd1789a3b50f4",
+      "obstacle_count": 7,
+      "parent_seed": 100320,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0121",
+      "map_sha256": "914924750879d91d330696eb70a80edde9f60109a735474ed199c906809f9350",
+      "obstacle_count": 7,
+      "parent_seed": 100321,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0122",
+      "map_sha256": "23a980e37aa30154636cb2487cf7b8355066142f6752379760c3b6530d54cfae",
+      "obstacle_count": 7,
+      "parent_seed": 100322,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0123",
+      "map_sha256": "e22426ef97a3bf67b8e5cf1edd5e0bc0f2567ff9f03a44112fd7ef1314965d45",
+      "obstacle_count": 7,
+      "parent_seed": 100323,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0124",
+      "map_sha256": "512804f925dc1d36e08fe504c50e7a119950a95450521d15973ebbbd8443fa90",
+      "obstacle_count": 7,
+      "parent_seed": 100324,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0125",
+      "map_sha256": "5440d28571b6c34c976209565cb7028cd7a1e9873fcd20b9c246720c45e3db5d",
+      "obstacle_count": 7,
+      "parent_seed": 100325,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0126",
+      "map_sha256": "4d2ad46055c9842f8b9755e9029ed52787378c9143bffb4f46e1a7e5e4c7c3a1",
+      "obstacle_count": 7,
+      "parent_seed": 100326,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0127",
+      "map_sha256": "41bbf5ce377af122a2c99dea4a34bb45bae318fe438e248f34d09b1aa71b1dec",
+      "obstacle_count": 7,
+      "parent_seed": 100327,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0128",
+      "map_sha256": "4ed84ac1665f5039a82d61aa35d933e11caaade8da4ef95428ba5179f142ca40",
+      "obstacle_count": 7,
+      "parent_seed": 100328,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0129",
+      "map_sha256": "115b1ab3dc9e4813e745b59b3fda3ef5452f1d69de7b72a35c929dd9d4acbab7",
+      "obstacle_count": 7,
+      "parent_seed": 100329,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0130",
+      "map_sha256": "b9289cb5f2048d67e899ada30c3fbc8cc85162d1c39e136293d60398c90deb0a",
+      "obstacle_count": 7,
+      "parent_seed": 100330,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0131",
+      "map_sha256": "9e7326a1ebf77761f471640ec504a77f9d4e6fbc889468561db2dcd750ab7496",
+      "obstacle_count": 7,
+      "parent_seed": 100331,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0132",
+      "map_sha256": "c24b315d49623e861ae271bf596118da0ce6283117cbe5c7981d8f166ec80b46",
+      "obstacle_count": 7,
+      "parent_seed": 100332,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0133",
+      "map_sha256": "2fd91fa06edd77ab0ccb99a04d5ba110e522f49c475a3df8e32524e7684d0b16",
+      "obstacle_count": 7,
+      "parent_seed": 100333,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0134",
+      "map_sha256": "dc9ec89065fed4c637fae32fe878610565cc19935cfb919d3e96ff3169e159a0",
+      "obstacle_count": 7,
+      "parent_seed": 100334,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0135",
+      "map_sha256": "65fb6598dad5770289cc92b8744d17dd37f8ae5779f0557f12f8bb30d164862a",
+      "obstacle_count": 7,
+      "parent_seed": 100335,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0136",
+      "map_sha256": "d9c9b311dcf8746d10b2c1bab7bc41202a4ac2a976863978567a4254aa37ce4e",
+      "obstacle_count": 7,
+      "parent_seed": 100336,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0137",
+      "map_sha256": "ffb969106622b8c18c59fcc3da5959d749e10db32b3061bab9a15fe7c3f50f74",
+      "obstacle_count": 7,
+      "parent_seed": 100337,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0138",
+      "map_sha256": "53a30e62d45f7bcb1d304bf20603f7f0a608ab7fcf1709021f19223a0f358517",
+      "obstacle_count": 7,
+      "parent_seed": 100338,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0139",
+      "map_sha256": "fad7c5e98b1435c68ceb95c43c144ff32bc95e782d9474a71dfc0dbc4eea68d2",
+      "obstacle_count": 7,
+      "parent_seed": 100339,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0140",
+      "map_sha256": "db207cc28f8b38a00fdc662258b34afdf832d8b0854d7518312c71a315a92e02",
+      "obstacle_count": 7,
+      "parent_seed": 100340,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0141",
+      "map_sha256": "fb220168c0966ff122d68de34d41dce2523c76ccef309dd8de984415d12d5902",
+      "obstacle_count": 7,
+      "parent_seed": 100341,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0142",
+      "map_sha256": "17796a509c42dbd25d76ef0458e302ca1c1ba55bec3e575cf55bdbf460232e23",
+      "obstacle_count": 7,
+      "parent_seed": 100342,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0143",
+      "map_sha256": "4c5ca63071fec6cf6991da066d5d746c1e0de8ef247d2091aa9bc91c759f800b",
+      "obstacle_count": 7,
+      "parent_seed": 100343,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0144",
+      "map_sha256": "f679c99908d1067644966a3c7a928b214076ddc7af33a48aa6ca4f583d92b8fc",
+      "obstacle_count": 7,
+      "parent_seed": 100344,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0145",
+      "map_sha256": "ddfa1b81c18ff34141bd1404994ae8038cfd4912de4bce7d173b55efb9c73e40",
+      "obstacle_count": 7,
+      "parent_seed": 100345,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0146",
+      "map_sha256": "a2dd7337d615e966142c618c04f9e06825704f2c118852c0fe68f6ec523e0439",
+      "obstacle_count": 7,
+      "parent_seed": 100346,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0147",
+      "map_sha256": "80204f287efc0cc2f875940b0b2903dabf5e2f0b117e1a6f4c1a5a701c94a926",
+      "obstacle_count": 7,
+      "parent_seed": 100347,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0148",
+      "map_sha256": "4379176a7e597af1af33be5ee43a9676616d8fad18155879c962542c97ad27df",
+      "obstacle_count": 7,
+      "parent_seed": 100348,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "train/bottleneck/0149",
+      "map_sha256": "9337cd743a8682e03170d32e56aee148c92552cda2169c0e8c25727f820fa9de",
+      "obstacle_count": 7,
+      "parent_seed": 100349,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0000",
+      "map_sha256": "e08fe21057d34e775577e75193627ed2ee12bc77bcb82dcb02186f0fcc66a751",
+      "obstacle_count": 16,
+      "parent_seed": 100350,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0001",
+      "map_sha256": "fb2a02b38d3697ea5bbf4eb34cc516d71f728b6d3a2cfb81e88adcaf0ad38401",
+      "obstacle_count": 17,
+      "parent_seed": 100351,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0002",
+      "map_sha256": "fb1bcdcf3931f032a0c477d37b72b11e1d6b8176a0fad683eeb2b369cbffe6b8",
+      "obstacle_count": 17,
+      "parent_seed": 100352,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0003",
+      "map_sha256": "aa95b0aa5011d5b66373b4d8f5dcb287d308ea075addd5a926d6bb3f4fa6874c",
+      "obstacle_count": 16,
+      "parent_seed": 100353,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0004",
+      "map_sha256": "685ee66ebad33a0c5dcc5811eaa25e13435b570aac6030c99303f1a756282841",
+      "obstacle_count": 17,
+      "parent_seed": 100354,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0005",
+      "map_sha256": "1836243536ec368a195ecdf1926ab872ad9f4ed8bbec44a78fb03a6e33cb4e5b",
+      "obstacle_count": 16,
+      "parent_seed": 100355,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0006",
+      "map_sha256": "8084b42909433dfd63403eadffebf0b293e6a12192f4a8693b8e2edc2ebab4a6",
+      "obstacle_count": 17,
+      "parent_seed": 100356,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0007",
+      "map_sha256": "e6dfc324cfee56b08f505b6523ecc20d866d14af5a02ffe7d67c733eba1fee10",
+      "obstacle_count": 15,
+      "parent_seed": 100357,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0008",
+      "map_sha256": "01eb8df473692ce73f89e116a27fd4ede7f0c49799e71b168bf45ef304a31136",
+      "obstacle_count": 17,
+      "parent_seed": 100358,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0009",
+      "map_sha256": "596bf7531fcb192dc418daa625bb8b69058f2157cf32bb5aa6f98e5ccfff26b6",
+      "obstacle_count": 17,
+      "parent_seed": 100359,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0010",
+      "map_sha256": "7e0abde15e792d9a75c02affec2b3fe48fd83b083f9024e9cef21af707ce8b20",
+      "obstacle_count": 16,
+      "parent_seed": 100360,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0011",
+      "map_sha256": "7d5d082b171306e8dbad37d71b657e85ba82e21f4cdc1f914a1609da4aba96fa",
+      "obstacle_count": 17,
+      "parent_seed": 100361,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0012",
+      "map_sha256": "989fafb11dba6b24d95f4aebf576db82d915f856f256e27f3431e0b3696bafbd",
+      "obstacle_count": 16,
+      "parent_seed": 100362,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0013",
+      "map_sha256": "d73a68739f30e4d1b4c48c02c1087660ee76f2b985fedd9f6f47e33ab536ccf3",
+      "obstacle_count": 17,
+      "parent_seed": 100363,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0014",
+      "map_sha256": "1d42b1f2618f668ed8a7fea28fc62160124eec2fba5fcd8af7a543b2d5f27f22",
+      "obstacle_count": 17,
+      "parent_seed": 100364,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0015",
+      "map_sha256": "dfe6bf5dc46485fddfe9418e820d8132aa96b1e3cdb99d1eda7f3e7254fc0e7f",
+      "obstacle_count": 17,
+      "parent_seed": 100365,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0016",
+      "map_sha256": "b12baaa456cd0d599240e454b22552865bf59423ab54992039827588b4b93141",
+      "obstacle_count": 16,
+      "parent_seed": 100366,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0017",
+      "map_sha256": "dc5fb0e5c8935427c4c366d9be4cd69188164a8fef95b527a03d36bfb83b1145",
+      "obstacle_count": 17,
+      "parent_seed": 100367,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0018",
+      "map_sha256": "3ddae79f4a4b929e7a8ba7cbf4492ce420f437b4e6fb5b1e3110b5486c9609d3",
+      "obstacle_count": 16,
+      "parent_seed": 100368,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0019",
+      "map_sha256": "aa5cff48f657da386194b7da01a54988e9ea59ec019858adcea027e1e6f29988",
+      "obstacle_count": 17,
+      "parent_seed": 100369,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0020",
+      "map_sha256": "e135b08051e8a5eded2032c188c53ec899635966a580af6b76821ce208282e6f",
+      "obstacle_count": 17,
+      "parent_seed": 100370,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0021",
+      "map_sha256": "e2baf28d1dd94dd0774a8591b6e3df5899526f1343cfe7fe20766d357b7794df",
+      "obstacle_count": 17,
+      "parent_seed": 100371,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0022",
+      "map_sha256": "39283ea814636dc5e42f35b614d450bf47050eee94a70dcbf271040d6cd1b294",
+      "obstacle_count": 17,
+      "parent_seed": 100372,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0023",
+      "map_sha256": "5b987f55e7a729d9c3bf4de5ac28ca9f3bbe9262a8ed8b9a39f9a50cb2bb15de",
+      "obstacle_count": 16,
+      "parent_seed": 100373,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0024",
+      "map_sha256": "46ca5c0a65b035fe6aef77da8b980b8df439ccb4e23fa2c55a5b3e9a7dd9fbe6",
+      "obstacle_count": 17,
+      "parent_seed": 100374,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0025",
+      "map_sha256": "fa7297ce2577602df2ca3cf256dc4dea2642a2363aa4fc386b746f5f7285efcd",
+      "obstacle_count": 17,
+      "parent_seed": 100375,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0026",
+      "map_sha256": "53f1f2c0f4ef03fc9f1e73ecd8646cfbe1b8f789b8da165481d3b4fee27e79fa",
+      "obstacle_count": 16,
+      "parent_seed": 100376,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0027",
+      "map_sha256": "61113dfe0cd8ff881681f69c93f797e408525a7f056948fffef591bbf4ca22ad",
+      "obstacle_count": 16,
+      "parent_seed": 100377,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0028",
+      "map_sha256": "154c603e859d318072897326b4fa54286c934813c9d1b26bb491f61d88e1bf7c",
+      "obstacle_count": 17,
+      "parent_seed": 100378,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0029",
+      "map_sha256": "c62a97e0c4c3709abe81a4fe2a32ca8e7123f8391cd6514d9b0ad5ec19688011",
+      "obstacle_count": 16,
+      "parent_seed": 100379,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0030",
+      "map_sha256": "a8764b90521f67f04ca1caea008fb855a835e1a83b5e61dfd9e87d864985c191",
+      "obstacle_count": 15,
+      "parent_seed": 100380,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0031",
+      "map_sha256": "8d508070b9768247cdf43e1f4f93854db3955f39017a7ebc88e42c3a5db72944",
+      "obstacle_count": 16,
+      "parent_seed": 100381,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0032",
+      "map_sha256": "dff53b9ae0e63dcc39e361e9e1939511ddaf691a045e865290d23e7db079a1e2",
+      "obstacle_count": 17,
+      "parent_seed": 100382,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0033",
+      "map_sha256": "01cad4ac85097feaefcef8a6d8d8c5b4a8b26b4d05467f0b048787d06ec2f1d6",
+      "obstacle_count": 15,
+      "parent_seed": 100383,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0034",
+      "map_sha256": "2af2caa85fe294c895fc533f9fef4ad5fe8c29bc34bf2a985dc4fd69aa5c5514",
+      "obstacle_count": 17,
+      "parent_seed": 100384,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0035",
+      "map_sha256": "4c0a7a6781eeed22669a253e805a82e6f334a29c19b7316a2257030f18ddcfbd",
+      "obstacle_count": 17,
+      "parent_seed": 100385,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0036",
+      "map_sha256": "a176734ce6c8052537433f9cd1b896c2f01b7e2e473ccbe9cd81aff475595f61",
+      "obstacle_count": 16,
+      "parent_seed": 100386,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0037",
+      "map_sha256": "d9cc6e7f4ebc8fd6c83f4f51e91e5c2a32c3742821c01de679405e15588b6b22",
+      "obstacle_count": 16,
+      "parent_seed": 100387,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0038",
+      "map_sha256": "40dc712710fb1625b70dc098b0cca59f0297cdb5a50dd000769153a10f7f1746",
+      "obstacle_count": 17,
+      "parent_seed": 100388,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0039",
+      "map_sha256": "3d4d700cb62e069c5e5d42043f720a555663d98bf6dec3d73b4f99d45d4910ca",
+      "obstacle_count": 17,
+      "parent_seed": 100389,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0040",
+      "map_sha256": "37c0c61337c7c3a4503c40f84a7cca5b02807ee73830af6b68970e08db8989bb",
+      "obstacle_count": 16,
+      "parent_seed": 100390,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0041",
+      "map_sha256": "1f8c854df7f0a128259d62749ef6d5b04f045d2fcc12928ce90097e4c4ca7892",
+      "obstacle_count": 17,
+      "parent_seed": 100391,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0042",
+      "map_sha256": "eca01c8bb65bf18dba6515823b49e1c19393ebd41be2ddca34697ef5e449ac92",
+      "obstacle_count": 17,
+      "parent_seed": 100392,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0043",
+      "map_sha256": "4b344f3b5abc02115fc8dc92e53e461b8472d7628b4dce33ad024887f53229b2",
+      "obstacle_count": 17,
+      "parent_seed": 100393,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0044",
+      "map_sha256": "4a91f15d251aa12ffcd6aa39f08f5aed5d77adecbd880afe73a0dafd1155addf",
+      "obstacle_count": 17,
+      "parent_seed": 100394,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0045",
+      "map_sha256": "190682f49ab273befc958cf1df85dd7580b2619d9695ddf135cd0519ad723959",
+      "obstacle_count": 17,
+      "parent_seed": 100395,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0046",
+      "map_sha256": "7fedb683cc1c227f569ea277f894aea8b086f468466acdc8968930ddd77eaedf",
+      "obstacle_count": 17,
+      "parent_seed": 100396,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0047",
+      "map_sha256": "d4fa988b15cdc848ca9af1f6a3c3dd0cea4611828c4af733632f970df464a0f8",
+      "obstacle_count": 16,
+      "parent_seed": 100397,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0048",
+      "map_sha256": "f12bc43e42930f7ed917827d9a2344a5d55c9f8832e252f99253c9d38b0201ad",
+      "obstacle_count": 17,
+      "parent_seed": 100398,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0049",
+      "map_sha256": "5e9ebbb366de2b825ff945bd877899891c62d0e690501780f7fc9ff82ea81dc8",
+      "obstacle_count": 15,
+      "parent_seed": 100399,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0050",
+      "map_sha256": "a11c6b8808d66d02bc1931036a3b62f852a8155bf3f64f75dde2d5ca676a840c",
+      "obstacle_count": 16,
+      "parent_seed": 100400,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0051",
+      "map_sha256": "01d37ce0f229bbda57f78cb591c255972f90a6fee3e7d13db91376a6e854d024",
+      "obstacle_count": 17,
+      "parent_seed": 100401,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0052",
+      "map_sha256": "327836308c8cf00e3b87b2f494f0a13117c9cefb1da73365fc7e1d8dc8490d29",
+      "obstacle_count": 17,
+      "parent_seed": 100402,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0053",
+      "map_sha256": "d99b5901f8bf4f7246e535565f471032ca90e91c97c065c5a262a318c530f38b",
+      "obstacle_count": 17,
+      "parent_seed": 100403,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0054",
+      "map_sha256": "c21c75a560050e91a7b930975f29e936646f12c2579cac51c4f8d414408c5925",
+      "obstacle_count": 15,
+      "parent_seed": 100404,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0055",
+      "map_sha256": "734bdbd6bbc523f91c21c3fd8026779786805c64415493cda71db3b9dd5bb83c",
+      "obstacle_count": 16,
+      "parent_seed": 100405,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0056",
+      "map_sha256": "8007bfe77d7c051ed279d711e3ff2689e227021cf3d37a2b4e29a2147ad78ea0",
+      "obstacle_count": 16,
+      "parent_seed": 100406,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0057",
+      "map_sha256": "dcc0a441fffe3e008218fe4de4d373328568cf3809a452245755213fe335b4d9",
+      "obstacle_count": 17,
+      "parent_seed": 100407,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0058",
+      "map_sha256": "f2f13360ef1ee907b831d6d4020fa1052b0b8e0c567552227ad9e7484544775d",
+      "obstacle_count": 17,
+      "parent_seed": 100408,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0059",
+      "map_sha256": "8f98df6c1eb0ff757f1a4535f611bee7c380653758d992d6899a272331f8dd72",
+      "obstacle_count": 17,
+      "parent_seed": 100409,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0060",
+      "map_sha256": "d798865c08938db1e2adf19f87fac330c97946c95aa6c5a9d2f0b68b42fa126c",
+      "obstacle_count": 17,
+      "parent_seed": 100410,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0061",
+      "map_sha256": "d70025ae90bb1a4ed46b1796e1d5b5bf98064231317e4cc3fd02305705e7b829",
+      "obstacle_count": 17,
+      "parent_seed": 100411,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0062",
+      "map_sha256": "9c40b4de2c96f94d8a4de5fbf76df43d5eb1aae676a4cf6559a4e8f7bc4d1d9e",
+      "obstacle_count": 17,
+      "parent_seed": 100412,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0063",
+      "map_sha256": "9de58bfef8de71a08d05414ead06be8f788e28e7cea8fccc44d1c74177426556",
+      "obstacle_count": 17,
+      "parent_seed": 100413,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0064",
+      "map_sha256": "8ab49988fc2f2492cf3e860f202e68dbefdb512cd72500344f116836b5d93974",
+      "obstacle_count": 17,
+      "parent_seed": 100414,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0065",
+      "map_sha256": "d682b936ba787ca3edfb55b8d930c7c3b1586b8c81ac6de99a8adb4f9796e250",
+      "obstacle_count": 17,
+      "parent_seed": 100415,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0066",
+      "map_sha256": "89c20a262f7299e302be417809fffdedc047d524af9fa230c30d05f2db761017",
+      "obstacle_count": 17,
+      "parent_seed": 100416,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0067",
+      "map_sha256": "007bbe1648481433aa9eef64fda7668f1ddbc71d57e7d75aac3c64ffec894863",
+      "obstacle_count": 17,
+      "parent_seed": 100417,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0068",
+      "map_sha256": "96a30643c19b51ee50abde97b72669b67aba54be6eba854312d732974dabd808",
+      "obstacle_count": 17,
+      "parent_seed": 100418,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0069",
+      "map_sha256": "d6dee82c2826bd08d4667669b53def4e1eb56913a2c981e82e9def03dfc28ac2",
+      "obstacle_count": 17,
+      "parent_seed": 100419,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0070",
+      "map_sha256": "f4e54af4cefe80029cb636a0305ddc6b33c2690edf8106f820b28cc78c8e4d10",
+      "obstacle_count": 16,
+      "parent_seed": 100420,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0071",
+      "map_sha256": "fcab8fcd9681f14aa0c7ba709adee5ad13ba85c12bbbfbb2088d725106e3a6d3",
+      "obstacle_count": 17,
+      "parent_seed": 100421,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0072",
+      "map_sha256": "96bdcddaa6f3764422c00d9675b1abae66d93dbb4c7912780f52c167f40ea80b",
+      "obstacle_count": 17,
+      "parent_seed": 100422,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0073",
+      "map_sha256": "1b7df0b9c9368b465e50180fdecabc54fe431f27798bb203d00d12246e6c0895",
+      "obstacle_count": 17,
+      "parent_seed": 100423,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0074",
+      "map_sha256": "cbca7a855e5626677a8122da59d161bce85c433059ecb2fa96419dff6b6013db",
+      "obstacle_count": 17,
+      "parent_seed": 100424,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0075",
+      "map_sha256": "13073a0d331800d19346af28bd49ddf7e233a4920f9630b11a344124729f976a",
+      "obstacle_count": 17,
+      "parent_seed": 100425,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0076",
+      "map_sha256": "6e069a7f73378de4175260f48ab9c560d0734237b03bd9f363b5e09b40e0f8af",
+      "obstacle_count": 17,
+      "parent_seed": 100426,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0077",
+      "map_sha256": "3897e4769be4aef0f8069f7390f49fc4d81519fa520159271960f9084f720b4e",
+      "obstacle_count": 17,
+      "parent_seed": 100427,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0078",
+      "map_sha256": "e2d00d0063bfdccc202449e8e21bd2b5abca34f3843da445319ce95a6a464be1",
+      "obstacle_count": 17,
+      "parent_seed": 100428,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0079",
+      "map_sha256": "5916fde84b29c8aa622a65ee2e077943cf2ca73e0f3d504eee03fb9d6d89e1d4",
+      "obstacle_count": 17,
+      "parent_seed": 100429,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0080",
+      "map_sha256": "91a93ee34b6947967010511764ddaf41c8615abdc9bc98674fb7eed8d3cffdad",
+      "obstacle_count": 17,
+      "parent_seed": 100430,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0081",
+      "map_sha256": "4d570e887650a2b5fddfc9fc02cd89ab1265f096872b9300591a0743f7ccbee4",
+      "obstacle_count": 17,
+      "parent_seed": 100431,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0082",
+      "map_sha256": "afca81ec9ff9e10cdb6854663884687977bbbef8738c002eca8837b2a83b485e",
+      "obstacle_count": 17,
+      "parent_seed": 100432,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0083",
+      "map_sha256": "5d58950a09c8fae14fd96d115dde27b71af1888cae0330a8ba0f0f25449c81da",
+      "obstacle_count": 17,
+      "parent_seed": 100433,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0084",
+      "map_sha256": "dde12e17233d52bccd470513a69b004366fe0cec2e3b2833cebf4d416d7f42e1",
+      "obstacle_count": 17,
+      "parent_seed": 100434,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0085",
+      "map_sha256": "29a7365e360578af188d2fa88e96257d980830c926f0e510b00ba826767f43e9",
+      "obstacle_count": 17,
+      "parent_seed": 100435,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0086",
+      "map_sha256": "dcc6c07199dfc4fbe59b35c6ece5795e10af830e89bcecf324af2cff38483b83",
+      "obstacle_count": 17,
+      "parent_seed": 100436,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0087",
+      "map_sha256": "2fc4742c31f119bd28055028a5081437bc2988ce6903781199689e45da849644",
+      "obstacle_count": 17,
+      "parent_seed": 100437,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0088",
+      "map_sha256": "e506563575927aca2d19eeb3a2b00af74e68484ccb606a0578462dcc3f7aae12",
+      "obstacle_count": 17,
+      "parent_seed": 100438,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0089",
+      "map_sha256": "7b4aee1d97d6e240a2b257c76bcebb919632c00cc1824d90737c113881fd88e0",
+      "obstacle_count": 17,
+      "parent_seed": 100439,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0090",
+      "map_sha256": "aa3fc6dcfef12ddbefcad5074c11d6d7502d2c8246d2aa9f3f54e556e80337e9",
+      "obstacle_count": 17,
+      "parent_seed": 100440,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0091",
+      "map_sha256": "7052c03d476ff4e6df63f20bf3124ef5c6da05d6f8a108e92b6a103b5911f42d",
+      "obstacle_count": 17,
+      "parent_seed": 100441,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0092",
+      "map_sha256": "5af08bb7f6f60d9afa8e916b6c69c01bdfb4f4501157730ddada72d950cbbce6",
+      "obstacle_count": 17,
+      "parent_seed": 100442,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0093",
+      "map_sha256": "b07f5bfa5c887f1ce70d371877677c1f342dfd6b7287af736e612d06b641d5b5",
+      "obstacle_count": 17,
+      "parent_seed": 100443,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0094",
+      "map_sha256": "d9322dab710b2e9e1727e249bc8421301ebd0857525decc524ffec08d2343612",
+      "obstacle_count": 17,
+      "parent_seed": 100444,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0095",
+      "map_sha256": "dd51012ae8e88269da777e3f62fe4cc5c7d27920f0cc412c94f309e1d954c609",
+      "obstacle_count": 17,
+      "parent_seed": 100445,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0096",
+      "map_sha256": "ab61dc5e417b5958ce5e1151521410ebe36629757c2235b81c85548e2ade84fb",
+      "obstacle_count": 17,
+      "parent_seed": 100446,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0097",
+      "map_sha256": "7faaf8d8e192a15adf3e6e5a77ed0038e63d052c3d1501310e84736d1546013d",
+      "obstacle_count": 15,
+      "parent_seed": 100447,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0098",
+      "map_sha256": "db110cc280721a22212fc8ef0c32207ddbc6a9dd517bab5b940fae6a82636f86",
+      "obstacle_count": 17,
+      "parent_seed": 100448,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0099",
+      "map_sha256": "31367f23354fbdb23002382407395693e38ec668167d50ee3f9698fd2082c753",
+      "obstacle_count": 16,
+      "parent_seed": 100449,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0100",
+      "map_sha256": "d9dca4c90572c390782e9044b217020ea0e66e00b541f5079f0620325b4114f2",
+      "obstacle_count": 17,
+      "parent_seed": 100450,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0101",
+      "map_sha256": "5bec3cdf5429c0c9ecf0834851265d62d866627ce6f869b9a950f6a488c07771",
+      "obstacle_count": 17,
+      "parent_seed": 100451,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0102",
+      "map_sha256": "15ca0e4c0b1e1cf08a4c0d81c46169ea505c90dcb05b6e3b64c5e28b8244386a",
+      "obstacle_count": 16,
+      "parent_seed": 100452,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0103",
+      "map_sha256": "8566d1dc69ecd3de039cee6315b22015c9df1aea758e10b81cea2147c1d337f8",
+      "obstacle_count": 17,
+      "parent_seed": 100453,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0104",
+      "map_sha256": "d02198ec879368e276d98a6716e024c427c6804fdc8bb5abd81ea8e9c18fe66e",
+      "obstacle_count": 17,
+      "parent_seed": 100454,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0105",
+      "map_sha256": "1c298faaa5f316d2b4fd6250099ef3e40f1256f2012b7136347767c1dfa3852e",
+      "obstacle_count": 17,
+      "parent_seed": 100455,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0106",
+      "map_sha256": "aee0382a0b0ba6ea4f2bb09ea07dcb8436d749e17bca544b2c2f2576b30c8682",
+      "obstacle_count": 17,
+      "parent_seed": 100456,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0107",
+      "map_sha256": "12d276309a5ea2876fd0656e2b9a36b6e246157de267ed2c197d1287245baf36",
+      "obstacle_count": 17,
+      "parent_seed": 100457,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0108",
+      "map_sha256": "11b2c279092209a1c5b2fc9000f744651e9fd5acae8e7dce9da2b57ae794db6e",
+      "obstacle_count": 16,
+      "parent_seed": 100458,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0109",
+      "map_sha256": "20e3c2beee1990ec3f68bc1ec875de37f18777f51ae0ee01e62a1aedf4879edc",
+      "obstacle_count": 17,
+      "parent_seed": 100459,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0110",
+      "map_sha256": "f2e29409bdceba869f213eeedfd4c6c9df2b3299635d1fe829abdda6bbdbc274",
+      "obstacle_count": 17,
+      "parent_seed": 100460,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0111",
+      "map_sha256": "068af7a2c12d94532911bcd1d1a7b861dd588da166e5be6678d902795962c6df",
+      "obstacle_count": 17,
+      "parent_seed": 100461,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0112",
+      "map_sha256": "c6ff7931646fddcda7ffbbc76c26d7d5947c5f2ba2fef5b443784853dd405d12",
+      "obstacle_count": 16,
+      "parent_seed": 100462,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0113",
+      "map_sha256": "4c5f439bdbf15a8c447e5581711b2bd9350436297878d167b01519f8c7c042eb",
+      "obstacle_count": 17,
+      "parent_seed": 100463,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0114",
+      "map_sha256": "bc9910a47a913b674931c68527ec9a8e29a6ce0690bc3daccd02cee40884d918",
+      "obstacle_count": 17,
+      "parent_seed": 100464,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0115",
+      "map_sha256": "a78ef9ddcf4f5bd559ea2c8241c5f3163edb4674ca02a4b6b8241bcb59102d73",
+      "obstacle_count": 17,
+      "parent_seed": 100465,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0116",
+      "map_sha256": "da85929e79a05faa542548a97db50ff880dd8657f793eef6385d64121279a504",
+      "obstacle_count": 17,
+      "parent_seed": 100466,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0117",
+      "map_sha256": "f594164e3bc022a5f8a26f5fde154bb3e9cbbf7961666c1f694c1d144dcd40eb",
+      "obstacle_count": 16,
+      "parent_seed": 100467,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0118",
+      "map_sha256": "b74333a60a0893baa753d0553dea629dc0bc64df7e02f4e9b0dd64d544696a69",
+      "obstacle_count": 17,
+      "parent_seed": 100468,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0119",
+      "map_sha256": "32d6a1bec123841bb249f799b93489f3d51da29ca3c68ca9ea209ddb68bd12de",
+      "obstacle_count": 17,
+      "parent_seed": 100469,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0120",
+      "map_sha256": "5383379ea3a4bba73dc8345ec48089b8710127f55f80666f60ce3244a754ceca",
+      "obstacle_count": 17,
+      "parent_seed": 100470,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0121",
+      "map_sha256": "413594f00080f3a0719caa39d370eed8b1c37930b68bb9da68e0b6dee1fbd0d8",
+      "obstacle_count": 15,
+      "parent_seed": 100471,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0122",
+      "map_sha256": "d12b438f32aad637e018fe7e02fa0c1cc4424b17162fbf23cdae4894b1e9fa20",
+      "obstacle_count": 17,
+      "parent_seed": 100472,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0123",
+      "map_sha256": "65de4bce520e6f354f760aec17d8fa7c5ea58a9ab91f532b66a11b15a08ae1b2",
+      "obstacle_count": 17,
+      "parent_seed": 100473,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0124",
+      "map_sha256": "610570384d2cb684934ff34869f3d508b4e7725f2d6451d857bbd93a1a297090",
+      "obstacle_count": 17,
+      "parent_seed": 100474,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0125",
+      "map_sha256": "00112f2b48ecfccc45757796eadd76caaa91d8d0311e8c5582c23b6b6698cf93",
+      "obstacle_count": 17,
+      "parent_seed": 100475,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0126",
+      "map_sha256": "22be944b02083f57407fe6556764294f64b7e3d15bb928f138c48a7b508c1f19",
+      "obstacle_count": 17,
+      "parent_seed": 100476,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0127",
+      "map_sha256": "5808a01c06c45a02cb651fe4b1f711b0eb66fee6429e9e959eb9ff7a3d9557fc",
+      "obstacle_count": 16,
+      "parent_seed": 100477,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0128",
+      "map_sha256": "037214872a64b487555d65e494dc57e4e0b338a614c00f4cb6a74742c609e8b1",
+      "obstacle_count": 16,
+      "parent_seed": 100478,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0129",
+      "map_sha256": "e7770bd72afbbd168ea2075cd8d7d516646e1084d370f0717ad6ab1f52ff5a5c",
+      "obstacle_count": 16,
+      "parent_seed": 100479,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0130",
+      "map_sha256": "ff8b8413d2c5bff7d3916ce14965a3d42fa65ff59058f59c43059a97087ad813",
+      "obstacle_count": 17,
+      "parent_seed": 100480,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0131",
+      "map_sha256": "d36347b235bf914a75f7fc1982eed94fa04d33cabd8d00b99f9ab369bc2fcba8",
+      "obstacle_count": 17,
+      "parent_seed": 100481,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0132",
+      "map_sha256": "7f6cdb69a5e05eec506945a5995a15a9dcc1027b4c2eff78af54d06c5b03fed6",
+      "obstacle_count": 17,
+      "parent_seed": 100482,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0133",
+      "map_sha256": "32623c3ae332b47533334ec34d470bb0a3f5d51626f6b113e614ac85854d774e",
+      "obstacle_count": 15,
+      "parent_seed": 100483,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0134",
+      "map_sha256": "b215dbc7364e2da93aab2ce6663de97dd06c5c67dead95eb7bdcfb244321e544",
+      "obstacle_count": 17,
+      "parent_seed": 100484,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0135",
+      "map_sha256": "53d92de67017551ceb256c4e8dbcd813c168ffcdc294e908d4cf117636472920",
+      "obstacle_count": 17,
+      "parent_seed": 100485,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0136",
+      "map_sha256": "e1c7b8c5bca89a1280295014d907061ab1d65b295ecb3b7d7a3939368e05af68",
+      "obstacle_count": 16,
+      "parent_seed": 100486,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0137",
+      "map_sha256": "328ed8ea918c236d7b585869286e95a20c7dd591778a4489129c27e700eb2f79",
+      "obstacle_count": 17,
+      "parent_seed": 100487,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0138",
+      "map_sha256": "c76fc3a8120ef537638ab95cd09eab18a9bdb3697c1bcd0eaf9f2909673688a4",
+      "obstacle_count": 17,
+      "parent_seed": 100488,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0139",
+      "map_sha256": "51f2a0a3e01cbb320f4b44f58ee6900b5a31c2b39c812007c4b46d4b6a2ff2ec",
+      "obstacle_count": 17,
+      "parent_seed": 100489,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0140",
+      "map_sha256": "09bbaeff92e8f973a3ebe15dca9eaa2686f018a840524d1ce967ba100601aa55",
+      "obstacle_count": 17,
+      "parent_seed": 100490,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0141",
+      "map_sha256": "2aa4be82f027e958b55d4ccc5962a0b82e91a996d9abf4c0c70539731382b17c",
+      "obstacle_count": 16,
+      "parent_seed": 100491,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0142",
+      "map_sha256": "d105a83e99dec18dad7a2254590bf9e44fd0c7dcebab4b3ddd1980ab97a267b5",
+      "obstacle_count": 17,
+      "parent_seed": 100492,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0143",
+      "map_sha256": "fd927f469f98ef9ac466e4938a1ce68ff066106e5fa1d1c6df1db039153280f0",
+      "obstacle_count": 17,
+      "parent_seed": 100493,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0144",
+      "map_sha256": "66d32a988ee850fa0131131c930fc516cec602eb6992f6b46c0046511a849846",
+      "obstacle_count": 17,
+      "parent_seed": 100494,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0145",
+      "map_sha256": "20fe95bb2f7f2bdf84d0034adf62fd60dc478e22a6bf598d09f0760b533cbe3e",
+      "obstacle_count": 17,
+      "parent_seed": 100495,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0146",
+      "map_sha256": "780f724e8ef80a5d3a94f83d632374a0e8c9d9e9fe1a3931325f4b4ca8df1768",
+      "obstacle_count": 16,
+      "parent_seed": 100496,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0147",
+      "map_sha256": "232016c0219e6bda79510c1bd3b358f32b474de4fffecc3f6976675ae6efa0a8",
+      "obstacle_count": 17,
+      "parent_seed": 100497,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0148",
+      "map_sha256": "981ba36c51c535168f7da3f562fd22619a1d6057afc04b42db359621643ee62a",
+      "obstacle_count": 16,
+      "parent_seed": 100498,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "train/labyrinth/0149",
+      "map_sha256": "af3e688c945d8fd139547610feff21f3891d705f8ed72ee5ad2e29b529a0bd7a",
+      "obstacle_count": 17,
+      "parent_seed": 100499,
+      "patch_count": 5
+    }
+  ],
+  "schema_version": 1,
+  "split": "train"
+}

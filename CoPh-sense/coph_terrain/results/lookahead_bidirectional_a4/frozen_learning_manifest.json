@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN single learning run complete",
+  "random_seed": 2027,
+  "source_sha256": {
+    "lookahead_bidirectional.py": "73828169526346b27e57d7ef9d3fd754578ed07160343da9bc168832cb49b0fc",
+    "lookahead_need_admission.py": "f24ddceb1a29aa333bbfae5f1b980c9bb5f20fad5a8a17b5015886808343f916",
+    "lookahead_need_learning.py": "914266bcd8678f2c25b54083a51fd4e248670ed6d59dca543aa319fdfb268f10",
+    "BIDIRECTIONAL_A4_PROTOCOL.md": "b6eab6734982f87292b1680b3477d5f625421db9526110d92d8bf8e0f6096d05",
+    "BIDIRECTIONAL_A4_RESULT.md": "60e3826ad7cc31e814b051d300933885ef01d0e728f7437c55b4841345d31ef4"
+  },
+  "artifact_sha256": {
+    "admission_train_v2.json": "071ab1124e52333649280a920a3455478d8289b0c203a934bc10b6910a0b939c",
+    "admission_validation_v2.json": "57298d24b69eccf17328facd41d53f4dec6a420406300571bcb601da630a6e6b",
+    "admission_test_v2.json": "486244b761bca4d8d31ccec142b30912e73530aa3d60c4ec54aa5104aab8914d",
+    "admission_confirmatory_v2.json": "302c581cd10b3ff36954c54d5f8564fcb90de24f06e29020c153db09c453112f",
+    "learning_frozen_v1.json": "803003f81e65206dcecc03c07e1f22970d66b68b5fd94600c6beb7c274fc8943",
+    "sender_only_a4_v1.pt": "39bb4bfb6a136bd00e3584e0dde60a66b144b6d6f4dc61c3c5f6915496d77df0",
+    "history_need_a4_v1.pt": "f914ec0f5418dccc94b278ada001d94409432df007149737d13ecd5953c6ef37"
+  }
+}

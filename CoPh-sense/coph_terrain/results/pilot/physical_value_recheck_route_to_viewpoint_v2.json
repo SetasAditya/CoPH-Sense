@@ -1,0 +1,2965 @@
+{
+  "source": "value_decomposition_excluded40_v1.json",
+  "records": [
+    {
+      "family": "open",
+      "seed": 840000,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        40,
+        31
+      ],
+      "baseline_cost": 1.8654207519850556,
+      "ideal_V_GT": 0.014278961847687288,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.9789223201728166,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.046695503118584,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.0993842779292935,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840000,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        49,
+        31
+      ],
+      "baseline_cost": 1.8654207519850556,
+      "ideal_V_GT": -0.010884425960711264,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.020882874988456,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.0257918631221217,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.085482874988456,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840001,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        45,
+        18
+      ],
+      "baseline_cost": 1.5601409636820018,
+      "ideal_V_GT": 0.08702562630391553,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.569378591402094,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.59842769932987,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.6332502377404456,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        },
+        "scout_G": {
+          "score_single_world": 1.7424263450061914,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_T": {
+          "score_single_world": 1.523764172841919,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_GT": {
+          "score_single_world": 1.7850299096338906,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840001,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        47,
+        27
+      ],
+      "baseline_cost": 1.5601409636820018,
+      "ideal_V_GT": 0.03691747443220228,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.72194714661487,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.7388203296181877,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.7934731554353085,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840002,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        33,
+        36
+      ],
+      "baseline_cost": 1.9776734399659253,
+      "ideal_V_GT": 0.04733799472180755,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.093839342326899,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.0819872265873904,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.157465337471239,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840002,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        40,
+        42
+      ],
+      "baseline_cost": 1.9776734399659253,
+      "ideal_V_GT": 0.018372428459079382,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.0430721934385896,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.050350178593751,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.104880688834632,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840003,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        33,
+        26
+      ],
+      "baseline_cost": 1.3326128993226838,
+      "ideal_V_GT": 0.04636844503808413,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.614764796863255,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.6739969642947805,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.7338619683394476,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840003,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        52,
+        29
+      ],
+      "baseline_cost": 1.3326128993226838,
+      "ideal_V_GT": -3.530353378655704e-05,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.3943911012077619,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.3986978702770256,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.4629576714125967,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840004,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        37,
+        28
+      ],
+      "baseline_cost": 1.406205225906899,
+      "ideal_V_GT": 0.006019296547538078,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.4764792380863025,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.4903817958454735,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.5883337198205245,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840004,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        51,
+        29
+      ],
+      "baseline_cost": 1.406205225906899,
+      "ideal_V_GT": 0.0001369512172990639,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.4725916355341242,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.5310989950154656,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.5739568060145526,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840005,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        33,
+        15
+      ],
+      "baseline_cost": 2.401777005259317,
+      "ideal_V_GT": 0.0827038858604845,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.496088105438918,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.5492762949240673,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.6194541023616496,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840005,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        34,
+        19
+      ],
+      "baseline_cost": 2.401777005259317,
+      "ideal_V_GT": 0.08814229117269567,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.4869238916080123,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.498765292750553,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.5533699301390227,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840006,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        34,
+        30
+      ],
+      "baseline_cost": 1.0868216022524495,
+      "ideal_V_GT": 0.0024349651369535152,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.1480395338181302,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.1598945804254124,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.214441889638906,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840006,
+      "step": 360,
+      "status": "terminated_prefix"
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840007,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        29,
+        38
+      ],
+      "baseline_cost": 1.964255366032548,
+      "ideal_V_GT": 0.024892281663139393,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.1063071852576893,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.1335284589635375,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.2140730651085123,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840007,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        41,
+        39
+      ],
+      "baseline_cost": 1.964255366032548,
+      "ideal_V_GT": 0.00275502605091682,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.0490793560712017,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.095112843129087,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.133558597017741,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840008,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        35,
+        26
+      ],
+      "baseline_cost": 1.1081978221305047,
+      "ideal_V_GT": 0.014188587934793828,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.1580810143620155,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.1940228566324365,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.2549169038247607,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840008,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        51,
+        30
+      ],
+      "baseline_cost": 1.1081978221305047,
+      "ideal_V_GT": -0.0030862549943539985,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.1930971265461274,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.1980024194096972,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.259880244446393,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840009,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        35,
+        29
+      ],
+      "baseline_cost": 1.0054651695762522,
+      "ideal_V_GT": 0.0012216090148384762,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.0739564886942563,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.0709297507406481,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.1429109371787631,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840009,
+      "step": 360,
+      "status": "terminated_prefix"
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840010,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        29,
+        35
+      ],
+      "baseline_cost": 1.6244221550179323,
+      "ideal_V_GT": 0.019596260478366823,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.7086832097624325,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.7076841333739103,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.7743827046514256,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840010,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        40,
+        43
+      ],
+      "baseline_cost": 1.6244221550179323,
+      "ideal_V_GT": 0.0013864483827217278,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.6777246483440305,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.6845988535914211,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.7524722683056084,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840011,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        41,
+        22
+      ],
+      "baseline_cost": 2.3983603900962707,
+      "ideal_V_GT": 0.5196760773222917,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.5318772352111125,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.5442597118909465,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.5964601131682836,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840011,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        39,
+        18
+      ],
+      "baseline_cost": 2.3983603900962707,
+      "ideal_V_GT": 0.5196760773222917,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.530874995552623,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.5335996719992195,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.612013741165024,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840012,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        40,
+        21
+      ],
+      "baseline_cost": 1.4983074473040963,
+      "ideal_V_GT": -0.0029879629402875807,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.6404335974916602,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.6359321335219874,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.7119390839732431,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840012,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        50,
+        28
+      ],
+      "baseline_cost": 1.4983074473040963,
+      "ideal_V_GT": -0.0010034000906329332,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.56374161501728,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.5678654427379315,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.6719670473097916,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840013,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        44,
+        25
+      ],
+      "baseline_cost": 1.1229349512266844,
+      "ideal_V_GT": 0.012134811999798378,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.210692003937302,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.2140940049757918,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.2750153146159071,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840013,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        49,
+        28
+      ],
+      "baseline_cost": 1.1229349512266844,
+      "ideal_V_GT": -0.019221788873154955,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.187991111763298,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.1925548469613114,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.252591111763298,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840014,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        15,
+        2
+      ],
+      "baseline_cost": 2.0728081964676655,
+      "ideal_V_GT": 0.07652293507998964,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.2024030477885943,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.206684904792377,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.2855923851427784,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840014,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        48,
+        20
+      ],
+      "baseline_cost": 2.0728081964676655,
+      "ideal_V_GT": 0.00957727390634977,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.146946548449201,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.1421357876940172,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.1942601297576596,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840015,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        34,
+        30
+      ],
+      "baseline_cost": 1.3277840112259551,
+      "ideal_V_GT": 0.0002535570382060648,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.3887136498654902,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.3902175022895398,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.497684945723677,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840015,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        53,
+        29
+      ],
+      "baseline_cost": 1.3277840112259551,
+      "ideal_V_GT": -0.00013715492107357896,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.3725331386286574,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 0
+        },
+        "carrier_T": {
+          "score_single_world": 1.3643282430051098,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 0,
+          "delivered": 0
+        },
+        "carrier_GT": {
+          "score_single_world": 1.4125331386286575,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 1,
+          "delivered": 0
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840016,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        36,
+        20
+      ],
+      "baseline_cost": 1.1966701351383924,
+      "ideal_V_GT": 0.044522069472825,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.3116931419137052,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.2466961466086444,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.308844387544803,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840016,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        54,
+        28
+      ],
+      "baseline_cost": 1.1966701351383924,
+      "ideal_V_GT": 0.00031638226417118887,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.2297837024589287,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 0,
+          "delivered": 0
+        },
+        "carrier_T": {
+          "score_single_world": 1.2497837024589287,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 0,
+          "delivered": 0
+        },
+        "carrier_GT": {
+          "score_single_world": 1.2297837024589287,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 0,
+          "delivered": 0
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840017,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        33,
+        2
+      ],
+      "baseline_cost": 2.121808282890544,
+      "ideal_V_GT": 0.007760454995785704,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 3.327929021345687,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 3.176019191266479,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 3.396355635973557,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840017,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        50,
+        21
+      ],
+      "baseline_cost": 2.121808282890544,
+      "ideal_V_GT": 0.00025231139727166507,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.4516341699042954,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.4789216898330757,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.5378940564966337,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840018,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        25,
+        28
+      ],
+      "baseline_cost": 1.3028855716280405,
+      "ideal_V_GT": 0.007267133370438161,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.4059410676927309,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.4139420672218534,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.4899173100321015,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840018,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        48,
+        29
+      ],
+      "baseline_cost": 1.3028855716280405,
+      "ideal_V_GT": 0.0012977079944112013,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.362540778640644,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.3674624506986455,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.4271405544922444,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840019,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        22,
+        43
+      ],
+      "baseline_cost": 2.7955608143170068,
+      "ideal_V_GT": 0.036541858712824116,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.950914645605873,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.9541967118895793,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 3.0155146456058723,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840019,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        42,
+        33
+      ],
+      "baseline_cost": 2.7955608143170068,
+      "ideal_V_GT": 0.014657523261930372,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.9101916078330747,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.919485612863027,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.9790988833684935,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840020,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        48,
+        15
+      ],
+      "baseline_cost": 1.8835478717283651,
+      "ideal_V_GT": 0.0172987746476978,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.9675063221388045,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.97994360003314,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.0406218610518536,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840020,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        48,
+        15
+      ],
+      "baseline_cost": 1.8835478717283651,
+      "ideal_V_GT": 0.0172987746476978,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.9675063221388045,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.97994360003314,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.0406218610518536,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840021,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        27,
+        29
+      ],
+      "baseline_cost": 1.2021648107267264,
+      "ideal_V_GT": 0.010372359651075413,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.3153446291608644,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.324885976447735,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.3842258979208473,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840021,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        54,
+        29
+      ],
+      "baseline_cost": 1.2021648107267264,
+      "ideal_V_GT": -0.0002693508830380331,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.2015329991721386,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 0,
+          "packets": 0,
+          "delivered": 0
+        },
+        "carrier_T": {
+          "score_single_world": 1.2015329991721386,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 0,
+          "packets": 0,
+          "delivered": 0
+        },
+        "carrier_GT": {
+          "score_single_world": 1.2015329991721386,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 0,
+          "packets": 0,
+          "delivered": 0
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840022,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        39,
+        20
+      ],
+      "baseline_cost": 1.5708325555200164,
+      "ideal_V_GT": 0.0014177272694757548,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.7483905644127875,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.7528973928739273,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.8636147325389976,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840022,
+      "step": 360,
+      "status": "no_public_region"
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840023,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        38,
+        21
+      ],
+      "baseline_cost": 1.8977902441576078,
+      "ideal_V_GT": 0.04858343977793744,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.362712309965133,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.393672575997172,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.432639793241918,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840023,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        48,
+        35
+      ],
+      "baseline_cost": 1.8977902441576078,
+      "ideal_V_GT": 0.005162167055680511,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.9614426069664037,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.0117259227348763,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.0816834613852255,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840024,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        40,
+        24
+      ],
+      "baseline_cost": 1.0111013775258177,
+      "ideal_V_GT": 0.00615997429742432,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.073121411716409,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.068536481193523,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.137721411716409,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840024,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        51,
+        29
+      ],
+      "baseline_cost": 1.0111013775258177,
+      "ideal_V_GT": 0.0006932319759773709,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.0711276863237151,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.0753007933762777,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.1356160658513919,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840025,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        27,
+        31
+      ],
+      "baseline_cost": 2.214005002229355,
+      "ideal_V_GT": 0.06408080258043203,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.284575186191854,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.342263015819124,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.3585413483598936,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        },
+        "scout_G": {
+          "score_single_world": 2.3233535265246754,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_T": {
+          "score_single_world": 2.2871203785814695,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_GT": {
+          "score_single_world": 2.388024948443145,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840025,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        38,
+        41
+      ],
+      "baseline_cost": 2.214005002229355,
+      "ideal_V_GT": 0.014219670447175758,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.292663278598685,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.251544629376625,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.357263278598685,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840026,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        15,
+        2
+      ],
+      "baseline_cost": 2.1576586545412546,
+      "ideal_V_GT": 0.0065546132029692394,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.2859328584944274,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.3103115705359136,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.364557908434065,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840026,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        49,
+        18
+      ],
+      "baseline_cost": 2.1576586545412546,
+      "ideal_V_GT": 0.003125210166383674,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.2312547775940432,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.2230097894942262,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.3053343485035507,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840027,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        34,
+        25
+      ],
+      "baseline_cost": 1.1654346533975781,
+      "ideal_V_GT": 0.0414164391355023,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.2463176612865579,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.269905424784008,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.3078019014292548,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840027,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        50,
+        27
+      ],
+      "baseline_cost": 1.1654346533975781,
+      "ideal_V_GT": -0.02025554938239993,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.2385495985081725,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.2437464583057907,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.3031495985081725,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840028,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        41,
+        21
+      ],
+      "baseline_cost": 1.3907169187238189,
+      "ideal_V_GT": 0.04036309167093166,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.4214291627031705,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.4291087294565248,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.530638962254323,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840028,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        47,
+        22
+      ],
+      "baseline_cost": 1.3907169187238189,
+      "ideal_V_GT": 0.016113441614564517,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.4688875641528605,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.4748133321493275,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.533132033000825,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840029,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        28,
+        34
+      ],
+      "baseline_cost": 1.0442198584051643,
+      "ideal_V_GT": 0.006521428462390455,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.0992955614516178,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.134743166867083,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.1697818732588252,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840029,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        50,
+        30
+      ],
+      "baseline_cost": 1.0442198584051643,
+      "ideal_V_GT": 0.0032308336748942956,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.104206339149479,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.084219858405164,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 0,
+          "delivered": 0
+        },
+        "carrier_GT": {
+          "score_single_world": 1.144206339149479,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 1,
+          "delivered": 1
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840030,
+      "step": 120,
+      "status": "no_public_region"
+    },
+    {
+      "family": "open",
+      "seed": 840030,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        43,
+        29
+      ],
+      "baseline_cost": 1.471911616894861,
+      "ideal_V_GT": -0.0018862519817386403,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.5440310484172917,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.5786183126462483,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.6428461410346888,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840031,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        41,
+        41
+      ],
+      "baseline_cost": 1.9473676594635758,
+      "ideal_V_GT": 0.05855901314298584,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.0484355675519197,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.0434873381596,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.0970964696417385,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        },
+        "scout_G": {
+          "score_single_world": 2.1425419650222635,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_T": {
+          "score_single_world": 2.0263252055228294,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_GT": {
+          "score_single_world": 2.107328211203917,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840031,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        41,
+        41
+      ],
+      "baseline_cost": 1.9473676594635758,
+      "ideal_V_GT": 0.058491195070103696,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.0484355675519197,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.0434873381596,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.0970964696417385,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840032,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        47,
+        2
+      ],
+      "baseline_cost": 2.227371180009564,
+      "ideal_V_GT": 0.3107687131791699,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.0681457230937177,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.077272369094214,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.147907363201849,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840032,
+      "step": 360,
+      "status": "no_public_region"
+    },
+    {
+      "family": "open",
+      "seed": 840033,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        29,
+        24
+      ],
+      "baseline_cost": 1.0910650967289752,
+      "ideal_V_GT": 0.0002716579043136047,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.1811987147680336,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.1794040629676843,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.2307793380950942,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840033,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        51,
+        29
+      ],
+      "baseline_cost": 1.0910650967289752,
+      "ideal_V_GT": 0.001896422395682995,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.1509530191986177,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.155650427606731,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.2155460799795386,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840034,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        26,
+        30
+      ],
+      "baseline_cost": 2.5250477996057192,
+      "ideal_V_GT": 0.10052727609146928,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.5910032210965026,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.615613675258963,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.654612873657803,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        },
+        "scout_G": {
+          "score_single_world": 2.6787945642189217,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_T": {
+          "score_single_world": 2.6218126094263066,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_GT": {
+          "score_single_world": 2.798109089728918,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840034,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        44,
+        22
+      ],
+      "baseline_cost": 2.5250477996057192,
+      "ideal_V_GT": 0.07274647350039531,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 2.7136194624566374,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 2.6575257443322835,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 2.774682401307866,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        },
+        "scout_G": {
+          "score_single_world": 2.6873603075155703,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_T": {
+          "score_single_world": 2.6299127906654727,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_GT": {
+          "score_single_world": 2.7559283443037264,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840035,
+      "step": 120,
+      "status": "no_public_region"
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840035,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        47,
+        46
+      ],
+      "baseline_cost": 1.5494590690680272,
+      "ideal_V_GT": 0.01346464522518076,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.5839808848003603,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.5897865924172165,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.6536767205224536,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840036,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        27,
+        29
+      ],
+      "baseline_cost": 1.132824088242238,
+      "ideal_V_GT": -0.0014245582475262974,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.226869600112099,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.243597350652979,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.2944310001881423,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840036,
+      "step": 360,
+      "status": "terminated_prefix"
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840037,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        27,
+        26
+      ],
+      "baseline_cost": 1.7157293419608848,
+      "ideal_V_GT": 0.3147212602029956,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.8322909341189297,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.8484462632230825,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.899227185765096,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        },
+        "scout_G": {
+          "score_single_world": 1.8479453335177545,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_T": {
+          "score_single_world": 1.9361935750267965,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "scout_GT": {
+          "score_single_world": 1.9643479515595745,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "seed": 840037,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        39,
+        28
+      ],
+      "baseline_cost": 1.7157293419608848,
+      "ideal_V_GT": 0.010585423998110466,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.8145005791440916,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.8397349857253613,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.8948867148511408,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840038,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        39,
+        19
+      ],
+      "baseline_cost": 1.2712717258861828,
+      "ideal_V_GT": 0.000965164224189019,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.3687921711402191,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.3427832139564058,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.407763829988712,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "seed": 840038,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        51,
+        28
+      ],
+      "baseline_cost": 1.2712717258861828,
+      "ideal_V_GT": -0.01815361074989008,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.3661306580842163,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.372389584592464,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.432944411434864,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840039,
+      "step": 120,
+      "status": "evaluated",
+      "top_cell": [
+        33,
+        29
+      ],
+      "baseline_cost": 1.5326393573100003,
+      "ideal_V_GT": 0.01269371429345778,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.639373217717966,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.6462065002068722,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.7035284275908873,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840039,
+      "step": 360,
+      "status": "evaluated",
+      "top_cell": [
+        49,
+        29
+      ],
+      "baseline_cost": 1.5326393573100003,
+      "ideal_V_GT": 0.005189802065160176,
+      "results": {
+        "carrier_G": {
+          "score_single_world": 1.603072637135034,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_T": {
+          "score_single_world": 1.607687184724846,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 1,
+          "packets": 1,
+          "delivered": 1
+        },
+        "carrier_GT": {
+          "score_single_world": 1.6677231020083358,
+          "success": true,
+          "failure_reason": null,
+          "measurements": 2,
+          "packets": 2,
+          "delivered": 2
+        }
+      }
+    }
+  ]
+}

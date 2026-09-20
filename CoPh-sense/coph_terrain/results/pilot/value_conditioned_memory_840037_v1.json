@@ -1,0 +1,190 @@
+{
+  "seed": 840037,
+  "cell": [
+    23,
+    26
+  ],
+  "delivery_step": 143,
+  "initial_physical_comparison": {
+    "decision_step": 120,
+    "skip_cost": 1.7157293419608848,
+    "scout_geometry_cost": 1.5278428458836737,
+    "scout_geometry_measurements": 1,
+    "scout_geometry_packets": 1,
+    "scout_geometry_delivered": 1,
+    "both_success": true,
+    "note": "Same realized bottleneck world and pre-acquisition state; restricted scripted pH continuation, with all physical acquisition and radio costs."
+  },
+  "states": {
+    "withheld": {
+      "skip": 1.7479036057496096,
+      "best": 1.5819844840322563,
+      "best_action": [
+        "geometry",
+        [
+          28,
+          30
+        ]
+      ],
+      "menu": [
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            28,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "traction",
+          "viewpoint": [
+            28,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            36,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "traction",
+          "viewpoint": [
+            36,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            21,
+            22
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "traction",
+          "viewpoint": [
+            21,
+            22
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            24,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "traction",
+          "viewpoint": [
+            24,
+            25
+          ]
+        }
+      ],
+      "scores": [
+        1.7479036057496096,
+        1.5819844840322563,
+        1.5932257259127185,
+        1.7554986699247324,
+        1.7625751480646836,
+        1.8794650810495521,
+        1.9040152088621305,
+        1.7958336930128123,
+        1.8602122018533445
+      ]
+    },
+    "delivered": {
+      "skip": 1.4998114600509913,
+      "best": 1.4998114600509913,
+      "best_action": "skip",
+      "menu": [
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            28,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "traction",
+          "viewpoint": [
+            28,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            36,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "traction",
+          "viewpoint": [
+            36,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            21,
+            22
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "traction",
+          "viewpoint": [
+            21,
+            22
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            24,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "traction",
+          "viewpoint": [
+            24,
+            25
+          ]
+        }
+      ],
+      "scores": [
+        1.4998114600509913,
+        1.534030220790251,
+        1.5782968953027825,
+        1.537441193315277,
+        1.5464747426923728,
+        1.8540434820282312,
+        1.8675169836243162,
+        1.7951922484462677,
+        1.8019065783397685
+      ]
+    }
+  }
+}

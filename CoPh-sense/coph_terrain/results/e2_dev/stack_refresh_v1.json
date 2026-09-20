@@ -1,0 +1,56 @@
+{
+  "status": "engineering_smoke_only",
+  "policy_histories": [
+    {
+      "group": "train/open/0004",
+      "status": "skip",
+      "selected": [
+        -1,
+        -1
+      ],
+      "examples": 1
+    },
+    {
+      "group": "train/bottleneck/0004",
+      "status": "skip",
+      "selected": [
+        -1,
+        -1
+      ],
+      "examples": 1
+    },
+    {
+      "group": "train/labyrinth/0004",
+      "status": "skip",
+      "selected": [
+        -1,
+        -1
+      ],
+      "examples": 1
+    }
+  ],
+  "new_acquisition_examples": 3,
+  "new_sharing_examples": 0,
+  "refresh_train_loss": {
+    "acquisition": 0.16810820996761322,
+    "sharing": null
+  },
+  "replay": {
+    "status": "complete",
+    "a3": [
+      -1,
+      -1
+    ],
+    "a4": "not_reached",
+    "a5": "not_reached",
+    "mission_cost": 1.1902251374608084,
+    "material_exposure": 0.21758650730364096,
+    "cost": 1.4078116447644493,
+    "success": true
+  },
+  "limitations": [
+    "single-world counterfactual labels",
+    "one refresh round and staged first acquisition",
+    "no final CVaR or multi-seed claim"
+  ]
+}

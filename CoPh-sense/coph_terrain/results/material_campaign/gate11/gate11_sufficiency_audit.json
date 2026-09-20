@@ -1,0 +1,106 @@
+{
+  "scope": "targeted frozen-row sufficiency audit; no new fitting or seed selection",
+  "rows": [
+    {
+      "split": "train",
+      "collection": {
+        "stratum": "Moving-A5",
+        "parent_seed": 1100000,
+        "world_bits": [
+          false,
+          false,
+          true,
+          true
+        ],
+        "examples": 2,
+        "memory_optimum_changed": true
+      },
+      "states": [
+        {
+          "phase": "Moving-A5_retained",
+          "legal_input_sha256": "fbe6bbc8da62219f0fe1c47a6f311a00a795f1e759cca49c3831b079664d693c",
+          "exact_action": 6,
+          "learner_action": 0,
+          "true_costs": [
+            11.070528984069824,
+            11.337265968322754,
+            11.303817749023438,
+            11.423089981079102,
+            11.947427749633789,
+            3.0392069816589355,
+            2.8028404712677
+          ],
+          "selected_regret": 8.267688751220703
+        },
+        {
+          "phase": "Moving-A5_withheld",
+          "legal_input_sha256": "49e93326a7bc2e4b431d6c6b995e84221234a149cc0afe0b3af2f3af4e5a8cfa",
+          "exact_action": 1,
+          "learner_action": 0,
+          "true_costs": [
+            11.083070755004883,
+            1.4877443313598633,
+            11.33365535736084,
+            1.6199580430984497,
+            11.93329906463623,
+            2.7665963172912598,
+            13.566139221191406
+          ],
+          "selected_regret": 9.59532642364502
+        }
+      ],
+      "paired_inputs_differ": true
+    },
+    {
+      "split": "validation",
+      "collection": {
+        "stratum": "Moving-A5",
+        "parent_seed": 1200000,
+        "world_bits": [
+          false,
+          false,
+          true,
+          true
+        ],
+        "examples": 2,
+        "memory_optimum_changed": false
+      },
+      "states": [
+        {
+          "phase": "Moving-A5_retained",
+          "legal_input_sha256": "dcff67ad3683d7336046f356e2dde2d0e464449062bd49b42325db7d6c2fe7b7",
+          "exact_action": 0,
+          "learner_action": 0,
+          "true_costs": [
+            1.1341360807418823,
+            1.31231689453125,
+            1.3225454092025757,
+            1.4626994132995605,
+            12.943819999694824,
+            2.5369253158569336,
+            12.943819999694824
+          ],
+          "selected_regret": 0.0
+        },
+        {
+          "phase": "Moving-A5_withheld",
+          "legal_input_sha256": "20837f2e76771b5d5a970e1e8b4bb60b562da22b114d07b172ffed3b5cb6b609",
+          "exact_action": 0,
+          "learner_action": 0,
+          "true_costs": [
+            1.140906810760498,
+            1.312036395072937,
+            1.3163459300994873,
+            1.4564369916915894,
+            12.940710067749023,
+            2.5781116485595703,
+            12.940710067749023
+          ],
+          "selected_regret": 0.0
+        }
+      ],
+      "paired_inputs_differ": true
+    }
+  ],
+  "interpretation_limit": "Only the predeclared train switch corner and matching validation corner are replayed; zero pair-optimal validation states cannot test pair-action identifiability."
+}

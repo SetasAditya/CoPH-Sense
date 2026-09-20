@@ -1,0 +1,132 @@
+{
+  "setup": {
+    "train_states": 320,
+    "validation_states": 80,
+    "test_states": 120,
+    "exact_labels_per_state": 16,
+    "data_generation_seconds": 43.8695809841156,
+    "seed": 1701,
+    "split_unit": "independent pre-acquisition information state",
+    "selection_metric": "validation mean acquisition regret",
+    "oracle_mode": "certified"
+  },
+  "models": {
+    "additive": {
+      "parameters": 64518,
+      "training_seconds": 6.637725830078125,
+      "selected_epoch": 120,
+      "validation": {
+        "value_rmse": 0.09385064989328384,
+        "component_rmse": [
+          0.10040775686502457,
+          0.021025726571679115,
+          0.011640176177024841
+        ],
+        "top1_accuracy": 0.8125,
+        "mean_acquisition_regret": 0.009520063176751137,
+        "p90_acquisition_regret": 0.05131928622722626,
+        "complementary_states": 52,
+        "pair_selection_recall": 0.9615384615384616,
+        "harmful_sensing_rate": 0.17499999701976776,
+        "ranking_accuracy": 0.8052696078431373,
+        "complementarity_sign_accuracy": 0.375,
+        "positive_information_value_states": 52
+      },
+      "test": {
+        "value_rmse": 0.09917338937520981,
+        "component_rmse": [
+          0.10711660236120224,
+          0.021493932232260704,
+          0.011257573030889034
+        ],
+        "top1_accuracy": 0.8666666666666667,
+        "mean_acquisition_regret": 0.009428604505956173,
+        "p90_acquisition_regret": 0.03891126811504364,
+        "complementary_states": 72,
+        "pair_selection_recall": 0.9722222222222222,
+        "harmful_sensing_rate": 0.125,
+        "ranking_accuracy": 0.8299967045641785,
+        "complementarity_sign_accuracy": 0.36666667461395264,
+        "positive_information_value_states": 72
+      }
+    },
+    "deepsets": {
+      "parameters": 89027,
+      "training_seconds": 8.554134845733643,
+      "selected_epoch": 107,
+      "validation": {
+        "value_rmse": 0.04670492932200432,
+        "component_rmse": [
+          0.05560612305998802,
+          0.0740949735045433,
+          0.009068694896996021
+        ],
+        "top1_accuracy": 0.8875,
+        "mean_acquisition_regret": 0.002390637993812561,
+        "p90_acquisition_regret": 0.002623810898512602,
+        "complementary_states": 52,
+        "pair_selection_recall": 0.9230769230769231,
+        "harmful_sensing_rate": 0.0625,
+        "ranking_accuracy": 0.9512254901960785,
+        "complementarity_sign_accuracy": 1.0,
+        "positive_information_value_states": 52
+      },
+      "test": {
+        "value_rmse": 0.04788536578416824,
+        "component_rmse": [
+          0.053852710872888565,
+          0.07492847740650177,
+          0.008431680500507355
+        ],
+        "top1_accuracy": 0.9083333333333333,
+        "mean_acquisition_regret": 0.0036280930507928133,
+        "p90_acquisition_regret": 0.0,
+        "complementary_states": 72,
+        "pair_selection_recall": 0.9305555555555556,
+        "harmful_sensing_rate": 0.05000000074505806,
+        "ranking_accuracy": 0.956425413302576,
+        "complementarity_sign_accuracy": 0.9916666746139526,
+        "positive_information_value_states": 72
+      }
+    },
+    "pairwise": {
+      "parameters": 114057,
+      "training_seconds": 10.33241057395935,
+      "selected_epoch": 100,
+      "validation": {
+        "value_rmse": 0.05363369733095169,
+        "component_rmse": [
+          0.06100126728415489,
+          0.050462521612644196,
+          0.014374970458447933
+        ],
+        "top1_accuracy": 0.875,
+        "mean_acquisition_regret": 0.002205807017162442,
+        "p90_acquisition_regret": 0.008286045864224434,
+        "complementary_states": 52,
+        "pair_selection_recall": 0.8653846153846154,
+        "harmful_sensing_rate": 0.03750000149011612,
+        "ranking_accuracy": 0.9604166666666667,
+        "complementarity_sign_accuracy": 0.9375,
+        "positive_information_value_states": 52
+      },
+      "test": {
+        "value_rmse": 0.051396604627370834,
+        "component_rmse": [
+          0.06683137267827988,
+          0.05022985115647316,
+          0.013527982868254185
+        ],
+        "top1_accuracy": 0.8833333333333333,
+        "mean_acquisition_regret": 0.0025090316776186228,
+        "p90_acquisition_regret": 0.0034012789838016033,
+        "complementary_states": 72,
+        "pair_selection_recall": 0.8472222222222222,
+        "harmful_sensing_rate": 0.02500000037252903,
+        "ranking_accuracy": 0.9589031691107817,
+        "complementarity_sign_accuracy": 0.8916666507720947,
+        "positive_information_value_states": 72
+      }
+    }
+  }
+}

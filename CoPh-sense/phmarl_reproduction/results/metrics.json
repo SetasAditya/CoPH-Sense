@@ -1,0 +1,344 @@
+{
+  "provenance": {
+    "upstream": "https://github.com/EduardoSebastianRodriguez/phMARL.git",
+    "checkpoint": "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/external/phMARL/data/actor_net_simple_spread_1400000_LEMURS.pth",
+    "scenario": "VMAS 1.2.6 simple_spread (Navigation)",
+    "checkpoint_training_frame": 1400000,
+    "torch": "1.13.1+cu117"
+  },
+  "configuration": {
+    "upstream_dir": "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/external/phMARL",
+    "output_dir": "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/phmarl_reproduction/results",
+    "episodes": 10,
+    "horizon": 400,
+    "agents": 4,
+    "seed": 0,
+    "render_seed": 9,
+    "gif_stride": 2
+  },
+  "episodes": [
+    {
+      "policy": "phmarl_checkpoint",
+      "seed": 0,
+      "steps": 400,
+      "mean_agent_return": -221.34931030869484,
+      "upstream_summed_agent_return": -885.3972412347794,
+      "collision_pair_steps": 0,
+      "mean_assignment_distance": 0.14428971707820892,
+      "max_assignment_distance": 0.25218233466148376,
+      "mean_nearest_landmark_distance": 0.1313289850950241,
+      "landmark_coverage_at_0.15": 0.75
+    },
+    {
+      "policy": "uniform_random",
+      "seed": 0,
+      "steps": 400,
+      "mean_agent_return": -849.7742955684662,
+      "upstream_summed_agent_return": -3399.0971822738647,
+      "collision_pair_steps": 0,
+      "mean_assignment_distance": 0.8869192600250244,
+      "max_assignment_distance": 1.4729639291763306,
+      "mean_nearest_landmark_distance": 0.5819579362869263,
+      "landmark_coverage_at_0.15": 0.0
+    },
+    {
+      "policy": "phmarl_checkpoint",
+      "seed": 1,
+      "steps": 400,
+      "mean_agent_return": -291.5264770388603,
+      "upstream_summed_agent_return": -1166.1059081554413,
+      "collision_pair_steps": 34,
+      "mean_assignment_distance": 0.19341325759887695,
+      "max_assignment_distance": 0.32060980796813965,
+      "mean_nearest_landmark_distance": 0.1752105951309204,
+      "landmark_coverage_at_0.15": 0.25
+    },
+    {
+      "policy": "uniform_random",
+      "seed": 1,
+      "steps": 400,
+      "mean_agent_return": -447.30459427833557,
+      "upstream_summed_agent_return": -1789.2183771133423,
+      "collision_pair_steps": 8,
+      "mean_assignment_distance": 1.1782459020614624,
+      "max_assignment_distance": 2.6883761882781982,
+      "mean_nearest_landmark_distance": 0.2952941060066223,
+      "landmark_coverage_at_0.15": 0.25
+    },
+    {
+      "policy": "phmarl_checkpoint",
+      "seed": 2,
+      "steps": 400,
+      "mean_agent_return": -172.24613043665886,
+      "upstream_summed_agent_return": -688.9845217466354,
+      "collision_pair_steps": 10,
+      "mean_assignment_distance": 0.0862245112657547,
+      "max_assignment_distance": 0.17717783153057098,
+      "mean_nearest_landmark_distance": 0.0862245112657547,
+      "landmark_coverage_at_0.15": 0.75
+    },
+    {
+      "policy": "uniform_random",
+      "seed": 2,
+      "steps": 400,
+      "mean_agent_return": -669.9503207206726,
+      "upstream_summed_agent_return": -2679.8012828826904,
+      "collision_pair_steps": 6,
+      "mean_assignment_distance": 0.8166636228561401,
+      "max_assignment_distance": 1.4410122632980347,
+      "mean_nearest_landmark_distance": 0.6791742444038391,
+      "landmark_coverage_at_0.15": 0.0
+    },
+    {
+      "policy": "phmarl_checkpoint",
+      "seed": 3,
+      "steps": 400,
+      "mean_agent_return": -251.8203638792038,
+      "upstream_summed_agent_return": -1007.2814555168152,
+      "collision_pair_steps": 25,
+      "mean_assignment_distance": 0.10891739279031754,
+      "max_assignment_distance": 0.21590982377529144,
+      "mean_nearest_landmark_distance": 0.10891739279031754,
+      "landmark_coverage_at_0.15": 0.75
+    },
+    {
+      "policy": "uniform_random",
+      "seed": 3,
+      "steps": 400,
+      "mean_agent_return": -994.7441227436066,
+      "upstream_summed_agent_return": -3978.9764909744263,
+      "collision_pair_steps": 0,
+      "mean_assignment_distance": 1.0650204420089722,
+      "max_assignment_distance": 1.569411277770996,
+      "mean_nearest_landmark_distance": 0.7496680021286011,
+      "landmark_coverage_at_0.15": 0.0
+    },
+    {
+      "policy": "phmarl_checkpoint",
+      "seed": 4,
+      "steps": 400,
+      "mean_agent_return": -185.74519243836403,
+      "upstream_summed_agent_return": -742.9807697534561,
+      "collision_pair_steps": 8,
+      "mean_assignment_distance": 0.0820324569940567,
+      "max_assignment_distance": 0.11665306985378265,
+      "mean_nearest_landmark_distance": 0.0820324569940567,
+      "landmark_coverage_at_0.15": 1.0
+    },
+    {
+      "policy": "uniform_random",
+      "seed": 4,
+      "steps": 400,
+      "mean_agent_return": -943.2779618501663,
+      "upstream_summed_agent_return": -3773.1118474006653,
+      "collision_pair_steps": 0,
+      "mean_assignment_distance": 1.0371958017349243,
+      "max_assignment_distance": 2.001649856567383,
+      "mean_nearest_landmark_distance": 0.8126018047332764,
+      "landmark_coverage_at_0.15": 0.0
+    },
+    {
+      "policy": "phmarl_checkpoint",
+      "seed": 5,
+      "steps": 400,
+      "mean_agent_return": -224.2752428650856,
+      "upstream_summed_agent_return": -897.1009714603424,
+      "collision_pair_steps": 25,
+      "mean_assignment_distance": 0.09144361317157745,
+      "max_assignment_distance": 0.23654115200042725,
+      "mean_nearest_landmark_distance": 0.09144361317157745,
+      "landmark_coverage_at_0.15": 0.75
+    },
+    {
+      "policy": "uniform_random",
+      "seed": 5,
+      "steps": 400,
+      "mean_agent_return": -727.5221486091614,
+      "upstream_summed_agent_return": -2910.0885944366455,
+      "collision_pair_steps": 0,
+      "mean_assignment_distance": 0.8310070037841797,
+      "max_assignment_distance": 1.487991452217102,
+      "mean_nearest_landmark_distance": 0.5312904715538025,
+      "landmark_coverage_at_0.15": 0.0
+    },
+    {
+      "policy": "phmarl_checkpoint",
+      "seed": 6,
+      "steps": 400,
+      "mean_agent_return": -98.59265035390854,
+      "upstream_summed_agent_return": -394.37060141563416,
+      "collision_pair_steps": 0,
+      "mean_assignment_distance": 0.03792709484696388,
+      "max_assignment_distance": 0.04988174885511398,
+      "mean_nearest_landmark_distance": 0.03792709484696388,
+      "landmark_coverage_at_0.15": 1.0
+    },
+    {
+      "policy": "uniform_random",
+      "seed": 6,
+      "steps": 400,
+      "mean_agent_return": -666.7160277366638,
+      "upstream_summed_agent_return": -2666.8641109466553,
+      "collision_pair_steps": 3,
+      "mean_assignment_distance": 0.6214296817779541,
+      "max_assignment_distance": 1.4535871744155884,
+      "mean_nearest_landmark_distance": 0.4737481474876404,
+      "landmark_coverage_at_0.15": 0.25
+    },
+    {
+      "policy": "phmarl_checkpoint",
+      "seed": 7,
+      "steps": 400,
+      "mean_agent_return": -136.80538153648376,
+      "upstream_summed_agent_return": -547.2215261459351,
+      "collision_pair_steps": 1,
+      "mean_assignment_distance": 0.06443458050489426,
+      "max_assignment_distance": 0.11145413666963577,
+      "mean_nearest_landmark_distance": 0.06443458050489426,
+      "landmark_coverage_at_0.15": 1.0
+    },
+    {
+      "policy": "uniform_random",
+      "seed": 7,
+      "steps": 400,
+      "mean_agent_return": -687.2792873382568,
+      "upstream_summed_agent_return": -2749.1171493530273,
+      "collision_pair_steps": 2,
+      "mean_assignment_distance": 0.6037943363189697,
+      "max_assignment_distance": 0.9952568411827087,
+      "mean_nearest_landmark_distance": 0.44401904940605164,
+      "landmark_coverage_at_0.15": 0.25
+    },
+    {
+      "policy": "phmarl_checkpoint",
+      "seed": 8,
+      "steps": 400,
+      "mean_agent_return": -229.11045897006989,
+      "upstream_summed_agent_return": -916.4418358802795,
+      "collision_pair_steps": 2,
+      "mean_assignment_distance": 0.08522596955299377,
+      "max_assignment_distance": 0.17477744817733765,
+      "mean_nearest_landmark_distance": 0.08522596955299377,
+      "landmark_coverage_at_0.15": 0.75
+    },
+    {
+      "policy": "uniform_random",
+      "seed": 8,
+      "steps": 400,
+      "mean_agent_return": -1305.5154347419739,
+      "upstream_summed_agent_return": -5222.0617389678955,
+      "collision_pair_steps": 1,
+      "mean_assignment_distance": 0.8853148818016052,
+      "max_assignment_distance": 1.2392934560775757,
+      "mean_nearest_landmark_distance": 0.8685503005981445,
+      "landmark_coverage_at_0.15": 0.0
+    },
+    {
+      "policy": "phmarl_checkpoint",
+      "seed": 9,
+      "steps": 400,
+      "mean_agent_return": -267.8848885893822,
+      "upstream_summed_agent_return": -1071.5395543575287,
+      "collision_pair_steps": 15,
+      "mean_assignment_distance": 0.13393594324588776,
+      "max_assignment_distance": 0.17260552942752838,
+      "mean_nearest_landmark_distance": 0.13393594324588776,
+      "landmark_coverage_at_0.15": 0.5
+    },
+    {
+      "policy": "uniform_random",
+      "seed": 9,
+      "steps": 400,
+      "mean_agent_return": -1281.6844387054443,
+      "upstream_summed_agent_return": -5126.737754821777,
+      "collision_pair_steps": 26,
+      "mean_assignment_distance": 1.0730104446411133,
+      "max_assignment_distance": 1.187276005744934,
+      "mean_nearest_landmark_distance": 0.9245722889900208,
+      "landmark_coverage_at_0.15": 0.0
+    }
+  ],
+  "summary": {
+    "phmarl_checkpoint": {
+      "steps": {
+        "mean": 400.0,
+        "std": 0.0
+      },
+      "mean_agent_return": {
+        "mean": -207.9356096416712,
+        "std": 56.730989480421826
+      },
+      "upstream_summed_agent_return": {
+        "mean": -831.7424385666848,
+        "std": 226.9239579216873
+      },
+      "collision_pair_steps": {
+        "mean": 12.0,
+        "std": 11.661903789690601
+      },
+      "mean_assignment_distance": {
+        "mean": 0.10278445370495319,
+        "std": 0.042146502925701504
+      },
+      "max_assignment_distance": {
+        "mean": 0.18277928829193116,
+        "std": 0.07424461361617186
+      },
+      "mean_nearest_landmark_distance": {
+        "mean": 0.09966811425983906,
+        "std": 0.037135199776621976
+      },
+      "landmark_coverage_at_0.15": {
+        "mean": 0.75,
+        "std": 0.22360679774997896
+      }
+    },
+    "uniform_random": {
+      "steps": {
+        "mean": 400.0,
+        "std": 0.0
+      },
+      "mean_agent_return": {
+        "mean": -857.3768632292747,
+        "std": 263.17420479082125
+      },
+      "upstream_summed_agent_return": {
+        "mean": -3429.507452917099,
+        "std": 1052.696819163285
+      },
+      "collision_pair_steps": {
+        "mean": 4.6,
+        "std": 7.6052613367326165
+      },
+      "mean_assignment_distance": {
+        "mean": 0.8998601377010346,
+        "std": 0.18188969068557906
+      },
+      "max_assignment_distance": {
+        "mean": 1.553681844472885,
+        "std": 0.4546349939773057
+      },
+      "mean_nearest_landmark_distance": {
+        "mean": 0.6360876351594925,
+        "std": 0.19402928754161938
+      },
+      "landmark_coverage_at_0.15": {
+        "mean": 0.075,
+        "std": 0.11456439237389598
+      }
+    }
+  },
+  "rendered_episode": {
+    "policy": "phmarl_checkpoint",
+    "seed": 9,
+    "steps": 400,
+    "mean_agent_return": -267.8848885893822,
+    "upstream_summed_agent_return": -1071.5395543575287,
+    "collision_pair_steps": 15,
+    "mean_assignment_distance": 0.13393594324588776,
+    "max_assignment_distance": 0.17260552942752838,
+    "mean_nearest_landmark_distance": 0.13393594324588776,
+    "landmark_coverage_at_0.15": 0.5
+  },
+  "artifact": "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/phmarl_reproduction/results/simple_spread_phmarl_seed9.gif"
+}

@@ -1,0 +1,67 @@
+{
+  "seeds": [
+    1801,
+    1802,
+    1803
+  ],
+  "controls": {
+    "v1_with_warning_curriculum": {
+      "standard_regret": {
+        "by_seed": [
+          0.019059674814343452,
+          0.0248414296656847,
+          0.01961635984480381
+        ],
+        "mean": 0.02117248810827732,
+        "sample_std": 0.003189564808800383
+      },
+      "held_out_warning_recall": {
+        "by_seed": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean": 1.0,
+        "sample_std": 0.0
+      },
+      "held_out_warning_regret": {
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean": 0.0,
+        "sample_std": 0.0
+      }
+    },
+    "v2_without_warning_curriculum": {
+      "standard_regret": {
+        "by_seed": [
+          0.01774352788925171,
+          0.012311098165810108,
+          0.011917241849005222
+        ],
+        "mean": 0.013990622634689013,
+        "sample_std": 0.0032560718798676723
+      },
+      "held_out_warning_recall": {
+        "by_seed": [
+          0.42,
+          1.0,
+          0.98
+        ],
+        "mean": 0.7999999999999999,
+        "sample_std": 0.3292415526630866
+      },
+      "held_out_warning_regret": {
+        "by_seed": [
+          1.2788169384002686,
+          0.0,
+          0.050701700150966644
+        ],
+        "mean": 0.4431728795170784,
+        "sample_std": 0.7241328679597613
+      }
+    }
+  }
+}

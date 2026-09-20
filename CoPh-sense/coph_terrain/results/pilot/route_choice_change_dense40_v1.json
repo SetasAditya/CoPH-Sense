@@ -1,0 +1,1011 @@
+{
+  "summary": {
+    "false": {
+      "G": 10,
+      "T": 9,
+      "GT": 7
+    },
+    "true": {
+      "G": 10,
+      "T": 11,
+      "GT": 10
+    }
+  },
+  "records": [
+    {
+      "seed": 840000,
+      "step": 120,
+      "ideal_V_GT": 0.01932605918933561,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 31,
+        "45": 31
+      }
+    },
+    {
+      "seed": 840000,
+      "step": 360,
+      "ideal_V_GT": 0.009507718983061908,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840001,
+      "step": 120,
+      "ideal_V_GT": 0.0810125862769826,
+      "changed": {
+        "G": false,
+        "T": true,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 24,
+        "35": 20,
+        "45": 25
+      }
+    },
+    {
+      "seed": 840001,
+      "step": 360,
+      "ideal_V_GT": 0.03995138757417571,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840002,
+      "step": 120,
+      "ideal_V_GT": 0.054411080017387814,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 30,
+        "35": 39,
+        "45": 42
+      }
+    },
+    {
+      "seed": 840002,
+      "step": 360,
+      "ideal_V_GT": 0.05566163571667393,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "45": 42
+      }
+    },
+    {
+      "seed": 840003,
+      "step": 120,
+      "ideal_V_GT": 0.04542518240100124,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "35": 26,
+        "45": 26
+      }
+    },
+    {
+      "seed": 840003,
+      "step": 360,
+      "ideal_V_GT": 0.00015403447886730426,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840004,
+      "step": 120,
+      "ideal_V_GT": 0.015832532422772383,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 22,
+        "35": 28,
+        "45": 28
+      }
+    },
+    {
+      "seed": 840004,
+      "step": 360,
+      "ideal_V_GT": 0.00015604191057194683,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "45": 29
+      }
+    },
+    {
+      "seed": 840005,
+      "step": 120,
+      "ideal_V_GT": 0.08239185979365748,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "20": 13,
+        "35": 15,
+        "45": 18
+      }
+    },
+    {
+      "seed": 840005,
+      "step": 360,
+      "ideal_V_GT": 0.08630074545539701,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "35": 16,
+        "45": 17
+      }
+    },
+    {
+      "seed": 840006,
+      "step": 120,
+      "ideal_V_GT": 0.0026405534857687485,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 30,
+        "45": 30
+      }
+    },
+    {
+      "seed": 840007,
+      "step": 120,
+      "ideal_V_GT": 0.043192998310279895,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 38,
+        "35": 38,
+        "45": 34
+      }
+    },
+    {
+      "seed": 840007,
+      "step": 360,
+      "ideal_V_GT": -0.00853579366835655,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "45": 39
+      }
+    },
+    {
+      "seed": 840008,
+      "step": 120,
+      "ideal_V_GT": 0.015048123300741345,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 26,
+        "45": 28
+      }
+    },
+    {
+      "seed": 840008,
+      "step": 360,
+      "ideal_V_GT": -0.0030862549943539985,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840009,
+      "step": 120,
+      "ideal_V_GT": 0.0026190592385753053,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 29,
+        "45": 29
+      }
+    },
+    {
+      "seed": 840010,
+      "step": 120,
+      "ideal_V_GT": 0.02812615212464009,
+      "changed": {
+        "G": true,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 42,
+        "45": 38
+      }
+    },
+    {
+      "seed": 840010,
+      "step": 360,
+      "ideal_V_GT": 0.009454985892402679,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 43,
+        "45": 35
+      }
+    },
+    {
+      "seed": 840011,
+      "step": 120,
+      "ideal_V_GT": 0.5196760773222917,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "20": 2,
+        "35": 2,
+        "45": 24
+      }
+    },
+    {
+      "seed": 840011,
+      "step": 360,
+      "ideal_V_GT": 0.5526294294671918,
+      "changed": {
+        "G": false,
+        "T": true,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 2,
+        "45": 2
+      }
+    },
+    {
+      "seed": 840012,
+      "step": 120,
+      "ideal_V_GT": 0.011256310610595177,
+      "changed": {
+        "G": false,
+        "T": true,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 21,
+        "35": 21,
+        "45": 21
+      }
+    },
+    {
+      "seed": 840012,
+      "step": 360,
+      "ideal_V_GT": 0.003459304546682196,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 28,
+        "45": 28
+      }
+    },
+    {
+      "seed": 840013,
+      "step": 120,
+      "ideal_V_GT": 0.016848765934701415,
+      "changed": {
+        "G": true,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 18,
+        "35": 23,
+        "45": 25
+      }
+    },
+    {
+      "seed": 840013,
+      "step": 360,
+      "ideal_V_GT": 0.003293234969944825,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840014,
+      "step": 120,
+      "ideal_V_GT": 0.08643091351012933,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 2,
+        "35": 2,
+        "45": 2
+      }
+    },
+    {
+      "seed": 840014,
+      "step": 360,
+      "ideal_V_GT": 0.020438123909034545,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 2,
+        "45": 2
+      }
+    },
+    {
+      "seed": 840015,
+      "step": 120,
+      "ideal_V_GT": 0.00932663651964516,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 30,
+        "35": 30,
+        "45": 30
+      }
+    },
+    {
+      "seed": 840015,
+      "step": 360,
+      "ideal_V_GT": 0.00010448506658100598,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840016,
+      "step": 120,
+      "ideal_V_GT": 0.044522069472825,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "20": 20,
+        "35": 20,
+        "45": 28
+      }
+    },
+    {
+      "seed": 840016,
+      "step": 360,
+      "ideal_V_GT": 0.0007399867867241561,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840017,
+      "step": 120,
+      "ideal_V_GT": 0.007760454995785704,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 2,
+        "35": 2,
+        "45": 2
+      }
+    },
+    {
+      "seed": 840017,
+      "step": 360,
+      "ideal_V_GT": 0.0012074365239134188,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 2,
+        "45": 2
+      }
+    },
+    {
+      "seed": 840018,
+      "step": 120,
+      "ideal_V_GT": 0.007267133370438161,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 29,
+        "35": 29,
+        "45": 29
+      }
+    },
+    {
+      "seed": 840018,
+      "step": 360,
+      "ideal_V_GT": 0.0013083869469567855,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840019,
+      "step": 120,
+      "ideal_V_GT": 0.017204138591412566,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "20": 43,
+        "35": 34,
+        "45": 33
+      }
+    },
+    {
+      "seed": 840019,
+      "step": 360,
+      "ideal_V_GT": 0.01847600999622312,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "35": 33,
+        "45": 33
+      }
+    },
+    {
+      "seed": 840020,
+      "step": 120,
+      "ideal_V_GT": 0.016613601732456962,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 2,
+        "35": 2,
+        "45": 2
+      }
+    },
+    {
+      "seed": 840020,
+      "step": 360,
+      "ideal_V_GT": 0.019545887672271833,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 2,
+        "45": 2
+      }
+    },
+    {
+      "seed": 840021,
+      "step": 120,
+      "ideal_V_GT": 0.008994904076897958,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 29,
+        "45": 29
+      }
+    },
+    {
+      "seed": 840021,
+      "step": 360,
+      "ideal_V_GT": -1.1344933947832203e-06,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840022,
+      "step": 120,
+      "ideal_V_GT": 0.04117880338944446,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 35,
+        "35": 24,
+        "45": 22
+      }
+    },
+    {
+      "seed": 840023,
+      "step": 120,
+      "ideal_V_GT": 0.05040810349483227,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "35": 40,
+        "45": 45
+      }
+    },
+    {
+      "seed": 840023,
+      "step": 360,
+      "ideal_V_GT": 0.009753759267460582,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "45": 45
+      }
+    },
+    {
+      "seed": 840024,
+      "step": 120,
+      "ideal_V_GT": 0.013197219543480743,
+      "changed": {
+        "G": false,
+        "T": true,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 24,
+        "45": 24
+      }
+    },
+    {
+      "seed": 840024,
+      "step": 360,
+      "ideal_V_GT": 0.0006932319759773709,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840025,
+      "step": 120,
+      "ideal_V_GT": 0.06031568819464672,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "20": 27,
+        "35": 35,
+        "45": 41
+      }
+    },
+    {
+      "seed": 840025,
+      "step": 360,
+      "ideal_V_GT": 0.024911148138790917,
+      "changed": {
+        "G": true,
+        "T": false,
+        "GT": true
+      },
+      "base_crossings": {
+        "35": 41,
+        "45": 38
+      }
+    },
+    {
+      "seed": 840026,
+      "step": 120,
+      "ideal_V_GT": 0.011021803076722403,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 2,
+        "35": 2,
+        "45": 2
+      }
+    },
+    {
+      "seed": 840026,
+      "step": 360,
+      "ideal_V_GT": 0.012145112382401901,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 2,
+        "45": 2
+      }
+    },
+    {
+      "seed": 840027,
+      "step": 120,
+      "ideal_V_GT": 0.0414164391355023,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 24,
+        "35": 25,
+        "45": 25
+      }
+    },
+    {
+      "seed": 840027,
+      "step": 360,
+      "ideal_V_GT": -0.03468059582835292,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840028,
+      "step": 120,
+      "ideal_V_GT": 0.05588739907577578,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "35": 24,
+        "45": 26
+      }
+    },
+    {
+      "seed": 840028,
+      "step": 360,
+      "ideal_V_GT": 0.009337507940389456,
+      "changed": {
+        "G": false,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "45": 21
+      }
+    },
+    {
+      "seed": 840029,
+      "step": 120,
+      "ideal_V_GT": 0.010715353111232506,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 34,
+        "35": 34,
+        "45": 32
+      }
+    },
+    {
+      "seed": 840029,
+      "step": 360,
+      "ideal_V_GT": 0.0032308336748942956,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840030,
+      "step": 360,
+      "ideal_V_GT": -0.0014396808897798596,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "45": 29
+      }
+    },
+    {
+      "seed": 840031,
+      "step": 120,
+      "ideal_V_GT": 0.06293424280819648,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": true
+      },
+      "base_crossings": {
+        "35": 42,
+        "45": 36
+      }
+    },
+    {
+      "seed": 840031,
+      "step": 360,
+      "ideal_V_GT": 0.0610614755012453,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "45": 37
+      }
+    },
+    {
+      "seed": 840032,
+      "step": 120,
+      "ideal_V_GT": 0.24861535344906427,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "20": 6,
+        "35": 2,
+        "45": 9
+      }
+    },
+    {
+      "seed": 840033,
+      "step": 120,
+      "ideal_V_GT": 0.004396250565720461,
+      "changed": {
+        "G": true,
+        "T": false,
+        "GT": true
+      },
+      "base_crossings": {
+        "35": 24,
+        "45": 24
+      }
+    },
+    {
+      "seed": 840033,
+      "step": 360,
+      "ideal_V_GT": 0.001896422395682995,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {}
+    },
+    {
+      "seed": 840034,
+      "step": 120,
+      "ideal_V_GT": 0.14167026926873305,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 34,
+        "35": 23,
+        "45": 22
+      }
+    },
+    {
+      "seed": 840034,
+      "step": 360,
+      "ideal_V_GT": 0.06962971296989284,
+      "changed": {
+        "G": true,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 21,
+        "45": 22
+      }
+    },
+    {
+      "seed": 840035,
+      "step": 360,
+      "ideal_V_GT": 0.01292110016825565,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "45": 46
+      }
+    },
+    {
+      "seed": 840036,
+      "step": 120,
+      "ideal_V_GT": 0.00211824509327041,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 29,
+        "45": 29
+      }
+    },
+    {
+      "seed": 840037,
+      "step": 120,
+      "ideal_V_GT": 0.3464738499752067,
+      "changed": {
+        "G": true,
+        "T": true,
+        "GT": true
+      },
+      "base_crossings": {
+        "35": 25,
+        "45": 25
+      }
+    },
+    {
+      "seed": 840037,
+      "step": 360,
+      "ideal_V_GT": 0.010585423998110466,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "45": 27
+      }
+    },
+    {
+      "seed": 840038,
+      "step": 120,
+      "ideal_V_GT": 0.013768094679162068,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "20": 34,
+        "35": 19,
+        "45": 19
+      }
+    },
+    {
+      "seed": 840038,
+      "step": 360,
+      "ideal_V_GT": -0.018197482530103448,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "45": 19
+      }
+    },
+    {
+      "seed": 840039,
+      "step": 120,
+      "ideal_V_GT": 0.013409843459450954,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "35": 29,
+        "45": 29
+      }
+    },
+    {
+      "seed": 840039,
+      "step": 360,
+      "ideal_V_GT": 0.005093808493950247,
+      "changed": {
+        "G": false,
+        "T": false,
+        "GT": false
+      },
+      "base_crossings": {
+        "45": 29
+      }
+    }
+  ]
+}

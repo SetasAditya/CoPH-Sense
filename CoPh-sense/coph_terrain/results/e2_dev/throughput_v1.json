@@ -1,0 +1,10 @@
+{
+  "status": "engineering_benchmark",
+  "device": "cpu",
+  "samples": 30,
+  "candidate_count": 4,
+  "set_count": 7,
+  "candidate_median_ms": 21.918835933320224,
+  "critic_median_ms": 2.363794017583132,
+  "scope": "single-state public candidate + one critic decision; excludes physical continuation"
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "development grid fixed before inspecting A5 on any candidate",
+  "margin": 0.05,
+  "layouts": [
+    {"name": "baseline", "backup_y1": -0.43, "backup_y2": -0.43,
+     "backup_traction_1": 0.30, "backup_traction_2": 0.30,
+     "sensing_cost": 0.04, "safe_prior_1": 0.50, "safe_prior_2": 0.50},
+    {"name": "moderate", "backup_y1": -0.62, "backup_y2": -0.46,
+     "backup_traction_1": 0.22, "backup_traction_2": 0.28,
+     "sensing_cost": 0.02, "safe_prior_1": 0.50, "safe_prior_2": 0.50},
+    {"name": "asymmetric", "backup_y1": -0.72, "backup_y2": -0.50,
+     "backup_traction_1": 0.18, "backup_traction_2": 0.25,
+     "sensing_cost": 0.02, "safe_prior_1": 0.50, "safe_prior_2": 0.50},
+    {"name": "deep", "backup_y1": -0.78, "backup_y2": -0.53,
+     "backup_traction_1": 0.15, "backup_traction_2": 0.24,
+     "sensing_cost": 0.02, "safe_prior_1": 0.50, "safe_prior_2": 0.50}
+  ]
+}

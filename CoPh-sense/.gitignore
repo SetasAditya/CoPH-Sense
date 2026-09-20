@@ -1,0 +1,8 @@
+# Reproducibility environments and third-party source checkouts
+external/envs/
+external/phMARL/
+archive/*.tar.gz
+
+# Python caches
+__pycache__/
+*.pyc

@@ -1,0 +1,74 @@
+[
+  {
+    "layout": "low_value",
+    "bottom_traction": 0.5,
+    "sensing_cost": 0.04,
+    "delay_steps": 3,
+    "delay_seconds": 0.15000000000000002,
+    "uniform_four_world_prior": true,
+    "forecast_slack": 4.15,
+    "mean_decision_cost": {
+      "always": 1.3630065007698797,
+      "never": 1.3348854497543214
+    },
+    "oracle_choice": "never",
+    "frozen_gate_choice": "always",
+    "frozen_gate_regret": 0.028121051015558285,
+    "all_success": true,
+    "any_collision_cost": false
+  },
+  {
+    "layout": "useful",
+    "bottom_traction": 0.15,
+    "sensing_cost": 0.04,
+    "delay_steps": 3,
+    "delay_seconds": 0.15000000000000002,
+    "uniform_four_world_prior": true,
+    "forecast_slack": 4.15,
+    "mean_decision_cost": {
+      "always": 2.6356796814808243,
+      "never": 3.031791224669657
+    },
+    "oracle_choice": "always",
+    "frozen_gate_choice": "always",
+    "frozen_gate_regret": 0.0,
+    "all_success": true,
+    "any_collision_cost": false
+  },
+  {
+    "layout": "expensive_probe",
+    "bottom_traction": 0.15,
+    "sensing_cost": 0.4,
+    "delay_steps": 3,
+    "delay_seconds": 0.15000000000000002,
+    "uniform_four_world_prior": true,
+    "forecast_slack": 4.15,
+    "mean_decision_cost": {
+      "always": 3.355679681480824,
+      "never": 3.031791224669657
+    },
+    "oracle_choice": "never",
+    "frozen_gate_choice": "always",
+    "frozen_gate_regret": 0.3238884568111673,
+    "all_success": true,
+    "any_collision_cost": false
+  },
+  {
+    "layout": "useful_medium_delay",
+    "bottom_traction": 0.15,
+    "sensing_cost": 0.04,
+    "delay_steps": 140,
+    "delay_seconds": 7.0,
+    "uniform_four_world_prior": true,
+    "forecast_slack": 4.15,
+    "mean_decision_cost": {
+      "always": 3.1311273322861903,
+      "never": 3.031791224669657
+    },
+    "oracle_choice": "never",
+    "frozen_gate_choice": "never",
+    "frozen_gate_regret": 0.0,
+    "all_success": true,
+    "any_collision_cost": false
+  }
+]

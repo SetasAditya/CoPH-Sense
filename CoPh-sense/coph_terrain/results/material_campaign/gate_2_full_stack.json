@@ -1,0 +1,5 @@
+{
+  "status": "pending_or_failed",
+  "error": "frozen A3/A5 checkpoint missing: /mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/results/material_campaign/a3_a5_frozen.pt; run gate 1 first",
+  "a3_a5_checkpoint": "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/results/material_campaign/a3_a5_frozen.pt"
+}

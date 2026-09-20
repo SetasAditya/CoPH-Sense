@@ -1,0 +1,1124 @@
+{
+  "scope": "two-fork physical continuation; uniform prior over worlds compatible with actually delivered R1 evidence, fixed scripted motion and A4-v2",
+  "condition": "independent",
+  "rows": [
+    {
+      "world_bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.785459896529626,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9419713776794003,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.7874105242378944,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9439220053876687,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.9446035795524503,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.101115060702224,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.0441728868494167,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.200684367999191,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.9465542072607187,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1030656884104926,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.0422222591411483,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1987337402909226,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.7874105242378944,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9439220053876687,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.9465542072607187,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1030656884104926,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.0441728868494167,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.200684367999191,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.785459896529626,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9419713776794003,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.73090125905045,
+      "downstream_risk_cost": 0.013239969709888095,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.887412740200224,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.0422222591411483,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1987337402909226,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.785384227960595,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9418957091103692,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.0421465905721172,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1986580717218915,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.7834302214108115,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9399417025605854,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.9445279109834193,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.101039392133193,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.040192584022333,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1967040651721073,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.942573904433635,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.0990853855834093,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.785384227960595,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9418957091103692,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.7834302214108115,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9399417025605854,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.0421465905721172,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1986580717218915,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.9445279109834193,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.101039392133193,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.7288715839316344,
+      "downstream_risk_cost": 0.013239969709888095,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.8853830650814087,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.040192584022333,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1967040651721073,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.7874105242378944,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9439220053876687,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.9465542072607187,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1030656884104926,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.785459896529626,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9419713776794003,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.0441728868494167,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.200684367999191,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.0422222591411483,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1987337402909226,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.9446035795524503,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.101115060702224,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.7874105242378944,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9439220053876687,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.0441728868494167,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.200684367999191,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.9465542072607187,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1030656884104926,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.785459896529626,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9419713776794003,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.73090125905045,
+      "downstream_risk_cost": 0.013239969709888095,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.887412740200224,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 3.0422222591411483,
+      "downstream_risk_cost": 0.025845633880700856,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.1987337402909226,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.785384227960595,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9418957091103692,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 2.767247964144297,
+      "downstream_risk_cost": 0.012581913689151411,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9237594452940714,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.7834302214108115,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9399417025605854,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.9445279109834193,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.101039392133193,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 2.765293957594513,
+      "downstream_risk_cost": 0.012581913689151411,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.921805438744287,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.942573904433635,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.0990853855834093,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.785384227960595,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9418957091103692,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 2.767247964144297,
+      "downstream_risk_cost": 0.012581913689151411,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9237594452940714,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.9445279109834193,
+      "downstream_risk_cost": 0.02580952282156794,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 3.101039392133193,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action_index": 0,
+      "memory_signature": [],
+      "downstream_cost": 2.7834302214108115,
+      "downstream_risk_cost": 0.025908993720542606,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.9399417025605854,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": []
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action_index": 3,
+      "memory_signature": [],
+      "downstream_cost": 2.765293957594513,
+      "downstream_risk_cost": 0.012581913689151411,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.921805438744287,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ]
+    },
+    {
+      "world_bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "action_index": 6,
+      "memory_signature": [],
+      "downstream_cost": 2.7288715839316344,
+      "downstream_risk_cost": 0.013239969709888095,
+      "reference_risk_coefficient": 0.12,
+      "total_team_cost": 2.8853830650814087,
+      "success": true,
+      "collision_cost": 0.0,
+      "chosen": [
+        [
+          2,
+          "geometry"
+        ],
+        [
+          2,
+          "traction"
+        ]
+      ]
+    }
+  ],
+  "by_memory_signature": {
+    "[]": {
+      "q": {
+        "0": 2.785421217534732,
+        "3": 2.9734589235392987,
+        "6": 2.8911393204320555
+      },
+      "world_count": 16,
+      "best_action_index": 0,
+      "best_action": [],
+      "all_success": true,
+      "max_collision_cost": 0.0
+    }
+  }
+}

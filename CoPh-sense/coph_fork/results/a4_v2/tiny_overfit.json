@@ -1,0 +1,15 @@
+{
+  "setup": "16 constructed warnings and 16 other states; same data for checkpoint selection, so this is a capacity audit only",
+  "selected_epoch": 160,
+  "training_warning": {
+    "count": 16,
+    "recall": 1.0,
+    "mean_regret": 0.0
+  },
+  "training_regret": 0.013342179358005524,
+  "independent_warning": {
+    "count": 100,
+    "recall": 1.0,
+    "mean_regret": 0.0
+  }
+}

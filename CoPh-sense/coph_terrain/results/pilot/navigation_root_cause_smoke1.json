@@ -1,0 +1,319 @@
+{
+  "seeds": [
+    820002
+  ],
+  "modes": {
+    "A_local": [
+      false,
+      false,
+      20,
+      "ph"
+    ],
+    "B_geometry": [
+      true,
+      false,
+      20,
+      "ph"
+    ],
+    "C_material": [
+      false,
+      true,
+      20,
+      "ph"
+    ],
+    "D_full": [
+      true,
+      true,
+      20,
+      "ph"
+    ],
+    "E_fast_replan": [
+      false,
+      false,
+      1,
+      "ph"
+    ],
+    "F_local_tracker": [
+      false,
+      false,
+      1,
+      "vmas"
+    ],
+    "G_full_tracker": [
+      true,
+      true,
+      1,
+      "vmas"
+    ]
+  },
+  "summary": {
+    "A_local": {
+      "success": 0,
+      "total": 1
+    },
+    "B_geometry": {
+      "success": 1,
+      "total": 1
+    },
+    "C_material": {
+      "success": 0,
+      "total": 1
+    },
+    "D_full": {
+      "success": 1,
+      "total": 1
+    },
+    "E_fast_replan": {
+      "success": 0,
+      "total": 1
+    },
+    "F_local_tracker": {
+      "success": 0,
+      "total": 1
+    },
+    "G_full_tracker": {
+      "success": 0,
+      "total": 1
+    }
+  },
+  "records": [
+    {
+      "seed": 820002,
+      "mode": "A_local",
+      "success": false,
+      "failure_reason": "deadline",
+      "steps": 1300,
+      "total": {
+        "replans": 128.0,
+        "waypoint_changes": 125.0,
+        "new_obstacles": 164.0,
+        "path_invalidations": 43.0,
+        "shield": 9.0,
+        "progress": 16.186877012136392,
+        "travel": 58.50556732332916,
+        "low_speed_agents": 13.0
+      },
+      "last_10s": {
+        "replans": 20.0,
+        "waypoint_changes": 19.0,
+        "new_obstacles": 30.0,
+        "path_invalidations": 8.0,
+        "shield": 1.0,
+        "progress": 2.504688084125519,
+        "travel": 8.613092502870131,
+        "low_speed_agents": 1.0
+      },
+      "last_waypoint_distance": 0.6394906640052795,
+      "last_nearest_new_obstacle": 0.37703007459640503,
+      "final_x": {
+        "scout": 3.4109137058258057,
+        "carrier": 2.775963306427002
+      },
+      "min_full_route_clearance": null
+    },
+    {
+      "seed": 820002,
+      "mode": "B_geometry",
+      "success": true,
+      "failure_reason": null,
+      "steps": 698,
+      "total": {
+        "replans": 68.0,
+        "waypoint_changes": 63.0,
+        "new_obstacles": 0.0,
+        "path_invalidations": 0.0,
+        "shield": 0.0,
+        "progress": 20.056045051664114,
+        "travel": 31.815282590843708,
+        "low_speed_agents": 67.0
+      },
+      "last_10s": {
+        "replans": 20.0,
+        "waypoint_changes": 15.0,
+        "new_obstacles": 0.0,
+        "path_invalidations": 0.0,
+        "shield": 0.0,
+        "progress": 2.141220808029175,
+        "travel": 9.148100245434762,
+        "low_speed_agents": 67.0
+      },
+      "last_waypoint_distance": 0.22058159193298843,
+      "last_nearest_new_obstacle": null,
+      "final_x": {
+        "scout": 4.9999494552612305,
+        "carrier": 5.056095600128174
+      },
+      "min_full_route_clearance": 0.18500000000000005
+    },
+    {
+      "seed": 820002,
+      "mode": "C_material",
+      "success": false,
+      "failure_reason": "deadline",
+      "steps": 1300,
+      "total": {
+        "replans": 128.0,
+        "waypoint_changes": 124.0,
+        "new_obstacles": 185.0,
+        "path_invalidations": 48.0,
+        "shield": 13.0,
+        "progress": 17.929600477218628,
+        "travel": 55.52475000472623,
+        "low_speed_agents": 20.0
+      },
+      "last_10s": {
+        "replans": 20.0,
+        "waypoint_changes": 19.0,
+        "new_obstacles": 32.0,
+        "path_invalidations": 10.0,
+        "shield": 1.0,
+        "progress": 2.9046120643615723,
+        "travel": 8.946833305584732,
+        "low_speed_agents": 1.0
+      },
+      "last_waypoint_distance": 0.1373700648546219,
+      "last_nearest_new_obstacle": 0.3739496171474457,
+      "final_x": {
+        "scout": 5.09755802154541,
+        "carrier": 2.8320424556732178
+      },
+      "min_full_route_clearance": null
+    },
+    {
+      "seed": 820002,
+      "mode": "D_full",
+      "success": true,
+      "failure_reason": null,
+      "steps": 673,
+      "total": {
+        "replans": 66.0,
+        "waypoint_changes": 56.0,
+        "new_obstacles": 0.0,
+        "path_invalidations": 0.0,
+        "shield": 0.0,
+        "progress": 20.066092491149902,
+        "travel": 35.23906150521714,
+        "low_speed_agents": 161.0
+      },
+      "last_10s": {
+        "replans": 20.0,
+        "waypoint_changes": 10.0,
+        "new_obstacles": 0.0,
+        "path_invalidations": 0.0,
+        "shield": 0.0,
+        "progress": 1.9170596599578857,
+        "travel": 5.7408490971755555,
+        "low_speed_agents": 161.0
+      },
+      "last_waypoint_distance": 0.23974902555093533,
+      "last_nearest_new_obstacle": null,
+      "final_x": {
+        "scout": 4.999997615814209,
+        "carrier": 5.066094875335693
+      },
+      "min_full_route_clearance": 0.18500000000000005
+    },
+    {
+      "seed": 820002,
+      "mode": "E_fast_replan",
+      "success": false,
+      "failure_reason": "deadline",
+      "steps": 1300,
+      "total": {
+        "replans": 2598.0,
+        "waypoint_changes": 350.0,
+        "new_obstacles": 176.0,
+        "path_invalidations": 19.0,
+        "shield": 5.0,
+        "progress": 17.83086133003235,
+        "travel": 61.30387501248629,
+        "low_speed_agents": 119.0
+      },
+      "last_10s": {
+        "replans": 400.0,
+        "waypoint_changes": 28.0,
+        "new_obstacles": 18.0,
+        "path_invalidations": 1.0,
+        "shield": 0.0,
+        "progress": 0.04562497138977051,
+        "travel": 6.059848517488035,
+        "low_speed_agents": 112.0
+      },
+      "last_waypoint_distance": 0.6709453463554382,
+      "last_nearest_new_obstacle": 0.39582082629203796,
+      "final_x": {
+        "scout": 4.999997138977051,
+        "carrier": 2.830864191055298
+      },
+      "min_full_route_clearance": null
+    },
+    {
+      "seed": 820002,
+      "mode": "F_local_tracker",
+      "success": false,
+      "failure_reason": "collision",
+      "steps": 1060,
+      "total": {
+        "replans": 2118.0,
+        "waypoint_changes": 109.0,
+        "new_obstacles": 47.0,
+        "path_invalidations": 3.0,
+        "shield": 0.0,
+        "progress": 7.300588965415955,
+        "travel": 18.235597547143698,
+        "low_speed_agents": 0.0
+      },
+      "last_10s": {
+        "replans": 400.0,
+        "waypoint_changes": 20.0,
+        "new_obstacles": 0.0,
+        "path_invalidations": 0.0,
+        "shield": 0.0,
+        "progress": 0.9139399528503418,
+        "travel": 3.7008100184611976,
+        "low_speed_agents": 0.0
+      },
+      "last_waypoint_distance": 0.9006460905075073,
+      "last_nearest_new_obstacle": null,
+      "final_x": {
+        "scout": -1.2991540431976318,
+        "carrier": -1.4002569913864136
+      },
+      "min_full_route_clearance": null
+    },
+    {
+      "seed": 820002,
+      "mode": "G_full_tracker",
+      "success": false,
+      "failure_reason": "deadline",
+      "steps": 1300,
+      "total": {
+        "replans": 2598.0,
+        "waypoint_changes": 121.0,
+        "new_obstacles": 0.0,
+        "path_invalidations": 0.0,
+        "shield": 0.0,
+        "progress": 10.921532154083252,
+        "travel": 20.620837891183328,
+        "low_speed_agents": 12.0
+      },
+      "last_10s": {
+        "replans": 400.0,
+        "waypoint_changes": 14.0,
+        "new_obstacles": 0.0,
+        "path_invalidations": 0.0,
+        "shield": 0.0,
+        "progress": 1.3085007667541504,
+        "travel": 2.84652231290238,
+        "low_speed_agents": 12.0
+      },
+      "last_waypoint_distance": 0.8220839500427246,
+      "last_nearest_new_obstacle": null,
+      "final_x": {
+        "scout": 4.996740341186523,
+        "carrier": -4.0752081871032715
+      },
+      "min_full_route_clearance": 0.18500000000000005
+    }
+  ]
+}

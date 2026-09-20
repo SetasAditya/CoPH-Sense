@@ -1,0 +1,148 @@
+{
+  "status": "passed",
+  "scope": "same deterministic Gate 1.1 training switch pair only",
+  "architecture": "VariableSetValueNet",
+  "optimizer": "Adam lr=3e-4",
+  "loss": "absolute mission MSE + risk quantile Huber (unchanged)",
+  "arguments": {
+    "max_steps": 3000,
+    "device": "cuda"
+  },
+  "collection": {
+    "stratum": "Moving-A5",
+    "parent_seed": 1100000,
+    "world_bits": [
+      false,
+      false,
+      true,
+      true
+    ],
+    "examples": 2,
+    "memory_optimum_changed": true
+  },
+  "curve": [
+    {
+      "step": 1,
+      "loss": 73.10111999511719,
+      "actions": [
+        0,
+        0
+      ],
+      "regrets": [
+        8.267688751220703,
+        9.59532642364502
+      ]
+    },
+    {
+      "step": 100,
+      "loss": 19.49538230895996,
+      "actions": [
+        6,
+        6
+      ],
+      "regrets": [
+        0.0,
+        12.078394889831543
+      ]
+    },
+    {
+      "step": 200,
+      "loss": 18.76190948486328,
+      "actions": [
+        6,
+        6
+      ],
+      "regrets": [
+        0.0,
+        12.078394889831543
+      ]
+    },
+    {
+      "step": 300,
+      "loss": 17.255237579345703,
+      "actions": [
+        5,
+        5
+      ],
+      "regrets": [
+        0.23636651039123535,
+        1.2788519859313965
+      ]
+    },
+    {
+      "step": 400,
+      "loss": 0.8598985075950623,
+      "actions": [
+        5,
+        3
+      ],
+      "regrets": [
+        0.23636651039123535,
+        0.13221371173858643
+      ]
+    },
+    {
+      "step": 500,
+      "loss": 0.013585230335593224,
+      "actions": [
+        6,
+        3
+      ],
+      "regrets": [
+        0.0,
+        0.13221371173858643
+      ]
+    },
+    {
+      "step": 600,
+      "loss": 0.007430380210280418,
+      "actions": [
+        6,
+        3
+      ],
+      "regrets": [
+        0.0,
+        0.13221371173858643
+      ]
+    },
+    {
+      "step": 700,
+      "loss": 0.00694807106629014,
+      "actions": [
+        6,
+        3
+      ],
+      "regrets": [
+        0.0,
+        0.13221371173858643
+      ]
+    },
+    {
+      "step": 800,
+      "loss": 0.00998737197369337,
+      "actions": [
+        6,
+        1
+      ],
+      "regrets": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "final_decisions": [
+    {
+      "phase": "Moving-A5_retained",
+      "action": 6,
+      "oracle": 6,
+      "regret": 0.0
+    },
+    {
+      "phase": "Moving-A5_withheld",
+      "action": 1,
+      "oracle": 1,
+      "regret": 0.0
+    }
+  ],
+  "validation_or_test_opened": false
+}

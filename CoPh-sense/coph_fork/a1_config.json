@@ -1,0 +1,50 @@
+{
+  "version": "coph-fork-a1-v1",
+  "physics": {
+    "backend": "VMAS 1.2.6",
+    "dt_seconds": 0.05,
+    "agents": ["scout", "carrier"],
+    "carrier_mass": 1.8,
+    "scout_mass": 0.7,
+    "motion_action": "bounded planar force in [-1,1]^2",
+    "traction_effect": "route traction multiplies commanded force"
+  },
+  "latent_world": {
+    "per_route": ["geometry_open", "traction_coefficient"],
+    "routes": ["top", "bottom"],
+    "actor_access": "only through valid acquired or delivered evidence"
+  },
+  "sensing": {
+    "modalities": ["geometry", "traction"],
+    "scout_range": 0.32,
+    "carrier_range": 0.20,
+    "cost_per_attempt": 0.04,
+    "a1_noise": 0.0
+  },
+  "communication": {
+    "range": 0.9,
+    "delay_steps": 3,
+    "default_drop_probability": 0.0,
+    "header_bytes": 32,
+    "payload_bytes": 16,
+    "ack_payload_bytes": 8,
+    "attempt_cost": 0.01,
+    "cost_per_byte": 0.00005,
+    "provenance": "observation IDs persist through relays"
+  },
+  "mission": {
+    "decision_plane_x": -0.18,
+    "goal_radius": 0.18,
+    "success": "both scout and carrier enter the goal region before the horizon"
+  },
+  "ledger_components": [
+    "time",
+    "motion",
+    "risk",
+    "sensing",
+    "communication",
+    "collision",
+    "invalid_action",
+    "terminal_failure"
+  ]
+}

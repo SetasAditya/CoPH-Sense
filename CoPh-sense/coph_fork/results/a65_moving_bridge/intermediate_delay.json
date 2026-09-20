@@ -1,0 +1,290 @@
+[
+  {
+    "policy": "learned",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.5
+    },
+    "config": {
+      "horizon": 900,
+      "dt": 0.05,
+      "sensing_range_scout": 0.32,
+      "sensing_range_carrier": 0.2,
+      "communication_range": 0.9,
+      "communication_delay_steps": 100,
+      "packet_drop_probability": 0.0,
+      "decision_x": -0.18,
+      "traction_safe_threshold": 0.55,
+      "goal_radius": 0.18,
+      "sensing_cost": 0.04,
+      "communication_attempt_cost": 0.01,
+      "byte_cost": 5e-05,
+      "header_bytes": 32,
+      "payload_bytes": 16,
+      "ack_payload_bytes": 8,
+      "time_cost": 0.002,
+      "motion_cost": 0.001,
+      "risk_cost": 0.12,
+      "collision_cost": 0.1,
+      "invalid_action_cost": 0.02,
+      "terminal_failure_cost": 3.0
+    },
+    "seed": 1701,
+    "success": true,
+    "steps": 596,
+    "route_commitment": "bottom",
+    "actual_commit_step": 200,
+    "actual_commit_slack_from_gate": 6.800000000000001,
+    "gate": {
+      "step": 64,
+      "scout_position": [
+        -0.42531880736351013,
+        0.3826005458831787
+      ],
+      "carrier_position": [
+        -0.6441699266433716,
+        -0.22752645611763
+      ],
+      "carrier_velocity": [
+        0.10792291164398193,
+        -0.03557896986603737
+      ],
+      "timing": {
+        "scout_position": 0.6481903195381165,
+        "carrier_position": 0.0,
+        "communication_range": 0.9,
+        "network_delay": 5.0,
+        "delivery_probability": 1.0,
+        "decision_slack": 4.300939620444858,
+        "acquisition_duration": 0.1,
+        "return_speed": 0.8,
+        "return_effort_per_distance": 0.12,
+        "waiting_cost_per_second": 0.03
+      },
+      "predicted_delivery_time": 5.1,
+      "predicted_commit_slack": 4.300939620444858,
+      "inspect": false
+    },
+    "sharing": null,
+    "delivered_before_commit": 0,
+    "delivered_after_commit": 0,
+    "evidence_deliveries": [],
+    "scout_acquisitions": 0,
+    "ledger": {
+      "time": 1.1920000000000008,
+      "motion": 0.03274569377379837,
+      "risk": 0.005446545032970605,
+      "sensing": 0.0,
+      "communication": 0.0,
+      "collision": 0.0,
+      "invalid_action": 0.0,
+      "terminal_failure": 0.0
+    },
+    "team_cost": 1.2301922388067699,
+    "event_counts": {
+      "acquisition": 0,
+      "transmission": 0,
+      "packet_delivery": 0,
+      "route_commitment": 1
+    }
+  },
+  {
+    "policy": "always",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.5
+    },
+    "config": {
+      "horizon": 900,
+      "dt": 0.05,
+      "sensing_range_scout": 0.32,
+      "sensing_range_carrier": 0.2,
+      "communication_range": 0.9,
+      "communication_delay_steps": 100,
+      "packet_drop_probability": 0.0,
+      "decision_x": -0.18,
+      "traction_safe_threshold": 0.55,
+      "goal_radius": 0.18,
+      "sensing_cost": 0.04,
+      "communication_attempt_cost": 0.01,
+      "byte_cost": 5e-05,
+      "header_bytes": 32,
+      "payload_bytes": 16,
+      "ack_payload_bytes": 8,
+      "time_cost": 0.002,
+      "motion_cost": 0.001,
+      "risk_cost": 0.12,
+      "collision_cost": 0.1,
+      "invalid_action_cost": 0.02,
+      "terminal_failure_cost": 3.0
+    },
+    "seed": 1701,
+    "success": true,
+    "steps": 596,
+    "route_commitment": "bottom",
+    "actual_commit_step": 200,
+    "actual_commit_slack_from_gate": 6.800000000000001,
+    "gate": {
+      "step": 64,
+      "scout_position": [
+        -0.42531880736351013,
+        0.3826005458831787
+      ],
+      "carrier_position": [
+        -0.6441699266433716,
+        -0.22752645611763
+      ],
+      "carrier_velocity": [
+        0.10792291164398193,
+        -0.03557896986603737
+      ],
+      "timing": {
+        "scout_position": 0.6481903195381165,
+        "carrier_position": 0.0,
+        "communication_range": 0.9,
+        "network_delay": 5.0,
+        "delivery_probability": 1.0,
+        "decision_slack": 4.300939620444858,
+        "acquisition_duration": 0.1,
+        "return_speed": 0.8,
+        "return_effort_per_distance": 0.12,
+        "waiting_cost_per_second": 0.03
+      },
+      "predicted_delivery_time": 5.1,
+      "predicted_commit_slack": 4.300939620444858,
+      "inspect": true
+    },
+    "sharing": {
+      "step": 66,
+      "timing": {
+        "scout_position": 0.6520934104919434,
+        "carrier_position": 0.0,
+        "communication_range": 0.9,
+        "network_delay": 5.0,
+        "delivery_probability": 1.0,
+        "decision_slack": 4.209738963403403,
+        "acquisition_duration": 0.1,
+        "return_speed": 0.8,
+        "return_effort_per_distance": 0.12,
+        "waiting_cost_per_second": 0.03
+      },
+      "selected_observation_ids": []
+    },
+    "delivered_before_commit": 0,
+    "delivered_after_commit": 0,
+    "evidence_deliveries": [],
+    "scout_acquisitions": 2,
+    "ledger": {
+      "time": 1.1920000000000008,
+      "motion": 0.026205011464157747,
+      "risk": 0.005446545032970605,
+      "sensing": 0.08,
+      "communication": 0.0,
+      "collision": 0.0,
+      "invalid_action": 0.0,
+      "terminal_failure": 0.0
+    },
+    "team_cost": 1.3036515564971292,
+    "event_counts": {
+      "acquisition": 2,
+      "transmission": 0,
+      "packet_delivery": 0,
+      "route_commitment": 1
+    }
+  },
+  {
+    "policy": "never",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.5
+    },
+    "config": {
+      "horizon": 900,
+      "dt": 0.05,
+      "sensing_range_scout": 0.32,
+      "sensing_range_carrier": 0.2,
+      "communication_range": 0.9,
+      "communication_delay_steps": 100,
+      "packet_drop_probability": 0.0,
+      "decision_x": -0.18,
+      "traction_safe_threshold": 0.55,
+      "goal_radius": 0.18,
+      "sensing_cost": 0.04,
+      "communication_attempt_cost": 0.01,
+      "byte_cost": 5e-05,
+      "header_bytes": 32,
+      "payload_bytes": 16,
+      "ack_payload_bytes": 8,
+      "time_cost": 0.002,
+      "motion_cost": 0.001,
+      "risk_cost": 0.12,
+      "collision_cost": 0.1,
+      "invalid_action_cost": 0.02,
+      "terminal_failure_cost": 3.0
+    },
+    "seed": 1701,
+    "success": true,
+    "steps": 596,
+    "route_commitment": "bottom",
+    "actual_commit_step": 200,
+    "actual_commit_slack_from_gate": 6.800000000000001,
+    "gate": {
+      "step": 64,
+      "scout_position": [
+        -0.42531880736351013,
+        0.3826005458831787
+      ],
+      "carrier_position": [
+        -0.6441699266433716,
+        -0.22752645611763
+      ],
+      "carrier_velocity": [
+        0.10792291164398193,
+        -0.03557896986603737
+      ],
+      "timing": {
+        "scout_position": 0.6481903195381165,
+        "carrier_position": 0.0,
+        "communication_range": 0.9,
+        "network_delay": 5.0,
+        "delivery_probability": 1.0,
+        "decision_slack": 4.300939620444858,
+        "acquisition_duration": 0.1,
+        "return_speed": 0.8,
+        "return_effort_per_distance": 0.12,
+        "waiting_cost_per_second": 0.03
+      },
+      "predicted_delivery_time": 5.1,
+      "predicted_commit_slack": 4.300939620444858,
+      "inspect": false
+    },
+    "sharing": null,
+    "delivered_before_commit": 0,
+    "delivered_after_commit": 0,
+    "evidence_deliveries": [],
+    "scout_acquisitions": 0,
+    "ledger": {
+      "time": 1.1920000000000008,
+      "motion": 0.03274569377379837,
+      "risk": 0.005446545032970605,
+      "sensing": 0.0,
+      "communication": 0.0,
+      "collision": 0.0,
+      "invalid_action": 0.0,
+      "terminal_failure": 0.0
+    },
+    "team_cost": 1.2301922388067699,
+    "event_counts": {
+      "acquisition": 0,
+      "transmission": 0,
+      "packet_delivery": 0,
+      "route_commitment": 1
+    }
+  }
+]

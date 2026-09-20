@@ -1,0 +1,1554 @@
+{
+  "status": "disposable development audit",
+  "oracle_scope": "paired complete physical continuation, realized world",
+  "records": [
+    {
+      "parent_seed": 980010,
+      "surface": 0.04,
+      "traction": 0.9,
+      "scout_start": [
+        10,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 41,
+      "delta_tau_at_reading": 1.069800615310669,
+      "conditional_kl_nats": 2.000923655252947,
+      "sender_estimated_kl_nats": 2.000923655252947,
+      "actor_features": [
+        1.0,
+        0.04306930604547557,
+        0.049751859510499465,
+        -0.30693069395452444,
+        2.000923655252947,
+        1.069800615310669,
+        1.0883351284189602,
+        0.031538461538461536,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9821092410783762,
+          "success": true,
+          "mission_cost": 0.9734200098964292,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.35555601119995117,
+          "carrier_local_lookahead": 0.35555601119995117,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 57,
+            "overlap_cells": 24,
+            "disjoint_cells": 89,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0410467946289865,
+          "success": true,
+          "mission_cost": 1.0323575634470394,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.445556402206421,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0116467946289864,
+          "success": true,
+          "mission_cost": 1.0029575634470393,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.245556354522705,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.029537553550610274
+    },
+    {
+      "parent_seed": 980010,
+      "surface": 0.95,
+      "traction": 0.2,
+      "scout_start": [
+        10,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 41,
+      "delta_tau_at_reading": 1.069800615310669,
+      "conditional_kl_nats": 2.518323880996623,
+      "sender_estimated_kl_nats": 2.518323880996623,
+      "actor_features": [
+        1.0,
+        0.944059394137694,
+        0.049751859510499465,
+        0.594059394137694,
+        2.518323880996623,
+        1.069800615310669,
+        1.0883351284189602,
+        0.031538461538461536,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0521059597139142,
+          "success": true,
+          "mission_cost": 1.0044765358230776,
+          "risk_exposure": 0.047629423890836485,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.35555601119995117,
+          "carrier_local_lookahead": 0.35555601119995117,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 57,
+            "overlap_cells": 24,
+            "disjoint_cells": 89,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0622812495226952,
+          "success": true,
+          "mission_cost": 1.0324537488936714,
+          "risk_exposure": 0.02982750062902378,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.445556402206421,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.032881249522695,
+          "success": true,
+          "mission_cost": 1.0030537488936713,
+          "risk_exposure": 0.02982750062902378,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.245556354522705,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": 0.019224710191219074
+    },
+    {
+      "parent_seed": 980010,
+      "surface": 0.04,
+      "traction": 0.9,
+      "scout_start": [
+        12,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "sender_estimated_kl_nats": 2.000923655252947,
+      "actor_features": [
+        1.0,
+        0.04306930604547557,
+        0.049751859510499465,
+        -0.30693069395452444,
+        2.000923655252947,
+        1.3172950744628906,
+        1.3323911994740212,
+        0.024615384615384615,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9756160019306168,
+          "success": true,
+          "mission_cost": 0.9669267707486698,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.031917724023043,
+          "success": true,
+          "mission_cost": 1.023228492841096,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0025177240230432,
+          "success": true,
+          "mission_cost": 0.9938284928410961,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.02690172209242636
+    },
+    {
+      "parent_seed": 980010,
+      "surface": 0.95,
+      "traction": 0.2,
+      "scout_start": [
+        12,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "sender_estimated_kl_nats": 2.518323880996623,
+      "actor_features": [
+        1.0,
+        0.944059394137694,
+        0.049751859510499465,
+        0.594059394137694,
+        2.518323880996623,
+        1.3172950744628906,
+        1.3323911994740212,
+        0.024615384615384615,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.05677647024814,
+          "success": true,
+          "mission_cost": 1.0091470463573033,
+          "risk_exposure": 0.047629423890836485,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0643159050481497,
+          "success": true,
+          "mission_cost": 1.0344884044191258,
+          "risk_exposure": 0.02982750062902378,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0349159050481498,
+          "success": true,
+          "mission_cost": 1.005088404419126,
+          "risk_exposure": 0.02982750062902378,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": 0.021860565199990134
+    },
+    {
+      "parent_seed": 980010,
+      "surface": 0.04,
+      "traction": 0.9,
+      "scout_start": [
+        14,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 27,
+      "delta_tau_at_reading": 1.3731470108032227,
+      "conditional_kl_nats": 2.000923655252947,
+      "sender_estimated_kl_nats": 2.000923655252947,
+      "actor_features": [
+        1.0,
+        0.04306930604547557,
+        0.049751859510499465,
+        -0.30693069395452444,
+        2.000923655252947,
+        1.3731470108032227,
+        1.3876356540927643,
+        0.02076923076923077,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 648,
+      "branches": {
+        "hold": {
+          "cost": 0.9715887775758891,
+          "success": true,
+          "mission_cost": 0.9628995463939422,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.34055662155151367,
+          "carrier_local_lookahead": 0.34055662155151367,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 45,
+            "overlap_cells": 0,
+            "disjoint_cells": 100,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0356893041591038,
+          "success": true,
+          "mission_cost": 1.0270000729771567,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.05600000000000001,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 56,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 106,
+            "carrier_new_received_cells": 25
+          }
+        },
+        "innovation": {
+          "cost": 1.0056893041591037,
+          "success": true,
+          "mission_cost": 0.9970000729771568,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 56,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 106,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.03410052658321461
+    },
+    {
+      "parent_seed": 980010,
+      "surface": 0.95,
+      "traction": 0.2,
+      "scout_start": [
+        14,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 27,
+      "delta_tau_at_reading": 1.3731470108032227,
+      "conditional_kl_nats": 2.518323880996623,
+      "sender_estimated_kl_nats": 2.518323880996623,
+      "actor_features": [
+        1.0,
+        0.944059394137694,
+        0.049751859510499465,
+        0.594059394137694,
+        2.518323880996623,
+        1.3731470108032227,
+        1.3876356540927643,
+        0.02076923076923077,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 648,
+      "branches": {
+        "hold": {
+          "cost": 1.0413840794728844,
+          "success": true,
+          "mission_cost": 0.9924004247993145,
+          "risk_exposure": 0.04898365467356999,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.34055662155151367,
+          "carrier_local_lookahead": 0.34055662155151367,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 45,
+            "overlap_cells": 0,
+            "disjoint_cells": 100,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.05095710114974,
+          "success": true,
+          "mission_cost": 1.0197753697379828,
+          "risk_exposure": 0.031181731411757296,
+          "communication_cost": 0.05600000000000001,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 105,
+            "carrier_new_received_cells": 25
+          }
+        },
+        "innovation": {
+          "cost": 1.02095710114974,
+          "success": true,
+          "mission_cost": 0.9897753697379827,
+          "risk_exposure": 0.031181731411757296,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 105,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": 0.02042697832314433
+    },
+    {
+      "parent_seed": 980011,
+      "surface": 0.04,
+      "traction": 0.9,
+      "scout_start": [
+        10,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 41,
+      "delta_tau_at_reading": 1.069800615310669,
+      "conditional_kl_nats": 2.000923655252947,
+      "sender_estimated_kl_nats": 2.000923655252947,
+      "actor_features": [
+        1.0,
+        0.04306930604547557,
+        0.049751859510499465,
+        -0.30693069395452444,
+        2.000923655252947,
+        1.069800615310669,
+        1.0883351284189602,
+        0.031538461538461536,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9822928721630845,
+          "success": true,
+          "mission_cost": 0.9736036409811375,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.35555601119995117,
+          "carrier_local_lookahead": 0.35555601119995117,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 57,
+            "overlap_cells": 24,
+            "disjoint_cells": 89,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0412555883831882,
+          "success": true,
+          "mission_cost": 1.0325663572012411,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.445556402206421,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0118555883831883,
+          "success": true,
+          "mission_cost": 1.0031663572012413,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.245556354522705,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.02956271622010387
+    },
+    {
+      "parent_seed": 980011,
+      "surface": 0.95,
+      "traction": 0.2,
+      "scout_start": [
+        10,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 41,
+      "delta_tau_at_reading": 1.069800615310669,
+      "conditional_kl_nats": 2.518323880996623,
+      "sender_estimated_kl_nats": 2.518323880996623,
+      "actor_features": [
+        1.0,
+        0.944059394137694,
+        0.049751859510499465,
+        0.594059394137694,
+        2.518323880996623,
+        1.069800615310669,
+        1.0883351284189602,
+        0.031538461538461536,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0127429263172305,
+          "success": true,
+          "mission_cost": 0.9781263871770699,
+          "risk_exposure": 0.03461653914016066,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.35555601119995117,
+          "carrier_local_lookahead": 0.35555601119995117,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 57,
+            "overlap_cells": 24,
+            "disjoint_cells": 89,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0675420764455383,
+          "success": true,
+          "mission_cost": 1.0356586142566298,
+          "risk_exposure": 0.031883462188908696,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.445556402206421,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0381420764455385,
+          "success": true,
+          "mission_cost": 1.0062586142566297,
+          "risk_exposure": 0.031883462188908696,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.245556354522705,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.025399150128307957
+    },
+    {
+      "parent_seed": 980011,
+      "surface": 0.04,
+      "traction": 0.9,
+      "scout_start": [
+        12,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "sender_estimated_kl_nats": 2.000923655252947,
+      "actor_features": [
+        1.0,
+        0.04306930604547557,
+        0.049751859510499465,
+        -0.30693069395452444,
+        2.000923655252947,
+        1.3172950744628906,
+        1.3323911994740212,
+        0.024615384615384615,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9764311489413503,
+          "success": true,
+          "mission_cost": 0.9677419177594033,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0327580337032705,
+          "success": true,
+          "mission_cost": 1.0240688025213234,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0033580337032704,
+          "success": true,
+          "mission_cost": 0.9946688025213234,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.026926884761920067
+    },
+    {
+      "parent_seed": 980011,
+      "surface": 0.95,
+      "traction": 0.2,
+      "scout_start": [
+        12,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "sender_estimated_kl_nats": 2.518323880996623,
+      "actor_features": [
+        1.0,
+        0.944059394137694,
+        0.049751859510499465,
+        0.594059394137694,
+        2.518323880996623,
+        1.3172950744628906,
+        1.3323911994740212,
+        0.024615384615384615,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0161747973271698,
+          "success": true,
+          "mission_cost": 0.981558258187009,
+          "risk_exposure": 0.03461653914016066,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0683381101640195,
+          "success": true,
+          "mission_cost": 1.0364546479751109,
+          "risk_exposure": 0.031883462188908696,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0389381101640196,
+          "success": true,
+          "mission_cost": 1.0070546479751108,
+          "risk_exposure": 0.031883462188908696,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.022763312836849847
+    },
+    {
+      "parent_seed": 980011,
+      "surface": 0.04,
+      "traction": 0.9,
+      "scout_start": [
+        14,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 27,
+      "delta_tau_at_reading": 1.3731470108032227,
+      "conditional_kl_nats": 2.000923655252947,
+      "sender_estimated_kl_nats": 2.000923655252947,
+      "actor_features": [
+        1.0,
+        0.04306930604547557,
+        0.049751859510499465,
+        -0.30693069395452444,
+        2.000923655252947,
+        1.3731470108032227,
+        1.3876356540927643,
+        0.02076923076923077,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 648,
+      "branches": {
+        "hold": {
+          "cost": 0.9727363967068,
+          "success": true,
+          "mission_cost": 0.964047165524853,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.34055662155151367,
+          "carrier_local_lookahead": 0.34055662155151367,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 45,
+            "overlap_cells": 0,
+            "disjoint_cells": 100,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0324163065014715,
+          "success": true,
+          "mission_cost": 1.0237270753195244,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.05600000000000001,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 56,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 106,
+            "carrier_new_received_cells": 25
+          }
+        },
+        "innovation": {
+          "cost": 1.0024163065014715,
+          "success": true,
+          "mission_cost": 0.9937270753195244,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 56,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 106,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.0296799097946715
+    },
+    {
+      "parent_seed": 980011,
+      "surface": 0.95,
+      "traction": 0.2,
+      "scout_start": [
+        14,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 27,
+      "delta_tau_at_reading": 1.3731470108032227,
+      "conditional_kl_nats": 2.518323880996623,
+      "sender_estimated_kl_nats": 2.518323880996623,
+      "actor_features": [
+        1.0,
+        0.944059394137694,
+        0.049751859510499465,
+        0.594059394137694,
+        2.518323880996623,
+        1.3731470108032227,
+        1.3876356540927643,
+        0.02076923076923077,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 648,
+      "branches": {
+        "hold": {
+          "cost": 1.0001725434097701,
+          "success": true,
+          "mission_cost": 0.9642017734868759,
+          "risk_exposure": 0.035970769922894365,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.34055662155151367,
+          "carrier_local_lookahead": 0.34055662155151367,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 45,
+            "overlap_cells": 0,
+            "disjoint_cells": 100,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0543693937241336,
+          "success": true,
+          "mission_cost": 1.0211317007524912,
+          "risk_exposure": 0.0332376929716424,
+          "communication_cost": 0.05600000000000001,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 105,
+            "carrier_new_received_cells": 25
+          }
+        },
+        "innovation": {
+          "cost": 1.0243693937241336,
+          "success": true,
+          "mission_cost": 0.9911317007524911,
+          "risk_exposure": 0.0332376929716424,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 105,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.02419685031436347
+    },
+    {
+      "parent_seed": 980012,
+      "surface": 0.04,
+      "traction": 0.9,
+      "scout_start": [
+        10,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 41,
+      "delta_tau_at_reading": 1.069800615310669,
+      "conditional_kl_nats": 2.000923655252947,
+      "sender_estimated_kl_nats": 2.000923655252947,
+      "actor_features": [
+        1.0,
+        0.04306930604547557,
+        0.049751859510499465,
+        -0.30693069395452444,
+        2.000923655252947,
+        1.069800615310669,
+        1.0883351284189602,
+        0.031538461538461536,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9757742109772092,
+          "success": true,
+          "mission_cost": 0.9670849797952622,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.35555601119995117,
+          "carrier_local_lookahead": 0.35555601119995117,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 57,
+            "overlap_cells": 24,
+            "disjoint_cells": 89,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.034560725448546,
+          "success": true,
+          "mission_cost": 1.025871494266599,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.445556402206421,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.005160725448546,
+          "success": true,
+          "mission_cost": 0.996471494266599,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.245556354522705,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.029386514471336778
+    },
+    {
+      "parent_seed": 980012,
+      "surface": 0.95,
+      "traction": 0.2,
+      "scout_start": [
+        10,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 41,
+      "delta_tau_at_reading": 1.069800615310669,
+      "conditional_kl_nats": 2.518323880996623,
+      "sender_estimated_kl_nats": 2.518323880996623,
+      "actor_features": [
+        1.0,
+        0.944059394137694,
+        0.049751859510499465,
+        0.594059394137694,
+        2.518323880996623,
+        1.069800615310669,
+        1.0883351284189602,
+        0.031538461538461536,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0021653086529378,
+          "success": true,
+          "mission_cost": 0.9696047310726622,
+          "risk_exposure": 0.03256057758027555,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.35555601119995117,
+          "carrier_local_lookahead": 0.35555601119995117,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 57,
+            "overlap_cells": 24,
+            "disjoint_cells": 89,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0598823349199744,
+          "success": true,
+          "mission_cost": 1.0286759881224325,
+          "risk_exposure": 0.031206346797541848,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.445556402206421,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0304823349199745,
+          "success": true,
+          "mission_cost": 0.9992759881224327,
+          "risk_exposure": 0.031206346797541848,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.245556354522705,
+          "carrier_local_lookahead": 0.4455564022064209,
+          "support": {
+            "scout_local_cells": 80,
+            "carrier_local_cells": 63,
+            "overlap_cells": 29,
+            "disjoint_cells": 85,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.028317026267036693
+    },
+    {
+      "parent_seed": 980012,
+      "surface": 0.04,
+      "traction": 0.9,
+      "scout_start": [
+        12,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "sender_estimated_kl_nats": 2.000923655252947,
+      "actor_features": [
+        1.0,
+        0.04306930604547557,
+        0.049751859510499465,
+        -0.30693069395452444,
+        2.000923655252947,
+        1.3172950744628906,
+        1.3323911994740212,
+        0.024615384615384615,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9743015711784749,
+          "success": true,
+          "mission_cost": 0.965612339996528,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.030452254191628,
+          "success": true,
+          "mission_cost": 1.0217630230096808,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.001052254191628,
+          "success": true,
+          "mission_cost": 0.9923630230096809,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.026750683013153087
+    },
+    {
+      "parent_seed": 980012,
+      "surface": 0.95,
+      "traction": 0.2,
+      "scout_start": [
+        12,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "sender_estimated_kl_nats": 2.518323880996623,
+      "actor_features": [
+        1.0,
+        0.944059394137694,
+        0.049751859510499465,
+        0.594059394137694,
+        2.518323880996623,
+        1.3172950744628906,
+        1.3323911994740212,
+        0.024615384615384615,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.010399041658525,
+          "success": true,
+          "mission_cost": 0.9778384640782493,
+          "risk_exposure": 0.03256057758027555,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0654802307010693,
+          "success": true,
+          "mission_cost": 1.0342738839035275,
+          "risk_exposure": 0.031206346797541848,
+          "communication_cost": 0.055400000000000005,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0360802307010695,
+          "success": true,
+          "mission_cost": 1.0048738839035276,
+          "risk_exposure": 0.031206346797541848,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.025681189042544572
+    },
+    {
+      "parent_seed": 980012,
+      "surface": 0.04,
+      "traction": 0.9,
+      "scout_start": [
+        14,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 27,
+      "delta_tau_at_reading": 1.3731470108032227,
+      "conditional_kl_nats": 2.000923655252947,
+      "sender_estimated_kl_nats": 2.000923655252947,
+      "actor_features": [
+        1.0,
+        0.04306930604547557,
+        0.049751859510499465,
+        -0.30693069395452444,
+        2.000923655252947,
+        1.3731470108032227,
+        1.3876356540927643,
+        0.02076923076923077,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 648,
+      "branches": {
+        "hold": {
+          "cost": 0.9725783286007647,
+          "success": true,
+          "mission_cost": 0.9638890974188177,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.34055662155151367,
+          "carrier_local_lookahead": 0.34055662155151367,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 45,
+            "overlap_cells": 0,
+            "disjoint_cells": 100,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0255241179100407,
+          "success": true,
+          "mission_cost": 1.0168348867280936,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.05600000000000001,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 56,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 106,
+            "carrier_new_received_cells": 25
+          }
+        },
+        "innovation": {
+          "cost": 0.9955241179100406,
+          "success": true,
+          "mission_cost": 0.9868348867280936,
+          "risk_exposure": 0.008689231181947019,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 56,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 106,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.022945789309275932
+    },
+    {
+      "parent_seed": 980012,
+      "surface": 0.95,
+      "traction": 0.2,
+      "scout_start": [
+        14,
+        27
+      ],
+      "acquired": true,
+      "reading_step": 27,
+      "delta_tau_at_reading": 1.3731470108032227,
+      "conditional_kl_nats": 2.518323880996623,
+      "sender_estimated_kl_nats": 2.518323880996623,
+      "actor_features": [
+        1.0,
+        0.944059394137694,
+        0.049751859510499465,
+        0.594059394137694,
+        2.518323880996623,
+        1.3731470108032227,
+        1.3876356540927643,
+        0.02076923076923077,
+        0.0,
+        0.0,
+        0.046875
+      ],
+      "summary_bytes": 48,
+      "raw_bytes": 648,
+      "branches": {
+        "hold": {
+          "cost": 1.00222980695191,
+          "success": true,
+          "mission_cost": 0.967637883197534,
+          "risk_exposure": 0.0345919237543761,
+          "communication_cost": 0.0,
+          "sensing_cost": 0.02,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.34055662155151367,
+          "carrier_local_lookahead": 0.34055662155151367,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 45,
+            "overlap_cells": 0,
+            "disjoint_cells": 100,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0593445247429767,
+          "success": true,
+          "mission_cost": 1.0261068317713342,
+          "risk_exposure": 0.03323769297164239,
+          "communication_cost": 0.05600000000000001,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 105,
+            "carrier_new_received_cells": 25
+          }
+        },
+        "innovation": {
+          "cost": 1.0293445247429767,
+          "success": true,
+          "mission_cost": 0.9961068317713342,
+          "risk_exposure": 0.03323769297164239,
+          "communication_cost": 0.026000000000000002,
+          "sensing_cost": 0.02,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.630556106567383,
+          "carrier_local_lookahead": 0.6305561065673828,
+          "support": {
+            "scout_local_cells": 55,
+            "carrier_local_cells": 52,
+            "overlap_cells": 1,
+            "disjoint_cells": 105,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.027114717791066667
+    }
+  ]
+}

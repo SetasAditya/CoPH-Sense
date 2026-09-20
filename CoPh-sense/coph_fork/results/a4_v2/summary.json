@@ -1,0 +1,392 @@
+{
+  "seeds": [
+    1801,
+    1802,
+    1803
+  ],
+  "aggregate": {
+    "additive_unweighted": {
+      "standard_regret": {
+        "mean": 0.02022767687837283,
+        "sample_std": 0.0030535086584667303
+      },
+      "standard_wasteful_send_rate": {
+        "mean": 0.08666666845480601,
+        "sample_std": 0.024664414704282864
+      },
+      "standard_missed_useful_value": {
+        "mean": 0.0031601788165668645,
+        "sample_std": 0.0011650490088109674
+      },
+      "standard_critical_recall": {
+        "mean": 0.9859259327252706,
+        "sample_std": 0.012239040602210751
+      },
+      "standard_bytes": {
+        "mean": 51.748842657384614,
+        "sample_std": 2.4261047102779756
+      },
+      "held_out_warning_recall": {
+        "mean": 1.0,
+        "sample_std": 0.0
+      },
+      "held_out_warning_regret": {
+        "mean": 0.0,
+        "sample_std": 0.0
+      }
+    },
+    "additive_weighted": {
+      "standard_regret": {
+        "mean": 0.01727873117973407,
+        "sample_std": 0.0025757557517329596
+      },
+      "standard_wasteful_send_rate": {
+        "mean": 0.10166666905085246,
+        "sample_std": 0.028867516040438114
+      },
+      "standard_missed_useful_value": {
+        "mean": 0.0006053902519245943,
+        "sample_std": 0.0010485666747403195
+      },
+      "standard_critical_recall": {
+        "mean": 0.9933333396911621,
+        "sample_std": 0.01154699437171005
+      },
+      "standard_bytes": {
+        "mean": 53.32248303877423,
+        "sample_std": 2.664873254135949
+      },
+      "held_out_warning_recall": {
+        "mean": 1.0,
+        "sample_std": 0.0
+      },
+      "held_out_warning_regret": {
+        "mean": 0.0,
+        "sample_std": 0.0
+      }
+    },
+    "pairwise_weighted": {
+      "standard_regret": {
+        "mean": 0.015898801386356354,
+        "sample_std": 0.0022628053752648627
+      },
+      "standard_wasteful_send_rate": {
+        "mean": 0.06499999885757764,
+        "sample_std": 0.03499999828636648
+      },
+      "standard_missed_useful_value": {
+        "mean": 0.0013860769880314667,
+        "sample_std": 0.00037891359527374944
+      },
+      "standard_critical_recall": {
+        "mean": 0.9933333396911621,
+        "sample_std": 0.01154699437171005
+      },
+      "standard_bytes": {
+        "mean": 52.03969974622984,
+        "sample_std": 3.2464296591926582
+      },
+      "held_out_warning_recall": {
+        "mean": 1.0,
+        "sample_std": 0.0
+      },
+      "held_out_warning_regret": {
+        "mean": 0.0,
+        "sample_std": 0.0
+      }
+    }
+  },
+  "canonical_interventions": {
+    "joint_good": {
+      "oracle": [
+        "top_geometry",
+        "top_traction"
+      ],
+      "models": {
+        "additive_unweighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3
+        },
+        "additive_weighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3
+        },
+        "pairwise_weighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3
+        }
+      }
+    },
+    "ack_completes_pair": {
+      "oracle": [
+        "top_traction"
+      ],
+      "models": {
+        "additive_unweighted": {
+          "selected_by_seed": [
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3
+        },
+        "additive_weighted": {
+          "selected_by_seed": [
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3
+        },
+        "pairwise_weighted": {
+          "selected_by_seed": [
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3
+        }
+      }
+    },
+    "duplicate": {
+      "oracle": [],
+      "models": {
+        "additive_unweighted": {
+          "selected_by_seed": [
+            [],
+            [
+              "top_geometry"
+            ],
+            []
+          ],
+          "correct_count": 2
+        },
+        "additive_weighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry"
+            ],
+            [],
+            []
+          ],
+          "correct_count": 2
+        },
+        "pairwise_weighted": {
+          "selected_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3
+        }
+      }
+    },
+    "irrelevant": {
+      "oracle": [],
+      "models": {
+        "additive_unweighted": {
+          "selected_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3
+        },
+        "additive_weighted": {
+          "selected_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3
+        },
+        "pairwise_weighted": {
+          "selected_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3
+        }
+      }
+    },
+    "stale": {
+      "oracle": [],
+      "models": {
+        "additive_unweighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [],
+            []
+          ],
+          "correct_count": 2
+        },
+        "additive_weighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [],
+            []
+          ],
+          "correct_count": 2
+        },
+        "pairwise_weighted": {
+          "selected_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3
+        }
+      }
+    },
+    "costly_low_link": {
+      "oracle": [],
+      "models": {
+        "additive_unweighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [],
+            []
+          ],
+          "correct_count": 2
+        },
+        "additive_weighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [],
+            [
+              "top_geometry"
+            ]
+          ],
+          "correct_count": 1
+        },
+        "pairwise_weighted": {
+          "selected_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3
+        }
+      }
+    },
+    "bad_warning": {
+      "oracle": [
+        "top_geometry"
+      ],
+      "models": {
+        "additive_unweighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry"
+            ],
+            [
+              "top_geometry"
+            ],
+            [
+              "top_geometry"
+            ]
+          ],
+          "correct_count": 3
+        },
+        "additive_weighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry"
+            ],
+            [
+              "top_geometry"
+            ],
+            [
+              "top_geometry"
+            ]
+          ],
+          "correct_count": 3
+        },
+        "pairwise_weighted": {
+          "selected_by_seed": [
+            [
+              "top_geometry"
+            ],
+            [
+              "top_geometry"
+            ],
+            [
+              "top_geometry"
+            ]
+          ],
+          "correct_count": 3
+        }
+      }
+    }
+  }
+}

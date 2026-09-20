@@ -1,0 +1,65 @@
+{
+  "scope": "16 enumerated terrain worlds on one frozen two-fork layout; scripted high-level routes; direct and split executors share the same continuous-time pH vector field, so B-A measures numerical integration rather than structural pH benefit; no held-out generalization or statistical replication",
+  "cells": {
+    "ordinary_direct": {
+      "mean_team_cost": 0.687073572168327,
+      "success_count": 16,
+      "collision_cost": 0.0,
+      "mean_steps": 246.75,
+      "mean_time_cost": 0.4935000000000003,
+      "mean_risk_cost": 0.027715460169464353,
+      "mean_sensing_cost": 0.08,
+      "mean_communication_cost": 0.048799999999999996
+    },
+    "ordinary_ph": {
+      "mean_team_cost": 0.7050618918900606,
+      "success_count": 16,
+      "collision_cost": 0.0,
+      "mean_steps": 255.25,
+      "mean_time_cost": 0.5105000000000004,
+      "mean_risk_cost": 0.027342449810877446,
+      "mean_sensing_cost": 0.08,
+      "mean_communication_cost": 0.048799999999999996
+    },
+    "coph_direct": {
+      "mean_team_cost": 0.6661388142983011,
+      "success_count": 16,
+      "collision_cost": 0.0,
+      "mean_steps": 238.8125,
+      "mean_time_cost": 0.4776250000000003,
+      "mean_risk_cost": 0.024521121539399025,
+      "mean_sensing_cost": 0.08,
+      "mean_communication_cost": 0.048799999999999996
+    },
+    "coph_ph": {
+      "mean_team_cost": 0.6778867642872113,
+      "success_count": 16,
+      "collision_cost": 0.0,
+      "mean_steps": 244.25,
+      "mean_time_cost": 0.4885000000000003,
+      "mean_risk_cost": 0.02404843711037189,
+      "mean_sensing_cost": 0.08,
+      "mean_communication_cost": 0.048799999999999996
+    }
+  },
+  "paired_effects": {
+    "information_C_minus_A": {
+      "mean": -0.020934757870025966,
+      "min": -0.1972024367061127,
+      "max": 0.0384732492551797,
+      "beneficial_worlds": 10
+    },
+    "ph_B_minus_A": {
+      "mean": 0.017988319721733495,
+      "min": 0.013337965685907283,
+      "max": 0.029512091899188797,
+      "beneficial_worlds": 0
+    },
+    "interaction_D_minus_C_minus_B_plus_A": {
+      "mean": -0.00624036973282327,
+      "min": -0.022901065401239262,
+      "max": 0.033955750637619686,
+      "beneficial_worlds": 12
+    }
+  }
+}

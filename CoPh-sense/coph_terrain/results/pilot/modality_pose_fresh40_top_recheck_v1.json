@@ -1,0 +1,208 @@
+{
+  "source": "modality_pose_fresh40_value_funnel_v1.json",
+  "records": [
+    {
+      "seed": 860010,
+      "family": "bottleneck",
+      "step": 120,
+      "top_cell": [
+        21,
+        20
+      ],
+      "ideal_value": 0.06422749941188721,
+      "baseline_cost": 1.1719286177405914,
+      "results": {
+        "G": {
+          "value": -0.07231985717830947,
+          "success": true,
+          "measurements": 1,
+          "packets": 1,
+          "target_region_covered": [
+            true
+          ],
+          "poses": [
+            [
+              18,
+              21
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 860013,
+      "family": "bottleneck",
+      "step": 360,
+      "top_cell": [
+        45,
+        23
+      ],
+      "ideal_value": 0.05284240403327245,
+      "baseline_cost": 1.690425209613851,
+      "results": {}
+    },
+    {
+      "seed": 860019,
+      "family": "bottleneck",
+      "step": 120,
+      "top_cell": [
+        36,
+        41
+      ],
+      "ideal_value": 0.12315735986230703,
+      "baseline_cost": 1.9930890363044447,
+      "results": {}
+    },
+    {
+      "seed": 860025,
+      "family": "bottleneck",
+      "step": 120,
+      "top_cell": [
+        50,
+        25
+      ],
+      "ideal_value": 0.151705302251413,
+      "baseline_cost": 1.834257877637933,
+      "results": {}
+    },
+    {
+      "seed": 860025,
+      "family": "bottleneck",
+      "step": 360,
+      "top_cell": [
+        44,
+        26
+      ],
+      "ideal_value": 0.11083895896793061,
+      "baseline_cost": 1.834257877637933,
+      "results": {
+        "G": {
+          "value": -0.01991573656663026,
+          "success": true,
+          "measurements": 1,
+          "packets": 1,
+          "target_region_covered": [
+            true
+          ],
+          "poses": [
+            [
+              44,
+              25
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 860026,
+      "family": "labyrinth",
+      "step": 120,
+      "top_cell": [
+        21,
+        19
+      ],
+      "ideal_value": 0.05685422949916008,
+      "baseline_cost": 1.3336721413236212,
+      "results": {
+        "G": {
+          "value": -0.09489201812468795,
+          "success": true,
+          "measurements": 1,
+          "packets": 1,
+          "target_region_covered": [
+            true
+          ],
+          "poses": [
+            [
+              20,
+              23
+            ]
+          ]
+        },
+        "T": {
+          "value": -0.12861486802581035,
+          "success": true,
+          "measurements": 1,
+          "packets": 1,
+          "target_region_covered": [
+            true
+          ],
+          "poses": [
+            [
+              21,
+              19
+            ]
+          ]
+        },
+        "GT": {
+          "value": -0.19012260295570127,
+          "success": true,
+          "measurements": 2,
+          "packets": 2,
+          "target_region_covered": [
+            true,
+            true
+          ],
+          "poses": [
+            [
+              20,
+              23
+            ],
+            [
+              21,
+              19
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "seed": 860029,
+      "family": "labyrinth",
+      "step": 120,
+      "top_cell": [
+        21,
+        9
+      ],
+      "ideal_value": 0.06389681582934381,
+      "baseline_cost": 2.3221183741222733,
+      "results": {}
+    },
+    {
+      "seed": 860031,
+      "family": "bottleneck",
+      "step": 120,
+      "top_cell": [
+        37,
+        22
+      ],
+      "ideal_value": 0.09723867067256897,
+      "baseline_cost": 2.4672414622773706,
+      "results": {}
+    },
+    {
+      "seed": 860032,
+      "family": "labyrinth",
+      "step": 120,
+      "top_cell": [
+        28,
+        19
+      ],
+      "ideal_value": 0.0687673507681108,
+      "baseline_cost": 1.2683566335824776,
+      "results": {}
+    },
+    {
+      "seed": 860038,
+      "family": "labyrinth",
+      "step": 120,
+      "top_cell": [
+        43,
+        16
+      ],
+      "ideal_value": 0.056400636738932475,
+      "baseline_cost": 1.8322187199786462,
+      "results": {}
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "scope": "frozen static look-ahead task; corrected physical A4 continuation",
+  "selection": "prospective contiguous seed blocks; no SEND-value selection",
+  "schedule_origin": 982000,
+  "splits": {
+    "train": {
+      "first_seed": 982000,
+      "seed_count": 400
+    },
+    "validation": {
+      "first_seed": 982400,
+      "seed_count": 120
+    },
+    "test": {
+      "first_seed": 982520,
+      "seed_count": 900
+    }
+  },
+  "shard_seeds": 3,
+  "source_sha256": {
+    "lookahead.py": "8a44485db1c178f19ed56abbe547140c1c0d790ed4a654869c9168f847d4d52e",
+    "algorithm.py": "b7849184bf2fff321a3528e16f3e931136cb913dbcfd49ed18abd977d14b74f6",
+    "lookahead_policy.py": "c0528e8209b25a69cf944850ebceaf98a0c91044efa6d0a612f151b07a61e93f",
+    "lookahead_recipient_a4.py": "1e4b2aaf9089a1f5b5553eac5e5f27e1d55d022d67e00ca8bec3a8b0d0071e0a",
+    "lookahead_a4_downstream.py": "a347eeac1fab53d05cebbaa03ab85a68997e0a9f0409d545d75e569d187b42be",
+    "physical_audit.py": "834f5c63137179aca1087f08417bbb45300edf2bd9a0b92ada88dad094bf62e4",
+    "planning.py": "224b06899d7a9d4334810552587fee168341afcdc89b0421e1d4c3dda9c8b272",
+    "environment.py": "ab18bcc0df108348cb2ff7a25e7e9170a6a4ce491d36d1c1e4361adcb5c9f1d8"
+  },
+  "risk_states": [
+    "safe",
+    "risky"
+  ],
+  "age_steps": [
+    0,
+    8,
+    16
+  ],
+  "overlap": "private direct overlap on every third seed"
+}

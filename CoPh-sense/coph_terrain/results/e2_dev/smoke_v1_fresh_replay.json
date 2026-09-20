@@ -1,0 +1,12 @@
+{
+  "status": "engineering_smoke_only",
+  "group": "train/open/0003",
+  "selected_set": [
+    -1,
+    -1
+  ],
+  "executed_cost": 1.0714278433294515,
+  "executed_success": true,
+  "measurements": 0,
+  "packets": 0
+}

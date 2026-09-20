@@ -1,0 +1,60 @@
+{
+  "scope": "frozen finite A5-v2 actor; first evaluation on frozen matched moving VMAS layout",
+  "checkpoint": "results/a5_memory_v2/pairwise_1701.pth",
+  "frozen_layout_sha256": "d4dd9ae4236c07412de1d49e7019dd89aaf54a5705bb60cf81fa7ed6600befc4",
+  "rows": [
+    {
+      "memory_state": "M0",
+      "a5_action": "R1",
+      "physical_oracle_action": "R1",
+      "a5_physical_cost": 3.470471471140381,
+      "oracle_physical_cost": 3.470471471140381,
+      "physical_regret": 0.0,
+      "posterior": [
+        0.0196,
+        0.029399999999999996,
+        0.029399999999999996,
+        0.044099999999999986,
+        0.0364,
+        0.054599999999999996,
+        0.054599999999999996,
+        0.08189999999999999,
+        0.0364,
+        0.054599999999999996,
+        0.054599999999999996,
+        0.08189999999999999,
+        0.06760000000000002,
+        0.10140000000000002,
+        0.1014,
+        0.15209999999999999
+      ]
+    },
+    {
+      "memory_state": "M1",
+      "a5_action": "R2",
+      "physical_oracle_action": "R2",
+      "a5_physical_cost": 2.634267939553601,
+      "oracle_physical_cost": 2.634267939553601,
+      "physical_regret": 0.0,
+      "posterior": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.16000000000000003,
+        0.24000000000000002,
+        0.24,
+        0.35999999999999993
+      ]
+    }
+  ],
+  "both_decisions_match": true
+}

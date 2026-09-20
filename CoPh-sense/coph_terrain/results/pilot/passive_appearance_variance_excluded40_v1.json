@@ -1,0 +1,9 @@
+{
+  "free_cell_samples": 30000,
+  "unconditional_risk_variance": 0.04762531112841264,
+  "appearance_bin20_conditional_variance": 0.025620030247623857,
+  "appearance_surface_bin20_conditional_variance": 0.014743790368251434,
+  "appearance_traction_bin20_conditional_variance": 0.01057480427031455,
+  "exact_surface_traction_conditional_variance": 0.0,
+  "note": "Empirical binned cell-level conditional variance; spatial dependence ignored; not a calibrated posterior."
+}

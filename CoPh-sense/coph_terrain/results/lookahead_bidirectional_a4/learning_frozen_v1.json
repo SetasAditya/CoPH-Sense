@@ -1,0 +1,315 @@
+{
+  "scope": "single frozen NEED-conditioned A4 learning run",
+  "random_seed": 2027,
+  "training": {
+    "architecture": "2x32 tanh value MLP",
+    "optimizer": "Adam(lr=0.003, weight_decay=0.0001)",
+    "steps": 1000,
+    "selection": "lowest validation value MSE every 10 steps",
+    "sender_validation_mse": 0.004899267572909594,
+    "need_validation_mse": 0.0004718232376035303
+  },
+  "train_rows": 288,
+  "validation_rows": 192,
+  "test_rows": 384,
+  "methods": [
+    {
+      "name": "never_send",
+      "overall": {
+        "n": 384,
+        "mean_regret": 0.044643858076069416,
+        "team_cost": 1.1568070176282144,
+        "radio_cost": 0.03386666666666666,
+        "sensing_cost": 0.03333333333333333,
+        "charged_bytes": 56.0,
+        "send_rate": 0.0,
+        "useful_send_recall": 0.0,
+        "false_send_rate": 0.0,
+        "duplicate_scans_avoided": 0
+      },
+      "by_direction": {
+        "scout_to_carrier": {
+          "n": 192,
+          "mean_regret": 0.05034139630005372,
+          "team_cost": 1.1534583337717297,
+          "radio_cost": 0.03386666666666666,
+          "sensing_cost": 0.03333333333333333,
+          "charged_bytes": 56.0,
+          "send_rate": 0.0,
+          "useful_send_recall": 0.0,
+          "false_send_rate": 0.0,
+          "duplicate_scans_avoided": 0
+        },
+        "carrier_to_scout": {
+          "n": 192,
+          "mean_regret": 0.03894631985208511,
+          "team_cost": 1.1601557014846993,
+          "radio_cost": 0.03386666666666666,
+          "sensing_cost": 0.03333333333333333,
+          "charged_bytes": 56.0,
+          "send_rate": 0.0,
+          "useful_send_recall": 0.0,
+          "false_send_rate": 0.0,
+          "duplicate_scans_avoided": 0
+        }
+      }
+    },
+    {
+      "name": "always_compact",
+      "overall": {
+        "n": 384,
+        "mean_regret": 0.019694734701291353,
+        "team_cost": 1.1318578942534363,
+        "radio_cost": 0.05986666666666666,
+        "sensing_cost": 0.02666666666666667,
+        "charged_bytes": 128.0,
+        "send_rate": 1.0,
+        "useful_send_recall": 1.0,
+        "false_send_rate": 1.0,
+        "duplicate_scans_avoided": 128
+      },
+      "by_direction": {
+        "scout_to_carrier": {
+          "n": 192,
+          "mean_regret": 0.01769601682961065,
+          "team_cost": 1.1208129543012866,
+          "radio_cost": 0.05986666666666666,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 128.0,
+          "send_rate": 1.0,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 1.0,
+          "duplicate_scans_avoided": 64
+        },
+        "carrier_to_scout": {
+          "n": 192,
+          "mean_regret": 0.021693452572972057,
+          "team_cost": 1.142902834205586,
+          "radio_cost": 0.05986666666666666,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 128.0,
+          "send_rate": 1.0,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 1.0,
+          "duplicate_scans_avoided": 64
+        }
+      }
+    },
+    {
+      "name": "request_match",
+      "overall": {
+        "n": 384,
+        "mean_regret": 0.001736533046074543,
+        "team_cost": 1.1138996925982196,
+        "radio_cost": 0.04253333333333334,
+        "sensing_cost": 0.02666666666666667,
+        "charged_bytes": 80.0,
+        "send_rate": 0.3333333333333333,
+        "useful_send_recall": 1.0,
+        "false_send_rate": 0.0,
+        "duplicate_scans_avoided": 128
+      },
+      "by_direction": {
+        "scout_to_carrier": {
+          "n": 192,
+          "mean_regret": 0.0,
+          "team_cost": 1.103116937471676,
+          "radio_cost": 0.04253333333333334,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 80.0,
+          "send_rate": 0.3333333333333333,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 0.0,
+          "duplicate_scans_avoided": 64
+        },
+        "carrier_to_scout": {
+          "n": 192,
+          "mean_regret": 0.003473066092149086,
+          "team_cost": 1.1246824477247632,
+          "radio_cost": 0.04253333333333334,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 80.0,
+          "send_rate": 0.3333333333333333,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 0.0,
+          "duplicate_scans_avoided": 64
+        }
+      }
+    },
+    {
+      "name": "sender_only_a4",
+      "overall": {
+        "n": 384,
+        "mean_regret": 0.011133697901412595,
+        "team_cost": 1.1232968574535576,
+        "radio_cost": 0.04971041666666668,
+        "sensing_cost": 0.02723958333333333,
+        "charged_bytes": 99.875,
+        "send_rate": 0.609375,
+        "useful_send_recall": 0.9140625,
+        "false_send_rate": 0.45703125,
+        "duplicate_scans_avoided": 117
+      },
+      "by_direction": {
+        "scout_to_carrier": {
+          "n": 192,
+          "mean_regret": 0.009185006353954308,
+          "team_cost": 1.1123019438256303,
+          "radio_cost": 0.051200000000000016,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 104.0,
+          "send_rate": 0.6666666666666666,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 0.5,
+          "duplicate_scans_avoided": 64
+        },
+        "carrier_to_scout": {
+          "n": 192,
+          "mean_regret": 0.01308238944887088,
+          "team_cost": 1.134291771081485,
+          "radio_cost": 0.048220833333333345,
+          "sensing_cost": 0.0278125,
+          "charged_bytes": 95.75,
+          "send_rate": 0.5520833333333334,
+          "useful_send_recall": 0.828125,
+          "false_send_rate": 0.4140625,
+          "duplicate_scans_avoided": 53
+        }
+      },
+      "value_mse": 0.005088604989670208
+    },
+    {
+      "name": "history_plus_need_a4",
+      "overall": {
+        "n": 384,
+        "mean_regret": 0.0014193384038136316,
+        "team_cost": 1.1135824979559585,
+        "radio_cost": 0.04361666666666667,
+        "sensing_cost": 0.02666666666666667,
+        "charged_bytes": 83.0,
+        "send_rate": 0.375,
+        "useful_send_recall": 1.0,
+        "false_send_rate": 0.0625,
+        "duplicate_scans_avoided": 128
+      },
+      "by_direction": {
+        "scout_to_carrier": {
+          "n": 192,
+          "mean_regret": 0.0,
+          "team_cost": 1.103116937471676,
+          "radio_cost": 0.04253333333333334,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 80.0,
+          "send_rate": 0.3333333333333333,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 0.0,
+          "duplicate_scans_avoided": 64
+        },
+        "carrier_to_scout": {
+          "n": 192,
+          "mean_regret": 0.0028386768076272633,
+          "team_cost": 1.1240480584402412,
+          "radio_cost": 0.04470000000000001,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 86.0,
+          "send_rate": 0.4166666666666667,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 0.125,
+          "duplicate_scans_avoided": 64
+        }
+      },
+      "value_mse": 0.0006839859881059198
+    },
+    {
+      "name": "bayes_lookup_reference",
+      "overall": {
+        "n": 384,
+        "mean_regret": 0.0014193384038136316,
+        "team_cost": 1.1135824979559585,
+        "radio_cost": 0.04361666666666667,
+        "sensing_cost": 0.02666666666666667,
+        "charged_bytes": 83.0,
+        "send_rate": 0.375,
+        "useful_send_recall": 1.0,
+        "false_send_rate": 0.0625,
+        "duplicate_scans_avoided": 128
+      },
+      "by_direction": {
+        "scout_to_carrier": {
+          "n": 192,
+          "mean_regret": 0.0,
+          "team_cost": 1.103116937471676,
+          "radio_cost": 0.04253333333333334,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 80.0,
+          "send_rate": 0.3333333333333333,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 0.0,
+          "duplicate_scans_avoided": 64
+        },
+        "carrier_to_scout": {
+          "n": 192,
+          "mean_regret": 0.0028386768076272633,
+          "team_cost": 1.1240480584402412,
+          "radio_cost": 0.04470000000000001,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 86.0,
+          "send_rate": 0.4166666666666667,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 0.125,
+          "duplicate_scans_avoided": 64
+        }
+      },
+      "value_mse": 0.0006796119811520483
+    },
+    {
+      "name": "paired_hindsight_oracle",
+      "overall": {
+        "n": 384,
+        "mean_regret": 0.0,
+        "team_cost": 1.1121631595521448,
+        "radio_cost": 0.04327812500000001,
+        "sensing_cost": 0.02666666666666667,
+        "charged_bytes": 82.0625,
+        "send_rate": 0.3619791666666667,
+        "useful_send_recall": 1.0,
+        "false_send_rate": 0.04296875,
+        "duplicate_scans_avoided": 128
+      },
+      "by_direction": {
+        "scout_to_carrier": {
+          "n": 192,
+          "mean_regret": 0.0,
+          "team_cost": 1.103116937471676,
+          "radio_cost": 0.04253333333333334,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 80.0,
+          "send_rate": 0.3333333333333333,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 0.0,
+          "duplicate_scans_avoided": 64
+        },
+        "carrier_to_scout": {
+          "n": 192,
+          "mean_regret": 0.0,
+          "team_cost": 1.121209381632614,
+          "radio_cost": 0.04402291666666667,
+          "sensing_cost": 0.02666666666666667,
+          "charged_bytes": 84.125,
+          "send_rate": 0.390625,
+          "useful_send_recall": 1.0,
+          "false_send_rate": 0.0859375,
+          "duplicate_scans_avoided": 64
+        }
+      }
+    }
+  ],
+  "paired_comparison": {
+    "history_need_minus_request_match_regret": -0.0003171946422609115,
+    "seed_bootstrap_95_interval": [
+      -0.001998534769283102,
+      0.0012877446713827744
+    ],
+    "interpretation": "negative favors history+NEED"
+  }
+}

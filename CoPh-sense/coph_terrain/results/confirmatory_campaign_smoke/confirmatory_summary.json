@@ -1,0 +1,449 @@
+{
+  "cvar_alpha": 0.95,
+  "methods": {
+    "ood_test": {
+      "compact_broadcast": {
+        "bytes": 180.0,
+        "disjoint_support": 12.4,
+        "duplicate_sensing": 2.1,
+        "episodes": 1,
+        "lookahead_gain": 0.44,
+        "material_risk": 0.286352816759383,
+        "risk_cvar_95": 0.286352816759383,
+        "success": 1.0,
+        "team_cost": 1.1515239530116175
+      },
+      "full_coph": {
+        "bytes": 70.0,
+        "disjoint_support": 16.0,
+        "duplicate_sensing": 0.75,
+        "episodes": 1,
+        "lookahead_gain": 0.8,
+        "material_risk": 0.26964036461610397,
+        "risk_cvar_95": 0.26964036461610397,
+        "success": 1.0,
+        "team_cost": 1.1043298136354356
+      },
+      "independent": {
+        "bytes": 0.0,
+        "disjoint_support": 10.0,
+        "duplicate_sensing": 3.0,
+        "episodes": 1,
+        "lookahead_gain": 0.2,
+        "material_risk": 0.3097953132257131,
+        "risk_cvar_95": 0.3097953132257131,
+        "success": 1.0,
+        "team_cost": 1.2181004141093605
+      },
+      "need_request_match": {
+        "bytes": 80.0,
+        "disjoint_support": 14.8,
+        "duplicate_sensing": 1.2,
+        "episodes": 1,
+        "lookahead_gain": 0.6799999999999999,
+        "material_risk": 0.2682193201289072,
+        "risk_cvar_95": 0.2682193201289072,
+        "success": 1.0,
+        "team_cost": 1.110399396636586
+      },
+      "novelty_mi": {
+        "bytes": 100.0,
+        "disjoint_support": 13.6,
+        "duplicate_sensing": 1.65,
+        "episodes": 1,
+        "lookahead_gain": 0.56,
+        "material_risk": 0.28864853960859443,
+        "risk_cvar_95": 0.28864853960859443,
+        "success": 1.0,
+        "team_cost": 1.156924272738051
+      },
+      "raw_broadcast": {
+        "bytes": 900.0,
+        "disjoint_support": 11.2,
+        "duplicate_sensing": 2.55,
+        "episodes": 1,
+        "lookahead_gain": 0.32,
+        "material_risk": 0.30849118538510184,
+        "risk_cvar_95": 0.30849118538510184,
+        "success": 1.0,
+        "team_cost": 1.2064368290126262
+      }
+    },
+    "test": {
+      "compact_broadcast": {
+        "bytes": 180.0,
+        "disjoint_support": 12.4,
+        "duplicate_sensing": 2.1,
+        "episodes": 1,
+        "lookahead_gain": 0.44,
+        "material_risk": 0.28930212777788356,
+        "risk_cvar_95": 0.28930212777788356,
+        "success": 1.0,
+        "team_cost": 1.1510107194647647
+      },
+      "full_coph": {
+        "bytes": 70.0,
+        "disjoint_support": 16.0,
+        "duplicate_sensing": 0.75,
+        "episodes": 1,
+        "lookahead_gain": 0.8,
+        "material_risk": 0.27529220789768366,
+        "risk_cvar_95": 0.27529220789768366,
+        "success": 1.0,
+        "team_cost": 1.084369109242773
+      },
+      "independent": {
+        "bytes": 0.0,
+        "disjoint_support": 10.0,
+        "duplicate_sensing": 3.0,
+        "episodes": 1,
+        "lookahead_gain": 0.2,
+        "material_risk": 0.31877357034545617,
+        "risk_cvar_95": 0.31877357034545617,
+        "success": 0.0,
+        "team_cost": 1.2275668405859819
+      },
+      "need_request_match": {
+        "bytes": 80.0,
+        "disjoint_support": 14.8,
+        "duplicate_sensing": 1.2,
+        "episodes": 1,
+        "lookahead_gain": 0.6799999999999999,
+        "material_risk": 0.28530059566512755,
+        "risk_cvar_95": 0.28530059566512755,
+        "success": 0.0,
+        "team_cost": 1.1017852558470305
+      },
+      "novelty_mi": {
+        "bytes": 100.0,
+        "disjoint_support": 13.6,
+        "duplicate_sensing": 1.65,
+        "episodes": 1,
+        "lookahead_gain": 0.56,
+        "material_risk": 0.2797882933730792,
+        "risk_cvar_95": 0.2797882933730792,
+        "success": 1.0,
+        "team_cost": 1.1293992736520444
+      },
+      "raw_broadcast": {
+        "bytes": 900.0,
+        "disjoint_support": 11.2,
+        "duplicate_sensing": 2.55,
+        "episodes": 1,
+        "lookahead_gain": 0.32,
+        "material_risk": 0.2956610082642061,
+        "risk_cvar_95": 0.2956610082642061,
+        "success": 1.0,
+        "team_cost": 1.211341190579341
+      }
+    }
+  },
+  "paired_blocks": 2,
+  "paired_full_coph_effects": {
+    "ood_test": {
+      "compact_broadcast": {
+        "bytes": {
+          "full_coph_minus_rival": -110.0,
+          "paired_block_bootstrap_95_interval": [
+            -110.0,
+            -110.0
+          ]
+        },
+        "material_risk": {
+          "full_coph_minus_rival": -0.016712452143279044,
+          "paired_block_bootstrap_95_interval": [
+            -0.016712452143279044,
+            -0.016712452143279044
+          ]
+        },
+        "success": {
+          "full_coph_minus_rival": 0.0,
+          "paired_block_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "team_cost": {
+          "full_coph_minus_rival": -0.04719413937618189,
+          "paired_block_bootstrap_95_interval": [
+            -0.04719413937618189,
+            -0.04719413937618189
+          ]
+        }
+      },
+      "independent": {
+        "bytes": {
+          "full_coph_minus_rival": 70.0,
+          "paired_block_bootstrap_95_interval": [
+            70.0,
+            70.0
+          ]
+        },
+        "material_risk": {
+          "full_coph_minus_rival": -0.04015494860960911,
+          "paired_block_bootstrap_95_interval": [
+            -0.04015494860960911,
+            -0.04015494860960911
+          ]
+        },
+        "success": {
+          "full_coph_minus_rival": 0.0,
+          "paired_block_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "team_cost": {
+          "full_coph_minus_rival": -0.11377060047392495,
+          "paired_block_bootstrap_95_interval": [
+            -0.11377060047392495,
+            -0.11377060047392495
+          ]
+        }
+      },
+      "need_request_match": {
+        "bytes": {
+          "full_coph_minus_rival": -10.0,
+          "paired_block_bootstrap_95_interval": [
+            -10.0,
+            -10.0
+          ]
+        },
+        "material_risk": {
+          "full_coph_minus_rival": 0.0014210444871967653,
+          "paired_block_bootstrap_95_interval": [
+            0.0014210444871967653,
+            0.0014210444871967653
+          ]
+        },
+        "success": {
+          "full_coph_minus_rival": 0.0,
+          "paired_block_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "team_cost": {
+          "full_coph_minus_rival": -0.006069583001150347,
+          "paired_block_bootstrap_95_interval": [
+            -0.006069583001150347,
+            -0.006069583001150347
+          ]
+        }
+      },
+      "novelty_mi": {
+        "bytes": {
+          "full_coph_minus_rival": -30.0,
+          "paired_block_bootstrap_95_interval": [
+            -30.0,
+            -30.0
+          ]
+        },
+        "material_risk": {
+          "full_coph_minus_rival": -0.019008174992490467,
+          "paired_block_bootstrap_95_interval": [
+            -0.019008174992490467,
+            -0.019008174992490467
+          ]
+        },
+        "success": {
+          "full_coph_minus_rival": 0.0,
+          "paired_block_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "team_cost": {
+          "full_coph_minus_rival": -0.05259445910261551,
+          "paired_block_bootstrap_95_interval": [
+            -0.05259445910261551,
+            -0.05259445910261551
+          ]
+        }
+      },
+      "raw_broadcast": {
+        "bytes": {
+          "full_coph_minus_rival": -830.0,
+          "paired_block_bootstrap_95_interval": [
+            -830.0,
+            -830.0
+          ]
+        },
+        "material_risk": {
+          "full_coph_minus_rival": -0.038850820768997874,
+          "paired_block_bootstrap_95_interval": [
+            -0.038850820768997874,
+            -0.038850820768997874
+          ]
+        },
+        "success": {
+          "full_coph_minus_rival": 0.0,
+          "paired_block_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "team_cost": {
+          "full_coph_minus_rival": -0.10210701537719058,
+          "paired_block_bootstrap_95_interval": [
+            -0.10210701537719058,
+            -0.10210701537719058
+          ]
+        }
+      }
+    },
+    "test": {
+      "compact_broadcast": {
+        "bytes": {
+          "full_coph_minus_rival": -110.0,
+          "paired_block_bootstrap_95_interval": [
+            -110.0,
+            -110.0
+          ]
+        },
+        "material_risk": {
+          "full_coph_minus_rival": -0.014009919880199895,
+          "paired_block_bootstrap_95_interval": [
+            -0.014009919880199895,
+            -0.014009919880199895
+          ]
+        },
+        "success": {
+          "full_coph_minus_rival": 0.0,
+          "paired_block_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "team_cost": {
+          "full_coph_minus_rival": -0.06664161022199178,
+          "paired_block_bootstrap_95_interval": [
+            -0.06664161022199178,
+            -0.06664161022199178
+          ]
+        }
+      },
+      "independent": {
+        "bytes": {
+          "full_coph_minus_rival": 70.0,
+          "paired_block_bootstrap_95_interval": [
+            70.0,
+            70.0
+          ]
+        },
+        "material_risk": {
+          "full_coph_minus_rival": -0.04348136244777251,
+          "paired_block_bootstrap_95_interval": [
+            -0.04348136244777251,
+            -0.04348136244777251
+          ]
+        },
+        "success": {
+          "full_coph_minus_rival": 1.0,
+          "paired_block_bootstrap_95_interval": [
+            1.0,
+            1.0
+          ]
+        },
+        "team_cost": {
+          "full_coph_minus_rival": -0.1431977313432089,
+          "paired_block_bootstrap_95_interval": [
+            -0.1431977313432089,
+            -0.1431977313432089
+          ]
+        }
+      },
+      "need_request_match": {
+        "bytes": {
+          "full_coph_minus_rival": -10.0,
+          "paired_block_bootstrap_95_interval": [
+            -10.0,
+            -10.0
+          ]
+        },
+        "material_risk": {
+          "full_coph_minus_rival": -0.010008387767443894,
+          "paired_block_bootstrap_95_interval": [
+            -0.010008387767443894,
+            -0.010008387767443894
+          ]
+        },
+        "success": {
+          "full_coph_minus_rival": 1.0,
+          "paired_block_bootstrap_95_interval": [
+            1.0,
+            1.0
+          ]
+        },
+        "team_cost": {
+          "full_coph_minus_rival": -0.0174161466042575,
+          "paired_block_bootstrap_95_interval": [
+            -0.0174161466042575,
+            -0.0174161466042575
+          ]
+        }
+      },
+      "novelty_mi": {
+        "bytes": {
+          "full_coph_minus_rival": -30.0,
+          "paired_block_bootstrap_95_interval": [
+            -30.0,
+            -30.0
+          ]
+        },
+        "material_risk": {
+          "full_coph_minus_rival": -0.004496085475395539,
+          "paired_block_bootstrap_95_interval": [
+            -0.004496085475395539,
+            -0.004496085475395539
+          ]
+        },
+        "success": {
+          "full_coph_minus_rival": 0.0,
+          "paired_block_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "team_cost": {
+          "full_coph_minus_rival": -0.045030164409271434,
+          "paired_block_bootstrap_95_interval": [
+            -0.045030164409271434,
+            -0.045030164409271434
+          ]
+        }
+      },
+      "raw_broadcast": {
+        "bytes": {
+          "full_coph_minus_rival": -830.0,
+          "paired_block_bootstrap_95_interval": [
+            -830.0,
+            -830.0
+          ]
+        },
+        "material_risk": {
+          "full_coph_minus_rival": -0.020368800366522444,
+          "paired_block_bootstrap_95_interval": [
+            -0.020368800366522444,
+            -0.020368800366522444
+          ]
+        },
+        "success": {
+          "full_coph_minus_rival": 0.0,
+          "paired_block_bootstrap_95_interval": [
+            0.0,
+            0.0
+          ]
+        },
+        "team_cost": {
+          "full_coph_minus_rival": -0.126972081336568,
+          "paired_block_bootstrap_95_interval": [
+            -0.126972081336568,
+            -0.126972081336568
+          ]
+        }
+      }
+    }
+  },
+  "schema_version": 1
+}

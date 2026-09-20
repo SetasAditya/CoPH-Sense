@@ -1,0 +1,888 @@
+{
+  "status": "failed",
+  "scope": "all 32 deterministic Gate 1.1 training states only",
+  "architecture": "VariableSetValueNet",
+  "optimizer": "Adam lr=3e-4",
+  "loss": "equal-stratum absolute mission MSE + risk quantile Huber",
+  "arguments": {
+    "max_steps": 3000,
+    "device": "cuda"
+  },
+  "collection": [
+    {
+      "group": "train/bottleneck/0000",
+      "status": "a3_only_acquire_failed"
+    },
+    {
+      "group": "train/labyrinth/0000",
+      "status": "collected",
+      "examples": 4,
+      "memory_optimum_changed": false
+    },
+    {
+      "group": "train/open/0000",
+      "status": "a3_only_acquire_failed"
+    },
+    {
+      "group": "train/bottleneck/0001",
+      "status": "collected",
+      "examples": 4,
+      "memory_optimum_changed": false
+    },
+    {
+      "group": "train/labyrinth/0001",
+      "status": "collected",
+      "examples": 4,
+      "memory_optimum_changed": false
+    },
+    {
+      "group": "train/open/0001",
+      "status": "collected",
+      "examples": 4,
+      "memory_optimum_changed": false
+    },
+    {
+      "stratum": "Complementarity",
+      "parent_seed": 1100000,
+      "world_bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "examples": 1,
+      "memory_optimum_changed": false
+    },
+    {
+      "stratum": "Complementarity",
+      "parent_seed": 1100000,
+      "world_bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "examples": 1,
+      "memory_optimum_changed": false
+    },
+    {
+      "stratum": "Complementarity",
+      "parent_seed": 1100000,
+      "world_bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "examples": 1,
+      "memory_optimum_changed": false
+    },
+    {
+      "stratum": "Complementarity",
+      "parent_seed": 1100000,
+      "world_bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "examples": 1,
+      "memory_optimum_changed": false
+    },
+    {
+      "stratum": "Moving-A5",
+      "parent_seed": 1100000,
+      "world_bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "examples": 2,
+      "memory_optimum_changed": false
+    },
+    {
+      "stratum": "Moving-A5",
+      "parent_seed": 1100000,
+      "world_bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "examples": 2,
+      "memory_optimum_changed": false
+    },
+    {
+      "stratum": "Moving-A5",
+      "parent_seed": 1100000,
+      "world_bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "examples": 2,
+      "memory_optimum_changed": true
+    },
+    {
+      "stratum": "Moving-A5",
+      "parent_seed": 1100000,
+      "world_bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "examples": 2,
+      "memory_optimum_changed": false
+    }
+  ],
+  "curve": [
+    {
+      "step": 1,
+      "loss": 47.973060607910156,
+      "count": 32,
+      "exact_action_rate": 0.65625,
+      "mean_regret": 2.7917931526899338,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 35.34622383117676
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 2.3031158447265625
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 2,
+          "regret_sum": 51.68804121017456
+        }
+      }
+    },
+    {
+      "step": 100,
+      "loss": 19.337596893310547,
+      "count": 32,
+      "exact_action_rate": 0.65625,
+      "mean_regret": 2.7917931526899338,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 35.34622383117676
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 2.3031158447265625
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 2,
+          "regret_sum": 51.68804121017456
+        }
+      }
+    },
+    {
+      "step": 200,
+      "loss": 17.323652267456055,
+      "count": 32,
+      "exact_action_rate": 0.65625,
+      "mean_regret": 2.7917931526899338,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 35.34622383117676
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 2.3031158447265625
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 2,
+          "regret_sum": 51.68804121017456
+        }
+      }
+    },
+    {
+      "step": 300,
+      "loss": 16.395917892456055,
+      "count": 32,
+      "exact_action_rate": 0.5,
+      "mean_regret": 2.2116337344050407,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 13,
+          "regret_sum": 35.83276557922363
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 2.3031158447265625
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 0,
+          "regret_sum": 32.63639807701111
+        }
+      }
+    },
+    {
+      "step": 400,
+      "loss": 15.018600463867188,
+      "count": 32,
+      "exact_action_rate": 0.59375,
+      "mean_regret": 1.5090712197124958,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 11,
+          "regret_sum": 36.9742397069931
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 2.3031158447265625
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 500,
+      "loss": 14.306292533874512,
+      "count": 32,
+      "exact_action_rate": 0.5625,
+      "mean_regret": 1.555420894175768,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 12,
+          "regret_sum": 37.899455070495605
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 1,
+          "regret_sum": 2.861090064048767
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 600,
+      "loss": 13.894689559936523,
+      "count": 32,
+      "exact_action_rate": 0.65625,
+      "mean_regret": 0.9921385645866394,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 19.874420523643494
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 1,
+          "regret_sum": 2.861090064048767
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 700,
+      "loss": 11.559870719909668,
+      "count": 32,
+      "exact_action_rate": 0.625,
+      "mean_regret": 1.0288519337773323,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 18.746132493019104
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 0,
+          "regret_sum": 5.16420590877533
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 800,
+      "loss": 9.52353286743164,
+      "count": 32,
+      "exact_action_rate": 0.71875,
+      "mean_regret": 0.950846154242754,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 21.29351556301117
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 0.12063789367675781
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 900,
+      "loss": 9.274335861206055,
+      "count": 32,
+      "exact_action_rate": 0.6875,
+      "mean_regret": 0.9230000600218773,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 20.2126247882843
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 2,
+          "regret_sum": 0.3104536533355713
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 1000,
+      "loss": 8.659042358398438,
+      "count": 32,
+      "exact_action_rate": 0.71875,
+      "mean_regret": 0.9170683175325394,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 20.2126247882843
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 0.12063789367675781
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 1100,
+      "loss": 8.245882987976074,
+      "count": 32,
+      "exact_action_rate": 0.71875,
+      "mean_regret": 0.9170683175325394,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 20.2126247882843
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 0.12063789367675781
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 1200,
+      "loss": 8.202668190002441,
+      "count": 32,
+      "exact_action_rate": 0.71875,
+      "mean_regret": 0.9170683175325394,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 20.2126247882843
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 0.12063789367675781
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 1300,
+      "loss": 7.646912574768066,
+      "count": 32,
+      "exact_action_rate": 0.71875,
+      "mean_regret": 0.9026260897517204,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 19.750473499298096
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 0.12063789367675781
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 1400,
+      "loss": 8.176017761230469,
+      "count": 32,
+      "exact_action_rate": 0.71875,
+      "mean_regret": 0.9026260897517204,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 19.750473499298096
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 0.12063789367675781
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 1500,
+      "loss": 7.066025733947754,
+      "count": 32,
+      "exact_action_rate": 0.75,
+      "mean_regret": 0.8994627520442009,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 19.64924669265747
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 0.12063789367675781
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 1600,
+      "loss": 6.927608013153076,
+      "count": 32,
+      "exact_action_rate": 0.78125,
+      "mean_regret": 0.8956928178668022,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 19.64924669265747
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 5,
+          "regret_sum": 9.0129234790802
+        }
+      }
+    },
+    {
+      "step": 1700,
+      "loss": 6.754125118255615,
+      "count": 32,
+      "exact_action_rate": 0.8125,
+      "mean_regret": 0.6308797746896744,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 19.64924669265747
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 1800,
+      "loss": 6.61546516418457,
+      "count": 32,
+      "exact_action_rate": 0.8125,
+      "mean_regret": 0.6308797746896744,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 19.64924669265747
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 1900,
+      "loss": 6.559665203094482,
+      "count": 32,
+      "exact_action_rate": 0.8125,
+      "mean_regret": 0.6308797746896744,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 19.64924669265747
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 2000,
+      "loss": 6.354901313781738,
+      "count": 32,
+      "exact_action_rate": 0.8125,
+      "mean_regret": 0.6308797746896744,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 19.64924669265747
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 2100,
+      "loss": 6.153827667236328,
+      "count": 32,
+      "exact_action_rate": 0.78125,
+      "mean_regret": 0.6239371374249458,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 19.427082300186157
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 2200,
+      "loss": 5.948567867279053,
+      "count": 32,
+      "exact_action_rate": 0.78125,
+      "mean_regret": 0.6246450357139111,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 19.449735045433044
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 2300,
+      "loss": 5.753341197967529,
+      "count": 32,
+      "exact_action_rate": 0.78125,
+      "mean_regret": 0.3444175496697426,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 10.482455492019653
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 2400,
+      "loss": 5.447592735290527,
+      "count": 32,
+      "exact_action_rate": 0.8125,
+      "mean_regret": 0.33066802471876144,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 10.042470693588257
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 2500,
+      "loss": 5.313390731811523,
+      "count": 32,
+      "exact_action_rate": 0.78125,
+      "mean_regret": 0.3277982659637928,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 9.830000519752502
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 0.12063789367675781
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 2600,
+      "loss": 4.9390950202941895,
+      "count": 32,
+      "exact_action_rate": 0.8125,
+      "mean_regret": 0.3240283317863941,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 9.830000519752502
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 2700,
+      "loss": 4.760234832763672,
+      "count": 32,
+      "exact_action_rate": 0.78125,
+      "mean_regret": 0.3310476802289486,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 9.830000519752502
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 3,
+          "regret_sum": 0.22461915016174316
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 2800,
+      "loss": 4.706118106842041,
+      "count": 32,
+      "exact_action_rate": 0.8125,
+      "mean_regret": 0.3240283317863941,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 9.830000519752502
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 2900,
+      "loss": 4.506991863250732,
+      "count": 32,
+      "exact_action_rate": 0.8125,
+      "mean_regret": 0.3240283317863941,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 16,
+          "regret_sum": 9.830000519752502
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    },
+    {
+      "step": 3000,
+      "loss": 4.431887149810791,
+      "count": 32,
+      "exact_action_rate": 0.78125,
+      "mean_regret": 0.3409433029592037,
+      "by_stratum": {
+        "Natural": {
+          "count": 20,
+          "correct": 15,
+          "regret_sum": 10.37127959728241
+        },
+        "Complementarity": {
+          "count": 4,
+          "correct": 4,
+          "regret_sum": 0.0
+        },
+        "Moving-A5": {
+          "count": 8,
+          "correct": 6,
+          "regret_sum": 0.5389060974121094
+        }
+      }
+    }
+  ],
+  "validation_or_test_opened": false
+}

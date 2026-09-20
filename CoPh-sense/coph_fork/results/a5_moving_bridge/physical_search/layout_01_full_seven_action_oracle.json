@@ -1,0 +1,1481 @@
+{
+  "scope": "seven-action restricted physical oracle, matched VMAS snapshots",
+  "layout": {
+    "backup_y1": -0.72,
+    "backup_y2": -0.5,
+    "backup_traction_1": 0.18,
+    "backup_traction_2": 0.25,
+    "sensing_cost": 0.02,
+    "safe_prior_1": 0.65,
+    "safe_prior_2": 0.6
+  },
+  "q": {
+    "M0": {
+      "skip": 3.6468278104819936,
+      "R1": 3.470471471140381,
+      "R2": 3.637656379834124,
+      "R1_G": 3.8500506610495004,
+      "R1_T": 3.8500506610495004,
+      "R2_G": 3.7459039447612263,
+      "R2_T": 3.7459039447612263
+    },
+    "M1": {
+      "skip": 2.7995551553594678,
+      "R1": 2.920851425821436,
+      "R2": 2.634267939553601,
+      "R1_G": 2.8988608936015003,
+      "R1_T": 2.8988608936015003,
+      "R2_G": 2.9984055821407805,
+      "R2_T": 2.9984055821407805
+    }
+  },
+  "best": {
+    "M0": "R1",
+    "M1": "R2"
+  },
+  "all_success": true,
+  "max_collision_cost": 0.0,
+  "singleton_rows": [
+    {
+      "bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.8505871720354885,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.8505871720354885,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7464404557472144,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7464404557472144,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.852537763050783,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.852537763050783,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7483910467625083,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7483910467625083,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.848560054788932,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.848560054788932,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7444133385006575,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7444133385006575,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.8505140258740576,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.8505140258740576,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7463673095857835,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7463673095857835,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.8505871720354885,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.8505871720354885,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7464404557472144,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7464404557472144,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.852537763050783,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.852537763050783,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7483910467625083,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7483910467625083,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.848560054788932,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.848560054788932,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7444133385006575,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7444133385006575,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.8505140258740576,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.8505140258740576,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7463673095857835,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7463673095857835,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.852537763050783,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.852537763050783,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7483910467625083,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7483910467625083,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.8505871720354885,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.8505871720354885,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7464404557472144,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7464404557472144,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.852537763050783,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.852537763050783,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7483910467625083,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7483910467625083,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.8505871720354885,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.8505871720354885,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7464404557472144,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7464404557472144,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.8505140258740576,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.8505140258740576,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7463673095857835,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7463673095857835,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "memory": "M1",
+      "action": "R1_G",
+      "downstream_cost": 2.9000332762525765,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1415,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "memory": "M1",
+      "action": "R1_T",
+      "downstream_cost": 2.9000332762525765,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1415,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "memory": "M1",
+      "action": "R2_G",
+      "downstream_cost": 2.999577964791857,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1464,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "memory": "M1",
+      "action": "R2_T",
+      "downstream_cost": 2.999577964791857,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1464,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.8505140258740576,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.8505140258740576,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7463673095857835,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7463673095857835,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "memory": "M1",
+      "action": "R1_G",
+      "downstream_cost": 2.9000332762525765,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1415,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "memory": "M1",
+      "action": "R1_T",
+      "downstream_cost": 2.9000332762525765,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1415,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "memory": "M1",
+      "action": "R2_G",
+      "downstream_cost": 2.999577964791857,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1464,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "memory": "M1",
+      "action": "R2_T",
+      "downstream_cost": 2.999577964791857,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1464,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.848560054788932,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.848560054788932,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7444133385006575,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7444133385006575,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "memory": "M1",
+      "action": "R1_G",
+      "downstream_cost": 2.89807930516745,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1415,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "memory": "M1",
+      "action": "R1_T",
+      "downstream_cost": 2.89807930516745,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1415,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "memory": "M1",
+      "action": "R2_G",
+      "downstream_cost": 2.997623993706731,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1464,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "memory": "M1",
+      "action": "R2_T",
+      "downstream_cost": 2.997623993706731,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1464,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_G",
+      "downstream_cost": 3.848560054788932,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R1_T",
+      "downstream_cost": 3.848560054788932,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1876,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_G",
+      "downstream_cost": 3.7444133385006575,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "memory": "M0",
+      "action": "R2_T",
+      "downstream_cost": 3.7444133385006575,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1825,
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "memory": "M1",
+      "action": "R1_G",
+      "downstream_cost": 2.89807930516745,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1415,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "memory": "M1",
+      "action": "R1_T",
+      "downstream_cost": 2.89807930516745,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1415,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "memory": "M1",
+      "action": "R2_G",
+      "downstream_cost": 2.997623993706731,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1464,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "memory": "M1",
+      "action": "R2_T",
+      "downstream_cost": 2.997623993706731,
+      "success": true,
+      "collision_cost": 0.0,
+      "steps_after_snapshot": 1464,
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      }
+    }
+  ],
+  "source_paired": "CoPh-sense/coph_fork/results/a5_moving_bridge/physical_search/layout_01_geometry.json"
+}

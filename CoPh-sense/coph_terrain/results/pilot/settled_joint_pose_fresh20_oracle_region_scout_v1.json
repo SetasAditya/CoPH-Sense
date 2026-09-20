@@ -1,0 +1,1701 @@
+{
+  "source": "settled_joint_pose_fresh20_value_funnel_v1.json",
+  "records": [
+    {
+      "seed": 890001,
+      "family": "bottleneck",
+      "step": 120,
+      "cell": [
+        45,
+        22
+      ],
+      "agent": "scout",
+      "ideal_value": 0.13020837141817587,
+      "poses": {
+        "geometry": [
+          46,
+          29
+        ],
+        "traction": [
+          45,
+          22
+        ]
+      },
+      "baseline_cost": 2.6550932141156673,
+      "results": {
+        "G": {
+          "hold": {
+            "value": -0.09880330667738635,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    46,
+                    29
+                  ],
+                  "target_region": [
+                    45,
+                    22
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.1580033066773865,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    46,
+                    29
+                  ],
+                  "target_region": [
+                    45,
+                    22
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "T": {
+          "hold": {
+            "value": -11.72195710070583,
+            "success": false,
+            "target_region_covered": [
+              false
+            ],
+            "measurements": 0,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    45,
+                    22
+                  ],
+                  "target_region": [
+                    45,
+                    22
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -11.72195710070583,
+            "success": false,
+            "target_region_covered": [
+              false
+            ],
+            "measurements": 0,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    45,
+                    22
+                  ],
+                  "target_region": [
+                    45,
+                    22
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "GT": {
+          "hold": {
+            "value": -11.729647505250693,
+            "success": false,
+            "target_region_covered": [
+              true,
+              false
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    43,
+                    22
+                  ],
+                  "target_region": [
+                    45,
+                    22
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    45,
+                    22
+                  ],
+                  "target_region": [
+                    45,
+                    22
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -11.784550371270278,
+            "success": false,
+            "target_region_covered": [
+              true,
+              false
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    43,
+                    22
+                  ],
+                  "target_region": [
+                    45,
+                    22
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    45,
+                    22
+                  ],
+                  "target_region": [
+                    45,
+                    22
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 890002,
+      "family": "labyrinth",
+      "step": 120,
+      "cell": [
+        13,
+        8
+      ],
+      "agent": "scout",
+      "ideal_value": 0.056564410143736144,
+      "poses": {
+        "geometry": [
+          19,
+          5
+        ],
+        "traction": [
+          13,
+          8
+        ]
+      },
+      "baseline_cost": 1.6169082620441435,
+      "results": {
+        "G": {
+          "hold": {
+            "value": -0.29453052527497414,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    19,
+                    5
+                  ],
+                  "target_region": [
+                    13,
+                    8
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.2844329712816125,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    19,
+                    5
+                  ],
+                  "target_region": [
+                    13,
+                    8
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "T": {
+          "hold": {
+            "value": -11.32757025132797,
+            "success": false,
+            "target_region_covered": [
+              false
+            ],
+            "measurements": 0,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    13,
+                    8
+                  ],
+                  "target_region": [
+                    13,
+                    8
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -11.32757025132797,
+            "success": false,
+            "target_region_covered": [
+              false
+            ],
+            "measurements": 0,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    13,
+                    8
+                  ],
+                  "target_region": [
+                    13,
+                    8
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "GT": {
+          "hold": {
+            "value": -11.32757025132797,
+            "success": false,
+            "target_region_covered": [
+              false,
+              false
+            ],
+            "measurements": 0,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    13,
+                    8
+                  ],
+                  "target_region": [
+                    13,
+                    8
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    15,
+                    2
+                  ],
+                  "target_region": [
+                    13,
+                    8
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -11.32757025132797,
+            "success": false,
+            "target_region_covered": [
+              false,
+              false
+            ],
+            "measurements": 0,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    13,
+                    8
+                  ],
+                  "target_region": [
+                    13,
+                    8
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    15,
+                    2
+                  ],
+                  "target_region": [
+                    13,
+                    8
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 890007,
+      "family": "bottleneck",
+      "step": 120,
+      "cell": [
+        19,
+        40
+      ],
+      "agent": "scout",
+      "ideal_value": 0.09426082517994638,
+      "poses": {
+        "geometry": [
+          20,
+          40
+        ],
+        "traction": [
+          19,
+          40
+        ]
+      },
+      "baseline_cost": 2.171128479440596,
+      "results": {
+        "G": {
+          "hold": {
+            "value": 0.040657275889413036,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    20,
+                    40
+                  ],
+                  "target_region": [
+                    19,
+                    40
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.035160085457168755,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    20,
+                    40
+                  ],
+                  "target_region": [
+                    19,
+                    40
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "T": {
+          "hold": {
+            "value": -0.1127223835636757,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    19,
+                    40
+                  ],
+                  "target_region": [
+                    19,
+                    40
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.13732238356367565,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    19,
+                    40
+                  ],
+                  "target_region": [
+                    19,
+                    40
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "GT": {
+          "hold": {
+            "value": -0.1301344851190711,
+            "success": true,
+            "target_region_covered": [
+              true,
+              true
+            ],
+            "measurements": 2,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    19,
+                    40
+                  ],
+                  "target_region": [
+                    19,
+                    40
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    19,
+                    40
+                  ],
+                  "target_region": [
+                    19,
+                    40
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.19871034214387606,
+            "success": true,
+            "target_region_covered": [
+              true,
+              true
+            ],
+            "measurements": 2,
+            "packets": 2,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    19,
+                    40
+                  ],
+                  "target_region": [
+                    19,
+                    40
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    19,
+                    40
+                  ],
+                  "target_region": [
+                    19,
+                    40
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 890008,
+      "family": "labyrinth",
+      "step": 120,
+      "cell": [
+        12,
+        1
+      ],
+      "agent": "scout",
+      "ideal_value": 0.051943571609071704,
+      "poses": {
+        "geometry": [
+          18,
+          3
+        ],
+        "traction": [
+          12,
+          1
+        ]
+      },
+      "baseline_cost": 1.8676743188398062,
+      "results": {
+        "G": {
+          "hold": {
+            "value": -11.311038529400289,
+            "success": false,
+            "target_region_covered": [
+              false
+            ],
+            "measurements": 0,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    18,
+                    3
+                  ],
+                  "target_region": [
+                    12,
+                    1
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -11.311038529400289,
+            "success": false,
+            "target_region_covered": [
+              false
+            ],
+            "measurements": 0,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    18,
+                    3
+                  ],
+                  "target_region": [
+                    12,
+                    1
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "T": {
+          "hold": {
+            "value": -0.3144929229986966,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    12,
+                    1
+                  ],
+                  "target_region": [
+                    12,
+                    1
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.3465955983982201,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    12,
+                    1
+                  ],
+                  "target_region": [
+                    12,
+                    1
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "GT": {
+          "hold": {
+            "value": -0.38319675866692604,
+            "success": true,
+            "target_region_covered": [
+              false,
+              true
+            ],
+            "measurements": 2,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    12,
+                    1
+                  ],
+                  "target_region": [
+                    12,
+                    1
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    18,
+                    4
+                  ],
+                  "target_region": [
+                    12,
+                    1
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.462130020234123,
+            "success": true,
+            "target_region_covered": [
+              false,
+              true
+            ],
+            "measurements": 2,
+            "packets": 2,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    12,
+                    1
+                  ],
+                  "target_region": [
+                    12,
+                    1
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    18,
+                    4
+                  ],
+                  "target_region": [
+                    12,
+                    1
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 890012,
+      "family": "open",
+      "step": 120,
+      "cell": [
+        48,
+        27
+      ],
+      "agent": "scout",
+      "ideal_value": 0.08989455187906503,
+      "poses": {
+        "geometry": [
+          53,
+          30
+        ],
+        "traction": [
+          48,
+          27
+        ]
+      },
+      "baseline_cost": 1.7828916611078944,
+      "results": {
+        "G": {
+          "hold": {
+            "value": -0.0470170846101583,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    53,
+                    30
+                  ],
+                  "target_region": [
+                    48,
+                    27
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.09308139845761376,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    53,
+                    30
+                  ],
+                  "target_region": [
+                    48,
+                    27
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "T": {
+          "hold": {
+            "value": -0.34604908917618005,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    48,
+                    27
+                  ],
+                  "target_region": [
+                    48,
+                    27
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.37064908917618,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    48,
+                    27
+                  ],
+                  "target_region": [
+                    48,
+                    27
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "GT": {
+          "hold": {
+            "value": -0.4325071448432616,
+            "success": true,
+            "target_region_covered": [
+              true,
+              true
+            ],
+            "measurements": 2,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    46,
+                    27
+                  ],
+                  "target_region": [
+                    48,
+                    27
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    48,
+                    27
+                  ],
+                  "target_region": [
+                    48,
+                    27
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.5162019014585364,
+            "success": true,
+            "target_region_covered": [
+              true,
+              true
+            ],
+            "measurements": 2,
+            "packets": 2,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    46,
+                    27
+                  ],
+                  "target_region": [
+                    48,
+                    27
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    48,
+                    27
+                  ],
+                  "target_region": [
+                    48,
+                    27
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 890018,
+      "family": "open",
+      "step": 120,
+      "cell": [
+        42,
+        24
+      ],
+      "agent": "scout",
+      "ideal_value": 0.06658010401521985,
+      "poses": {
+        "geometry": [
+          48,
+          27
+        ],
+        "traction": [
+          42,
+          24
+        ]
+      },
+      "baseline_cost": 1.2232970626188289,
+      "results": {
+        "G": {
+          "hold": {
+            "value": -0.01651840124787629,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    48,
+                    27
+                  ],
+                  "target_region": [
+                    42,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.06731221096409623,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    48,
+                    27
+                  ],
+                  "target_region": [
+                    42,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "T": {
+          "hold": {
+            "value": -0.03652980511679793,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    42,
+                    24
+                  ],
+                  "target_region": [
+                    42,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.061129805116797886,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    42,
+                    24
+                  ],
+                  "target_region": [
+                    42,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "GT": {
+          "hold": {
+            "value": -0.05034811696886132,
+            "success": true,
+            "target_region_covered": [
+              true,
+              true
+            ],
+            "measurements": 2,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    40,
+                    24
+                  ],
+                  "target_region": [
+                    42,
+                    24
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    42,
+                    24
+                  ],
+                  "target_region": [
+                    42,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.09592652285660308,
+            "success": true,
+            "target_region_covered": [
+              true,
+              true
+            ],
+            "measurements": 2,
+            "packets": 2,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    40,
+                    24
+                  ],
+                  "target_region": [
+                    42,
+                    24
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    42,
+                    24
+                  ],
+                  "target_region": [
+                    42,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 890019,
+      "family": "bottleneck",
+      "step": 120,
+      "cell": [
+        48,
+        24
+      ],
+      "agent": "scout",
+      "ideal_value": 0.09562333487852537,
+      "poses": {
+        "geometry": [
+          50,
+          30
+        ],
+        "traction": [
+          48,
+          24
+        ]
+      },
+      "baseline_cost": 1.5390218142848642,
+      "results": {
+        "G": {
+          "hold": {
+            "value": -11.773220832638227,
+            "success": false,
+            "target_region_covered": [
+              false
+            ],
+            "measurements": 0,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    50,
+                    30
+                  ],
+                  "target_region": [
+                    48,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -11.773220832638227,
+            "success": false,
+            "target_region_covered": [
+              false
+            ],
+            "measurements": 0,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    50,
+                    30
+                  ],
+                  "target_region": [
+                    48,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "T": {
+          "hold": {
+            "value": -0.0938843987061404,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    48,
+                    24
+                  ],
+                  "target_region": [
+                    48,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.11848439870614036,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    48,
+                    24
+                  ],
+                  "target_region": [
+                    48,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "GT": {
+          "hold": {
+            "value": -0.1550904165033793,
+            "success": true,
+            "target_region_covered": [
+              true,
+              true
+            ],
+            "measurements": 2,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    47,
+                    24
+                  ],
+                  "target_region": [
+                    48,
+                    24
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    48,
+                    24
+                  ],
+                  "target_region": [
+                    48,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.2350331313602636,
+            "success": true,
+            "target_region_covered": [
+              true,
+              true
+            ],
+            "measurements": 2,
+            "packets": 2,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    47,
+                    24
+                  ],
+                  "target_region": [
+                    48,
+                    24
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    48,
+                    24
+                  ],
+                  "target_region": [
+                    48,
+                    24
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 890019,
+      "family": "bottleneck",
+      "step": 360,
+      "cell": [
+        43,
+        25
+      ],
+      "agent": "scout",
+      "ideal_value": 0.06023428755026394,
+      "poses": {
+        "geometry": [
+          46,
+          26
+        ],
+        "traction": [
+          43,
+          25
+        ]
+      },
+      "baseline_cost": 1.5390218142848642,
+      "results": {
+        "G": {
+          "hold": {
+            "value": -0.10042499358086499,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    46,
+                    26
+                  ],
+                  "target_region": [
+                    43,
+                    25
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.1398574928709917,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    46,
+                    26
+                  ],
+                  "target_region": [
+                    43,
+                    25
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "T": {
+          "hold": {
+            "value": -0.3786374048858552,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    43,
+                    25
+                  ],
+                  "target_region": [
+                    43,
+                    25
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.40323740488585513,
+            "success": true,
+            "target_region_covered": [
+              true
+            ],
+            "measurements": 1,
+            "packets": 1,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    43,
+                    25
+                  ],
+                  "target_region": [
+                    43,
+                    25
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        },
+        "GT": {
+          "hold": {
+            "value": -0.40976099102862773,
+            "success": true,
+            "target_region_covered": [
+              true,
+              true
+            ],
+            "measurements": 2,
+            "packets": 0,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    43,
+                    25
+                  ],
+                  "target_region": [
+                    43,
+                    25
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    43,
+                    25
+                  ],
+                  "target_region": [
+                    43,
+                    25
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          },
+          "send": {
+            "value": -0.4839821660226564,
+            "success": true,
+            "target_region_covered": [
+              true,
+              true
+            ],
+            "measurements": 2,
+            "packets": 2,
+            "executed_choices": {
+              "scout": [
+                {
+                  "agent": "scout",
+                  "modality": "geometry",
+                  "viewpoint": [
+                    43,
+                    25
+                  ],
+                  "target_region": [
+                    43,
+                    25
+                  ]
+                },
+                {
+                  "agent": "scout",
+                  "modality": "traction",
+                  "viewpoint": [
+                    43,
+                    25
+                  ],
+                  "target_region": [
+                    43,
+                    25
+                  ]
+                }
+              ],
+              "carrier": []
+            }
+          }
+        }
+      }
+    }
+  ]
+}

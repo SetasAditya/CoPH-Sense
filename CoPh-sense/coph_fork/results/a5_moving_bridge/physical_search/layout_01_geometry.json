@@ -1,0 +1,1773 @@
+{
+  "layout": {
+    "backup_y1": -0.72,
+    "backup_y2": -0.5,
+    "backup_traction_1": 0.18,
+    "backup_traction_2": 0.25,
+    "sensing_cost": 0.02,
+    "safe_prior_1": 0.5,
+    "safe_prior_2": 0.5
+  },
+  "summary": {
+    "q": {
+      "M0": {
+        "skip": 3.647326903369808,
+        "R1": 3.6349310008116476,
+        "R2": 3.677330756848016
+      },
+      "M1": {
+        "skip": 2.79975055246798,
+        "R1": 2.9210468229299487,
+        "R2": 2.7524515766064503
+      }
+    },
+    "contrast": {
+      "M0_R1_vs_skip": 0.012395902558160365,
+      "M0_R1_vs_R2": 0.04239975603636825,
+      "M1_R2_vs_skip": 0.04729897586152987,
+      "M1_R2_vs_R1": 0.16859524632349832
+    },
+    "margin": 0.05,
+    "passed": false,
+    "all_success": true,
+    "max_collision_cost": 0.0
+  },
+  "worlds": [
+    {
+      "bits": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6493149124832756,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.8745428313504076,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7683535026116575,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6473643214679816,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.872592240335114,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            false,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7664029115963635,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6493149124832756,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.8745428313504076,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7683535026116575,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6473643214679816,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.872592240335114,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.4102639649956665,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1654,
+          "routes": {
+            "1": "bottom",
+            "2": "top"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6472911753065507,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.872519094173683,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7663297654349326,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        false,
+        true,
+        false,
+        true
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6453372042214247,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.8705651230885567,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            true,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7643757943498066,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6472911753065507,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.872519094173683,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7663297654349326,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6453372042214247,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.8705651230885567,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.4082368477491096,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1654,
+          "routes": {
+            "1": "bottom",
+            "2": "top"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6493149124832756,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.8745428313504076,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7683535026116575,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        true,
+        false,
+        false,
+        true
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6473643214679816,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.872592240335114,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7664029115963635,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6493149124832756,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.8745428313504076,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            false,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7683535026116575,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6473643214679816,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 3.872592240335114,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1877,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            false,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.4102639649956665,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1654,
+          "routes": {
+            "1": "bottom",
+            "2": "top"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6472911753065507,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 2.9220238084725114,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1416,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7663297654349326,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "memory": "M1",
+          "action": "skip",
+          "downstream_cost": 2.8007275380105434,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1375,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "memory": "M1",
+          "action": "R1",
+          "downstream_cost": 2.9220238084725114,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1416,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "memory": "M1",
+          "action": "R2",
+          "downstream_cost": 3.0215836529315965,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1465,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        true,
+        true,
+        false,
+        true
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6453372042214247,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 2.9200698373873855,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1416,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7643757943498066,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "memory": "M1",
+          "action": "skip",
+          "downstream_cost": 2.798773566925417,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1375,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "memory": "M1",
+          "action": "R1",
+          "downstream_cost": 2.9200698373873855,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1416,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            false,
+            true
+          ],
+          "memory": "M1",
+          "action": "R2",
+          "downstream_cost": 3.0196296818464705,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1465,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6472911753065507,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 2.9220238084725114,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1416,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.7663297654349326,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1825,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "memory": "M1",
+          "action": "skip",
+          "downstream_cost": 2.8007275380105434,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1375,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "memory": "M1",
+          "action": "R1",
+          "downstream_cost": 2.9220238084725114,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1416,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "memory": "M1",
+          "action": "R2",
+          "downstream_cost": 3.0215836529315965,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1465,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        }
+      ]
+    },
+    {
+      "bits": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "snapshot": {
+        "step": 40,
+        "carrier_position": [
+          -1.182051658630371,
+          0.0
+        ],
+        "carrier_velocity": [
+          0.02758141979575157,
+          0.0
+        ],
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "received_ids": [
+          "obs-00000",
+          "obs-00001"
+        ]
+      },
+      "rows": [
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "skip",
+          "downstream_cost": 3.6453372042214247,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1785,
+          "routes": {
+            "1": "bottom",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "R1",
+          "downstream_cost": 2.9200698373873855,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1416,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "memory": "M0",
+          "action": "R2",
+          "downstream_cost": 3.4082368477491096,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1654,
+          "routes": {
+            "1": "bottom",
+            "2": "top"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "memory": "M1",
+          "action": "skip",
+          "downstream_cost": 2.798773566925417,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1375,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "memory": "M1",
+          "action": "R1",
+          "downstream_cost": 2.9200698373873855,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 1416,
+          "routes": {
+            "1": "top",
+            "2": "bottom"
+          }
+        },
+        {
+          "bits": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "memory": "M1",
+          "action": "R2",
+          "downstream_cost": 1.947009318716138,
+          "success": true,
+          "collision_cost": 0.0,
+          "steps_after_snapshot": 942,
+          "routes": {
+            "1": "top",
+            "2": "top"
+          }
+        }
+      ]
+    }
+  ]
+}

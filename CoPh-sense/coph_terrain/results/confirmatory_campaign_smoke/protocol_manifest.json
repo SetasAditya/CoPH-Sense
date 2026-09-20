@@ -1,0 +1,33 @@
+{
+  "extra": {
+    "adapter": "coph_terrain.confirmatory_smoke_adapter:evaluate",
+    "limit_groups": 1,
+    "realizations": 1,
+    "status": "engineering_smoke",
+    "training_seeds": [
+      0
+    ]
+  },
+  "manifest_sha256": "ded815ea0b3f86fba992350c8015fad7c5b875c88d5005cf1991cb3d1a139667",
+  "methods": [
+    "independent",
+    "raw_broadcast",
+    "compact_broadcast",
+    "novelty_mi",
+    "need_request_match",
+    "full_coph"
+  ],
+  "schema_version": 1,
+  "source_sha256": {
+    "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/confirmatory_campaign.py": "37cedda7ba7aec1c6c826c78777f39bc138413ba9ba545d5d660333cc69d50ba",
+    "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/environment.py": "01e6e810c91dec5a7f36169ae253aafd0e4d2ddc4f4540e58b827ddf4e8bb653",
+    "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/evaluation.py": "e10f153840973aef5da19b382e2a1604a716a00ab5079bd76b3af5de00091c21",
+    "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/generator.py": "dccf1d27c84e9535c3437016932c13e14d3c0aca815e87bb2ba7f4ec2c169bc0",
+    "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/material_executor.py": "73e2ee32b8a1e52251805087bfa125e7d24a3147d6a4789913a01871eb14f481",
+    "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/results/lookahead_bidirectional_a4/frozen_learning_manifest.json": "182ea5386f4b8219d68b19e08532eb617a0b9a88c1e7f82c0b2d72bed021d51d",
+    "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/results/material_ph_calibration_v1.json": "8432339b8a4324b2355fac2ea093cfd1a45855fca086c81baceb5be671bc5b22",
+    "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/scenario.py": "819981bb1e7a81ea0addee480b671ad86cbeb737dd475e665065f81f0a4da8d3",
+    "coph_terrain/results/manifests_v3_natural/ood_test.json": "a3fa285eb97229e6e161c3fe89b6794f46e0a16b42fd3f8d6bfea3a3b550d69c",
+    "coph_terrain/results/manifests_v3_natural/test.json": "ad29767b954c11031ebb53a245c189430782bbc69c232f908492e8e8d6a5b86d"
+  }
+}

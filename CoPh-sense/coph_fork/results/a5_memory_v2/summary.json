@@ -1,0 +1,260 @@
+{
+  "scope": "post-delivery carrier acquisition in exact two-region finite task",
+  "continuation": "frozen A4-v2 selects scout messages before carrier acquisition; exact carrier posterior includes A4 selection and packet loss; fixed evidence-based route executor follows carrier acquisition; no later A4 stage exists in this protocol",
+  "sufficiency_audit": {
+    "patterns_checked": 81,
+    "distinct_inputs": 81,
+    "conflicting_exact_labels": 0
+  },
+  "models": {
+    "1701": {
+      "additive": {
+        "selected_epoch": 111,
+        "validation": {
+          "regret": 0.003390963887795806,
+          "optimal_action_accuracy": 0.9388889074325562,
+          "value_rmse": 0.12146824598312378
+        },
+        "heldout": {
+          "regret": 0.003939828835427761,
+          "optimal_action_accuracy": 0.9583333134651184,
+          "value_rmse": 0.11927921324968338
+        },
+        "executed": {
+          "condition": "learned_memory_v2",
+          "expected_total_team_cost": 5.252799999999997,
+          "expected_scout_sensing_cost": 0.08,
+          "expected_communication_cost": 0.046400000000000004,
+          "expected_carrier_sensing_cost": 0.07640000000000002,
+          "expected_route_cost": 5.05,
+          "expected_carrier_measurements": 1.9100000000000006,
+          "redundant_batch_rate": 0.0,
+          "duplicate_measurement_rate": 0.0,
+          "region2_useful_acquisition_rate": 0.9000000000000002,
+          "unsafe_execution_rate": 0.0,
+          "expected_nested_acquisition_regret": 0.0
+        }
+      },
+      "deepsets": {
+        "selected_epoch": 113,
+        "validation": {
+          "regret": 0.0016017768066376448,
+          "optimal_action_accuracy": 0.925000011920929,
+          "value_rmse": 0.08939792215824127
+        },
+        "heldout": {
+          "regret": 0.0030924982856959105,
+          "optimal_action_accuracy": 0.9222221970558167,
+          "value_rmse": 0.08893461525440216
+        },
+        "executed": {
+          "condition": "learned_memory_v2",
+          "expected_total_team_cost": 5.252799999999997,
+          "expected_scout_sensing_cost": 0.08,
+          "expected_communication_cost": 0.046400000000000004,
+          "expected_carrier_sensing_cost": 0.07640000000000002,
+          "expected_route_cost": 5.049999999999999,
+          "expected_carrier_measurements": 1.9100000000000006,
+          "redundant_batch_rate": 0.0,
+          "duplicate_measurement_rate": 0.0,
+          "region2_useful_acquisition_rate": 0.91,
+          "unsafe_execution_rate": 0.0,
+          "expected_nested_acquisition_regret": 0.0
+        }
+      },
+      "pairwise": {
+        "selected_epoch": 113,
+        "validation": {
+          "regret": 0.0026008598506450653,
+          "optimal_action_accuracy": 0.9444444179534912,
+          "value_rmse": 0.0913413017988205
+        },
+        "heldout": {
+          "regret": 0.003943069837987423,
+          "optimal_action_accuracy": 0.9166666865348816,
+          "value_rmse": 0.08865594863891602
+        },
+        "executed": {
+          "condition": "learned_memory_v2",
+          "expected_total_team_cost": 5.252799999999997,
+          "expected_scout_sensing_cost": 0.08,
+          "expected_communication_cost": 0.046400000000000004,
+          "expected_carrier_sensing_cost": 0.07640000000000002,
+          "expected_route_cost": 5.05,
+          "expected_carrier_measurements": 1.9100000000000006,
+          "redundant_batch_rate": 0.0,
+          "duplicate_measurement_rate": 0.0,
+          "region2_useful_acquisition_rate": 0.9000000000000002,
+          "unsafe_execution_rate": 0.0,
+          "expected_nested_acquisition_regret": 0.0
+        }
+      }
+    },
+    "1702": {
+      "additive": {
+        "selected_epoch": 110,
+        "validation": {
+          "regret": 0.001928136101923883,
+          "optimal_action_accuracy": 0.9222221970558167,
+          "value_rmse": 0.10279837250709534
+        },
+        "heldout": {
+          "regret": 0.0034479221794754267,
+          "optimal_action_accuracy": 0.9333333373069763,
+          "value_rmse": 0.11446796357631683
+        },
+        "executed": {
+          "condition": "learned_memory_v2",
+          "expected_total_team_cost": 5.241199999999997,
+          "expected_scout_sensing_cost": 0.08,
+          "expected_communication_cost": 0.034800000000000005,
+          "expected_carrier_sensing_cost": 0.07640000000000001,
+          "expected_route_cost": 5.049999999999999,
+          "expected_carrier_measurements": 1.9100000000000001,
+          "redundant_batch_rate": 0.0,
+          "duplicate_measurement_rate": 0.0,
+          "region2_useful_acquisition_rate": 0.9100000000000001,
+          "unsafe_execution_rate": 0.0,
+          "expected_nested_acquisition_regret": 0.0
+        }
+      },
+      "deepsets": {
+        "selected_epoch": 118,
+        "validation": {
+          "regret": 0.001064168056473136,
+          "optimal_action_accuracy": 0.925000011920929,
+          "value_rmse": 0.0851622149348259
+        },
+        "heldout": {
+          "regret": 0.003005898091942072,
+          "optimal_action_accuracy": 0.9222221970558167,
+          "value_rmse": 0.10315132141113281
+        },
+        "executed": {
+          "condition": "learned_memory_v2",
+          "expected_total_team_cost": 5.241199999999997,
+          "expected_scout_sensing_cost": 0.08,
+          "expected_communication_cost": 0.034800000000000005,
+          "expected_carrier_sensing_cost": 0.07640000000000001,
+          "expected_route_cost": 5.049999999999999,
+          "expected_carrier_measurements": 1.9100000000000001,
+          "redundant_batch_rate": 0.0,
+          "duplicate_measurement_rate": 0.0,
+          "region2_useful_acquisition_rate": 0.9100000000000001,
+          "unsafe_execution_rate": 0.0,
+          "expected_nested_acquisition_regret": 0.0
+        }
+      },
+      "pairwise": {
+        "selected_epoch": 120,
+        "validation": {
+          "regret": 0.002685118932276964,
+          "optimal_action_accuracy": 0.8833333253860474,
+          "value_rmse": 0.07841489464044571
+        },
+        "heldout": {
+          "regret": 0.003846586449071765,
+          "optimal_action_accuracy": 0.894444465637207,
+          "value_rmse": 0.09358855336904526
+        },
+        "executed": {
+          "condition": "learned_memory_v2",
+          "expected_total_team_cost": 5.241199999999997,
+          "expected_scout_sensing_cost": 0.08,
+          "expected_communication_cost": 0.034800000000000005,
+          "expected_carrier_sensing_cost": 0.07640000000000001,
+          "expected_route_cost": 5.049999999999999,
+          "expected_carrier_measurements": 1.9100000000000001,
+          "redundant_batch_rate": 0.0,
+          "duplicate_measurement_rate": 0.0,
+          "region2_useful_acquisition_rate": 0.9100000000000001,
+          "unsafe_execution_rate": 0.0,
+          "expected_nested_acquisition_regret": 0.0
+        }
+      }
+    },
+    "1703": {
+      "additive": {
+        "selected_epoch": 114,
+        "validation": {
+          "regret": 0.003988937009125948,
+          "optimal_action_accuracy": 0.9305555820465088,
+          "value_rmse": 0.10827075690031052
+        },
+        "heldout": {
+          "regret": 0.001972704427316785,
+          "optimal_action_accuracy": 0.9416666626930237,
+          "value_rmse": 0.10761851817369461
+        },
+        "executed": {
+          "condition": "learned_memory_v2",
+          "expected_total_team_cost": 5.271299999999998,
+          "expected_scout_sensing_cost": 0.08000000000000003,
+          "expected_communication_cost": 0.040600000000000004,
+          "expected_carrier_sensing_cost": 0.07820000000000003,
+          "expected_route_cost": 5.072500000000001,
+          "expected_carrier_measurements": 1.9550000000000007,
+          "redundant_batch_rate": 0.0,
+          "duplicate_measurement_rate": 0.0,
+          "region2_useful_acquisition_rate": 0.955,
+          "unsafe_execution_rate": 0.0,
+          "expected_nested_acquisition_regret": 0.0
+        }
+      },
+      "deepsets": {
+        "selected_epoch": 116,
+        "validation": {
+          "regret": 0.0013361851451918483,
+          "optimal_action_accuracy": 0.9527778029441833,
+          "value_rmse": 0.1336469054222107
+        },
+        "heldout": {
+          "regret": 0.0018213827861472964,
+          "optimal_action_accuracy": 0.949999988079071,
+          "value_rmse": 0.1328255981206894
+        },
+        "executed": {
+          "condition": "learned_memory_v2",
+          "expected_total_team_cost": 5.271299999999998,
+          "expected_scout_sensing_cost": 0.08000000000000003,
+          "expected_communication_cost": 0.040600000000000004,
+          "expected_carrier_sensing_cost": 0.07820000000000003,
+          "expected_route_cost": 5.072500000000001,
+          "expected_carrier_measurements": 1.9550000000000007,
+          "redundant_batch_rate": 0.0,
+          "duplicate_measurement_rate": 0.0,
+          "region2_useful_acquisition_rate": 0.955,
+          "unsafe_execution_rate": 0.0,
+          "expected_nested_acquisition_regret": 0.0
+        }
+      },
+      "pairwise": {
+        "selected_epoch": 119,
+        "validation": {
+          "regret": 0.002090665977448225,
+          "optimal_action_accuracy": 0.9361110925674438,
+          "value_rmse": 0.1519736498594284
+        },
+        "heldout": {
+          "regret": 0.0020224160980433226,
+          "optimal_action_accuracy": 0.9527778029441833,
+          "value_rmse": 0.15050236880779266
+        },
+        "executed": {
+          "condition": "learned_memory_v2",
+          "expected_total_team_cost": 5.271299999999998,
+          "expected_scout_sensing_cost": 0.08000000000000003,
+          "expected_communication_cost": 0.040600000000000004,
+          "expected_carrier_sensing_cost": 0.07820000000000003,
+          "expected_route_cost": 5.072500000000001,
+          "expected_carrier_measurements": 1.9550000000000007,
+          "redundant_batch_rate": 0.0,
+          "duplicate_measurement_rate": 0.0,
+          "region2_useful_acquisition_rate": 0.955,
+          "unsafe_execution_rate": 0.0,
+          "expected_nested_acquisition_regret": 0.0
+        }
+      }
+    }
+  }
+}

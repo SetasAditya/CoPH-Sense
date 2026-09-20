@@ -1,0 +1,84 @@
+{
+  "frozen_checkpoint_audit": {
+    "1801": {
+      "train_warning_count": 13,
+      "test_warning_count": 4,
+      "mean_train_warning_advantage": 0.8268117308616638,
+      "mean_test_warning_advantage": 0.9122759103775024,
+      "models": {
+        "additive": {
+          "test_missed_useful_value": 0.001431746524758637,
+          "critical_recall_at_0_5": 1.0,
+          "standard_test_bad_warning_recall": 0.75
+        },
+        "deepsets": {
+          "test_missed_useful_value": 0.01854369230568409,
+          "critical_recall_at_0_5": 0.9387755393981934,
+          "standard_test_bad_warning_recall": 0.0
+        },
+        "pairwise": {
+          "test_missed_useful_value": 0.011084151454269886,
+          "critical_recall_at_0_5": 0.9387755393981934,
+          "standard_test_bad_warning_recall": 0.25
+        }
+      }
+    },
+    "1802": {
+      "train_warning_count": 16,
+      "test_warning_count": 6,
+      "mean_train_warning_advantage": 1.0071523189544678,
+      "mean_test_warning_advantage": 1.200382113456726,
+      "models": {
+        "additive": {
+          "test_missed_useful_value": 0.010172073729336262,
+          "critical_recall_at_0_5": 0.9333333373069763,
+          "standard_test_bad_warning_recall": 0.16666666666666666
+        },
+        "deepsets": {
+          "test_missed_useful_value": 0.010189355351030827,
+          "critical_recall_at_0_5": 0.9555555582046509,
+          "standard_test_bad_warning_recall": 0.3333333333333333
+        },
+        "pairwise": {
+          "test_missed_useful_value": 0.007583155762404203,
+          "critical_recall_at_0_5": 0.9555555582046509,
+          "standard_test_bad_warning_recall": 0.5
+        }
+      }
+    },
+    "1803": {
+      "train_warning_count": 19,
+      "test_warning_count": 5,
+      "mean_train_warning_advantage": 0.9382415413856506,
+      "mean_test_warning_advantage": 0.9101604223251343,
+      "models": {
+        "additive": {
+          "test_missed_useful_value": 0.005052093416452408,
+          "critical_recall_at_0_5": 0.9800000190734863,
+          "standard_test_bad_warning_recall": 0.2
+        },
+        "deepsets": {
+          "test_missed_useful_value": 0.018912332132458687,
+          "critical_recall_at_0_5": 0.9599999785423279,
+          "standard_test_bad_warning_recall": 0.2
+        },
+        "pairwise": {
+          "test_missed_useful_value": 0.019521549344062805,
+          "critical_recall_at_0_5": 0.9599999785423279,
+          "standard_test_bad_warning_recall": 0.0
+        }
+      }
+    }
+  },
+  "input_collision": {
+    "same_old_state_input": true,
+    "same_old_candidate_inputs": true,
+    "low_joint_optimum": [],
+    "high_joint_optimum": [
+      "top_geometry"
+    ],
+    "low_joint_top_good_probability": 0.5,
+    "high_joint_top_good_probability": 0.75,
+    "explanation": "Old A4 features expose only prior marginals, although expected-cost route choice depends on their joint probability."
+  }
+}

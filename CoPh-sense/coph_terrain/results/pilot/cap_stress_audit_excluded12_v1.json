@@ -1,0 +1,2778 @@
+{
+  "schema_version": 1,
+  "seed_range": [
+    680000,
+    680011
+  ],
+  "summary": {
+    "parents": 12,
+    "ten_choice_menus": 12,
+    "declared_packet_cap_reached": 12,
+    "declared_measurement_cap_reached_both": 12,
+    "extra_packets_when_relaxed": 12,
+    "extra_measurements_when_relaxed": 12,
+    "scope": "forced physical script, not optimal policy or positive marginal value"
+  },
+  "records": [
+    {
+      "family": "open",
+      "parent_seed": 680000,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            31
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            28
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 1.8467586147163981,
+          "material_exposure": 0.16535200743625592,
+          "score_single_world": 2.012110622152654,
+          "success": true,
+          "failure_reason": null,
+          "steps": 533,
+          "ledger": {
+            "time": 1.0660000000000007,
+            "motion": 0.4273586147163974,
+            "sensing": 0.16,
+            "communication": 0.19340000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.16535200743625592
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 1.8867586147163982,
+          "material_exposure": 0.16535200743625592,
+          "score_single_world": 2.052110622152654,
+          "success": true,
+          "failure_reason": null,
+          "steps": 533,
+          "ledger": {
+            "time": 1.0660000000000007,
+            "motion": 0.4273586147163974,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19340000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.16535200743625592
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 1.9831234362088768,
+          "material_exposure": 0.16352091605464647,
+          "score_single_world": 2.1466443522635235,
+          "success": true,
+          "failure_reason": null,
+          "steps": 542,
+          "ledger": {
+            "time": 1.0840000000000007,
+            "motion": 0.35712343620887593,
+            "sensing": 0.16,
+            "communication": 0.38200000000000006,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.16352091605464647
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.121123436208877,
+          "material_exposure": 0.16352091605464647,
+          "score_single_world": 2.2846443522635234,
+          "success": true,
+          "failure_reason": null,
+          "steps": 542,
+          "ledger": {
+            "time": 1.0840000000000007,
+            "motion": 0.35712343620887593,
+            "sensing": 0.19999999999999998,
+            "communication": 0.4800000000000001,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.16352091605464647
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 680001,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            31
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            28
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.5148456256110516,
+          "material_exposure": 0.4586016856754814,
+          "score_single_world": 2.973447311286533,
+          "success": true,
+          "failure_reason": null,
+          "steps": 798,
+          "ledger": {
+            "time": 1.5960000000000012,
+            "motion": 0.5646456256110503,
+            "sensing": 0.16,
+            "communication": 0.1942,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.4586016856754814
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.5548456256110517,
+          "material_exposure": 0.4586016856754814,
+          "score_single_world": 3.013447311286533,
+          "success": true,
+          "failure_reason": null,
+          "steps": 798,
+          "ledger": {
+            "time": 1.5960000000000012,
+            "motion": 0.5646456256110503,
+            "sensing": 0.19999999999999998,
+            "communication": 0.1942,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.4586016856754814
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.717787644248572,
+          "material_exposure": 0.4620770517488307,
+          "score_single_world": 3.179864695997403,
+          "success": true,
+          "failure_reason": null,
+          "steps": 798,
+          "ledger": {
+            "time": 1.5960000000000012,
+            "motion": 0.5681876442485707,
+            "sensing": 0.16,
+            "communication": 0.39360000000000006,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.4620770517488307
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.854245625611052,
+          "material_exposure": 0.4586016856754814,
+          "score_single_world": 3.3128473112865335,
+          "success": true,
+          "failure_reason": null,
+          "steps": 798,
+          "ledger": {
+            "time": 1.5960000000000012,
+            "motion": 0.5646456256110503,
+            "sensing": 0.19999999999999998,
+            "communication": 0.4936000000000001,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.4586016856754814
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 680002,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            31
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            28
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 13.84600470941735,
+          "material_exposure": 0.0,
+          "score_single_world": 13.84600470941735,
+          "success": false,
+          "failure_reason": "deadline",
+          "steps": 1200,
+          "ledger": {
+            "time": 2.3999999999999573,
+            "motion": 1.0928047094173932,
+            "sensing": 0.16,
+            "communication": 0.19320000000000004,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.0
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 13.593838773768667,
+          "material_exposure": 0.7147312500451982,
+          "score_single_world": 14.308570023813864,
+          "success": false,
+          "failure_reason": "deadline",
+          "steps": 1200,
+          "ledger": {
+            "time": 2.3999999999999573,
+            "motion": 0.8006387737687102,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19320000000000004,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.7147312500451982
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 13.38532997924724,
+          "material_exposure": 0.40589327176412177,
+          "score_single_world": 13.791223251011361,
+          "success": false,
+          "failure_reason": "deadline",
+          "steps": 1200,
+          "ledger": {
+            "time": 2.3999999999999573,
+            "motion": 0.4343299792472822,
+            "sensing": 0.16,
+            "communication": 0.3910000000000001,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.40589327176412177
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 12.6778721288976,
+          "material_exposure": 0.335411312493185,
+          "score_single_world": 13.013283441390787,
+          "success": false,
+          "failure_reason": "immobilization",
+          "steps": 767,
+          "ledger": {
+            "time": 1.5340000000000011,
+            "motion": 0.45467212889759945,
+            "sensing": 0.19999999999999998,
+            "communication": 0.48920000000000013,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.335411312493185
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "open",
+      "parent_seed": 680003,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            31
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            28
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.074488187345166,
+          "material_exposure": 0.4115563333158685,
+          "score_single_world": 2.486044520661035,
+          "success": true,
+          "failure_reason": null,
+          "steps": 602,
+          "ledger": {
+            "time": 1.2040000000000008,
+            "motion": 0.5180881873451653,
+            "sensing": 0.16,
+            "communication": 0.19240000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.4115563333158685
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.114488187345166,
+          "material_exposure": 0.4115563333158685,
+          "score_single_world": 2.526044520661035,
+          "success": true,
+          "failure_reason": null,
+          "steps": 602,
+          "ledger": {
+            "time": 1.2040000000000008,
+            "motion": 0.5180881873451653,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19240000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.4115563333158685
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.2592001693098203,
+          "material_exposure": 0.4015711128835888,
+          "score_single_world": 2.660771282193409,
+          "success": true,
+          "failure_reason": null,
+          "steps": 617,
+          "ledger": {
+            "time": 1.2340000000000009,
+            "motion": 0.47380016930981944,
+            "sensing": 0.16,
+            "communication": 0.3914000000000001,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.4015711128835888
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.3994001693098204,
+          "material_exposure": 0.4015711128835888,
+          "score_single_world": 2.800971282193409,
+          "success": true,
+          "failure_reason": null,
+          "steps": 617,
+          "ledger": {
+            "time": 1.2340000000000009,
+            "motion": 0.47380016930981944,
+            "sensing": 0.19999999999999998,
+            "communication": 0.4916000000000001,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.4015711128835888
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 680004,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            30
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            33
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            27
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 13.471662974027712,
+          "material_exposure": 0.7250561082983992,
+          "score_single_world": 14.196719082326112,
+          "success": false,
+          "failure_reason": "deadline",
+          "steps": 1200,
+          "ledger": {
+            "time": 2.3999999999999573,
+            "motion": 0.719862974027754,
+            "sensing": 0.16,
+            "communication": 0.19180000000000003,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.7250561082983992
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 13.498114264507658,
+          "material_exposure": 0.723138805044194,
+          "score_single_world": 14.221253069551851,
+          "success": false,
+          "failure_reason": "deadline",
+          "steps": 1200,
+          "ledger": {
+            "time": 2.3999999999999573,
+            "motion": 0.7063142645077006,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19180000000000003,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.723138805044194
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 13.578337726282326,
+          "material_exposure": 0.7264038963243359,
+          "score_single_world": 14.304741622606661,
+          "success": false,
+          "failure_reason": "deadline",
+          "steps": 1200,
+          "ledger": {
+            "time": 2.3999999999999573,
+            "motion": 0.6263377262823695,
+            "sensing": 0.16,
+            "communication": 0.392,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.7264038963243359
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 13.709607077244554,
+          "material_exposure": 0.743593754731118,
+          "score_single_world": 14.453200831975671,
+          "success": false,
+          "failure_reason": "deadline",
+          "steps": 1200,
+          "ledger": {
+            "time": 2.3999999999999573,
+            "motion": 0.6186070772445964,
+            "sensing": 0.19999999999999998,
+            "communication": 0.49100000000000005,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.743593754731118
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 680005,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            31
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            28
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 3.543367067540642,
+          "material_exposure": 1.3223373820260178,
+          "score_single_world": 4.8657044495666595,
+          "success": true,
+          "failure_reason": null,
+          "steps": 1182,
+          "ledger": {
+            "time": 2.3639999999999612,
+            "motion": 0.8251670675406808,
+            "sensing": 0.16,
+            "communication": 0.19420000000000004,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 1.3223373820260178
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 3.507945716431108,
+          "material_exposure": 1.2887651303658891,
+          "score_single_world": 4.796710846796997,
+          "success": true,
+          "failure_reason": null,
+          "steps": 1154,
+          "ledger": {
+            "time": 2.3079999999999674,
+            "motion": 0.8057457164311406,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19420000000000004,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 1.2887651303658891
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 3.655419280337826,
+          "material_exposure": 1.3040528780967025,
+          "score_single_world": 4.9594721584345285,
+          "success": true,
+          "failure_reason": null,
+          "steps": 1158,
+          "ledger": {
+            "time": 2.3159999999999665,
+            "motion": 0.7870192803378591,
+            "sensing": 0.16,
+            "communication": 0.3924000000000001,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 1.3040528780967025
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 3.782424499510199,
+          "material_exposure": 1.2912061947087423,
+          "score_single_world": 5.0736306942189415,
+          "success": true,
+          "failure_reason": null,
+          "steps": 1160,
+          "ledger": {
+            "time": 2.319999999999966,
+            "motion": 0.7712244995102329,
+            "sensing": 0.19999999999999998,
+            "communication": 0.49120000000000014,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 1.2912061947087423
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "open",
+      "parent_seed": 680006,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            30
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            33
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            27
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 1.8986338746488174,
+          "material_exposure": 0.14836828671395785,
+          "score_single_world": 2.047002161362775,
+          "success": true,
+          "failure_reason": null,
+          "steps": 553,
+          "ledger": {
+            "time": 1.1060000000000008,
+            "motion": 0.4390338746488166,
+            "sensing": 0.16,
+            "communication": 0.19360000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.14836828671395785
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 1.9386338746488174,
+          "material_exposure": 0.14836828671395785,
+          "score_single_world": 2.087002161362775,
+          "success": true,
+          "failure_reason": null,
+          "steps": 553,
+          "ledger": {
+            "time": 1.1060000000000008,
+            "motion": 0.4390338746488166,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19360000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.14836828671395785
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.0333272736726933,
+          "material_exposure": 0.18213026689986403,
+          "score_single_world": 2.215457540572557,
+          "success": true,
+          "failure_reason": null,
+          "steps": 556,
+          "ledger": {
+            "time": 1.1120000000000008,
+            "motion": 0.3681272736726925,
+            "sensing": 0.16,
+            "communication": 0.3932,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.18213026689986403
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.1727272736726935,
+          "material_exposure": 0.18213026689986403,
+          "score_single_world": 2.3548575405725574,
+          "success": true,
+          "failure_reason": null,
+          "steps": 556,
+          "ledger": {
+            "time": 1.1120000000000008,
+            "motion": 0.3681272736726925,
+            "sensing": 0.19999999999999998,
+            "communication": 0.49260000000000004,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.18213026689986403
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 680007,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            31
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            28
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.734934621803129,
+          "material_exposure": 0.10118841922531559,
+          "score_single_world": 2.8361230410284444,
+          "success": true,
+          "failure_reason": null,
+          "steps": 896,
+          "ledger": {
+            "time": 1.7920000000000014,
+            "motion": 0.5893346218031277,
+            "sensing": 0.16,
+            "communication": 0.19360000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.10118841922531559
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.774934621803129,
+          "material_exposure": 0.10118841922531559,
+          "score_single_world": 2.8761230410284444,
+          "success": true,
+          "failure_reason": null,
+          "steps": 896,
+          "ledger": {
+            "time": 1.7920000000000014,
+            "motion": 0.5893346218031277,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19360000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.10118841922531559
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 3.4792617467689873,
+          "material_exposure": 0.3598107638955111,
+          "score_single_world": 3.8390725106644985,
+          "success": true,
+          "failure_reason": null,
+          "steps": 1165,
+          "ledger": {
+            "time": 2.329999999999965,
+            "motion": 0.5964617467690218,
+            "sensing": 0.16,
+            "communication": 0.3928000000000001,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.3598107638955111
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 3.618061746768987,
+          "material_exposure": 0.3598107638955111,
+          "score_single_world": 3.9778725106644983,
+          "success": true,
+          "failure_reason": null,
+          "steps": 1165,
+          "ledger": {
+            "time": 2.329999999999965,
+            "motion": 0.5964617467690218,
+            "sensing": 0.19999999999999998,
+            "communication": 0.4916000000000001,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.3598107638955111
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 680008,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            30
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            33
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            27
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.593012274465462,
+          "material_exposure": 0.5705694184576449,
+          "score_single_world": 3.1635816929231066,
+          "success": true,
+          "failure_reason": null,
+          "steps": 861,
+          "ledger": {
+            "time": 1.7220000000000013,
+            "motion": 0.5174122744654605,
+            "sensing": 0.16,
+            "communication": 0.19360000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.5705694184576449
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.5896563991778194,
+          "material_exposure": 0.516113199368118,
+          "score_single_world": 3.1057695985459373,
+          "success": true,
+          "failure_reason": null,
+          "steps": 828,
+          "ledger": {
+            "time": 1.6560000000000012,
+            "motion": 0.5400563991778182,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19360000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.516113199368118
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.797243024174985,
+          "material_exposure": 0.5764130955313642,
+          "score_single_world": 3.3736561197063493,
+          "success": true,
+          "failure_reason": null,
+          "steps": 863,
+          "ledger": {
+            "time": 1.7260000000000013,
+            "motion": 0.5196430241749836,
+            "sensing": 0.16,
+            "communication": 0.39160000000000006,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.5764130955313642
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.876673344883112,
+          "material_exposure": 0.5383411810671276,
+          "score_single_world": 3.4150145259502396,
+          "success": true,
+          "failure_reason": null,
+          "steps": 826,
+          "ledger": {
+            "time": 1.6520000000000012,
+            "motion": 0.5328733448831106,
+            "sensing": 0.19999999999999998,
+            "communication": 0.49180000000000007,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.5383411810671276
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "open",
+      "parent_seed": 680009,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            31
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            28
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.250619663743215,
+          "material_exposure": 0.47053147292385594,
+          "score_single_world": 2.721151136667071,
+          "success": true,
+          "failure_reason": null,
+          "steps": 683,
+          "ledger": {
+            "time": 1.366000000000001,
+            "motion": 0.5306196637432139,
+            "sensing": 0.16,
+            "communication": 0.19400000000000003,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.47053147292385594
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.290619663743215,
+          "material_exposure": 0.47053147292385594,
+          "score_single_world": 2.761151136667071,
+          "success": true,
+          "failure_reason": null,
+          "steps": 683,
+          "ledger": {
+            "time": 1.366000000000001,
+            "motion": 0.5306196637432139,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19400000000000003,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.47053147292385594
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.4275533973769288,
+          "material_exposure": 0.4701718579729409,
+          "score_single_world": 2.8977252553498696,
+          "success": true,
+          "failure_reason": null,
+          "steps": 689,
+          "ledger": {
+            "time": 1.378000000000001,
+            "motion": 0.4963533973769277,
+            "sensing": 0.16,
+            "communication": 0.3932000000000001,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.4701718579729409
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.567553397376929,
+          "material_exposure": 0.4701718579729409,
+          "score_single_world": 3.0377252553498697,
+          "success": true,
+          "failure_reason": null,
+          "steps": 689,
+          "ledger": {
+            "time": 1.378000000000001,
+            "motion": 0.4963533973769277,
+            "sensing": 0.19999999999999998,
+            "communication": 0.49320000000000014,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.4701718579729409
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 680010,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            31
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            9,
+            28
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 1.9574235705017444,
+          "material_exposure": 0.2721997040758528,
+          "score_single_world": 2.2296232745775972,
+          "success": true,
+          "failure_reason": null,
+          "steps": 581,
+          "ledger": {
+            "time": 1.1620000000000008,
+            "motion": 0.44302357050174385,
+            "sensing": 0.16,
+            "communication": 0.19240000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.2721997040758528
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 1.9974235705017445,
+          "material_exposure": 0.2721997040758528,
+          "score_single_world": 2.2696232745775973,
+          "success": true,
+          "failure_reason": null,
+          "steps": 581,
+          "ledger": {
+            "time": 1.1620000000000008,
+            "motion": 0.44302357050174385,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19240000000000002,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.2721997040758528
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.1491131074130485,
+          "material_exposure": 0.2721997040758528,
+          "score_single_world": 2.4213128114889013,
+          "success": true,
+          "failure_reason": null,
+          "steps": 581,
+          "ledger": {
+            "time": 1.1620000000000008,
+            "motion": 0.4357131074130476,
+            "sensing": 0.16,
+            "communication": 0.3914000000000001,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.2721997040758528
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 2.2883131074130487,
+          "material_exposure": 0.2721997040758528,
+          "score_single_world": 2.5605128114889015,
+          "success": true,
+          "failure_reason": null,
+          "steps": 581,
+          "ledger": {
+            "time": 1.1620000000000008,
+            "motion": 0.4357131074130476,
+            "sensing": 0.19999999999999998,
+            "communication": 0.49060000000000015,
+            "collision": 0.0,
+            "failure": 0.0,
+            "material_exposure": 0.2721997040758528
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 680011,
+      "decision_step": 0,
+      "choice_count": 10,
+      "choices": [
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            34
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            28
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            30
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            33
+          ]
+        },
+        {
+          "agent": "scout",
+          "modality": "geometry",
+          "viewpoint": [
+            8,
+            27
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            31
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            5,
+            25
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            30
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            33
+          ]
+        },
+        {
+          "agent": "carrier",
+          "modality": "geometry",
+          "viewpoint": [
+            11,
+            27
+          ]
+        }
+      ],
+      "results": {
+        "declared": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 14.079797498543797,
+          "material_exposure": 0.0,
+          "score_single_world": 14.079797498543797,
+          "success": false,
+          "failure_reason": "deadline",
+          "steps": 1200,
+          "ledger": {
+            "time": 2.3999999999999573,
+            "motion": 1.326397498543841,
+            "sensing": 0.16,
+            "communication": 0.19340000000000002,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.0
+          },
+          "measurements": 8,
+          "packets": 4,
+          "acquired": 8,
+          "delivered": 4,
+          "unsent_evidence": 4,
+          "rejected_sense": 2
+        },
+        "relaxed_measurements": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 13.547066564060565,
+          "material_exposure": 0.0979800555358331,
+          "score_single_world": 13.645046619596398,
+          "success": false,
+          "failure_reason": "immobilization",
+          "steps": 1170,
+          "ledger": {
+            "time": 2.339999999999964,
+            "motion": 0.8136665640605995,
+            "sensing": 0.19999999999999998,
+            "communication": 0.19340000000000002,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.0979800555358331
+          },
+          "measurements": 10,
+          "packets": 4,
+          "acquired": 10,
+          "delivered": 4,
+          "unsent_evidence": 6,
+          "rejected_sense": 0
+        },
+        "relaxed_packets": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 13.559936035148729,
+          "material_exposure": 0.04221049728492896,
+          "score_single_world": 13.602146532433657,
+          "success": false,
+          "failure_reason": "deadline",
+          "steps": 1200,
+          "ledger": {
+            "time": 2.3999999999999573,
+            "motion": 0.6073360351487718,
+            "sensing": 0.16,
+            "communication": 0.39260000000000006,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.04221049728492896
+          },
+          "measurements": 8,
+          "packets": 8,
+          "acquired": 8,
+          "delivered": 8,
+          "unsent_evidence": 0,
+          "rejected_sense": 2
+        },
+        "relaxed_both": {
+          "selected": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "mission_cost": 13.747854512637012,
+          "material_exposure": 0.09749274977793314,
+          "score_single_world": 13.845347262414945,
+          "success": false,
+          "failure_reason": "deadline",
+          "steps": 1200,
+          "ledger": {
+            "time": 2.3999999999999573,
+            "motion": 0.6558545126370557,
+            "sensing": 0.19999999999999998,
+            "communication": 0.4920000000000001,
+            "collision": 0.0,
+            "failure": 10.0,
+            "material_exposure": 0.09749274977793314
+          },
+          "measurements": 10,
+          "packets": 10,
+          "acquired": 10,
+          "delivered": 10,
+          "unsent_evidence": 0,
+          "rejected_sense": 0
+        }
+      }
+    }
+  ]
+}

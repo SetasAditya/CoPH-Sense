@@ -1,0 +1,150 @@
+{
+  "schema": "material_ph_calibration_v1",
+  "checkpoint": "/mnt/data/adityas/material-aware-grl-snam-clean/repair_experiments/outputs/behavioral_soft_force_risk_encoder_recall_full/best.pt",
+  "checkpoint_sha256": "327c744dea093a5436e02ec03328690bac71dbbdf57fd7713a13c5735cdcbda6",
+  "coordinate_scale_m_per_pixel": 0.2,
+  "goal_geometry_scale": 0.010887502178108369,
+  "context_scale": 8.0,
+  "damping_scale": 0.17588677369457986,
+  "force_clip": 4.0,
+  "dt": 0.05,
+  "mass": 1.8,
+  "development_seed_manifest": [
+    [
+      "bottleneck",
+      911000
+    ],
+    [
+      "bottleneck",
+      911001
+    ],
+    [
+      "bottleneck",
+      911002
+    ],
+    [
+      "bottleneck",
+      911003
+    ],
+    [
+      "labyrinth",
+      912000
+    ],
+    [
+      "labyrinth",
+      912001
+    ],
+    [
+      "labyrinth",
+      912002
+    ],
+    [
+      "labyrinth",
+      912003
+    ],
+    [
+      "open",
+      910000
+    ],
+    [
+      "open",
+      910001
+    ],
+    [
+      "open",
+      910002
+    ],
+    [
+      "open",
+      910003
+    ]
+  ],
+  "raw_channel_magnitudes": {
+    "goal": {
+      "median": 130.6536407470703,
+      "p90": 217.62964630126953,
+      "p99": 218.12901763916017
+    },
+    "geometry": {
+      "median": 0.2597813010215759,
+      "p90": 11.25332498550415,
+      "p99": 11.492061567306518
+    },
+    "soft": {
+      "median": 0.007605968974530697,
+      "p90": 0.01615156978368759,
+      "p99": 0.030515798926353453
+    },
+    "hard": {
+      "median": 0.0,
+      "p90": 1.049034233313643e-19,
+      "p99": 2.417690701181076e-18
+    },
+    "damping": {
+      "median": 2.3122833967208862,
+      "p90": 4.228960990905762,
+      "p99": 4.264106869697571
+    }
+  },
+  "raw_total_magnitude": {
+    "median": 127.74029159545898,
+    "p90": 213.37781524658203,
+    "p99": 213.80361785888672
+  },
+  "controller_probes": {
+    "goal_only": {
+      "success": true,
+      "steps": 75,
+      "final_distance": 0.06213318639331478,
+      "overshoot": 0.06656690951850663,
+      "clip_fraction": 0.0,
+      "speed_saturation_fraction": 0.0,
+      "collisions": 0,
+      "oscillations": 1,
+      "force_p99": 1.372419860363007
+    },
+    "geometry_only": {
+      "success": true,
+      "steps": 76,
+      "final_distance": 0.10151402855085045,
+      "overshoot": 0.099783679470419,
+      "clip_fraction": 0.0,
+      "speed_saturation_fraction": 0.0,
+      "collisions": 0,
+      "oscillations": 1,
+      "force_p99": 1.3689174354076385
+    },
+    "material_zero": {
+      "success": true,
+      "steps": 76,
+      "final_distance": 0.10151402855085045,
+      "overshoot": 0.099783679470419,
+      "clip_fraction": 0.0,
+      "speed_saturation_fraction": 0.0,
+      "collisions": 0,
+      "oscillations": 1,
+      "force_p99": 1.3689174354076385
+    },
+    "material_visible_risk": {
+      "success": true,
+      "steps": 75,
+      "final_distance": 0.05466842968705407,
+      "overshoot": 0.04794792142221177,
+      "clip_fraction": 0.0,
+      "speed_saturation_fraction": 0.0,
+      "collisions": 0,
+      "oscillations": 1,
+      "force_p99": 1.2830008492839045
+    }
+  },
+  "belief_trajectory_deflection": 0.05565621868138565,
+  "acceptance": {
+    "goal_success": true,
+    "geometry_collision_free": true,
+    "ordinary_clipping_below_5pct": true,
+    "no_sustained_oscillation": true,
+    "belief_changes_trajectory": true
+  },
+  "passed": true,
+  "selection_policy": "analytic p99 channel normalization; no information-policy metrics"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "engineering_forced_intervention",
+  "a3": [
+    2,
+    3
+  ],
+  "a4": [
+    "send",
+    "send"
+  ],
+  "a5": [
+    -1,
+    -1
+  ],
+  "mission_cost": 1.1962981221208264,
+  "material_exposure": 0.09828364718991978,
+  "cost": 1.2945817693107462,
+  "success": true
+}

@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "a3": [
+    0,
+    -1
+  ],
+  "a4": [
+    "send"
+  ],
+  "a5": [
+    -1,
+    -1
+  ],
+  "mission_cost": 1.0732485150963242,
+  "material_exposure": 0.0939114564943773,
+  "cost": 1.1671599715907015,
+  "success": true
+}

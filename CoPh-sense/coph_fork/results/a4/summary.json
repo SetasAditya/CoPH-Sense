@@ -1,0 +1,509 @@
+{
+  "seeds": [
+    1801,
+    1802,
+    1803
+  ],
+  "test_states_per_seed": 200,
+  "aggregate": {
+    "never_send": {
+      "mean_regret": {
+        "mean": 0.34984326362609863,
+        "sample_std": 0.01567780538080173
+      },
+      "top1_accuracy": {
+        "mean": 0.6,
+        "sample_std": 0.0
+      },
+      "wasteful_send_rate": {
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      "missed_useful_rate": {
+        "mean": 0.4000000000000001,
+        "sample_std": 6.798699777552591e-17
+      },
+      "missed_useful_value": {
+        "mean": 0.34984326362609863,
+        "sample_std": 0.01567780538080173
+      },
+      "critical_recall_at_0_5": {
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      "mean_bytes": {
+        "mean": 0.0,
+        "sample_std": 0.0
+      }
+    },
+    "always_send": {
+      "mean_regret": {
+        "mean": 0.18448534111181894,
+        "sample_std": 0.007883628707758704
+      },
+      "top1_accuracy": {
+        "mean": 0.19833333333333333,
+        "sample_std": 0.017559422921421233
+      },
+      "wasteful_send_rate": {
+        "mean": 0.4883333333333333,
+        "sample_std": 0.016072751268321604
+      },
+      "missed_useful_rate": {
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      "missed_useful_value": {
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      "critical_recall_at_0_5": {
+        "mean": 1.0,
+        "sample_std": 0.0
+      },
+      "mean_bytes": {
+        "mean": 159.23003690133336,
+        "sample_std": 4.64600523960742
+      }
+    },
+    "send_all_novel": {
+      "mean_regret": {
+        "mean": 0.09730702141920726,
+        "sample_std": 0.0033724255278214086
+      },
+      "top1_accuracy": {
+        "mean": 0.47000000000000003,
+        "sample_std": 0.004999999999999977
+      },
+      "wasteful_send_rate": {
+        "mean": 0.27,
+        "sample_std": 0.01732050807568879
+      },
+      "missed_useful_rate": {
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      "missed_useful_value": {
+        "mean": 0.0,
+        "sample_std": 0.0
+      },
+      "critical_recall_at_0_5": {
+        "mean": 1.0,
+        "sample_std": 0.0
+      },
+      "mean_bytes": {
+        "mean": 104.01195815577093,
+        "sample_std": 0.7330747453870861
+      }
+    },
+    "uncertainty_threshold": {
+      "mean_regret": {
+        "mean": 0.17046457529067993,
+        "sample_std": 0.022481319248833967
+      },
+      "top1_accuracy": {
+        "mean": 0.6849999999999999,
+        "sample_std": 0.02179449471770332
+      },
+      "wasteful_send_rate": {
+        "mean": 0.2383333333333333,
+        "sample_std": 0.017559422921421233
+      },
+      "missed_useful_rate": {
+        "mean": 0.065,
+        "sample_std": 0.0050000000000000044
+      },
+      "missed_useful_value": {
+        "mean": 0.06378025313218434,
+        "sample_std": 0.00952934366949957
+      },
+      "critical_recall_at_0_5": {
+        "mean": 0.6075132275132274,
+        "sample_std": 0.0910841912187877
+      },
+      "mean_bytes": {
+        "mean": 40.823419137326226,
+        "sample_std": 1.91764334697923
+      }
+    },
+    "additive": {
+      "mean_regret": {
+        "mean": 0.0233478806912899,
+        "sample_std": 0.004714480222519347
+      },
+      "top1_accuracy": {
+        "mean": 0.8733333333333334,
+        "sample_std": 0.04856267428111159
+      },
+      "wasteful_send_rate": {
+        "mean": 0.08166666701436043,
+        "sample_std": 0.035472992361141584
+      },
+      "missed_useful_rate": {
+        "mean": 0.0183333329235514,
+        "sample_std": 0.012583057110864666
+      },
+      "missed_useful_value": {
+        "mean": 0.0055519712235157686,
+        "sample_std": 0.00439155305982585
+      },
+      "critical_recall_at_0_5": {
+        "mean": 0.9711111187934875,
+        "sample_std": 0.03421067654690814
+      },
+      "mean_bytes": {
+        "mean": 50.672402604789625,
+        "sample_std": 5.429110515811308
+      }
+    },
+    "deepsets": {
+      "mean_regret": {
+        "mean": 0.03250879111389319,
+        "sample_std": 0.010773639374117254
+      },
+      "top1_accuracy": {
+        "mean": 0.8483333333333333,
+        "sample_std": 0.036170890690351204
+      },
+      "wasteful_send_rate": {
+        "mean": 0.07666666805744171,
+        "sample_std": 0.027537852177277843
+      },
+      "missed_useful_rate": {
+        "mean": 0.029999999950329464,
+        "sample_std": 0.0049999998882413205
+      },
+      "missed_useful_value": {
+        "mean": 0.01588179326305787,
+        "sample_std": 0.004933240402330215
+      },
+      "critical_recall_at_0_5": {
+        "mean": 0.9514436920483907,
+        "sample_std": 0.011193738728012896
+      },
+      "mean_bytes": {
+        "mean": 50.09799953226,
+        "sample_std": 1.8529575636522744
+      }
+    },
+    "pairwise": {
+      "mean_regret": {
+        "mean": 0.028440543139974277,
+        "sample_std": 0.005905833470330894
+      },
+      "top1_accuracy": {
+        "mean": 0.89,
+        "sample_std": 0.010000000000000009
+      },
+      "wasteful_send_rate": {
+        "mean": 0.03833333278695742,
+        "sample_std": 0.002886750743724869
+      },
+      "missed_useful_rate": {
+        "mean": 0.0183333329235514,
+        "sample_std": 0.002886751281424208
+      },
+      "missed_useful_value": {
+        "mean": 0.012729618853578964,
+        "sample_std": 0.006136935925141191
+      },
+      "critical_recall_at_0_5": {
+        "mean": 0.9514436920483907,
+        "sample_std": 0.011193738728012896
+      },
+      "mean_bytes": {
+        "mean": 50.87409538981816,
+        "sample_std": 1.4408218319531814
+      }
+    }
+  },
+  "canonical_interventions": {
+    "joint_good": {
+      "oracle": [
+        "top_geometry",
+        "top_traction"
+      ],
+      "models": {
+        "additive": {
+          "chosen_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        },
+        "deepsets": {
+          "chosen_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        },
+        "pairwise": {
+          "chosen_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [
+              "top_geometry",
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        }
+      }
+    },
+    "ack_completes_pair": {
+      "oracle": [
+        "top_traction"
+      ],
+      "models": {
+        "additive": {
+          "chosen_by_seed": [
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        },
+        "deepsets": {
+          "chosen_by_seed": [
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        },
+        "pairwise": {
+          "chosen_by_seed": [
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ],
+            [
+              "top_traction"
+            ]
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        }
+      }
+    },
+    "duplicate": {
+      "oracle": [],
+      "models": {
+        "additive": {
+          "chosen_by_seed": [
+            [
+              "top_geometry"
+            ],
+            [],
+            []
+          ],
+          "correct_count": 2,
+          "mean_regret": 0.00773333333333337
+        },
+        "deepsets": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        },
+        "pairwise": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        }
+      }
+    },
+    "irrelevant": {
+      "oracle": [],
+      "models": {
+        "additive": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        },
+        "deepsets": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        },
+        "pairwise": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        }
+      }
+    },
+    "stale": {
+      "oracle": [],
+      "models": {
+        "additive": {
+          "chosen_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [],
+            []
+          ],
+          "correct_count": 2,
+          "mean_regret": 0.008266666666666644
+        },
+        "deepsets": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        },
+        "pairwise": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        }
+      }
+    },
+    "costly_low_link": {
+      "oracle": [],
+      "models": {
+        "additive": {
+          "chosen_by_seed": [
+            [
+              "top_geometry",
+              "top_traction"
+            ],
+            [],
+            []
+          ],
+          "correct_count": 2,
+          "mean_regret": 0.05520000000000014
+        },
+        "deepsets": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        },
+        "pairwise": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 3,
+          "mean_regret": 0.0
+        }
+      }
+    },
+    "bad_warning": {
+      "oracle": [
+        "top_geometry"
+      ],
+      "models": {
+        "additive": {
+          "chosen_by_seed": [
+            [
+              "top_geometry"
+            ],
+            [],
+            []
+          ],
+          "correct_count": 1,
+          "mean_regret": 1.317066666666667
+        },
+        "deepsets": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 0,
+          "mean_regret": 1.9756000000000007
+        },
+        "pairwise": {
+          "chosen_by_seed": [
+            [],
+            [],
+            []
+          ],
+          "correct_count": 0,
+          "mean_regret": 1.9756000000000007
+        }
+      }
+    }
+  },
+  "interpretation": "Exact A4 oracle is verified, but the pairwise learned model is not a consistent winner across seeds; inspect canonical interventions before declaring the learned sharing checkpoint passed."
+}

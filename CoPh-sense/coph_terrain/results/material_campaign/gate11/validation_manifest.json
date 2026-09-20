@@ -1,0 +1,140 @@
+{
+  "challenge_targets": [
+    [
+      10,
+      30
+    ],
+    [
+      30,
+      30
+    ]
+  ],
+  "collector_sha256": "19fe1b615c02c485782d63e2fccf0f7b9d4c1ecedba599e31222a61ad638ba0b",
+  "executor": "material_ph",
+  "rows": [
+    {
+      "group": {
+        "difficulty_bin": "high",
+        "family": "bottleneck",
+        "group_id": "validation/bottleneck/0000",
+        "map_sha256": "1ccd1cfd9368f95eb7b91eb0907d37ce0d91573005d98b65105655094ae3d270",
+        "obstacle_count": 6,
+        "ood_slice": null,
+        "parent_seed": 220000,
+        "patch_count": 6,
+        "shortest_path_risk": 0.3937635123729706
+      },
+      "stratum": "Natural"
+    },
+    {
+      "group": {
+        "difficulty_bin": "medium",
+        "family": "labyrinth",
+        "group_id": "validation/labyrinth/0000",
+        "map_sha256": "be56a470d225d27559484738a4587a032de0c5c3b1b22fb62049f1415518a60b",
+        "obstacle_count": 17,
+        "ood_slice": null,
+        "parent_seed": 240000,
+        "patch_count": 8,
+        "shortest_path_risk": 0.29987984895706177
+      },
+      "stratum": "Natural"
+    },
+    {
+      "group": {
+        "difficulty_bin": "medium",
+        "family": "open",
+        "group_id": "validation/open/0000",
+        "map_sha256": "623d661ce1b8b2b22175b186b6728491cf62cb19969e68865822baaaee811784",
+        "obstacle_count": 7,
+        "ood_slice": null,
+        "parent_seed": 200000,
+        "patch_count": 5,
+        "shortest_path_risk": 0.2831071615219116
+      },
+      "stratum": "Natural"
+    },
+    {
+      "parent_seed": 1200000,
+      "stratum": "Complementarity",
+      "world_bits": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "parent_seed": 1200000,
+      "stratum": "Complementarity",
+      "world_bits": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "parent_seed": 1200000,
+      "stratum": "Complementarity",
+      "world_bits": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "parent_seed": 1200000,
+      "stratum": "Complementarity",
+      "world_bits": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "parent_seed": 1200000,
+      "stratum": "Moving-A5",
+      "world_bits": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "parent_seed": 1200000,
+      "stratum": "Moving-A5",
+      "world_bits": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "parent_seed": 1200000,
+      "stratum": "Moving-A5",
+      "world_bits": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "parent_seed": 1200000,
+      "stratum": "Moving-A5",
+      "world_bits": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "scope": "predeclared information-structure strata",
+  "split": "validation"
+}

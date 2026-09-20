@@ -1,0 +1,1608 @@
+{
+  "episode_realizations_per_test_group": 5,
+  "generator_sha256": "55b2dd336040a9d09f57a86a90eb7357a06dad80a584fe4cb9a1634d13ed0540",
+  "groups": [
+    {
+      "family": "open",
+      "group_id": "test/open/0000",
+      "map_sha256": "c88dacb3307bd106a249e474de480f66ebfa223bbae29497620f54f2c56f5516",
+      "obstacle_count": 6,
+      "parent_seed": 400000,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0001",
+      "map_sha256": "2d859e54209cf2c67ad54132d147bd569aee1dd28545ca8252bacc729470e00f",
+      "obstacle_count": 6,
+      "parent_seed": 400001,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0002",
+      "map_sha256": "a511ef1ee782e6082dbdd9029b6df1ad69094788dd1fe77ab8e4bd6283bb0645",
+      "obstacle_count": 8,
+      "parent_seed": 400002,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0003",
+      "map_sha256": "49f522a5560fb192d0e7f2f62ee1babce10635a1bbc2bd46f1016783b60f710c",
+      "obstacle_count": 6,
+      "parent_seed": 400003,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0004",
+      "map_sha256": "aceaf195a70bde498e49d10f30fc94a558b66f85d227afd0bc5a6dcd31b445d8",
+      "obstacle_count": 4,
+      "parent_seed": 400004,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0005",
+      "map_sha256": "8dd9a14428f3d13144434422b4e70c26da620316852c83b021b24fac94908595",
+      "obstacle_count": 5,
+      "parent_seed": 400005,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0006",
+      "map_sha256": "1648750f8869bb73ccf3c2bc38ef79b64fd0b53e53d6308d3985a05d56824599",
+      "obstacle_count": 6,
+      "parent_seed": 400006,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0007",
+      "map_sha256": "f9f72274c11dc8410c83079d735b7b3e8de1e73c2d8688107aa06bb47a0712e4",
+      "obstacle_count": 6,
+      "parent_seed": 400007,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0008",
+      "map_sha256": "cd826ba9a13e3312fc339312e9a68b9c7399a27c706acd73bef9a58e86ab108f",
+      "obstacle_count": 5,
+      "parent_seed": 400008,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0009",
+      "map_sha256": "17268a862070102aea7211fe556f6971355205943898ad37ca05bc991435ea39",
+      "obstacle_count": 7,
+      "parent_seed": 400009,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0010",
+      "map_sha256": "08c0f7e9c6c8cd02d34d26c18073e69477f5bbea6c5269ae22df6c43682cb4f9",
+      "obstacle_count": 6,
+      "parent_seed": 400010,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0011",
+      "map_sha256": "ec66bdb79ff9882acbfd6062f62a7b8c2ca4d4bf44efa2bd0fb16ecffa2b01db",
+      "obstacle_count": 7,
+      "parent_seed": 400011,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0012",
+      "map_sha256": "d25fe835b158a83ac6bd693b4a79e8f63437d347932b396de038d2d0cf01e74f",
+      "obstacle_count": 8,
+      "parent_seed": 400012,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0013",
+      "map_sha256": "18a71f33b1520c2bc74c55286f27ac9ee848ea9428a67c23ea6f192d1c59581b",
+      "obstacle_count": 5,
+      "parent_seed": 400013,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0014",
+      "map_sha256": "22b64fd13bedb42f738471d8f5e29c3e0b1927ff250c1a1d5c027c38b8e3185c",
+      "obstacle_count": 5,
+      "parent_seed": 400014,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0015",
+      "map_sha256": "5b019b24c82f45526cd3b4b07c27a55a7748111921d567652f2931de12dcee1b",
+      "obstacle_count": 8,
+      "parent_seed": 400015,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0016",
+      "map_sha256": "903c0e9c68ede5234aa6eba34f59a4e64141b0b0be708a8d7d9c91985aa90b23",
+      "obstacle_count": 8,
+      "parent_seed": 400016,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0017",
+      "map_sha256": "793a3fffe9b8044600d73b3912d074dfca2d1ee1bf86ca3341bca9341cfd98b1",
+      "obstacle_count": 7,
+      "parent_seed": 400017,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0018",
+      "map_sha256": "a2b039ce2841130c55fe21c0810cbfd2dd55562d8e035d3dfcfaf4ac0f242abe",
+      "obstacle_count": 5,
+      "parent_seed": 400018,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0019",
+      "map_sha256": "ed12c8b2e55c0ed76107c374ff2ef11eb9639e4f010bce717563645bddcfc090",
+      "obstacle_count": 6,
+      "parent_seed": 400019,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0020",
+      "map_sha256": "7fda2bd524f224a017e414bbab54f7b55f6e7c0a5a4fb6cd0e343a3b23d35257",
+      "obstacle_count": 7,
+      "parent_seed": 400020,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0021",
+      "map_sha256": "478e292ebcc9a19a59ef0de5ed4cf15b6704c8a34e71aefd952a2dcbe4fa4005",
+      "obstacle_count": 6,
+      "parent_seed": 400021,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0022",
+      "map_sha256": "a5112878655d4975919ea07dfe37d8c4e72a2d57bd6ea5678a860c11af6aba90",
+      "obstacle_count": 7,
+      "parent_seed": 400022,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0023",
+      "map_sha256": "022de124bfd4454e64ff786fb97b842838c2d597eaa421e3f708ff458ff42be1",
+      "obstacle_count": 5,
+      "parent_seed": 400023,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0024",
+      "map_sha256": "a93b7367fec872aef6ad7acb4ca66dacf8eb761b6da58219f3248c2b0d8e7b83",
+      "obstacle_count": 7,
+      "parent_seed": 400024,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0025",
+      "map_sha256": "2c942b11ebfa720d875acdce79df1605a3600279d1bb1ffb5fb3424a955fd833",
+      "obstacle_count": 6,
+      "parent_seed": 400025,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0026",
+      "map_sha256": "a4c8d8fe63f438e65046945754061fa1f814b40121c1c3854fc0f922d57c107b",
+      "obstacle_count": 7,
+      "parent_seed": 400026,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0027",
+      "map_sha256": "79d641ab5e46e1cb0f0422718b084924c35c90605417f9fb13b9555547851498",
+      "obstacle_count": 4,
+      "parent_seed": 400027,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0028",
+      "map_sha256": "a68bd2f424c15a452b0b100ea33a798483c8095795f27a837acb365b39479ed4",
+      "obstacle_count": 8,
+      "parent_seed": 400028,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0029",
+      "map_sha256": "7b2099056a14bbb15feae24120925032723de15b377f4cceb1b04e4d9272a2c9",
+      "obstacle_count": 8,
+      "parent_seed": 400029,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0030",
+      "map_sha256": "3c543f6ec7fc14cec70907dd834d6d1951fa5b3c2b661cf3f17db4bd4d1cf414",
+      "obstacle_count": 6,
+      "parent_seed": 400030,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0031",
+      "map_sha256": "f32bc842cfc10cb0e366896fb0b838e0a316cbfcf6389a5c398a5df942bc1e3f",
+      "obstacle_count": 6,
+      "parent_seed": 400031,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0032",
+      "map_sha256": "687e268be37a3ce099c8547d5b4c635a6833e58253eb845be851c859c9844eff",
+      "obstacle_count": 5,
+      "parent_seed": 400032,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0033",
+      "map_sha256": "78bac0c5c4b755d6d6c7efe23c94ea8c85efa4fd02b35ed44c2cea5898f9f52e",
+      "obstacle_count": 5,
+      "parent_seed": 400033,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0034",
+      "map_sha256": "fc1d5ca75bdcfa852331bf07dea5f276b7cfa74e25a1e9ae0c0fbaafdcff124f",
+      "obstacle_count": 5,
+      "parent_seed": 400034,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0035",
+      "map_sha256": "b3a298becf4847f4140abeb60f77875448274dbfd45c09e4990eced27c3d2361",
+      "obstacle_count": 6,
+      "parent_seed": 400035,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0036",
+      "map_sha256": "d5137c1a66153752e531ea7c7734cd066063f95c71e080ac9821f6badeff0301",
+      "obstacle_count": 7,
+      "parent_seed": 400036,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0037",
+      "map_sha256": "db3ad8a8de45e019ec9ed41182070720c180c9f112d6a069aa3486ddd9527500",
+      "obstacle_count": 5,
+      "parent_seed": 400037,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0038",
+      "map_sha256": "18e32bbab70045c2d5c7e4fc7b2851226c27fa38069484d4011895595338b589",
+      "obstacle_count": 6,
+      "parent_seed": 400038,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0039",
+      "map_sha256": "32e22c4bf4e5226c516419b6b7f33310cb5d927f6beffe06f156c86c70f9bf00",
+      "obstacle_count": 7,
+      "parent_seed": 400039,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0040",
+      "map_sha256": "6b83b7486a5240370d44cf51b63bf202f9e7aefaabe2efb0746338da2d62407b",
+      "obstacle_count": 8,
+      "parent_seed": 400040,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0041",
+      "map_sha256": "3c9861d7d3d08f3ab121b71fe48d4b6bdb3cb9a0a057803637e0a4fd55b1a9f5",
+      "obstacle_count": 7,
+      "parent_seed": 400041,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0042",
+      "map_sha256": "08a5272f0549d0bf42cc11c6e5322526c8cd3a834423ea45eae0700b2a29eed9",
+      "obstacle_count": 7,
+      "parent_seed": 400042,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0043",
+      "map_sha256": "0f2fe493fc4ce5812522d0719a7d432256874430cb3c362624c7367e203e9e13",
+      "obstacle_count": 8,
+      "parent_seed": 400043,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0044",
+      "map_sha256": "3aa737536a846c03dd987311b738d0e02fec45f4cf3dc072be1c4c18070c9029",
+      "obstacle_count": 6,
+      "parent_seed": 400044,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0045",
+      "map_sha256": "d2c593f97e81f1318d55052fa0c533cb23b38697d53b6d667b725278a11ca88e",
+      "obstacle_count": 6,
+      "parent_seed": 400045,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0046",
+      "map_sha256": "eba3ec929a1a8cf65addb6ffc444b27969be82085a4cade857ae398451714c4e",
+      "obstacle_count": 8,
+      "parent_seed": 400046,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0047",
+      "map_sha256": "9bdf2617d87cb4d2134737f8eb4f1d7f7c796eb6eb03731e4a8bfdd54b833146",
+      "obstacle_count": 8,
+      "parent_seed": 400047,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0048",
+      "map_sha256": "881fc6172f4b517632d4c932a2a74b4a6b005b04a11f59cb397161fb326649cd",
+      "obstacle_count": 5,
+      "parent_seed": 400048,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0049",
+      "map_sha256": "e51a1ebce42d86c791f284eebf3fef73438b60aff26d773f8038e056a6e7719f",
+      "obstacle_count": 6,
+      "parent_seed": 400049,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0050",
+      "map_sha256": "3013bd1cc2b30cbb170bd4130ef2f1f08d0c2a6148e69de93f54f6db68d928f2",
+      "obstacle_count": 7,
+      "parent_seed": 400050,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0051",
+      "map_sha256": "63c0bf01894bde0d85c7eb23cb347a63cc8d7cc43ad50d821f8e765ba90bbac6",
+      "obstacle_count": 7,
+      "parent_seed": 400051,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0052",
+      "map_sha256": "f6137f9696d4cbadb8bb27cfa9df7b14e812ad334b4873c5dbe51d3a0f239e69",
+      "obstacle_count": 7,
+      "parent_seed": 400052,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0053",
+      "map_sha256": "d70a8eee4b52fb0417538800f958e57cfc67d49f597ca96a3fee19947cad3084",
+      "obstacle_count": 5,
+      "parent_seed": 400053,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0054",
+      "map_sha256": "1456a7bfb17cc05a2b5998459519a27a9b7ed646641bc13cd1c3f14634d53f41",
+      "obstacle_count": 8,
+      "parent_seed": 400054,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0055",
+      "map_sha256": "92f180cb6cff4b96edd6f52d5b7221ea6dff20c3cbaa5ff4b52f8ee727034579",
+      "obstacle_count": 6,
+      "parent_seed": 400055,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0056",
+      "map_sha256": "cb4a496be56ec41912299a4c100e030dae94c724fc786c5fec85de5b48d773e3",
+      "obstacle_count": 5,
+      "parent_seed": 400056,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0057",
+      "map_sha256": "14ee597e2482e631fb18ef51f90abdfd819f65eebbda23cf6397fc6a8d942cc6",
+      "obstacle_count": 7,
+      "parent_seed": 400057,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0058",
+      "map_sha256": "69a74c7b9592c73536ffe3521fdc6f580928f66ba6cf8b9c0034626b782f4451",
+      "obstacle_count": 8,
+      "parent_seed": 400058,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0059",
+      "map_sha256": "fc96e777ed50f07c1d23e8a71ccc8c11ef18af4bd8b516237a7672f8f0c4b90f",
+      "obstacle_count": 6,
+      "parent_seed": 400059,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0060",
+      "map_sha256": "6f158764f395d950ea6991429c60cd7b43097d7e53beb7fc9524efa04e48d59f",
+      "obstacle_count": 8,
+      "parent_seed": 400060,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0061",
+      "map_sha256": "f514cfec4dc403b0e294e488818baa6b8ebdc0692a141e6d62059eb163457408",
+      "obstacle_count": 6,
+      "parent_seed": 400061,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0062",
+      "map_sha256": "fa8a8800da1b9224d73307d24198d44500818088bcebd80316cc776489cbf548",
+      "obstacle_count": 5,
+      "parent_seed": 400062,
+      "patch_count": 7
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0063",
+      "map_sha256": "a390b5884ce3035f9d47ef2091ca9750bf4881092300bba9b490d607ef1c6b15",
+      "obstacle_count": 6,
+      "parent_seed": 400063,
+      "patch_count": 6
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0064",
+      "map_sha256": "a9c454a6c61fb03be8243264eae0b142de62f0c713dcf330a68d97e4fe42c890",
+      "obstacle_count": 5,
+      "parent_seed": 400064,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0065",
+      "map_sha256": "3be6112682dcd0fc230680661a6a134da74b3774103e75a4a6e007650b44ed69",
+      "obstacle_count": 6,
+      "parent_seed": 400065,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0066",
+      "map_sha256": "161bf0ef57d07232b0dbd1f39f35714b3a464a55578a70cac282250ee681e274",
+      "obstacle_count": 6,
+      "parent_seed": 400066,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0067",
+      "map_sha256": "7c7556352dca97abcbff9b0d337222f67d0bbb6df7ec8329bde755772939f360",
+      "obstacle_count": 5,
+      "parent_seed": 400067,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0068",
+      "map_sha256": "cd9ad9a63dbc05133302abf149d659715b679fbe9248b75892251d5bf565477e",
+      "obstacle_count": 7,
+      "parent_seed": 400068,
+      "patch_count": 5
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0069",
+      "map_sha256": "d0614e703c6a59e2a4e723d64865b0570466a3113e6c395f17cfd2fd5f1925df",
+      "obstacle_count": 8,
+      "parent_seed": 400069,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0070",
+      "map_sha256": "f013bbb3ee5d23c0297cb3d0efe527f5f51c727cf8286506b8f77488dc3e6ce3",
+      "obstacle_count": 5,
+      "parent_seed": 400070,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0071",
+      "map_sha256": "cce62a3769091e985744a23d41cfee212d0e11754a887a98769b8f1e0680ec8a",
+      "obstacle_count": 5,
+      "parent_seed": 400071,
+      "patch_count": 8
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0072",
+      "map_sha256": "c222bed2b66018d41a012754145d80e864ed554254dc76c4b0ec3045a6cf7a2d",
+      "obstacle_count": 6,
+      "parent_seed": 400072,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0073",
+      "map_sha256": "b7d9fed69a675a5da3272c8b5f6451e4b60cee4471c3f95606e45b5f5212c1dd",
+      "obstacle_count": 8,
+      "parent_seed": 400073,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0074",
+      "map_sha256": "e45db2f05e610b75bf7faa5510855f1c2425d950a9c27cf54a3f56f5626b78e2",
+      "obstacle_count": 8,
+      "parent_seed": 400074,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0075",
+      "map_sha256": "ff11dcd1da15c93ba37cf3ef4b92be03c6ff2b331e408b809a389e312d0b1c33",
+      "obstacle_count": 5,
+      "parent_seed": 400075,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0076",
+      "map_sha256": "2e829bb6ae47ad31bcf7f3c99bb91de2004ce9e4def94c8d2c0d5f3198ee665e",
+      "obstacle_count": 5,
+      "parent_seed": 400076,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0077",
+      "map_sha256": "3f8887fad969ce797bd1d977e3d7bd6758436ecb0fe6f5de177bc5c2b8cf47f5",
+      "obstacle_count": 5,
+      "parent_seed": 400077,
+      "patch_count": 9
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0078",
+      "map_sha256": "ae7b270cc10897e305e365f56d60de846ddecd8cb36e9a786cb723382fab4a32",
+      "obstacle_count": 7,
+      "parent_seed": 400078,
+      "patch_count": 10
+    },
+    {
+      "family": "open",
+      "group_id": "test/open/0079",
+      "map_sha256": "21ff167dae8a5fd68cdd452a5b123eac87969c5ceced5225326f86a3c4d522a6",
+      "obstacle_count": 6,
+      "parent_seed": 400079,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0000",
+      "map_sha256": "30b8a907b9574da6f5286d0c76607ab61ed63a3f91711bf27852af9ba911db98",
+      "obstacle_count": 7,
+      "parent_seed": 400080,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0001",
+      "map_sha256": "b907400299409196c2dcd57195f4548f182a279c1dc4144a5776102fa52cab36",
+      "obstacle_count": 7,
+      "parent_seed": 400081,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0002",
+      "map_sha256": "8dfe5802e61b4358a7504a1aaa2579eee8aa85ab91c7a94c978f97fc52e910c4",
+      "obstacle_count": 7,
+      "parent_seed": 400082,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0003",
+      "map_sha256": "8a8ee468f69a1dc3f4764e248fba721d45ae842b85c9a265ba0e077088b718de",
+      "obstacle_count": 7,
+      "parent_seed": 400083,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0004",
+      "map_sha256": "ec2e727785251f25b32a2a95aa05a77816373e6aaa6b75ab69ee8677a4eeb1b9",
+      "obstacle_count": 7,
+      "parent_seed": 400084,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0005",
+      "map_sha256": "13564571ccf4c3bed31484543cd464f4339f157b2d1fd46a8a1e1ce6fb137732",
+      "obstacle_count": 7,
+      "parent_seed": 400085,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0006",
+      "map_sha256": "36ecd1e440de66bef9aefbd85d1ac39de776e79feddfe669a3fcec2729db706e",
+      "obstacle_count": 7,
+      "parent_seed": 400086,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0007",
+      "map_sha256": "6dc42c0b8a68eecad6400f844eeee9b3e4f0763ddd3f885973142caff970d205",
+      "obstacle_count": 7,
+      "parent_seed": 400087,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0008",
+      "map_sha256": "bc95bb4f4a0fc4cb4ee75c4e41ca0bb5a460f92025a15c7aa445d4299f1771bd",
+      "obstacle_count": 7,
+      "parent_seed": 400088,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0009",
+      "map_sha256": "ce04611e8a7d7dc78a3b22e2ec5128cc3b53c7c511fac3f5ff0e22551acbd780",
+      "obstacle_count": 7,
+      "parent_seed": 400089,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0010",
+      "map_sha256": "fe5b00f2509ff0cb61a55dffea16fa9822e8fbdfb66950aabcc23f6273ccf2df",
+      "obstacle_count": 7,
+      "parent_seed": 400090,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0011",
+      "map_sha256": "5b3c92b6f74333e58c104d8b2d874f1d7e5c3b5da73c22dced23e6b1a9c7b78d",
+      "obstacle_count": 7,
+      "parent_seed": 400091,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0012",
+      "map_sha256": "c129819b3976c64f599997768b23fd068424ead94a2aebce4da5a6ae9501272c",
+      "obstacle_count": 7,
+      "parent_seed": 400092,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0013",
+      "map_sha256": "b8556bd3d8eec2ce300649e41c821ad181af8c52deee850272e3f462895ba559",
+      "obstacle_count": 7,
+      "parent_seed": 400093,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0014",
+      "map_sha256": "e3fdf81828bd68267ce3add88535e6fdf6b7e64ddbbb5c30b29486e6c7f3e760",
+      "obstacle_count": 7,
+      "parent_seed": 400094,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0015",
+      "map_sha256": "88d1fbeb0e8767e40556ce1c4b7feb42576dc6b8f054707c0dab88a7508a6ce4",
+      "obstacle_count": 7,
+      "parent_seed": 400095,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0016",
+      "map_sha256": "5266fd616884873ffc62606be18218d1fa2ca6179654f13fa354b68fda2cd89a",
+      "obstacle_count": 7,
+      "parent_seed": 400096,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0017",
+      "map_sha256": "c7fef47d0f72085686c5d2994fc776672cedf040a665607f53bdd2b5c63f7aa2",
+      "obstacle_count": 7,
+      "parent_seed": 400097,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0018",
+      "map_sha256": "011218b1d32feccc33f45a1d2b2ae28e62af3688c4ac68f98741aae9755d71a9",
+      "obstacle_count": 7,
+      "parent_seed": 400098,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0019",
+      "map_sha256": "8e399515310b231e19cbbbf5210fb75cfeb7622496d3e8a3b423ea180c0f476a",
+      "obstacle_count": 7,
+      "parent_seed": 400099,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0020",
+      "map_sha256": "f7e2f68e43b081155ec6c28d9414201c2b8400fd671748e7252fb8b88165621e",
+      "obstacle_count": 7,
+      "parent_seed": 400100,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0021",
+      "map_sha256": "12d0385cbb50e1581a2d38e0a14a6dd9a449d01830633859fc0818e092fbafff",
+      "obstacle_count": 7,
+      "parent_seed": 400101,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0022",
+      "map_sha256": "f0a8ecba3320952d62cf30bc343bbf79daa76e83fc100966843430ac4d8030dd",
+      "obstacle_count": 7,
+      "parent_seed": 400102,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0023",
+      "map_sha256": "dfc515ffdb1e82c0d456db021bad27aeaa865f6fd94ae602b12de7d26ea65fbe",
+      "obstacle_count": 7,
+      "parent_seed": 400103,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0024",
+      "map_sha256": "25e9763d01636448ac5fdf7376c804b0377a8b2aa88aa03151e3b34b62300e55",
+      "obstacle_count": 7,
+      "parent_seed": 400104,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0025",
+      "map_sha256": "6834c9479015468b6a6fe1b3c81b512c7fe7c3f1cda918a6b18ac9e99a54914e",
+      "obstacle_count": 7,
+      "parent_seed": 400105,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0026",
+      "map_sha256": "da0532c1b3bb627cfa4f00031b25502873e2c6f9766c85480e9a1462bd0b2524",
+      "obstacle_count": 7,
+      "parent_seed": 400106,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0027",
+      "map_sha256": "075ac224e4e479172adacfb924cf888e2105143bbbab3c3e57e0aa8c5af0ee5a",
+      "obstacle_count": 7,
+      "parent_seed": 400107,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0028",
+      "map_sha256": "702623d39c4410b60ff61272049bcd520d7bfe2d315f85fe4561baad430d4a5e",
+      "obstacle_count": 7,
+      "parent_seed": 400108,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0029",
+      "map_sha256": "5d233ec56580461cf9c49593454e0d6ea484d2dc45983077a90cb8dbf3983ef2",
+      "obstacle_count": 7,
+      "parent_seed": 400109,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0030",
+      "map_sha256": "f1594f5f54fffa4627ecd8cef23b688855241c7cf6d6710d721aa1e588119e8a",
+      "obstacle_count": 7,
+      "parent_seed": 400110,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0031",
+      "map_sha256": "c9e00d973c2870fcacca5b32db00165bf26e09141e30c99c33f2e89efabac67c",
+      "obstacle_count": 7,
+      "parent_seed": 400111,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0032",
+      "map_sha256": "6e11d16cda683a414b75d43b6e33f2df944bf9d8e28d738dfb4ae7ddddc5d489",
+      "obstacle_count": 7,
+      "parent_seed": 400112,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0033",
+      "map_sha256": "9c7f1adfb89658054507f5dce758bef06bbfd03533eae9f0e2ce107b223f87ac",
+      "obstacle_count": 7,
+      "parent_seed": 400113,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0034",
+      "map_sha256": "3f3c98898882037ad7ccec1a71a66460304649637076aea798ef7f1bf248a8aa",
+      "obstacle_count": 7,
+      "parent_seed": 400114,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0035",
+      "map_sha256": "3279224a2211034c094695d1335230da263d4755eeb6882afa03537b6ccab9d8",
+      "obstacle_count": 7,
+      "parent_seed": 400115,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0036",
+      "map_sha256": "aa4eabcb96e171e319306034c3685b4fc500149ce7d76daeec974834f9f0216c",
+      "obstacle_count": 7,
+      "parent_seed": 400116,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0037",
+      "map_sha256": "888357f8a7f92c1c6f04651f6abc43231f12c898afed434bc3a0de76fa2a16bc",
+      "obstacle_count": 7,
+      "parent_seed": 400117,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0038",
+      "map_sha256": "2ca4451efbbff809ff5467cf036314466db0fbeb1cfbf813e4463246063ba5e8",
+      "obstacle_count": 7,
+      "parent_seed": 400118,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0039",
+      "map_sha256": "395b4b1419958096b88865cdbdca908983acf075cb9d0b9d736cf9fd32d77f86",
+      "obstacle_count": 7,
+      "parent_seed": 400119,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0040",
+      "map_sha256": "50747e47becc305435025d298508d7129b3f3ec020417fe3cc8c9dbf289856c9",
+      "obstacle_count": 7,
+      "parent_seed": 400120,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0041",
+      "map_sha256": "27eb74d8cab4798766cc69e58e5d05d3a3f6c70aa87ec22ab99b6fa1d577278e",
+      "obstacle_count": 6,
+      "parent_seed": 400121,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0042",
+      "map_sha256": "0a272778af6534b71a34d221bab292f8e02d829c66647e8d4db45eb6fe1ded24",
+      "obstacle_count": 7,
+      "parent_seed": 400122,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0043",
+      "map_sha256": "917c6cfdd74c00bec11dd0b95b4214473cc848360bd8c6d7f70c3009e1d4003b",
+      "obstacle_count": 7,
+      "parent_seed": 400123,
+      "patch_count": 9
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0044",
+      "map_sha256": "b0699a59a5406506f4cf5cd2d1f8590333e56128fe4b6f9bc9ec7d57af174fe1",
+      "obstacle_count": 7,
+      "parent_seed": 400124,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0045",
+      "map_sha256": "cd6c9b4ee8f0e7eeed02fc482284dc9a8f4e78b906a6a6dfca0d4cb9332dfba6",
+      "obstacle_count": 7,
+      "parent_seed": 400125,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0046",
+      "map_sha256": "45c337769c0dc5ff0b0cf8ce572a84e749940026f9782a87463abdab7a7acdef",
+      "obstacle_count": 7,
+      "parent_seed": 400126,
+      "patch_count": 7
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0047",
+      "map_sha256": "f479a0713e33e9357a5a0575d8fda7754602e44470d4a34d894857556874ccbc",
+      "obstacle_count": 7,
+      "parent_seed": 400127,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0048",
+      "map_sha256": "3ccb56f284abf265d8da95da39a2e68b3c3434b372a785c1405f70b309bf2803",
+      "obstacle_count": 6,
+      "parent_seed": 400128,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0049",
+      "map_sha256": "f5a6e569fc41b06b7dea552bb1cd0ee7af152855d743bd19d9a73429a0bdc5e3",
+      "obstacle_count": 7,
+      "parent_seed": 400129,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0050",
+      "map_sha256": "445dbed8c011614706095844cc019826bb94eda2d0ba25be95e183f308a632a7",
+      "obstacle_count": 7,
+      "parent_seed": 400130,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0051",
+      "map_sha256": "65af9987bf6ef20ce434528521cfbdd0591b25781618bb648776082915f6eb5a",
+      "obstacle_count": 7,
+      "parent_seed": 400131,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0052",
+      "map_sha256": "86c254963ab15a64c1c8c73899e27460031ef3489395060531ef325db9523468",
+      "obstacle_count": 7,
+      "parent_seed": 400132,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0053",
+      "map_sha256": "4db3954cf6e6207f5033d0f19854c1f4ca8839675fd7f4d013413e5fadf98715",
+      "obstacle_count": 7,
+      "parent_seed": 400133,
+      "patch_count": 8
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0054",
+      "map_sha256": "aa1d9bf79271dbdb354fcabea7fe67c9e628a8c12f98ebd28c2598fc9b0cea2b",
+      "obstacle_count": 7,
+      "parent_seed": 400134,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0055",
+      "map_sha256": "5caea3bd1a772a552c2ea723bae9ff2daf1f3efd915e09ccacf5f065055e6e35",
+      "obstacle_count": 7,
+      "parent_seed": 400135,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0056",
+      "map_sha256": "edf4ac3a06aca23eef4b5a7e83fa42e0aeda2793f3d395c43482086f1b8b7585",
+      "obstacle_count": 7,
+      "parent_seed": 400136,
+      "patch_count": 10
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0057",
+      "map_sha256": "a9401b586ee47158c1ff7dffb58013951aa1a20be7abc23a2b443e6e27e724f0",
+      "obstacle_count": 7,
+      "parent_seed": 400137,
+      "patch_count": 5
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0058",
+      "map_sha256": "ca2e910173b2ff46b0d46ea3d47ff981e595afbdabc551637ec1d6d7b61179f1",
+      "obstacle_count": 7,
+      "parent_seed": 400138,
+      "patch_count": 6
+    },
+    {
+      "family": "bottleneck",
+      "group_id": "test/bottleneck/0059",
+      "map_sha256": "6e4d1979c27c1ccb2c13481c0f2e79ec98c844985fdc37ac2fa9ef52d785dd22",
+      "obstacle_count": 7,
+      "parent_seed": 400139,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0000",
+      "map_sha256": "0701f36bb786d4f5166bd3df92ff722bcfc554f5862e1f1e754d0b510ab062da",
+      "obstacle_count": 16,
+      "parent_seed": 400140,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0001",
+      "map_sha256": "f9e63023a4f3a27f00b1ad8fe53b57cf6f27d64607ea514365f8d83850adde8d",
+      "obstacle_count": 17,
+      "parent_seed": 400141,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0002",
+      "map_sha256": "8d2725627eb76165fd5baf65021ef5bd5b852a30d03fd9931c0a43bfb2a846a4",
+      "obstacle_count": 17,
+      "parent_seed": 400142,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0003",
+      "map_sha256": "df09d37c6c84a1587f1202e412d6a5ed9600406b1725aa31e1db01d4a361e138",
+      "obstacle_count": 16,
+      "parent_seed": 400143,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0004",
+      "map_sha256": "54111e1c7934de316f91b14452554f4ffbf82568289ec9bacb9d1a92adef617f",
+      "obstacle_count": 17,
+      "parent_seed": 400144,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0005",
+      "map_sha256": "6f15de814b2a92bc42d2090857284a3f74dac0cd5d2e7ff79223a88d95da4046",
+      "obstacle_count": 17,
+      "parent_seed": 400145,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0006",
+      "map_sha256": "8aea98906d483c6d912cc9a85f8918e3ccdee13b189be3cdb0f75c795793452f",
+      "obstacle_count": 17,
+      "parent_seed": 400146,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0007",
+      "map_sha256": "fb705676ee146a078c3810b34d7ee04194f070622e6457fc78be471a588e517e",
+      "obstacle_count": 17,
+      "parent_seed": 400147,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0008",
+      "map_sha256": "aee3088f8fc548a5f90c048e41878e2e6628a32033a5e98c54b0a90e4d8c822a",
+      "obstacle_count": 17,
+      "parent_seed": 400148,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0009",
+      "map_sha256": "275f4072fcf141177d5bfbe6323c5cdae1890232678ab44fd94ad0b490466fe9",
+      "obstacle_count": 17,
+      "parent_seed": 400149,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0010",
+      "map_sha256": "f1e07aec20cd601ed171c75f48b73fc3a9b5da3bf6ca75534f86313ec1066c90",
+      "obstacle_count": 17,
+      "parent_seed": 400150,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0011",
+      "map_sha256": "ca57ffefa64b272ac28aa9c29fc81d0f3bd8e740c6495a616cfc70bdfd809219",
+      "obstacle_count": 16,
+      "parent_seed": 400151,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0012",
+      "map_sha256": "6917b431ff9997d6247e84114cf267256f9f8cf4169c0ede3caff701a9666843",
+      "obstacle_count": 17,
+      "parent_seed": 400152,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0013",
+      "map_sha256": "89680e65a02dd9b14677d3e69eb323292d92cf5cd93b3ebd87749cc86f170b7d",
+      "obstacle_count": 17,
+      "parent_seed": 400153,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0014",
+      "map_sha256": "ec61e6896d255c33fed5668f6fbace8fbcd6274dca07b840e26fbcbcb63b0189",
+      "obstacle_count": 17,
+      "parent_seed": 400154,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0015",
+      "map_sha256": "49fe256e1100ed07b1e4348aa4e2b8cf6690079b024150758921eade16807ba3",
+      "obstacle_count": 16,
+      "parent_seed": 400155,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0016",
+      "map_sha256": "e739a1babfcaf3a596be78fcb5d54753dc6879f853a50ce0868cd23d0fd9e5fc",
+      "obstacle_count": 17,
+      "parent_seed": 400156,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0017",
+      "map_sha256": "847fc72e58cccf4079220b6862b0774a93d186d54f03142eb11ef41189c0a383",
+      "obstacle_count": 17,
+      "parent_seed": 400157,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0018",
+      "map_sha256": "709fd293ba5eabf44bd63712887e3f479b9ba1554867c998c320523bde6729f8",
+      "obstacle_count": 17,
+      "parent_seed": 400158,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0019",
+      "map_sha256": "933da7d7ffc6cb5a529fe40e86ebb1473c90d94ba33656ef3c00c38e43f6cc76",
+      "obstacle_count": 17,
+      "parent_seed": 400159,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0020",
+      "map_sha256": "98132d12ece228b67ee7bdb3559da4943d8d18345c749eebb3d49913f05aac9e",
+      "obstacle_count": 16,
+      "parent_seed": 400160,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0021",
+      "map_sha256": "5c60d9bb243c465cdefab879f760f1f4982431160d5b9204ad399a00c85778cc",
+      "obstacle_count": 17,
+      "parent_seed": 400161,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0022",
+      "map_sha256": "2fdf9893c21ca0ee1b09ac70361fba2aa820ac5f50f6279ca1276f3c00b77ed6",
+      "obstacle_count": 17,
+      "parent_seed": 400162,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0023",
+      "map_sha256": "cbc47c3d03bd5ea113b381014c0ea97b5a82850e19a333adc8872d30316d079e",
+      "obstacle_count": 17,
+      "parent_seed": 400163,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0024",
+      "map_sha256": "39dd3486b7fe4c4cb23b798098b70560027b0764e606c5d39b79c1203db6e06e",
+      "obstacle_count": 17,
+      "parent_seed": 400164,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0025",
+      "map_sha256": "a3483e61009a6617bb8e7953095e13b822572e6060ed26d4b9cdde895bc9f1f9",
+      "obstacle_count": 17,
+      "parent_seed": 400165,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0026",
+      "map_sha256": "d01c621535e97574500cc0d4245260381b48fc2d81dde63654a9bf5328e0f6bd",
+      "obstacle_count": 17,
+      "parent_seed": 400166,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0027",
+      "map_sha256": "7df0268d2d83771b87582eac9d5a4d53610a6e2be31823c5d13cc46d5457c7bc",
+      "obstacle_count": 17,
+      "parent_seed": 400167,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0028",
+      "map_sha256": "a8c76eae224bb28bfafbcf700fdb5596e6fe217e4735102f42da2c10badb8edf",
+      "obstacle_count": 17,
+      "parent_seed": 400168,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0029",
+      "map_sha256": "44ced2a245c2290f577c2fbcf949e25e74e34c8dd39ee38e45dabc2ca584d388",
+      "obstacle_count": 16,
+      "parent_seed": 400169,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0030",
+      "map_sha256": "fcdf0dbbcf61b44638222a3b7437a66241ca724e08b2810ae527cbe00e4972f9",
+      "obstacle_count": 17,
+      "parent_seed": 400170,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0031",
+      "map_sha256": "0204cccc89e7d8ad2dbc4c179914df04728c283c4d4b8336df81ae414253f86a",
+      "obstacle_count": 16,
+      "parent_seed": 400171,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0032",
+      "map_sha256": "293f997662432a95f548655a7e01809479f0f879f2328b85f9d208b9589db684",
+      "obstacle_count": 17,
+      "parent_seed": 400172,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0033",
+      "map_sha256": "9f8ccc8a49c92aff72487c6d74e4976efb0f7ffbe78fde9bf835ba8ad0f299d9",
+      "obstacle_count": 17,
+      "parent_seed": 400173,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0034",
+      "map_sha256": "6cd12f339ec2661acfdefa8a3079bd902f25b8e4d0adc277ad57706ee8fef26a",
+      "obstacle_count": 17,
+      "parent_seed": 400174,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0035",
+      "map_sha256": "5154a55d56f9f87a9b98634b1f45da40136ab30901ff8d55d08e70b8297f16a9",
+      "obstacle_count": 17,
+      "parent_seed": 400175,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0036",
+      "map_sha256": "87892efa69437fae7a9fef26baa561d3e01bad51cc236195aa2037ad2375cd87",
+      "obstacle_count": 17,
+      "parent_seed": 400176,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0037",
+      "map_sha256": "f18a94add0c69b7ddb6df13ababb8ae758639cdb1e8b12e44dd8b1c03d3953f1",
+      "obstacle_count": 17,
+      "parent_seed": 400177,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0038",
+      "map_sha256": "a40cae48076fe612b5643a844d746a70660f992018853efde1bd00ff3ed7cfb0",
+      "obstacle_count": 17,
+      "parent_seed": 400178,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0039",
+      "map_sha256": "ca83f2b4e3a7b98cc6602883fb5a21e75c7bb3ff47302854a6b2a0f337e747f6",
+      "obstacle_count": 16,
+      "parent_seed": 400179,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0040",
+      "map_sha256": "0425ed45545d0861ecb38311a09ef85c412d9861e4ec2222d03eba7fd633430f",
+      "obstacle_count": 16,
+      "parent_seed": 400180,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0041",
+      "map_sha256": "7abb9d915c1b181ac901abce4bec1698045f01d15c15beef8e52d23c59b97ae9",
+      "obstacle_count": 17,
+      "parent_seed": 400181,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0042",
+      "map_sha256": "5065975a2c447efbe4d5cc7f2b61541c0643ff37f4ef3ad1a10ef735be434ba7",
+      "obstacle_count": 17,
+      "parent_seed": 400182,
+      "patch_count": 5
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0043",
+      "map_sha256": "0b208412d3dd7660128b9591e02d9d50f7d063a3ea97853795baa921a4d81a79",
+      "obstacle_count": 16,
+      "parent_seed": 400183,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0044",
+      "map_sha256": "dc27e0ac24841765a09828e7ff339531092f1e55a2f019cabc9fb1fe941d16b8",
+      "obstacle_count": 17,
+      "parent_seed": 400184,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0045",
+      "map_sha256": "c96a7d74c38ab997dfbb53b4a6460f47114c59fb910ddeb228fd31a21c4c3749",
+      "obstacle_count": 15,
+      "parent_seed": 400185,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0046",
+      "map_sha256": "3ce5ce4138812b3254455c01b5eda6d2d73ba5e272b02519088fe0b755531446",
+      "obstacle_count": 17,
+      "parent_seed": 400186,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0047",
+      "map_sha256": "4c3910e76333f46c90380f026ce2c10903191bde3b4f8430d8144c659f26f910",
+      "obstacle_count": 17,
+      "parent_seed": 400187,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0048",
+      "map_sha256": "f73510449e2eb606daaf8079c9bb2f428a8049822c1146f1a4b2a50e2103a0d8",
+      "obstacle_count": 16,
+      "parent_seed": 400188,
+      "patch_count": 7
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0049",
+      "map_sha256": "1aaffd4e345d1bc7f9e8780e1d40106cb91a3be6e14940cb627b95f352a275d0",
+      "obstacle_count": 17,
+      "parent_seed": 400189,
+      "patch_count": 6
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0050",
+      "map_sha256": "874bebe5be6dcce2061d5a1c9b99762aab1e8a1f217ae57bf0665237ab5f3980",
+      "obstacle_count": 17,
+      "parent_seed": 400190,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0051",
+      "map_sha256": "145e7a646497f8f9fbec0b3ef92bb8921439ea67d243246ced3ae188405271d1",
+      "obstacle_count": 17,
+      "parent_seed": 400191,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0052",
+      "map_sha256": "806180163490144687a93aef0536d37caa7c940a3f6fcf946b5bcf65b8c9de47",
+      "obstacle_count": 17,
+      "parent_seed": 400192,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0053",
+      "map_sha256": "1561a6d614d856649ec9c8c704804d4dd61f2bd5828d527d949136a0c33d7265",
+      "obstacle_count": 17,
+      "parent_seed": 400193,
+      "patch_count": 10
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0054",
+      "map_sha256": "fc20eeccd4a4d0f57c78266bf4ada7d8398b2244216f0dad97e859719add1dba",
+      "obstacle_count": 15,
+      "parent_seed": 400194,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0055",
+      "map_sha256": "d96ad581f48e236d3ad99ccd346c9d0a43107b6d13128d26b918c5eaae3a5de8",
+      "obstacle_count": 16,
+      "parent_seed": 400195,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0056",
+      "map_sha256": "df14ba67d2f0678c9e7c9fa39f012737f67870dada39c1a9ae7703e5bba0a266",
+      "obstacle_count": 17,
+      "parent_seed": 400196,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0057",
+      "map_sha256": "5fe2a2b386981bc7d47dc7a3c4fe508f6814204cf3fe69220bc700473efcd6c5",
+      "obstacle_count": 17,
+      "parent_seed": 400197,
+      "patch_count": 8
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0058",
+      "map_sha256": "c5e2472871f2db7d858087e4c8a7d6bab101edb994de0b7a9217e4f6d14e6b22",
+      "obstacle_count": 17,
+      "parent_seed": 400198,
+      "patch_count": 9
+    },
+    {
+      "family": "labyrinth",
+      "group_id": "test/labyrinth/0059",
+      "map_sha256": "3b7aa547d70a15b9c8f201ffdcade5f97703fddaa4c667418321179890fa3562",
+      "obstacle_count": 16,
+      "parent_seed": 400199,
+      "patch_count": 6
+    }
+  ],
+  "schema_version": 1,
+  "split": "test"
+}

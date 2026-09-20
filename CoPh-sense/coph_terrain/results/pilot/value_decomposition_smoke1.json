@@ -1,0 +1,670 @@
+{
+  "seed_range": [
+    840000,
+    840000
+  ],
+  "steps": [
+    120,
+    360
+  ],
+  "records": [
+    {
+      "family": "open",
+      "seed": 840000,
+      "step": 120,
+      "status": "evaluated",
+      "baseline": {
+        "cost": 1.8654207519850556,
+        "success": true,
+        "route_digest": "f92f6d82bff5daf9",
+        "route_cells": 38
+      },
+      "public_menu": [
+        {
+          "modality": "geometry",
+          "viewpoint": [
+            28,
+            30
+          ],
+          "travel_distance": 2.367167661075975,
+          "travel_time": 4.303941201956318,
+          "dwell_time": 0.2,
+          "sensing_cost": 0.02,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.2,
+          "deadline_slack": 54.34605879804368
+        },
+        {
+          "modality": "traction",
+          "viewpoint": [
+            28,
+            30
+          ],
+          "travel_distance": 2.367167661075975,
+          "travel_time": 4.303941201956318,
+          "dwell_time": 0.4,
+          "sensing_cost": 0.04,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.2,
+          "deadline_slack": 54.14605879804368
+        },
+        {
+          "modality": "geometry",
+          "viewpoint": [
+            36,
+            33
+          ],
+          "travel_distance": 4.9016139807652745,
+          "travel_time": 8.912025419573226,
+          "dwell_time": 0.2,
+          "sensing_cost": 0.02,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.4,
+          "deadline_slack": 49.73797458042677
+        },
+        {
+          "modality": "traction",
+          "viewpoint": [
+            36,
+            33
+          ],
+          "travel_distance": 4.9016139807652745,
+          "travel_time": 8.912025419573226,
+          "dwell_time": 0.4,
+          "sensing_cost": 0.04,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.4,
+          "deadline_slack": 49.53797458042678
+        },
+        {
+          "modality": "geometry",
+          "viewpoint": [
+            20,
+            34
+          ],
+          "travel_distance": 0.6791512891909914,
+          "travel_time": 1.2348205258018026,
+          "dwell_time": 0.2,
+          "sensing_cost": 0.02,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.6000000000000001,
+          "deadline_slack": 57.4151794741982
+        },
+        {
+          "modality": "traction",
+          "viewpoint": [
+            20,
+            34
+          ],
+          "travel_distance": 0.6791512891909914,
+          "travel_time": 1.2348205258018026,
+          "dwell_time": 0.4,
+          "sensing_cost": 0.04,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.6000000000000001,
+          "deadline_slack": 57.2151794741982
+        },
+        {
+          "modality": "geometry",
+          "viewpoint": [
+            20,
+            28
+          ],
+          "travel_distance": 0.6503588330179098,
+          "travel_time": 1.1824706054871086,
+          "dwell_time": 0.2,
+          "sensing_cost": 0.02,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.6000000000000001,
+          "deadline_slack": 57.46752939451289
+        },
+        {
+          "modality": "traction",
+          "viewpoint": [
+            20,
+            28
+          ],
+          "travel_distance": 0.6503588330179098,
+          "travel_time": 1.1824706054871086,
+          "dwell_time": 0.4,
+          "sensing_cost": 0.04,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.6000000000000001,
+          "deadline_slack": 57.26752939451289
+        }
+      ],
+      "regions": [
+        {
+          "cell": [
+            29,
+            31
+          ],
+          "ideal": {
+            "none": {
+              "cost": 1.8654207519850556,
+              "success": true,
+              "route_digest": "f92f6d82bff5daf9",
+              "route_cells": 38
+            },
+            "G": {
+              "cost": 1.865043467504168,
+              "success": true,
+              "route_digest": "b06bb0f48bf45368",
+              "route_cells": 38
+            },
+            "T": {
+              "cost": 1.864525070887737,
+              "success": true,
+              "route_digest": "595ebf9bd3b2e317",
+              "route_cells": 38
+            },
+            "GT": {
+              "cost": 1.8649494449040938,
+              "success": true,
+              "route_digest": "f92f6d82bff5daf9",
+              "route_cells": 38
+            }
+          },
+          "V_G": 0.00037728448088758526,
+          "V_T": 0.0008956810973186347,
+          "V_GT": 0.00047130708096188023,
+          "S_GT": -0.0008016584972445617,
+          "menu_G": true,
+          "menu_T": false
+        },
+        {
+          "cell": [
+            35,
+            31
+          ],
+          "ideal": {
+            "none": {
+              "cost": 1.8654207519850556,
+              "success": true,
+              "route_digest": "f92f6d82bff5daf9",
+              "route_cells": 38
+            },
+            "G": {
+              "cost": 1.8581619483011502,
+              "success": true,
+              "route_digest": "8b12c769f1d1406c",
+              "route_cells": 38
+            },
+            "T": {
+              "cost": 1.8639999359506625,
+              "success": true,
+              "route_digest": "8b12c769f1d1406c",
+              "route_cells": 38
+            },
+            "GT": {
+              "cost": 1.8583705397137489,
+              "success": true,
+              "route_digest": "8b12c769f1d1406c",
+              "route_cells": 38
+            }
+          },
+          "V_G": 0.007258803683905413,
+          "V_T": 0.0014208160343931464,
+          "V_GT": 0.007050212271306755,
+          "S_GT": -0.001629407446991582,
+          "menu_G": true,
+          "menu_T": false
+        },
+        {
+          "cell": [
+            40,
+            31
+          ],
+          "ideal": {
+            "none": {
+              "cost": 1.8654207519850556,
+              "success": true,
+              "route_digest": "f92f6d82bff5daf9",
+              "route_cells": 38
+            },
+            "G": {
+              "cost": 1.8595487182706134,
+              "success": true,
+              "route_digest": "cffe84df236a65e0",
+              "route_cells": 38
+            },
+            "T": {
+              "cost": 1.860792737705263,
+              "success": true,
+              "route_digest": "8b12c769f1d1406c",
+              "route_cells": 38
+            },
+            "GT": {
+              "cost": 1.8511417901373683,
+              "success": true,
+              "route_digest": "cffe84df236a65e0",
+              "route_cells": 38
+            }
+          },
+          "V_G": 0.005872033714442226,
+          "V_T": 0.004628014279792536,
+          "V_GT": 0.014278961847687288,
+          "S_GT": 0.0037789138534525257,
+          "menu_G": true,
+          "menu_T": false,
+          "actual_zero_travel": {
+            "G": {
+              "cost": 1.8595487182706134,
+              "success": true,
+              "route_digest": "cffe84df236a65e0",
+              "route_cells": 38
+            },
+            "T": {
+              "cost": 1.8655750113783605,
+              "success": true,
+              "route_digest": "8b12c769f1d1406c",
+              "route_cells": 38
+            },
+            "GT": {
+              "cost": 1.859614240809599,
+              "success": true,
+              "route_digest": "cffe84df236a65e0",
+              "route_cells": 38
+            }
+          },
+          "actual_dwell_no_travel": {
+            "G": {
+              "cost": 1.8780023457398252,
+              "success": true,
+              "route_digest": "cffe84df236a65e0",
+              "route_cells": 38
+            },
+            "T": {
+              "cost": 1.90881744190528,
+              "success": true,
+              "route_digest": "86115a5e2c2c8726",
+              "route_cells": 37
+            },
+            "GT": {
+              "cost": 1.9640516486689947,
+              "success": true,
+              "route_digest": "33bdb2d574381fdb",
+              "route_cells": 38
+            }
+          },
+          "physical": {
+            "G": {
+              "cost": 1.9700643405105325,
+              "success": true,
+              "measurements": 1,
+              "packets": 1
+            },
+            "T": {
+              "cost": 2.0142939818681014,
+              "success": true,
+              "measurements": 1,
+              "packets": 1
+            },
+            "GT": {
+              "cost": 2.0549884527836197,
+              "success": true,
+              "measurements": 2,
+              "packets": 2
+            }
+          }
+        },
+        {
+          "cell": [
+            45,
+            31
+          ],
+          "ideal": {
+            "none": {
+              "cost": 1.8654207519850556,
+              "success": true,
+              "route_digest": "f92f6d82bff5daf9",
+              "route_cells": 38
+            },
+            "G": {
+              "cost": 1.8743468253577311,
+              "success": true,
+              "route_digest": "80d5bd587bf1ed2a",
+              "route_cells": 38
+            },
+            "T": {
+              "cost": 1.8776229214719584,
+              "success": true,
+              "route_digest": "da57e02b7f3efed7",
+              "route_cells": 38
+            },
+            "GT": {
+              "cost": 1.875778096682849,
+              "success": true,
+              "route_digest": "848eb46ac58d0af0",
+              "route_cells": 38
+            }
+          },
+          "V_G": -0.00892607337267548,
+          "V_T": -0.01220216948690278,
+          "V_GT": -0.01035734469779337,
+          "S_GT": 0.010770898161784892,
+          "menu_G": false,
+          "menu_T": false
+        },
+        {
+          "cell": [
+            49,
+            32
+          ],
+          "ideal": {
+            "none": {
+              "cost": 1.8654207519850556,
+              "success": true,
+              "route_digest": "f92f6d82bff5daf9",
+              "route_cells": 38
+            },
+            "G": {
+              "cost": 1.882891945981819,
+              "success": true,
+              "route_digest": "d4ce0b8e03df29c2",
+              "route_cells": 38
+            },
+            "T": {
+              "cost": 1.8828481931230276,
+              "success": true,
+              "route_digest": "d4ce0b8e03df29c2",
+              "route_cells": 38
+            },
+            "GT": {
+              "cost": 1.9467212697507592,
+              "success": true,
+              "route_digest": "1340ee466b184e84",
+              "route_cells": 42
+            }
+          },
+          "V_G": -0.017471193996763335,
+          "V_T": -0.01742744113797201,
+          "V_GT": -0.08130051776570357,
+          "S_GT": -0.046401882630968005,
+          "menu_G": false,
+          "menu_T": false
+        }
+      ],
+      "top_cell": [
+        40,
+        31
+      ],
+      "access_time_proxy": {
+        "scout": 4.767229095059993,
+        "carrier": 10.364905755279326
+      }
+    },
+    {
+      "family": "open",
+      "seed": 840000,
+      "step": 360,
+      "status": "evaluated",
+      "baseline": {
+        "cost": 1.8654207519850556,
+        "success": true,
+        "route_digest": "d6512969a6db8485",
+        "route_cells": 14
+      },
+      "public_menu": [
+        {
+          "modality": "geometry",
+          "viewpoint": [
+            44,
+            34
+          ],
+          "travel_distance": 1.1813724838632749,
+          "travel_time": 2.1479499706604996,
+          "dwell_time": 0.2,
+          "sensing_cost": 0.02,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.6000000000000001,
+          "deadline_slack": 44.5020500293395
+        },
+        {
+          "modality": "traction",
+          "viewpoint": [
+            44,
+            34
+          ],
+          "travel_distance": 1.1813724838632749,
+          "travel_time": 2.1479499706604996,
+          "dwell_time": 0.4,
+          "sensing_cost": 0.04,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.6000000000000001,
+          "deadline_slack": 44.302050029339505
+        },
+        {
+          "modality": "geometry",
+          "viewpoint": [
+            44,
+            28
+          ],
+          "travel_distance": 1.1330562167858396,
+          "travel_time": 2.06010221233789,
+          "dwell_time": 0.2,
+          "sensing_cost": 0.02,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.6000000000000001,
+          "deadline_slack": 44.58989778766211
+        },
+        {
+          "modality": "traction",
+          "viewpoint": [
+            44,
+            28
+          ],
+          "travel_distance": 1.1330562167858396,
+          "travel_time": 2.06010221233789,
+          "dwell_time": 0.4,
+          "sensing_cost": 0.04,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.6000000000000001,
+          "deadline_slack": 44.389897787662115
+        },
+        {
+          "modality": "geometry",
+          "viewpoint": [
+            46,
+            31
+          ],
+          "travel_distance": 0.8500000000000001,
+          "travel_time": 1.5454545454545454,
+          "dwell_time": 0.2,
+          "sensing_cost": 0.02,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.0,
+          "deadline_slack": 45.10454545454545
+        },
+        {
+          "modality": "traction",
+          "viewpoint": [
+            46,
+            31
+          ],
+          "travel_distance": 0.8500000000000001,
+          "travel_time": 1.5454545454545454,
+          "dwell_time": 0.4,
+          "sensing_cost": 0.04,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.0,
+          "deadline_slack": 44.904545454545456
+        },
+        {
+          "modality": "geometry",
+          "viewpoint": [
+            47,
+            34
+          ],
+          "travel_distance": 1.8843716275751832,
+          "travel_time": 3.426130231954878,
+          "dwell_time": 0.2,
+          "sensing_cost": 0.02,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.6000000000000001,
+          "deadline_slack": 43.22386976804512
+        },
+        {
+          "modality": "traction",
+          "viewpoint": [
+            47,
+            34
+          ],
+          "travel_distance": 1.8843716275751832,
+          "travel_time": 3.426130231954878,
+          "dwell_time": 0.4,
+          "sensing_cost": 0.04,
+          "unknown_fraction": 1.0,
+          "route_distance": 0.6000000000000001,
+          "deadline_slack": 43.023869768045124
+        }
+      ],
+      "regions": [
+        {
+          "cell": [
+            49,
+            31
+          ],
+          "ideal": {
+            "none": {
+              "cost": 1.8654207519850556,
+              "success": true,
+              "route_digest": "d6512969a6db8485",
+              "route_cells": 14
+            },
+            "G": {
+              "cost": 1.8639212061453552,
+              "success": true,
+              "route_digest": "226f80022f5484d2",
+              "route_cells": 14
+            },
+            "T": {
+              "cost": 1.8593029800799463,
+              "success": true,
+              "route_digest": "413895d15c9c3d9e",
+              "route_cells": 14
+            },
+            "GT": {
+              "cost": 1.876305177945767,
+              "success": true,
+              "route_digest": "94b5a3a233f9fef6",
+              "route_cells": 14
+            }
+          },
+          "V_G": 0.0014995458397004668,
+          "V_T": 0.006117771905109315,
+          "V_GT": -0.010884425960711264,
+          "S_GT": -0.018501743705521045,
+          "menu_G": true,
+          "menu_T": false,
+          "actual_zero_travel": {
+            "G": {
+              "cost": 1.8639212061453552,
+              "success": true,
+              "route_digest": "226f80022f5484d2",
+              "route_cells": 14
+            },
+            "T": {
+              "cost": 1.8837284080455896,
+              "success": true,
+              "route_digest": "94e65b27efbe32e5",
+              "route_cells": 14
+            },
+            "GT": {
+              "cost": 1.8678798339984142,
+              "success": true,
+              "route_digest": "37840ad3dd11724a",
+              "route_cells": 14
+            }
+          },
+          "actual_dwell_no_travel": {
+            "G": {
+              "cost": 1.891915750702644,
+              "success": true,
+              "route_digest": "226f80022f5484d2",
+              "route_cells": 14
+            },
+            "T": {
+              "cost": 1.9485045412235507,
+              "success": true,
+              "route_digest": "201949144a41fc9e",
+              "route_cells": 13
+            },
+            "GT": {
+              "cost": 1.9740067597144688,
+              "success": true,
+              "route_digest": "9eec132417f682e6",
+              "route_cells": 13
+            }
+          },
+          "physical": {
+            "G": {
+              "cost": 2.020882874988456,
+              "success": true,
+              "measurements": 1,
+              "packets": 1
+            },
+            "T": {
+              "cost": 2.0257918631221217,
+              "success": true,
+              "measurements": 1,
+              "packets": 1
+            },
+            "GT": {
+              "cost": 2.085482874988456,
+              "success": true,
+              "measurements": 2,
+              "packets": 2
+            }
+          }
+        },
+        {
+          "cell": [
+            53,
+            30
+          ],
+          "ideal": {
+            "none": {
+              "cost": 1.8654207519850556,
+              "success": true,
+              "route_digest": "d6512969a6db8485",
+              "route_cells": 14
+            },
+            "G": {
+              "cost": 1.8854324709077863,
+              "success": true,
+              "route_digest": "b789f638c4c08194",
+              "route_cells": 14
+            },
+            "T": {
+              "cost": 1.8957833341283146,
+              "success": true,
+              "route_digest": "b789f638c4c08194",
+              "route_cells": 14
+            },
+            "GT": {
+              "cost": 1.9072956982893694,
+              "success": true,
+              "route_digest": "b789f638c4c08194",
+              "route_cells": 14
+            }
+          },
+          "V_G": -0.02001171892273068,
+          "V_T": -0.03036258214325893,
+          "V_GT": -0.041874946304313765,
+          "S_GT": 0.008499354761675848,
+          "menu_G": false,
+          "menu_T": false
+        }
+      ],
+      "top_cell": [
+        49,
+        31
+      ],
+      "access_time_proxy": {
+        "scout": 0.6666666666666666,
+        "carrier": 3.6696907920574917
+      }
+    }
+  ]
+}

@@ -1,0 +1,1246 @@
+{
+  "status": "disposable development audit",
+  "oracle_scope": "paired complete physical continuation, realized world",
+  "records": [
+    {
+      "parent_seed": 980000,
+      "surface": 0.04,
+      "traction": 0.9,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9746632228171197,
+          "success": true,
+          "mission_cost": 0.9659739916351727,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0310450786878556,
+          "success": true,
+          "mission_cost": 1.0223558475059085,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0016450786878555,
+          "success": true,
+          "mission_cost": 0.9929558475059085,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.02698185587073576
+    },
+    {
+      "parent_seed": 980000,
+      "surface": 0.95,
+      "traction": 0.2,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0333163064531061,
+          "success": true,
+          "mission_cost": 0.9892201518338106,
+          "risk_exposure": 0.04409615461929539,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.060098584696634,
+          "success": true,
+          "mission_cost": 1.0295939686762434,
+          "risk_exposure": 0.030504616020390538,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0306985846966341,
+          "success": true,
+          "mission_cost": 1.0001939686762435,
+          "risk_exposure": 0.030504616020390538,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": 0.0026177217564720134
+    },
+    {
+      "parent_seed": 980001,
+      "surface": 0.04,
+      "traction": 0.9,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9770727924539101,
+          "success": true,
+          "mission_cost": 0.9683835612719631,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0331356050168428,
+          "success": true,
+          "mission_cost": 1.0244463738348957,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0037356050168427,
+          "success": true,
+          "mission_cost": 0.9950463738348956,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.02666281256293257
+    },
+    {
+      "parent_seed": 980001,
+      "surface": 0.95,
+      "traction": 0.2,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0135693226268634,
+          "success": true,
+          "mission_cost": 0.9830400912206883,
+          "risk_exposure": 0.03052923140617509,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0648039472998547,
+          "success": true,
+          "mission_cost": 1.0349764466708309,
+          "risk_exposure": 0.02982750062902378,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0354039472998549,
+          "success": true,
+          "mission_cost": 1.005576446670831,
+          "risk_exposure": 0.02982750062902378,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.021834624672991465
+    },
+    {
+      "parent_seed": 980002,
+      "surface": 0.04,
+      "traction": 0.9,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9751556215771665,
+          "success": true,
+          "mission_cost": 0.9664663903952195,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0307285446224215,
+          "success": true,
+          "mission_cost": 1.0220393134404744,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0013285446224214,
+          "success": true,
+          "mission_cost": 0.9926393134404743,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.02617292304525487
+    },
+    {
+      "parent_seed": 980002,
+      "surface": 0.95,
+      "traction": 0.2,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0139933950064783,
+          "success": true,
+          "mission_cost": 0.9800539712576845,
+          "risk_exposure": 0.03393942374879381,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0677759913709401,
+          "success": true,
+          "mission_cost": 1.0358925291820316,
+          "risk_exposure": 0.031883462188908696,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0383759913709403,
+          "success": true,
+          "mission_cost": 1.0064925291820317,
+          "risk_exposure": 0.031883462188908696,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.02438259636446194
+    },
+    {
+      "parent_seed": 980003,
+      "surface": 0.04,
+      "traction": 0.9,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9739208297479791,
+          "success": true,
+          "mission_cost": 0.9652315985660321,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0301789520082754,
+          "success": true,
+          "mission_cost": 1.0214897208263283,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0007789520082753,
+          "success": true,
+          "mission_cost": 0.9920897208263283,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.026858122260296158
+    },
+    {
+      "parent_seed": 980003,
+      "surface": 0.95,
+      "traction": 0.2,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0205950067030884,
+          "success": true,
+          "mission_cost": 0.9880098137370285,
+          "risk_exposure": 0.032585192966060106,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0646565542892699,
+          "success": true,
+          "mission_cost": 1.033450207491728,
+          "risk_exposure": 0.031206346797541848,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0352565542892698,
+          "success": true,
+          "mission_cost": 1.004050207491728,
+          "risk_exposure": 0.031206346797541848,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.014661547586181323
+    },
+    {
+      "parent_seed": 980004,
+      "surface": 0.04,
+      "traction": 0.9,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9781762764705023,
+          "success": true,
+          "mission_cost": 0.9694870452885553,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0314438148857434,
+          "success": true,
+          "mission_cost": 1.0227545837037963,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0020438148857433,
+          "success": true,
+          "mission_cost": 0.9933545837037964,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.02386753841524103
+    },
+    {
+      "parent_seed": 980004,
+      "surface": 0.95,
+      "traction": 0.2,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.011345620227215,
+          "success": true,
+          "mission_cost": 0.9767290810870545,
+          "risk_exposure": 0.03461653914016066,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.062735312987773,
+          "success": true,
+          "mission_cost": 1.0308518507988644,
+          "risk_exposure": 0.031883462188908696,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0333353129877731,
+          "success": true,
+          "mission_cost": 1.0014518507988643,
+          "risk_exposure": 0.031883462188908696,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.021989692760558066
+    },
+    {
+      "parent_seed": 980005,
+      "surface": 0.04,
+      "traction": 0.9,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9727450781425165,
+          "success": true,
+          "mission_cost": 0.9640558469605696,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0291041227290594,
+          "success": true,
+          "mission_cost": 1.0204148915471123,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 0.9997041227290592,
+          "success": true,
+          "mission_cost": 0.9910148915471122,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.026959044586542635
+    },
+    {
+      "parent_seed": 980005,
+      "surface": 0.95,
+      "traction": 0.2,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0081394021588173,
+          "success": true,
+          "mission_cost": 0.9762559399699084,
+          "risk_exposure": 0.031883462188908696,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0626157218676955,
+          "success": true,
+          "mission_cost": 1.0320864904615203,
+          "risk_exposure": 0.03052923140617509,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0332157218676954,
+          "success": true,
+          "mission_cost": 1.0026864904615203,
+          "risk_exposure": 0.03052923140617509,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.025076319708878136
+    },
+    {
+      "parent_seed": 980006,
+      "surface": 0.04,
+      "traction": 0.9,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9767072797024032,
+          "success": true,
+          "mission_cost": 0.9680180485204563,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0324485122683547,
+          "success": true,
+          "mission_cost": 1.0237592810864076,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0030485122683546,
+          "success": true,
+          "mission_cost": 0.9943592810864075,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.026341232565951334
+    },
+    {
+      "parent_seed": 980006,
+      "surface": 0.95,
+      "traction": 0.2,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.004704743737104,
+          "success": true,
+          "mission_cost": 0.9748772431080801,
+          "risk_exposure": 0.02982750062902378,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0611538569775345,
+          "success": true,
+          "mission_cost": 1.0313263563485107,
+          "risk_exposure": 0.02982750062902378,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0317538569775344,
+          "success": true,
+          "mission_cost": 1.0019263563485106,
+          "risk_exposure": 0.02982750062902378,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.027049113240430467
+    },
+    {
+      "parent_seed": 980007,
+      "surface": 0.04,
+      "traction": 0.9,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9786388863398564,
+          "success": true,
+          "mission_cost": 0.9699496551579094,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0350406847107454,
+          "success": true,
+          "mission_cost": 1.0263514535287983,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0056406847107453,
+          "success": true,
+          "mission_cost": 0.9969514535287983,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.027001798370888896
+    },
+    {
+      "parent_seed": 980007,
+      "surface": 0.95,
+      "traction": 0.2,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0059255369374922,
+          "success": true,
+          "mission_cost": 0.9760734209226839,
+          "risk_exposure": 0.029852116014808333,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0589746247321588,
+          "success": true,
+          "mission_cost": 1.029147124103135,
+          "risk_exposure": 0.02982750062902378,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0295746247321587,
+          "success": true,
+          "mission_cost": 0.9997471241031348,
+          "risk_exposure": 0.02982750062902378,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.023649087794666457
+    },
+    {
+      "parent_seed": 980008,
+      "surface": 0.04,
+      "traction": 0.9,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9740052681669944,
+          "success": true,
+          "mission_cost": 0.9653160369850474,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0299645047180135,
+          "success": true,
+          "mission_cost": 1.0212752735360664,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0005645047180134,
+          "success": true,
+          "mission_cost": 0.9918752735360664,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.026559236551018994
+    },
+    {
+      "parent_seed": 980008,
+      "surface": 0.95,
+      "traction": 0.2,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0125989192777665,
+          "success": true,
+          "mission_cost": 0.9800137263117065,
+          "risk_exposure": 0.032585192966060106,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0620642244677327,
+          "success": true,
+          "mission_cost": 1.0315349930615576,
+          "risk_exposure": 0.03052923140617509,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0326642244677326,
+          "success": true,
+          "mission_cost": 1.0021349930615575,
+          "risk_exposure": 0.03052923140617509,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.020065305189966187
+    },
+    {
+      "parent_seed": 980009,
+      "surface": 0.04,
+      "traction": 0.9,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.000923655252947,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 0.9745271977598745,
+          "success": true,
+          "mission_cost": 0.9658379665779275,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.0302042240397482,
+          "success": true,
+          "mission_cost": 1.0215149928578011,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0008042240397481,
+          "success": true,
+          "mission_cost": 0.992114992857801,
+          "risk_exposure": 0.008689231181947019,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.026277026279873605
+    },
+    {
+      "parent_seed": 980009,
+      "surface": 0.95,
+      "traction": 0.2,
+      "acquired": true,
+      "reading_step": 32,
+      "delta_tau_at_reading": 1.3172950744628906,
+      "conditional_kl_nats": 2.518323880996623,
+      "summary_bytes": 48,
+      "raw_bytes": 636,
+      "branches": {
+        "hold": {
+          "cost": 1.0063016733096233,
+          "success": true,
+          "mission_cost": 0.9730393649521963,
+          "risk_exposure": 0.03326230835742695,
+          "delivered": false,
+          "carrier_effective_lookahead": 0.6030559539794922,
+          "carrier_local_lookahead": 0.6030559539794922,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 52,
+            "overlap_cells": 10,
+            "disjoint_cells": 102,
+            "carrier_new_received_cells": 0
+          }
+        },
+        "raw": {
+          "cost": 1.056320731284453,
+          "success": true,
+          "mission_cost": 1.025114384486911,
+          "risk_exposure": 0.031206346797541848,
+          "delivered": true,
+          "carrier_effective_lookahead": 2.6930556297302246,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 28
+          }
+        },
+        "innovation": {
+          "cost": 1.0269207312844528,
+          "success": true,
+          "mission_cost": 0.9957143844869111,
+          "risk_exposure": 0.031206346797541848,
+          "delivered": true,
+          "carrier_effective_lookahead": 3.493055582046509,
+          "carrier_local_lookahead": 0.4930555820465088,
+          "support": {
+            "scout_local_cells": 70,
+            "carrier_local_cells": 57,
+            "overlap_cells": 14,
+            "disjoint_cells": 99,
+            "carrier_new_received_cells": 50
+          }
+        }
+      },
+      "decision_value": -0.020619057974829547
+    }
+  ]
+}

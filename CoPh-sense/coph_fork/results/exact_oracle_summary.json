@@ -1,0 +1,32 @@
+{
+  "worlds": 4,
+  "sensing_subsets": 16,
+  "sharing_policies": 625,
+  "optimal_sensing": [
+    "top_geometry",
+    "top_traction"
+  ],
+  "optimal_sharing_rules": [
+    "if_good",
+    "if_good"
+  ],
+  "optimal_total_cost": 2.6874000000000002,
+  "no_sensing_cost": 3.0,
+  "receiver_decisions": {
+    "none": "bottom",
+    "top_geometry=1": "bottom",
+    "top_geometry=1,top_traction=1": "top",
+    "top_traction=1": "bottom"
+  },
+  "expected_cost_comparison": {
+    "optimal_sensing": [
+      "top_geometry",
+      "top_traction"
+    ],
+    "optimal_sharing_rules": [
+      "if_bad",
+      "if_good"
+    ],
+    "optimal_total_cost": 2.6874
+  }
+}

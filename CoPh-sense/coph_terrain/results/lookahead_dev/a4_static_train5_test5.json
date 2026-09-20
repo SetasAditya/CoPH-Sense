@@ -1,0 +1,178 @@
+{
+  "scope": "disposable, forced first acquisition; local A4 only",
+  "train_seeds": [
+    980000,
+    980001,
+    980002,
+    980003,
+    980004
+  ],
+  "test_seeds": [
+    980005,
+    980006,
+    980007,
+    980008,
+    980009
+  ],
+  "train_count": 10,
+  "test_count": 10,
+  "coefficients": [
+    -0.02107939917821812,
+    0.0016736277047166457,
+    2.241260293806405e-29,
+    0.00167362770471687,
+    0.0016736277047168608,
+    0.0,
+    -7.172032940180496e-28,
+    1.1206301469032025e-29,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "mean_test_cost": {
+    "no_communication": 0.991429398553245,
+    "raw_broadcast": 1.0457891207795496,
+    "novelty_only": 1.0163891207795495,
+    "learned_task_value": 0.991429398553245,
+    "exact_message_oracle": 0.991429398553245
+  },
+  "mean_regret_to_exact_message_oracle": {
+    "no_communication": 0.0,
+    "raw_broadcast": 0.05435972222630473,
+    "novelty_only": 0.024959722226304625,
+    "learned_task_value": 0.0,
+    "exact_message_oracle": 0.0
+  },
+  "choices": [
+    {
+      "parent_seed": 980005,
+      "surface": 0.04,
+      "prediction": -0.026100282292368493,
+      "selected": "hold",
+      "costs": {
+        "no_communication": 0.9727450781425165,
+        "raw_broadcast": 1.0291041227290594,
+        "novelty_only": 0.9997041227290592,
+        "learned_task_value": 0.9727450781425165,
+        "exact_message_oracle": 0.9727450781425165
+      }
+    },
+    {
+      "parent_seed": 980005,
+      "surface": 0.95,
+      "prediction": -0.016058516064067743,
+      "selected": "hold",
+      "costs": {
+        "no_communication": 1.0081394021588173,
+        "raw_broadcast": 1.0626157218676955,
+        "novelty_only": 1.0332157218676954,
+        "learned_task_value": 1.0081394021588173,
+        "exact_message_oracle": 1.0081394021588173
+      }
+    },
+    {
+      "parent_seed": 980006,
+      "surface": 0.04,
+      "prediction": -0.026100282292368493,
+      "selected": "hold",
+      "costs": {
+        "no_communication": 0.9767072797024032,
+        "raw_broadcast": 1.0324485122683547,
+        "novelty_only": 1.0030485122683546,
+        "learned_task_value": 0.9767072797024032,
+        "exact_message_oracle": 0.9767072797024032
+      }
+    },
+    {
+      "parent_seed": 980006,
+      "surface": 0.95,
+      "prediction": -0.016058516064067743,
+      "selected": "hold",
+      "costs": {
+        "no_communication": 1.004704743737104,
+        "raw_broadcast": 1.0611538569775345,
+        "novelty_only": 1.0317538569775344,
+        "learned_task_value": 1.004704743737104,
+        "exact_message_oracle": 1.004704743737104
+      }
+    },
+    {
+      "parent_seed": 980007,
+      "surface": 0.04,
+      "prediction": -0.026100282292368493,
+      "selected": "hold",
+      "costs": {
+        "no_communication": 0.9786388863398564,
+        "raw_broadcast": 1.0350406847107454,
+        "novelty_only": 1.0056406847107453,
+        "learned_task_value": 0.9786388863398564,
+        "exact_message_oracle": 0.9786388863398564
+      }
+    },
+    {
+      "parent_seed": 980007,
+      "surface": 0.95,
+      "prediction": -0.016058516064067743,
+      "selected": "hold",
+      "costs": {
+        "no_communication": 1.0059255369374922,
+        "raw_broadcast": 1.0589746247321588,
+        "novelty_only": 1.0295746247321587,
+        "learned_task_value": 1.0059255369374922,
+        "exact_message_oracle": 1.0059255369374922
+      }
+    },
+    {
+      "parent_seed": 980008,
+      "surface": 0.04,
+      "prediction": -0.026100282292368493,
+      "selected": "hold",
+      "costs": {
+        "no_communication": 0.9740052681669944,
+        "raw_broadcast": 1.0299645047180135,
+        "novelty_only": 1.0005645047180134,
+        "learned_task_value": 0.9740052681669944,
+        "exact_message_oracle": 0.9740052681669944
+      }
+    },
+    {
+      "parent_seed": 980008,
+      "surface": 0.95,
+      "prediction": -0.016058516064067743,
+      "selected": "hold",
+      "costs": {
+        "no_communication": 1.0125989192777665,
+        "raw_broadcast": 1.0620642244677327,
+        "novelty_only": 1.0326642244677326,
+        "learned_task_value": 1.0125989192777665,
+        "exact_message_oracle": 1.0125989192777665
+      }
+    },
+    {
+      "parent_seed": 980009,
+      "surface": 0.04,
+      "prediction": -0.026100282292368493,
+      "selected": "hold",
+      "costs": {
+        "no_communication": 0.9745271977598745,
+        "raw_broadcast": 1.0302042240397482,
+        "novelty_only": 1.0008042240397481,
+        "learned_task_value": 0.9745271977598745,
+        "exact_message_oracle": 0.9745271977598745
+      }
+    },
+    {
+      "parent_seed": 980009,
+      "surface": 0.95,
+      "prediction": -0.016058516064067743,
+      "selected": "hold",
+      "costs": {
+        "no_communication": 1.0063016733096233,
+        "raw_broadcast": 1.056320731284453,
+        "novelty_only": 1.0269207312844528,
+        "learned_task_value": 1.0063016733096233,
+        "exact_message_oracle": 1.0063016733096233
+      }
+    }
+  ]
+}

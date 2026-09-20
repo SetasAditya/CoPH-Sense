@@ -1,0 +1,204 @@
+{
+  "setup": {
+    "train_states": 320,
+    "validation_states": 80,
+    "test_states": 120,
+    "exact_labels_per_state": 16,
+    "data_generation_seconds": 43.696269273757935,
+    "seed": 1702,
+    "split_unit": "independent pre-acquisition information state",
+    "selection_metric": "validation mean acquisition regret",
+    "oracle_mode": "certified"
+  },
+  "models": {
+    "additive": {
+      "parameters": 64518,
+      "training_seconds": 7.827613115310669,
+      "selected_epoch": 114,
+      "validation": {
+        "value_rmse": 0.10639679431915283,
+        "component_rmse": [
+          0.11235173791646957,
+          0.013375390321016312,
+          0.012303149327635765
+        ],
+        "top1_accuracy": 0.8625,
+        "mean_acquisition_regret": 0.0068743289448320866,
+        "p90_acquisition_regret": 0.027367722243070602,
+        "complementary_states": 48,
+        "pair_selection_recall": 0.9375,
+        "harmful_sensing_rate": 0.10000000149011612,
+        "ranking_accuracy": 0.826439563167039,
+        "complementarity_sign_accuracy": 0.32499998807907104,
+        "positive_information_value_states": 48
+      },
+      "test": {
+        "value_rmse": 0.11016155779361725,
+        "component_rmse": [
+          0.11633102595806122,
+          0.014308853074908257,
+          0.012189499102532864
+        ],
+        "top1_accuracy": 0.6916666666666667,
+        "mean_acquisition_regret": 0.01906401291489601,
+        "p90_acquisition_regret": 0.06661240011453629,
+        "complementary_states": 72,
+        "pair_selection_recall": 0.8055555555555556,
+        "harmful_sensing_rate": 0.22499999403953552,
+        "ranking_accuracy": 0.8044117647058825,
+        "complementarity_sign_accuracy": 0.3499999940395355,
+        "positive_information_value_states": 72
+      },
+      "canonical_a2": {
+        "predicted_q": {
+          "()": 3.053880453109741,
+          "('top_geometry',)": 2.9583280086517334,
+          "('top_traction',)": 2.9601845741271973,
+          "('top_geometry', 'top_traction')": 2.8646321296691895
+        },
+        "true_q": {
+          "()": 3.0,
+          "('top_geometry',)": 3.0399999618530273,
+          "('top_traction',)": 3.0399999618530273,
+          "('top_geometry', 'top_traction')": 2.6873998641967773
+        },
+        "selected_subset": [
+          "top_geometry",
+          "top_traction"
+        ],
+        "oracle_subset": [
+          "top_geometry",
+          "top_traction"
+        ],
+        "selected_regret": 0.0,
+        "predicted_complementarity": -2.384185791015625e-07
+      }
+    },
+    "deepsets": {
+      "parameters": 89027,
+      "training_seconds": 11.183057308197021,
+      "selected_epoch": 67,
+      "validation": {
+        "value_rmse": 0.06115850433707237,
+        "component_rmse": [
+          0.07391241937875748,
+          0.07817868888378143,
+          0.00964481383562088
+        ],
+        "top1_accuracy": 0.9125,
+        "mean_acquisition_regret": 0.0031602829694747925,
+        "p90_acquisition_regret": 0.0,
+        "complementary_states": 48,
+        "pair_selection_recall": 0.9166666666666666,
+        "harmful_sensing_rate": 0.03750000149011612,
+        "ranking_accuracy": 0.9496416604616529,
+        "complementarity_sign_accuracy": 0.987500011920929,
+        "positive_information_value_states": 48
+      },
+      "test": {
+        "value_rmse": 0.060782622545957565,
+        "component_rmse": [
+          0.06559015810489655,
+          0.07705339789390564,
+          0.010186348110437393
+        ],
+        "top1_accuracy": 0.7666666666666667,
+        "mean_acquisition_regret": 0.010188893415033817,
+        "p90_acquisition_regret": 0.04277193546295166,
+        "complementary_states": 72,
+        "pair_selection_recall": 0.75,
+        "harmful_sensing_rate": 0.0833333358168602,
+        "ranking_accuracy": 0.9350490196078433,
+        "complementarity_sign_accuracy": 1.0,
+        "positive_information_value_states": 72
+      },
+      "canonical_a2": {
+        "predicted_q": {
+          "()": 2.997755765914917,
+          "('top_geometry',)": 3.000885248184204,
+          "('top_traction',)": 3.0009663105010986,
+          "('top_geometry', 'top_traction')": 2.7051210403442383
+        },
+        "true_q": {
+          "()": 3.0,
+          "('top_geometry',)": 3.0399999618530273,
+          "('top_traction',)": 3.0399999618530273,
+          "('top_geometry', 'top_traction')": 2.6873998641967773
+        },
+        "selected_subset": [
+          "top_geometry",
+          "top_traction"
+        ],
+        "oracle_subset": [
+          "top_geometry",
+          "top_traction"
+        ],
+        "selected_regret": 0.0,
+        "predicted_complementarity": 0.29897475242614746
+      }
+    },
+    "pairwise": {
+      "parameters": 114057,
+      "training_seconds": 14.026026487350464,
+      "selected_epoch": 118,
+      "validation": {
+        "value_rmse": 0.03488034009933472,
+        "component_rmse": [
+          0.0405447781085968,
+          0.02769479714334011,
+          0.009993971325457096
+        ],
+        "top1_accuracy": 0.925,
+        "mean_acquisition_regret": 0.0011853963369503617,
+        "p90_acquisition_regret": 0.0,
+        "complementary_states": 48,
+        "pair_selection_recall": 0.8958333333333334,
+        "harmful_sensing_rate": 0.012500000186264515,
+        "ranking_accuracy": 0.9667861131794492,
+        "complementarity_sign_accuracy": 0.949999988079071,
+        "positive_information_value_states": 48
+      },
+      "test": {
+        "value_rmse": 0.03778284788131714,
+        "component_rmse": [
+          0.04416387528181076,
+          0.026892224326729774,
+          0.01025813166052103
+        ],
+        "top1_accuracy": 0.8166666666666667,
+        "mean_acquisition_regret": 0.004957651253789663,
+        "p90_acquisition_regret": 0.024502752348780632,
+        "complementary_states": 72,
+        "pair_selection_recall": 0.7916666666666666,
+        "harmful_sensing_rate": 0.05833333358168602,
+        "ranking_accuracy": 0.9590686274509804,
+        "complementarity_sign_accuracy": 0.8999999761581421,
+        "positive_information_value_states": 72
+      },
+      "canonical_a2": {
+        "predicted_q": {
+          "()": 2.9408819675445557,
+          "('top_geometry',)": 3.0119693279266357,
+          "('top_traction',)": 3.0147833824157715,
+          "('top_geometry', 'top_traction')": 2.6893975734710693
+        },
+        "true_q": {
+          "()": 3.0,
+          "('top_geometry',)": 3.0399999618530273,
+          "('top_traction',)": 3.0399999618530273,
+          "('top_geometry', 'top_traction')": 2.6873998641967773
+        },
+        "selected_subset": [
+          "top_geometry",
+          "top_traction"
+        ],
+        "oracle_subset": [
+          "top_geometry",
+          "top_traction"
+        ],
+        "selected_regret": 0.0,
+        "predicted_complementarity": 0.3964729309082031
+      }
+    }
+  }
+}

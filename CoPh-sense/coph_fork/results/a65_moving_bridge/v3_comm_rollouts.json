@@ -1,0 +1,362 @@
+[
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": false,
+      "top_traction": 0.3,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      false
+    ],
+    "probability": 0.04000000000000001,
+    "inspect_decision_cost": 3.160591597362245,
+    "delivered_before_commit": 2,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": false,
+      "top_traction": 0.3,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      true
+    ],
+    "probability": 0.16000000000000003,
+    "inspect_decision_cost": 3.148591597362245,
+    "delivered_before_commit": 1,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": false,
+      "top_traction": 0.3,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      true,
+      false
+    ],
+    "probability": 0.16000000000000003,
+    "inspect_decision_cost": 3.148591597362245,
+    "delivered_before_commit": 1,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": false,
+      "top_traction": 0.3,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      true,
+      true
+    ],
+    "probability": 0.6400000000000001,
+    "inspect_decision_cost": 3.136591597362245,
+    "delivered_before_commit": 0,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": false,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      false
+    ],
+    "probability": 0.04000000000000001,
+    "inspect_decision_cost": 3.1361912265169303,
+    "delivered_before_commit": 1,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": false,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      true
+    ],
+    "probability": 0.16000000000000003,
+    "inspect_decision_cost": 3.1361912265169303,
+    "delivered_before_commit": 1,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": false,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      true,
+      false
+    ],
+    "probability": 0.16000000000000003,
+    "inspect_decision_cost": 3.1241912265169303,
+    "delivered_before_commit": 0,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": false,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      true,
+      true
+    ],
+    "probability": 0.6400000000000001,
+    "inspect_decision_cost": 3.1241912265169303,
+    "delivered_before_commit": 0,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.3,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      false
+    ],
+    "probability": 0.04000000000000001,
+    "inspect_decision_cost": 3.1361912265169303,
+    "delivered_before_commit": 1,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.3,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      true
+    ],
+    "probability": 0.16000000000000003,
+    "inspect_decision_cost": 3.1361912265169303,
+    "delivered_before_commit": 1,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.3,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      true,
+      false
+    ],
+    "probability": 0.16000000000000003,
+    "inspect_decision_cost": 3.1241912265169303,
+    "delivered_before_commit": 0,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.3,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      true,
+      true
+    ],
+    "probability": 0.6400000000000001,
+    "inspect_decision_cost": 3.1241912265169303,
+    "delivered_before_commit": 0,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      false
+    ],
+    "probability": 0.04000000000000001,
+    "inspect_decision_cost": 1.0609439338365614,
+    "delivered_before_commit": 2,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      true
+    ],
+    "probability": 0.16000000000000003,
+    "inspect_decision_cost": 3.1283269398695426,
+    "delivered_before_commit": 1,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      true,
+      false
+    ],
+    "probability": 0.16000000000000003,
+    "inspect_decision_cost": 3.1283269398695426,
+    "delivered_before_commit": 1,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "weak_link",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      true,
+      true
+    ],
+    "probability": 0.6400000000000001,
+    "inspect_decision_cost": 3.1163269398695426,
+    "delivered_before_commit": 0,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "short_range",
+    "world": {
+      "top_geometry": false,
+      "top_traction": 0.3,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      false
+    ],
+    "probability": 1.0,
+    "inspect_decision_cost": 3.160720594134059,
+    "delivered_before_commit": 2,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "short_range",
+    "world": {
+      "top_geometry": false,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      false
+    ],
+    "probability": 1.0,
+    "inspect_decision_cost": 3.160720594134059,
+    "delivered_before_commit": 2,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "short_range",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.3,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      false
+    ],
+    "probability": 1.0,
+    "inspect_decision_cost": 3.160720594134059,
+    "delivered_before_commit": 2,
+    "success": true,
+    "collision_cost": 0.0
+  },
+  {
+    "condition": "short_range",
+    "world": {
+      "top_geometry": true,
+      "top_traction": 0.9,
+      "bottom_geometry": true,
+      "bottom_traction": 0.15
+    },
+    "drop_mask": [
+      false,
+      false
+    ],
+    "probability": 1.0,
+    "inspect_decision_cost": 1.1194588501918472,
+    "delivered_before_commit": 2,
+    "success": true,
+    "collision_cost": 0.0
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "seed": 820002,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12027068594278684
+  },
+  {
+    "seed": 820005,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12345679012345678
+  },
+  {
+    "seed": 820008,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12123076923076923
+  },
+  {
+    "seed": 820011,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12198888202594194
+  },
+  {
+    "seed": 820014,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.1379525593008739
+  },
+  {
+    "seed": 820017,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12300613496932515
+  },
+  {
+    "seed": 820020,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.1140754369825207
+  },
+  {
+    "seed": 820023,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12841191066997518
+  },
+  {
+    "seed": 820026,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12138905961893055
+  },
+  {
+    "seed": 820029,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.1277123372597644
+  },
+  {
+    "seed": 820032,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12939346811819596
+  },
+  {
+    "seed": 820035,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12384187770228536
+  },
+  {
+    "seed": 820038,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12554112554112554
+  },
+  {
+    "seed": 820041,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12720519962859797
+  },
+  {
+    "seed": 820044,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12346059113300492
+  },
+  {
+    "seed": 820047,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12391841779975278
+  },
+  {
+    "seed": 820050,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12658619622407924
+  },
+  {
+    "seed": 820053,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12049306625577812
+  },
+  {
+    "seed": 820056,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12418906394810009
+  },
+  {
+    "seed": 820059,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.11954517516902274
+  },
+  {
+    "seed": 820062,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12833230006199628
+  },
+  {
+    "seed": 820065,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12484548825710753
+  },
+  {
+    "seed": 820068,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.127672761078401
+  },
+  {
+    "seed": 820071,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.13112213267203968
+  },
+  {
+    "seed": 820074,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.13239875389408098
+  },
+  {
+    "seed": 820077,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.13179981349082998
+  },
+  {
+    "seed": 820080,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12038177339901478
+  },
+  {
+    "seed": 820083,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.12168004941321804
+  },
+  {
+    "seed": 820086,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.11923786109403811
+  },
+  {
+    "seed": 820089,
+    "clearance_q05_m": -0.015,
+    "clearance_q50_m": 0.5850000000000001,
+    "fraction_free_below_carrier_margin": 0.1250770178681454
+  }
+]

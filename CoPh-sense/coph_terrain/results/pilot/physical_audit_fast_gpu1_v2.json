@@ -1,0 +1,94 @@
+[
+  {
+    "family": "open",
+    "parent_seed": 660000,
+    "realization_seed": 0,
+    "oracle_scope": "restricted scripted continuation; single-world cost",
+    "choices": [
+      {
+        "agent": "scout",
+        "modality": "geometry",
+        "viewpoint": [
+          5,
+          34
+        ]
+      },
+      {
+        "agent": "scout",
+        "modality": "traction",
+        "viewpoint": [
+          5,
+          34
+        ]
+      },
+      {
+        "agent": "carrier",
+        "modality": "geometry",
+        "viewpoint": [
+          5,
+          31
+        ]
+      },
+      {
+        "agent": "carrier",
+        "modality": "traction",
+        "viewpoint": [
+          5,
+          31
+        ]
+      }
+    ],
+    "results": [
+      {
+        "selected": [],
+        "mission_cost": 1.5972618351302292,
+        "material_exposure": 0.4139152111485611,
+        "score_single_world": 2.0111770462787906,
+        "success": true,
+        "failure_reason": null,
+        "steps": 594,
+        "ledger": {
+          "time": 1.1880000000000008,
+          "motion": 0.4092618351302284,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 0.4139152111485611
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      {
+        "selected": [
+          0
+        ],
+        "mission_cost": 1.7241525049100102,
+        "material_exposure": 0.4359132503718142,
+        "score_single_world": 2.1600657552818245,
+        "success": true,
+        "failure_reason": null,
+        "steps": 616,
+        "ledger": {
+          "time": 1.2320000000000009,
+          "motion": 0.4159525049100093,
+          "sensing": 0.02,
+          "communication": 0.0562,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 0.4359132503718142
+        },
+        "measurements": 1,
+        "packets": 1,
+        "acquired": 1,
+        "delivered": 1
+      }
+    ],
+    "best_sets": [
+      []
+    ],
+    "wall_seconds": 9.130014716065489
+  }
+]

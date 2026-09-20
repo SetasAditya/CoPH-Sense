@@ -1,0 +1,866 @@
+{
+  "scope": "exact finite two-region route-cost diagnostic; not VMAS or pH motion",
+  "worlds": 16,
+  "scout_action": "acquire Region-1 geometry and traction in every episode",
+  "carrier_action_menu": "none, either singleton or pair in one region; at most two measurements",
+  "channel": "independent evidence delivery with probability 0.9; successful delivery triggers a charged ACK",
+  "memory_semantics": "received evidence persists only in persistent and oracle_memory; shared_reset clears only the acquisition actor's memory; shuffled relabels received evidence to the wrong region",
+  "policy_scope": "frozen one-region continuation-aware A3 applied per region with posterior-prior adapter; frozen A4-v2 shares scout readings",
+  "config": {
+    "sensing_cost": 0.04,
+    "packet_cost": 0.012400000000000001,
+    "ack_payload_bytes": 8,
+    "top_safe_cost": 1.0,
+    "bottom_safe_cost": 3.0,
+    "unsafe_route_cost": 5.0
+  },
+  "by_seed": {
+    "1701": {
+      "independent": {
+        "condition": "independent",
+        "expected_total_team_cost": 5.659999999999998,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.0,
+        "expected_carrier_sensing_cost": 0.08,
+        "expected_route_cost": 5.5,
+        "expected_carrier_measurements": 2.0,
+        "redundant_batch_rate": 0.0,
+        "duplicate_measurement_rate": 0.0,
+        "region2_useful_acquisition_rate": 0.0,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.0
+      },
+      "shared_reset": {
+        "condition": "shared_reset",
+        "expected_total_team_cost": 5.7064,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.046400000000000004,
+        "expected_carrier_sensing_cost": 0.08,
+        "expected_route_cost": 5.500000000000001,
+        "expected_carrier_measurements": 2.0,
+        "redundant_batch_rate": 0.9000000000000004,
+        "duplicate_measurement_rate": 0.9000000000000002,
+        "region2_useful_acquisition_rate": 0.0,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.4535999999999998
+      },
+      "persistent": {
+        "condition": "persistent",
+        "expected_total_team_cost": 5.3576500000000005,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.046400000000000004,
+        "expected_carrier_sensing_cost": 0.08,
+        "expected_route_cost": 5.151249999999999,
+        "expected_carrier_measurements": 2.0,
+        "redundant_batch_rate": 0.20250000000000004,
+        "duplicate_measurement_rate": 0.2475,
+        "region2_useful_acquisition_rate": 0.6975000000000001,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.10485000000000001
+      },
+      "oracle_memory": {
+        "condition": "oracle_memory",
+        "expected_total_team_cost": 5.252799999999997,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.046400000000000004,
+        "expected_carrier_sensing_cost": 0.07640000000000002,
+        "expected_route_cost": 5.05,
+        "expected_carrier_measurements": 1.9100000000000006,
+        "redundant_batch_rate": 0.0,
+        "duplicate_measurement_rate": 0.0,
+        "region2_useful_acquisition_rate": 0.9000000000000002,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.0
+      },
+      "shuffled": {
+        "condition": "shuffled",
+        "expected_total_team_cost": 6.055149999999999,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.046400000000000004,
+        "expected_carrier_sensing_cost": 0.08,
+        "expected_route_cost": 5.8487500000000034,
+        "expected_carrier_measurements": 2.0,
+        "redundant_batch_rate": 0.6975000000000002,
+        "duplicate_measurement_rate": 0.6525000000000002,
+        "region2_useful_acquisition_rate": 0.2925,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.3973500000000003
+      }
+    },
+    "1702": {
+      "independent": {
+        "condition": "independent",
+        "expected_total_team_cost": 5.659999999999998,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.0,
+        "expected_carrier_sensing_cost": 0.08,
+        "expected_route_cost": 5.5,
+        "expected_carrier_measurements": 2.0,
+        "redundant_batch_rate": 0.0,
+        "duplicate_measurement_rate": 0.0,
+        "region2_useful_acquisition_rate": 0.0,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.0
+      },
+      "shared_reset": {
+        "condition": "shared_reset",
+        "expected_total_team_cost": 5.6948,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.034800000000000005,
+        "expected_carrier_sensing_cost": 0.08,
+        "expected_route_cost": 5.500000000000001,
+        "expected_carrier_measurements": 2.0,
+        "redundant_batch_rate": 0.6525000000000002,
+        "duplicate_measurement_rate": 0.6750000000000002,
+        "region2_useful_acquisition_rate": 0.0,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.3298499999999999
+      },
+      "persistent": {
+        "condition": "persistent",
+        "expected_total_team_cost": 5.469800000000001,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.034800000000000005,
+        "expected_carrier_sensing_cost": 0.08,
+        "expected_route_cost": 5.275,
+        "expected_carrier_measurements": 2.0,
+        "redundant_batch_rate": 0.2025,
+        "duplicate_measurement_rate": 0.2475,
+        "region2_useful_acquisition_rate": 0.45000000000000007,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.10485000000000001
+      },
+      "oracle_memory": {
+        "condition": "oracle_memory",
+        "expected_total_team_cost": 5.364949999999997,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.034800000000000005,
+        "expected_carrier_sensing_cost": 0.07640000000000001,
+        "expected_route_cost": 5.173750000000001,
+        "expected_carrier_measurements": 1.9100000000000001,
+        "redundant_batch_rate": 0.0,
+        "duplicate_measurement_rate": 0.0,
+        "region2_useful_acquisition_rate": 0.6525000000000002,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.0
+      },
+      "shuffled": {
+        "condition": "shuffled",
+        "expected_total_team_cost": 6.043549999999999,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.034800000000000005,
+        "expected_carrier_sensing_cost": 0.08,
+        "expected_route_cost": 5.8487500000000034,
+        "expected_carrier_measurements": 2.0,
+        "redundant_batch_rate": 0.45000000000000007,
+        "duplicate_measurement_rate": 0.4275000000000001,
+        "region2_useful_acquisition_rate": 0.2925,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.2736000000000002
+      }
+    },
+    "1703": {
+      "independent": {
+        "condition": "independent",
+        "expected_total_team_cost": 5.659999999999998,
+        "expected_scout_sensing_cost": 0.08,
+        "expected_communication_cost": 0.0,
+        "expected_carrier_sensing_cost": 0.08,
+        "expected_route_cost": 5.5,
+        "expected_carrier_measurements": 2.0,
+        "redundant_batch_rate": 0.0,
+        "duplicate_measurement_rate": 0.0,
+        "region2_useful_acquisition_rate": 0.0,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.0
+      },
+      "shared_reset": {
+        "condition": "shared_reset",
+        "expected_total_team_cost": 5.7006000000000006,
+        "expected_scout_sensing_cost": 0.08000000000000003,
+        "expected_communication_cost": 0.040600000000000004,
+        "expected_carrier_sensing_cost": 0.08000000000000003,
+        "expected_route_cost": 5.5,
+        "expected_carrier_measurements": 2.000000000000001,
+        "redundant_batch_rate": 0.6750000000000003,
+        "duplicate_measurement_rate": 0.7874999999999998,
+        "region2_useful_acquisition_rate": 0.0,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.3491999999999999
+      },
+      "persistent": {
+        "condition": "persistent",
+        "expected_total_team_cost": 5.4643500000000005,
+        "expected_scout_sensing_cost": 0.08000000000000003,
+        "expected_communication_cost": 0.040600000000000004,
+        "expected_carrier_sensing_cost": 0.08000000000000003,
+        "expected_route_cost": 5.26375,
+        "expected_carrier_measurements": 2.000000000000001,
+        "redundant_batch_rate": 0.20250000000000004,
+        "duplicate_measurement_rate": 0.34874999999999984,
+        "region2_useful_acquisition_rate": 0.47250000000000003,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.11295000000000004
+      },
+      "oracle_memory": {
+        "condition": "oracle_memory",
+        "expected_total_team_cost": 5.351399999999998,
+        "expected_scout_sensing_cost": 0.08000000000000003,
+        "expected_communication_cost": 0.040600000000000004,
+        "expected_carrier_sensing_cost": 0.06830000000000004,
+        "expected_route_cost": 5.1625000000000005,
+        "expected_carrier_measurements": 1.707500000000001,
+        "redundant_batch_rate": 0.0,
+        "duplicate_measurement_rate": 0.0,
+        "region2_useful_acquisition_rate": 0.6750000000000002,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.0
+      },
+      "shuffled": {
+        "condition": "shuffled",
+        "expected_total_team_cost": 5.948099999999999,
+        "expected_scout_sensing_cost": 0.08000000000000003,
+        "expected_communication_cost": 0.040600000000000004,
+        "expected_carrier_sensing_cost": 0.08000000000000003,
+        "expected_route_cost": 5.747500000000002,
+        "expected_carrier_measurements": 2.000000000000001,
+        "redundant_batch_rate": 0.4725000000000001,
+        "duplicate_measurement_rate": 0.43874999999999986,
+        "region2_useful_acquisition_rate": 0.495,
+        "unsafe_execution_rate": 0.0,
+        "expected_nested_acquisition_regret": 0.3942000000000001
+      }
+    }
+  },
+  "aggregate": {
+    "independent": {
+      "expected_total_team_cost": {
+        "mean": 5.659999999999999,
+        "by_seed": [
+          5.659999999999998,
+          5.659999999999998,
+          5.659999999999998
+        ]
+      },
+      "expected_scout_sensing_cost": {
+        "mean": 0.08,
+        "by_seed": [
+          0.08,
+          0.08,
+          0.08
+        ]
+      },
+      "expected_communication_cost": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_carrier_sensing_cost": {
+        "mean": 0.08,
+        "by_seed": [
+          0.08,
+          0.08,
+          0.08
+        ]
+      },
+      "expected_route_cost": {
+        "mean": 5.5,
+        "by_seed": [
+          5.5,
+          5.5,
+          5.5
+        ]
+      },
+      "redundant_batch_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "duplicate_measurement_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "region2_useful_acquisition_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unsafe_execution_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_nested_acquisition_regret": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "shared_reset": {
+      "expected_total_team_cost": {
+        "mean": 5.7006000000000006,
+        "by_seed": [
+          5.7064,
+          5.6948,
+          5.7006000000000006
+        ]
+      },
+      "expected_scout_sensing_cost": {
+        "mean": 0.08000000000000002,
+        "by_seed": [
+          0.08,
+          0.08,
+          0.08000000000000003
+        ]
+      },
+      "expected_communication_cost": {
+        "mean": 0.040600000000000004,
+        "by_seed": [
+          0.046400000000000004,
+          0.034800000000000005,
+          0.040600000000000004
+        ]
+      },
+      "expected_carrier_sensing_cost": {
+        "mean": 0.08000000000000002,
+        "by_seed": [
+          0.08,
+          0.08,
+          0.08000000000000003
+        ]
+      },
+      "expected_route_cost": {
+        "mean": 5.5,
+        "by_seed": [
+          5.500000000000001,
+          5.500000000000001,
+          5.5
+        ]
+      },
+      "redundant_batch_rate": {
+        "mean": 0.7425000000000003,
+        "by_seed": [
+          0.9000000000000004,
+          0.6525000000000002,
+          0.6750000000000003
+        ]
+      },
+      "duplicate_measurement_rate": {
+        "mean": 0.7875000000000001,
+        "by_seed": [
+          0.9000000000000002,
+          0.6750000000000002,
+          0.7874999999999998
+        ]
+      },
+      "region2_useful_acquisition_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unsafe_execution_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_nested_acquisition_regret": {
+        "mean": 0.3775499999999999,
+        "by_seed": [
+          0.4535999999999998,
+          0.3298499999999999,
+          0.3491999999999999
+        ]
+      }
+    },
+    "persistent": {
+      "expected_total_team_cost": {
+        "mean": 5.430600000000001,
+        "by_seed": [
+          5.3576500000000005,
+          5.469800000000001,
+          5.4643500000000005
+        ]
+      },
+      "expected_scout_sensing_cost": {
+        "mean": 0.08000000000000002,
+        "by_seed": [
+          0.08,
+          0.08,
+          0.08000000000000003
+        ]
+      },
+      "expected_communication_cost": {
+        "mean": 0.040600000000000004,
+        "by_seed": [
+          0.046400000000000004,
+          0.034800000000000005,
+          0.040600000000000004
+        ]
+      },
+      "expected_carrier_sensing_cost": {
+        "mean": 0.08000000000000002,
+        "by_seed": [
+          0.08,
+          0.08,
+          0.08000000000000003
+        ]
+      },
+      "expected_route_cost": {
+        "mean": 5.2299999999999995,
+        "by_seed": [
+          5.151249999999999,
+          5.275,
+          5.26375
+        ]
+      },
+      "redundant_batch_rate": {
+        "mean": 0.2025,
+        "by_seed": [
+          0.20250000000000004,
+          0.2025,
+          0.20250000000000004
+        ]
+      },
+      "duplicate_measurement_rate": {
+        "mean": 0.28124999999999994,
+        "by_seed": [
+          0.2475,
+          0.2475,
+          0.34874999999999984
+        ]
+      },
+      "region2_useful_acquisition_rate": {
+        "mean": 0.54,
+        "by_seed": [
+          0.6975000000000001,
+          0.45000000000000007,
+          0.47250000000000003
+        ]
+      },
+      "unsafe_execution_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_nested_acquisition_regret": {
+        "mean": 0.10755000000000002,
+        "by_seed": [
+          0.10485000000000001,
+          0.10485000000000001,
+          0.11295000000000004
+        ]
+      }
+    },
+    "oracle_memory": {
+      "expected_total_team_cost": {
+        "mean": 5.323049999999998,
+        "by_seed": [
+          5.252799999999997,
+          5.364949999999997,
+          5.351399999999998
+        ]
+      },
+      "expected_scout_sensing_cost": {
+        "mean": 0.08000000000000002,
+        "by_seed": [
+          0.08,
+          0.08,
+          0.08000000000000003
+        ]
+      },
+      "expected_communication_cost": {
+        "mean": 0.040600000000000004,
+        "by_seed": [
+          0.046400000000000004,
+          0.034800000000000005,
+          0.040600000000000004
+        ]
+      },
+      "expected_carrier_sensing_cost": {
+        "mean": 0.07370000000000003,
+        "by_seed": [
+          0.07640000000000002,
+          0.07640000000000001,
+          0.06830000000000004
+        ]
+      },
+      "expected_route_cost": {
+        "mean": 5.12875,
+        "by_seed": [
+          5.05,
+          5.173750000000001,
+          5.1625000000000005
+        ]
+      },
+      "redundant_batch_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "duplicate_measurement_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "region2_useful_acquisition_rate": {
+        "mean": 0.7425000000000002,
+        "by_seed": [
+          0.9000000000000002,
+          0.6525000000000002,
+          0.6750000000000002
+        ]
+      },
+      "unsafe_execution_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_nested_acquisition_regret": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "shuffled": {
+      "expected_total_team_cost": {
+        "mean": 6.015599999999999,
+        "by_seed": [
+          6.055149999999999,
+          6.043549999999999,
+          5.948099999999999
+        ]
+      },
+      "expected_scout_sensing_cost": {
+        "mean": 0.08000000000000002,
+        "by_seed": [
+          0.08,
+          0.08,
+          0.08000000000000003
+        ]
+      },
+      "expected_communication_cost": {
+        "mean": 0.040600000000000004,
+        "by_seed": [
+          0.046400000000000004,
+          0.034800000000000005,
+          0.040600000000000004
+        ]
+      },
+      "expected_carrier_sensing_cost": {
+        "mean": 0.08000000000000002,
+        "by_seed": [
+          0.08,
+          0.08,
+          0.08000000000000003
+        ]
+      },
+      "expected_route_cost": {
+        "mean": 5.815000000000002,
+        "by_seed": [
+          5.8487500000000034,
+          5.8487500000000034,
+          5.747500000000002
+        ]
+      },
+      "redundant_batch_rate": {
+        "mean": 0.5400000000000001,
+        "by_seed": [
+          0.6975000000000002,
+          0.45000000000000007,
+          0.4725000000000001
+        ]
+      },
+      "duplicate_measurement_rate": {
+        "mean": 0.5062500000000001,
+        "by_seed": [
+          0.6525000000000002,
+          0.4275000000000001,
+          0.43874999999999986
+        ]
+      },
+      "region2_useful_acquisition_rate": {
+        "mean": 0.36000000000000004,
+        "by_seed": [
+          0.2925,
+          0.2925,
+          0.495
+        ]
+      },
+      "unsafe_execution_rate": {
+        "mean": 0.0,
+        "by_seed": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "expected_nested_acquisition_regret": {
+        "mean": 0.35505000000000014,
+        "by_seed": [
+          0.3973500000000003,
+          0.2736000000000002,
+          0.3942000000000001
+        ]
+      }
+    }
+  },
+  "canonical_all_good_trace": {
+    "1701": {
+      "independent": {
+        "carrier_action": [
+          [
+            1,
+            "geometry"
+          ],
+          [
+            1,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": 0.41999999999999993,
+        "total_team_cost": 4.16
+      },
+      "shared_reset": {
+        "carrier_action": [
+          [
+            1,
+            "geometry"
+          ],
+          [
+            1,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": -0.08000000000000007,
+        "total_team_cost": 4.2088
+      },
+      "persistent": {
+        "carrier_action": [
+          [
+            1,
+            "geometry"
+          ],
+          [
+            1,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": -0.08000000000000007,
+        "total_team_cost": 4.2088
+      },
+      "oracle_memory": {
+        "carrier_action": [
+          [
+            2,
+            "geometry"
+          ],
+          [
+            2,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": 0.41999999999999993,
+        "total_team_cost": 2.2088
+      },
+      "shuffled": {
+        "carrier_action": [
+          [
+            2,
+            "geometry"
+          ],
+          [
+            2,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": 0.41999999999999993,
+        "total_team_cost": 4.2088
+      }
+    },
+    "1702": {
+      "independent": {
+        "carrier_action": [
+          [
+            1,
+            "geometry"
+          ],
+          [
+            1,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": 0.41999999999999993,
+        "total_team_cost": 4.16
+      },
+      "shared_reset": {
+        "carrier_action": [
+          [
+            1,
+            "geometry"
+          ],
+          [
+            1,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": -0.08000000000000007,
+        "total_team_cost": 4.2088
+      },
+      "persistent": {
+        "carrier_action": [
+          [
+            1,
+            "geometry"
+          ],
+          [
+            1,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": -0.08000000000000007,
+        "total_team_cost": 4.2088
+      },
+      "oracle_memory": {
+        "carrier_action": [
+          [
+            2,
+            "geometry"
+          ],
+          [
+            2,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": 0.41999999999999993,
+        "total_team_cost": 2.2088
+      },
+      "shuffled": {
+        "carrier_action": [
+          [
+            2,
+            "geometry"
+          ],
+          [
+            2,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": 0.41999999999999993,
+        "total_team_cost": 4.2088
+      }
+    },
+    "1703": {
+      "independent": {
+        "carrier_action": [
+          [
+            1,
+            "geometry"
+          ],
+          [
+            1,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": 0.41999999999999993,
+        "total_team_cost": 4.16
+      },
+      "shared_reset": {
+        "carrier_action": [
+          [
+            1,
+            "geometry"
+          ],
+          [
+            1,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": -0.08000000000000007,
+        "total_team_cost": 4.2088
+      },
+      "persistent": {
+        "carrier_action": [
+          [
+            1,
+            "geometry"
+          ],
+          [
+            1,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": -0.08000000000000007,
+        "total_team_cost": 4.2088
+      },
+      "oracle_memory": {
+        "carrier_action": [
+          [
+            2,
+            "geometry"
+          ],
+          [
+            2,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": 0.41999999999999993,
+        "total_team_cost": 2.2088
+      },
+      "shuffled": {
+        "carrier_action": [
+          [
+            2,
+            "geometry"
+          ],
+          [
+            2,
+            "traction"
+          ]
+        ],
+        "exact_acquisition_value": 0.41999999999999993,
+        "total_team_cost": 4.2088
+      }
+    }
+  },
+  "status": "A5 not passed: frozen A3 still repeats delivered Region-1 evidence"
+}

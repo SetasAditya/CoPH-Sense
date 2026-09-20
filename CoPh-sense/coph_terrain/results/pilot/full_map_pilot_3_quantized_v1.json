@@ -1,0 +1,59 @@
+[
+  {
+    "family": "open",
+    "parent_seed": 600000,
+    "full_map_planner_pilot_only": true,
+    "success": true,
+    "failure_reason": null,
+    "steps": 436,
+    "mission_cost": 1.1323373092999756,
+    "material_exposure": 0.006696542849143348,
+    "ledger": {
+      "time": 0.8720000000000007,
+      "motion": 0.26033730929997484,
+      "sensing": 0.0,
+      "communication": 0.0,
+      "collision": 0.0,
+      "failure": 0.0,
+      "material_exposure": 0.006696542849143348
+    }
+  },
+  {
+    "family": "bottleneck",
+    "parent_seed": 600001,
+    "full_map_planner_pilot_only": true,
+    "success": true,
+    "failure_reason": null,
+    "steps": 695,
+    "mission_cost": 1.8649336821390081,
+    "material_exposure": 0.011788333828250563,
+    "ledger": {
+      "time": 1.390000000000001,
+      "motion": 0.4749336821390071,
+      "sensing": 0.0,
+      "communication": 0.0,
+      "collision": 0.0,
+      "failure": 0.0,
+      "material_exposure": 0.011788333828250563
+    }
+  },
+  {
+    "family": "labyrinth",
+    "parent_seed": 600002,
+    "full_map_planner_pilot_only": true,
+    "success": true,
+    "failure_reason": null,
+    "steps": 702,
+    "mission_cost": 1.8597761488904496,
+    "material_exposure": 0.04080914514760185,
+    "ledger": {
+      "time": 1.404000000000001,
+      "motion": 0.45577614889044865,
+      "sensing": 0.0,
+      "communication": 0.0,
+      "collision": 0.0,
+      "failure": 0.0,
+      "material_exposure": 0.04080914514760185
+    }
+  }
+]

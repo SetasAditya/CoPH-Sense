@@ -1,0 +1,25 @@
+{
+  "status": "engineering_smoke_only",
+  "train_groups": [
+    "train/open/0000",
+    "train/open/0001",
+    "train/open/0002"
+  ],
+  "development_group": "train/open/0003",
+  "train_loss": 11.281292915344238,
+  "selected_set": [
+    -1,
+    -1
+  ],
+  "selected_realized_cost": 1.0714278433294515,
+  "restricted_teacher_set": [
+    -1,
+    -1
+  ],
+  "restricted_teacher_cost": 1.0714278433294515,
+  "limitations": [
+    "A3 local critic smoke, not a risk-calibrated model",
+    "A4/A5 learning and recurrent decisions not fitted",
+    "single-world teacher is not belief Q or CVaR"
+  ]
+}

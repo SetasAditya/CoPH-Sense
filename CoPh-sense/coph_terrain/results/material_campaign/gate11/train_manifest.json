@@ -1,0 +1,182 @@
+{
+  "challenge_targets": [
+    [
+      10,
+      30
+    ],
+    [
+      30,
+      30
+    ]
+  ],
+  "collector_sha256": "19fe1b615c02c485782d63e2fccf0f7b9d4c1ecedba599e31222a61ad638ba0b",
+  "executor": "material_ph",
+  "rows": [
+    {
+      "group": {
+        "difficulty_bin": "medium",
+        "family": "bottleneck",
+        "group_id": "train/bottleneck/0000",
+        "map_sha256": "c9b4a21838451f856a89599d433d89b7f89c1172c38ea4fa9800889c9a0c8cce",
+        "obstacle_count": 7,
+        "ood_slice": null,
+        "parent_seed": 120000,
+        "patch_count": 6,
+        "shortest_path_risk": 0.2253519743680954
+      },
+      "stratum": "Natural"
+    },
+    {
+      "group": {
+        "difficulty_bin": "medium",
+        "family": "labyrinth",
+        "group_id": "train/labyrinth/0000",
+        "map_sha256": "0b307a1d623554de928e1a05332e5b8ceba58a06f6128ef8a83c643bfcff9b8c",
+        "obstacle_count": 17,
+        "ood_slice": null,
+        "parent_seed": 140000,
+        "patch_count": 10,
+        "shortest_path_risk": 0.24452786147594452
+      },
+      "stratum": "Natural"
+    },
+    {
+      "group": {
+        "difficulty_bin": "high",
+        "family": "open",
+        "group_id": "train/open/0000",
+        "map_sha256": "3f55bae4390d560cfce49d63010c1490b91fbe9c1410f9bdb5005e339a3fbe29",
+        "obstacle_count": 5,
+        "ood_slice": null,
+        "parent_seed": 100000,
+        "patch_count": 10,
+        "shortest_path_risk": 0.33206334710121155
+      },
+      "stratum": "Natural"
+    },
+    {
+      "group": {
+        "difficulty_bin": "medium",
+        "family": "bottleneck",
+        "group_id": "train/bottleneck/0001",
+        "map_sha256": "db86c1973188cccb1eda4daaa2ba5dc0cf6146d03e3bc8e247417c8047402e46",
+        "obstacle_count": 7,
+        "ood_slice": null,
+        "parent_seed": 120001,
+        "patch_count": 5,
+        "shortest_path_risk": 0.19014494121074677
+      },
+      "stratum": "Natural"
+    },
+    {
+      "group": {
+        "difficulty_bin": "medium",
+        "family": "labyrinth",
+        "group_id": "train/labyrinth/0001",
+        "map_sha256": "9e558a238ec1208455c9b6af65dc3d1d00ea3be5855b1795f60bcd7e69c417e4",
+        "obstacle_count": 17,
+        "ood_slice": null,
+        "parent_seed": 140001,
+        "patch_count": 8,
+        "shortest_path_risk": 0.1180894523859024
+      },
+      "stratum": "Natural"
+    },
+    {
+      "group": {
+        "difficulty_bin": "high",
+        "family": "open",
+        "group_id": "train/open/0001",
+        "map_sha256": "ae9f102e3adeef2e5529f908d330146901eb284608bbbc05ae7217d6ab4f5631",
+        "obstacle_count": 6,
+        "ood_slice": null,
+        "parent_seed": 100001,
+        "patch_count": 8,
+        "shortest_path_risk": 0.34405308961868286
+      },
+      "stratum": "Natural"
+    },
+    {
+      "parent_seed": 1100000,
+      "stratum": "Complementarity",
+      "world_bits": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "parent_seed": 1100000,
+      "stratum": "Complementarity",
+      "world_bits": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "parent_seed": 1100000,
+      "stratum": "Complementarity",
+      "world_bits": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "parent_seed": 1100000,
+      "stratum": "Complementarity",
+      "world_bits": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "parent_seed": 1100000,
+      "stratum": "Moving-A5",
+      "world_bits": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "parent_seed": 1100000,
+      "stratum": "Moving-A5",
+      "world_bits": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "parent_seed": 1100000,
+      "stratum": "Moving-A5",
+      "world_bits": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "parent_seed": 1100000,
+      "stratum": "Moving-A5",
+      "world_bits": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "scope": "predeclared information-structure strata",
+  "split": "train"
+}

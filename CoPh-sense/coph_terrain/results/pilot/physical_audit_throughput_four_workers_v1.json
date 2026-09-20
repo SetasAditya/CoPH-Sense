@@ -1,0 +1,19 @@
+{
+  "workers": 4,
+  "parents": 4,
+  "continuations": 44,
+  "wall_seconds": 146.76773081102874,
+  "complete_continuations_per_second": 0.2997934202352174,
+  "parent_wall_seconds": [
+    72.842334253015,
+    144.35968372703064,
+    146.62337497796398,
+    59.49887108895928
+  ],
+  "parent_seeds": [
+    660010,
+    660011,
+    660012,
+    660013
+  ]
+}

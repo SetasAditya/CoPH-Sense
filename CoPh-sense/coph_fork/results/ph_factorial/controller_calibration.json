@@ -1,0 +1,1047 @@
+{
+  "config": {
+    "horizon": 2600,
+    "dt": 0.05,
+    "sensing_range_scout": 0.32,
+    "sensing_range_carrier": 0.24,
+    "communication_range": 0.9,
+    "communication_delay_steps": 3,
+    "packet_drop_probability": 0.0,
+    "decision_x": -0.64,
+    "scout_start_y": 0.4,
+    "carrier_start_y": 0.0,
+    "goal_y": 0.0,
+    "carrier_goal_y": -0.08,
+    "scout_goal_y": 0.12,
+    "bottom_route_y": -0.43,
+    "carrier_top_y": 0.43,
+    "direct_top_exit": false,
+    "scout_bottom_y": -0.64,
+    "scout_detour_x": -0.7,
+    "traction_safe_threshold": 0.55,
+    "backup_traction_prior_mean": 0.28,
+    "goal_radius": 0.22,
+    "sensing_cost": 0.02,
+    "communication_attempt_cost": 0.01,
+    "byte_cost": 5e-05,
+    "header_bytes": 32,
+    "payload_bytes": 16,
+    "ack_payload_bytes": 8,
+    "time_cost": 0.002,
+    "motion_cost": 0.001,
+    "risk_cost": 0.12,
+    "collision_cost": 0.1,
+    "invalid_action_cost": 0.02,
+    "terminal_failure_cost": 3.0,
+    "decision_x2": 0.2,
+    "backup_y1": -0.72,
+    "backup_y2": -0.5
+  },
+  "force_config": {
+    "beta_goal": 4.0,
+    "alpha_ipc": 1.0,
+    "lambda_risk": 0.35,
+    "lambda_hard": 1.0,
+    "gamma": 1.5,
+    "d_hat": 0.18,
+    "max_force": 4.0,
+    "max_barrier_grad": 16.0,
+    "max_barrier_energy": 10.0,
+    "risk_sigma_x": 0.24,
+    "risk_sigma_y": 0.19
+  },
+  "rows": [
+    {
+      "info_policy": "ordinary",
+      "scheme": "direct",
+      "seed": 1701,
+      "world": {
+        "geometry_1": false,
+        "traction_1": 0.3,
+        "geometry_2": false,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.6988294613088406,
+      "steps": 250,
+      "ledger": {
+        "time": 0.5000000000000003,
+        "motion": 0.03768116206509221,
+        "risk": 0.03234829924374819,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.34010817583135167
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.170417070388794,
+          0.16974405944347382
+        ],
+        "carrier": [
+          1.1594387292861938,
+          -0.2154771387577057
+        ]
+      },
+      "energy_start": 0.05092413131497159,
+      "energy_end": 0.22970852590574925,
+      "energy_max": 1.5261260723644368
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "ph",
+      "seed": 1701,
+      "world": {
+        "geometry_1": false,
+        "traction_1": 0.3,
+        "geometry_2": false,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.7133922182723381,
+      "steps": 257,
+      "ledger": {
+        "time": 0.5140000000000003,
+        "motion": 0.038863944502124666,
+        "risk": 0.031728273770213124,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.3414221740201949
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.170459270477295,
+          0.16967716813087463
+        ],
+        "carrier": [
+          1.1703060865402222,
+          -0.20671924948692322
+        ]
+      },
+      "energy_start": 0.05120062865449813,
+      "energy_end": 0.21267884377610047,
+      "energy_max": 1.5142479018952384
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "direct",
+      "seed": 1702,
+      "world": {
+        "geometry_1": true,
+        "traction_1": 0.3,
+        "geometry_2": false,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.698844259693739,
+      "steps": 250,
+      "ledger": {
+        "time": 0.5000000000000003,
+        "motion": 0.03769596044999061,
+        "risk": 0.03234829924374819,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.34010817583135167
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.1704167127609253,
+          0.1697443127632141
+        ],
+        "carrier": [
+          1.1594387292861938,
+          -0.2154771387577057
+        ]
+      },
+      "energy_start": 0.05092413131497159,
+      "energy_end": 0.22970852590574925,
+      "energy_max": 1.5261260723644368
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "ph",
+      "seed": 1702,
+      "world": {
+        "geometry_1": true,
+        "traction_1": 0.3,
+        "geometry_2": false,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.7133970549071695,
+      "steps": 257,
+      "ledger": {
+        "time": 0.5140000000000003,
+        "motion": 0.03886878113695609,
+        "risk": 0.031728273770213124,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.3414221740201949
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.1704589128494263,
+          0.16967719793319702
+        ],
+        "carrier": [
+          1.1703060865402222,
+          -0.20671924948692322
+        ]
+      },
+      "energy_start": 0.05120062865449813,
+      "energy_end": 0.21267884377610047,
+      "energy_max": 1.5142479018952384
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "direct",
+      "seed": 1703,
+      "world": {
+        "geometry_1": false,
+        "traction_1": 0.9,
+        "geometry_2": false,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.698014414198625,
+      "steps": 250,
+      "ledger": {
+        "time": 0.5000000000000003,
+        "motion": 0.03686819665752612,
+        "risk": 0.0323462175410986,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.339617904587055
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.1703910827636719,
+          0.16973796486854553
+        ],
+        "carrier": [
+          1.1595790386199951,
+          -0.21537446975708008
+        ]
+      },
+      "energy_start": 0.05092413131497159,
+      "energy_end": 0.22958325875550212,
+      "energy_max": 1.5272748856093226
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "ph",
+      "seed": 1703,
+      "world": {
+        "geometry_1": false,
+        "traction_1": 0.9,
+        "geometry_2": false,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.7275265060978138,
+      "steps": 264,
+      "ledger": {
+        "time": 0.5280000000000004,
+        "motion": 0.03835982572396597,
+        "risk": 0.03236668037384751,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.3409542878274666
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.170330286026001,
+          0.1698111593723297
+        ],
+        "carrier": [
+          1.1709567308425903,
+          -0.20521916449069977
+        ]
+      },
+      "energy_start": 0.05120062865449813,
+      "energy_end": 0.21158432235980684,
+      "energy_max": 1.5153736263316333
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "direct",
+      "seed": 1704,
+      "world": {
+        "geometry_1": true,
+        "traction_1": 0.9,
+        "geometry_2": false,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.6539033804686778,
+      "steps": 237,
+      "ledger": {
+        "time": 0.47400000000000037,
+        "motion": 0.037284355819415076,
+        "risk": 0.01381902464926243,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.339617904587055
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.1704316139221191,
+          0.1697176694869995
+        ],
+        "carrier": [
+          1.205294132232666,
+          -0.21071134507656097
+        ]
+      },
+      "energy_start": 0.05092413131497159,
+      "energy_end": 0.20262394958653834,
+      "energy_max": 2.1987123579657686
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "ph",
+      "seed": 1704,
+      "world": {
+        "geometry_1": true,
+        "traction_1": 0.9,
+        "geometry_2": false,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.6673675572574177,
+      "steps": 243,
+      "ledger": {
+        "time": 0.4860000000000004,
+        "motion": 0.03902098592818139,
+        "risk": 0.013546571329236031,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.3409542878274666
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.1704546213150024,
+          0.16968823969364166
+        ],
+        "carrier": [
+          1.186915636062622,
+          -0.21704840660095215
+        ]
+      },
+      "energy_start": 0.05120062865449813,
+      "energy_end": 0.2082355873422722,
+      "energy_max": 2.2265762349591776
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "direct",
+      "seed": 1705,
+      "world": {
+        "geometry_1": false,
+        "traction_1": 0.3,
+        "geometry_2": true,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.6988294613088406,
+      "steps": 250,
+      "ledger": {
+        "time": 0.5000000000000003,
+        "motion": 0.03768116206509221,
+        "risk": 0.03234829924374819,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.34010817583135167
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.170417070388794,
+          0.16974405944347382
+        ],
+        "carrier": [
+          1.1594387292861938,
+          -0.2154771387577057
+        ]
+      },
+      "energy_start": 0.05092413131497159,
+      "energy_end": 0.22970852590574925,
+      "energy_max": 1.5261260723644368
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "ph",
+      "seed": 1705,
+      "world": {
+        "geometry_1": false,
+        "traction_1": 0.3,
+        "geometry_2": true,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.7133922182723381,
+      "steps": 257,
+      "ledger": {
+        "time": 0.5140000000000003,
+        "motion": 0.038863944502124666,
+        "risk": 0.031728273770213124,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.3414221740201949
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.170459270477295,
+          0.16967716813087463
+        ],
+        "carrier": [
+          1.1703060865402222,
+          -0.20671924948692322
+        ]
+      },
+      "energy_start": 0.05120062865449813,
+      "energy_end": 0.21267884377610047,
+      "energy_max": 1.5142479018952384
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "direct",
+      "seed": 1706,
+      "world": {
+        "geometry_1": true,
+        "traction_1": 0.3,
+        "geometry_2": true,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.698844259693739,
+      "steps": 250,
+      "ledger": {
+        "time": 0.5000000000000003,
+        "motion": 0.03769596044999061,
+        "risk": 0.03234829924374819,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.34010817583135167
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.1704167127609253,
+          0.1697443127632141
+        ],
+        "carrier": [
+          1.1594387292861938,
+          -0.2154771387577057
+        ]
+      },
+      "energy_start": 0.05092413131497159,
+      "energy_end": 0.22970852590574925,
+      "energy_max": 1.5261260723644368
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "ph",
+      "seed": 1706,
+      "world": {
+        "geometry_1": true,
+        "traction_1": 0.3,
+        "geometry_2": true,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.7133970549071695,
+      "steps": 257,
+      "ledger": {
+        "time": 0.5140000000000003,
+        "motion": 0.03886878113695609,
+        "risk": 0.031728273770213124,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.3414221740201949
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.1704589128494263,
+          0.16967719793319702
+        ],
+        "carrier": [
+          1.1703060865402222,
+          -0.20671924948692322
+        ]
+      },
+      "energy_start": 0.05120062865449813,
+      "energy_end": 0.21267884377610047,
+      "energy_max": 1.5142479018952384
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "direct",
+      "seed": 1707,
+      "world": {
+        "geometry_1": false,
+        "traction_1": 0.9,
+        "geometry_2": true,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.698014414198625,
+      "steps": 250,
+      "ledger": {
+        "time": 0.5000000000000003,
+        "motion": 0.03686819665752612,
+        "risk": 0.0323462175410986,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.339617904587055
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.1703910827636719,
+          0.16973796486854553
+        ],
+        "carrier": [
+          1.1595790386199951,
+          -0.21537446975708008
+        ]
+      },
+      "energy_start": 0.05092413131497159,
+      "energy_end": 0.22958325875550212,
+      "energy_max": 1.5272748856093226
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "ph",
+      "seed": 1707,
+      "world": {
+        "geometry_1": false,
+        "traction_1": 0.9,
+        "geometry_2": true,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.7275265060978138,
+      "steps": 264,
+      "ledger": {
+        "time": 0.5280000000000004,
+        "motion": 0.03835982572396597,
+        "risk": 0.03236668037384751,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "bottom",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.3409542878274666
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.170330286026001,
+          0.1698111593723297
+        ],
+        "carrier": [
+          1.1709567308425903,
+          -0.20521916449069977
+        ]
+      },
+      "energy_start": 0.05120062865449813,
+      "energy_end": 0.21158432235980684,
+      "energy_max": 1.5153736263316333
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "direct",
+      "seed": 1708,
+      "world": {
+        "geometry_1": true,
+        "traction_1": 0.9,
+        "geometry_2": true,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.6539033804686778,
+      "steps": 237,
+      "ledger": {
+        "time": 0.47400000000000037,
+        "motion": 0.037284355819415076,
+        "risk": 0.01381902464926243,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.339617904587055
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.1704316139221191,
+          0.1697176694869995
+        ],
+        "carrier": [
+          1.205294132232666,
+          -0.21071134507656097
+        ]
+      },
+      "energy_start": 0.05092413131497159,
+      "energy_end": 0.20262394958653834,
+      "energy_max": 2.1987123579657686
+    },
+    {
+      "info_policy": "ordinary",
+      "scheme": "ph",
+      "seed": 1708,
+      "world": {
+        "geometry_1": true,
+        "traction_1": 0.9,
+        "geometry_2": true,
+        "traction_2": 0.3,
+        "backup_traction_1": 0.18,
+        "backup_traction_2": 0.25
+      },
+      "success": true,
+      "team_cost": 0.6673675572574177,
+      "steps": 243,
+      "ledger": {
+        "time": 0.4860000000000004,
+        "motion": 0.03902098592818139,
+        "risk": 0.013546571329236031,
+        "sensing": 0.08,
+        "communication": 0.048799999999999996,
+        "collision": 0.0,
+        "invalid_action": 0.0,
+        "terminal_failure": 0.0
+      },
+      "routes": {
+        "1": "top",
+        "2": "bottom"
+      },
+      "chosen_acquisition": [
+        [
+          1,
+          "geometry"
+        ],
+        [
+          1,
+          "traction"
+        ]
+      ],
+      "sent_count": 2,
+      "forecast": {
+        "reachable": true,
+        "travel_steps": 16,
+        "precommit_x_margin": 0.3409542878274666
+      },
+      "valid_acquisitions": 4,
+      "collision_cost": 0.0,
+      "collisions": [],
+      "final_positions": {
+        "scout": [
+          1.1704546213150024,
+          0.16968823969364166
+        ],
+        "carrier": [
+          1.186915636062622,
+          -0.21704840660095215
+        ]
+      },
+      "energy_start": 0.05120062865449813,
+      "energy_end": 0.2082355873422722,
+      "energy_max": 2.2265762349591776
+    }
+  ]
+}

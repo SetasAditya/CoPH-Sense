@@ -1,0 +1,1726 @@
+{
+  "schema_version": 1,
+  "source": "/mnt/data/adityas/material-aware-grl-snam-clean/CoPh-sense/coph_terrain/results/pilot/resource_audit_excluded200_v1.json",
+  "summary": {
+    "parents": 34,
+    "original_empty_success": 0,
+    "empty_success_at_90s": 22,
+    "by_family": {
+      "open": {
+        "parents": 2,
+        "empty_success_at_90s": 0
+      },
+      "bottleneck": {
+        "parents": 3,
+        "empty_success_at_90s": 2
+      },
+      "labyrinth": {
+        "parents": 29,
+        "empty_success_at_90s": 20
+      }
+    },
+    "scope": "diagnostic skip continuation only; not a rerun of all sensing sets"
+  },
+  "records": [
+    {
+      "family": "labyrinth",
+      "parent_seed": 671008,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.159007142189347,
+        "material_exposure": 1.0689112592985286,
+        "score_single_world": 14.227918401487877,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.7590071421893901,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.0689112592985286
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 4.254158751536884,
+        "material_exposure": 1.2965822203829818,
+        "score_single_world": 5.550740971919866,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1661,
+        "ledger": {
+          "time": 3.3219999999998557,
+          "motion": 0.9321587515370277,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.2965822203829818
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671014,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.138419281939747,
+        "material_exposure": 1.199960403218866,
+        "score_single_world": 14.338379685158612,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.738419281939789,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.199960403218866
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.218141810196457,
+        "material_exposure": 1.2005803469071783,
+        "score_single_world": 4.418722157103636,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1236,
+        "ledger": {
+          "time": 2.4719999999999493,
+          "motion": 0.7461418101965077,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.2005803469071783
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671026,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.120454857070396,
+        "material_exposure": 0.5009471914793058,
+        "score_single_world": 13.621402048549701,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.7204548570704372,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.5009471914793058
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.7203006821427005,
+        "material_exposure": 0.5009673734878504,
+        "score_single_world": 4.221268055630551,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1459,
+        "ledger": {
+          "time": 2.9179999999999002,
+          "motion": 0.8023006821428,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 0.5009673734878504
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671029,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.262674123776321,
+        "material_exposure": 1.292403714880357,
+        "score_single_world": 14.555077838656679,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.8626741237763644,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.292403714880357
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 4.566313143193301,
+        "material_exposure": 1.2940013942246766,
+        "score_single_world": 5.8603145374179775,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1731,
+        "ledger": {
+          "time": 3.4619999999998403,
+          "motion": 1.1043131431934607,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.2940013942246766
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671041,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.31087694716673,
+        "material_exposure": 1.4396607918416526,
+        "score_single_world": 14.750537739008383,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.9108769471667728,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.4396607918416526
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 4.71618851049783,
+        "material_exposure": 1.6034495860213922,
+        "score_single_world": 6.319638096519222,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1792,
+        "ledger": {
+          "time": 3.583999999999827,
+          "motion": 1.132188510498003,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.6034495860213922
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671047,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.214445374563521,
+        "material_exposure": 1.3109954044719636,
+        "score_single_world": 14.525440779035485,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.8144453745635646,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.3109954044719636
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 14.447170989813527,
+        "material_exposure": 1.4740400760620933,
+        "score_single_world": 15.921211065875621,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 0.8471709898137016,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.4740400760620933
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671053,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.29068377527304,
+        "material_exposure": 1.8352221749723228,
+        "score_single_world": 15.125905950245363,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.8906837752730825,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.8352221749723228
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 4.570943941227774,
+        "material_exposure": 2.0083045196409253,
+        "score_single_world": 6.579248460868699,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1708,
+        "ledger": {
+          "time": 3.4159999999998454,
+          "motion": 1.1549439412279285,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 2.0083045196409253
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671056,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.145895260704552,
+        "material_exposure": 1.179693113081144,
+        "score_single_world": 14.325588373785697,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.745895260704596,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.179693113081144
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 4.055979944059713,
+        "material_exposure": 1.2367373697832078,
+        "score_single_world": 5.292717313842921,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1579,
+        "ledger": {
+          "time": 3.157999999999874,
+          "motion": 0.8979799440598394,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.2367373697832078
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671059,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.191147955539627,
+        "material_exposure": 1.267992844606441,
+        "score_single_world": 14.459140800146068,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.7911479555396694,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.267992844606441
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 4.50620662868928,
+        "material_exposure": 1.481185893664746,
+        "score_single_world": 5.987392522354026,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1752,
+        "ledger": {
+          "time": 3.5039999999998357,
+          "motion": 1.0022066286894444,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.481185893664746
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671065,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.10880851771137,
+        "material_exposure": 0.643308897813165,
+        "score_single_world": 13.752117415524536,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.7088085177114124,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.643308897813165
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.838859050941907,
+        "material_exposure": 1.0110791661217844,
+        "score_single_world": 4.849938217063691,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1495,
+        "ledger": {
+          "time": 2.9899999999998923,
+          "motion": 0.8488590509420147,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.0110791661217844
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "open",
+      "parent_seed": 671072,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 12.698983548252903,
+        "material_exposure": 0.5349136088291829,
+        "score_single_world": 13.233897157082085,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.29898354825294554,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.5349136088291829
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 13.898983551945499,
+        "material_exposure": 0.887163678208961,
+        "score_single_world": 14.786147230154459,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 0.29898355194567333,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.887163678208961
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671074,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.291250014829094,
+        "material_exposure": 1.7920864542077084,
+        "score_single_world": 15.083336469036803,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.8912500148291366,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.7920864542077084
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 14.836806612174346,
+        "material_exposure": 2.4396032638475695,
+        "score_single_world": 17.276409876021916,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 1.2368066121745205,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 2.4396032638475695
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 671076,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 10.345250577625416,
+        "material_exposure": 0.0003081286946932475,
+        "score_single_world": 10.345558706320109,
+        "success": false,
+        "failure_reason": "immobilization",
+        "steps": 128,
+        "ledger": {
+          "time": 0.25600000000000017,
+          "motion": 0.08925057762541498,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.0003081286946932475
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 10.345250577625416,
+        "material_exposure": 0.0003081286946932475,
+        "score_single_world": 10.345558706320109,
+        "success": false,
+        "failure_reason": "immobilization",
+        "steps": 128,
+        "ledger": {
+          "time": 0.25600000000000017,
+          "motion": 0.08925057762541498,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.0003081286946932475
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671077,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.135806069980855,
+        "material_exposure": 0.40860681012272765,
+        "score_single_world": 13.544412880103582,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.7358060699808987,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.40860681012272765
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.5987542320096995,
+        "material_exposure": 0.47975893825292565,
+        "score_single_world": 4.078513170262625,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1387,
+        "ledger": {
+          "time": 2.773999999999916,
+          "motion": 0.8247542320097835,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 0.47975893825292565
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671083,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.098366033353415,
+        "material_exposure": 1.237994511077806,
+        "score_single_world": 14.336360544431221,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.6983660333534577,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.237994511077806
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 14.643917202888547,
+        "material_exposure": 2.046342618726203,
+        "score_single_world": 16.69025982161475,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 1.043917202888722,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 2.046342618726203
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671086,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.109475323061123,
+        "material_exposure": 0.6201594934115886,
+        "score_single_world": 13.72963481647271,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.7094753230611647,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.6201594934115886
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 14.516898709792262,
+        "material_exposure": 0.635679124618577,
+        "score_single_world": 15.152577834410838,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 0.9168987097924355,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.635679124618577
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671095,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.165019273067312,
+        "material_exposure": 0.8642777632176942,
+        "score_single_world": 14.029297036285007,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.7650192730673555,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.8642777632176942
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 4.076187617862826,
+        "material_exposure": 1.0729982105145954,
+        "score_single_world": 5.149185828377421,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1561,
+        "ledger": {
+          "time": 3.1219999999998778,
+          "motion": 0.9541876178629483,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.0729982105145954
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671101,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.075985575199821,
+        "material_exposure": 0.4988904537136373,
+        "score_single_world": 13.574876028913458,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.6759855751998638,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.4988904537136373
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.731146301601788,
+        "material_exposure": 0.576772294454278,
+        "score_single_world": 4.307918596056066,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1488,
+        "ledger": {
+          "time": 2.975999999999894,
+          "motion": 0.7551463016018938,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 0.576772294454278
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671107,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 12.965851727475343,
+        "material_exposure": 0.5842040116712508,
+        "score_single_world": 13.550055739146593,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.5658517274753851,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.5842040116712508
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 14.306104556870931,
+        "material_exposure": 0.5983489764854368,
+        "score_single_world": 14.904453533356367,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 0.706104556871106,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.5983489764854368
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671110,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.33213399940943,
+        "material_exposure": 1.7515393583228382,
+        "score_single_world": 15.08367335773227,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.9321339994094728,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.7515393583228382
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.4451194637842577,
+        "material_exposure": 1.7515393583228382,
+        "score_single_world": 5.196658822107096,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1252,
+        "ledger": {
+          "time": 2.503999999999946,
+          "motion": 0.9411194637843119,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.7515393583228382
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 671121,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.05674335148495,
+        "material_exposure": 0.9948838067799877,
+        "score_single_world": 14.051627158264939,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.6567433514849942,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.9948838067799877
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.1384992117707933,
+        "material_exposure": 0.9948838067799877,
+        "score_single_world": 4.133383018550781,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1237,
+        "ledger": {
+          "time": 2.473999999999949,
+          "motion": 0.664499211770844,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 0.9948838067799877
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671122,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.165890934045478,
+        "material_exposure": 1.0661022481322318,
+        "score_single_world": 14.23199318217771,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.76589093404552,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.0661022481322318
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 14.616464794569826,
+        "material_exposure": 1.092715157928566,
+        "score_single_world": 15.709179952498392,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 1.01646479457,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.092715157928566
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "open",
+      "parent_seed": 671126,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 12.659968583454146,
+        "material_exposure": 0.8007883738229902,
+        "score_single_world": 13.460756957277138,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.2599685834541892,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.8007883738229902
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 13.859968583454483,
+        "material_exposure": 1.0583254705618108,
+        "score_single_world": 14.918294054016293,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 0.2599685834546575,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.0583254705618108
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671128,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.12340686229335,
+        "material_exposure": 0.609812697966893,
+        "score_single_world": 13.733219560260244,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.7234068622933922,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.609812697966893
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.7679858406879045,
+        "material_exposure": 1.0064989827573372,
+        "score_single_world": 4.774484823445242,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1440,
+        "ledger": {
+          "time": 2.8799999999999044,
+          "motion": 0.8879858406880003,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.0064989827573372
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 671142,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.20956792125052,
+        "material_exposure": 0.9972277048726871,
+        "score_single_world": 14.206795626123206,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.8095679212505621,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.9972277048726871
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.224560505842649,
+        "material_exposure": 0.9972277048726871,
+        "score_single_world": 4.221788210715336,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1206,
+        "ledger": {
+          "time": 2.411999999999956,
+          "motion": 0.8125605058426928,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 0.9972277048726871
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671155,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.13397847135077,
+        "material_exposure": 0.6083869128425908,
+        "score_single_world": 13.742365384193361,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.7339784713508137,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.6083869128425908
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.6943921729518063,
+        "material_exposure": 0.7230456412831929,
+        "score_single_world": 4.417437814234999,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1433,
+        "ledger": {
+          "time": 2.865999999999906,
+          "motion": 0.8283921729519006,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 0.7230456412831929
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671161,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.173311627090055,
+        "material_exposure": 1.2988672488803643,
+        "score_single_world": 14.47217887597042,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.7733116270900969,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.2988672488803643
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 4.655150754326285,
+        "material_exposure": 1.7665422402570503,
+        "score_single_world": 6.421692994583335,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1777,
+        "ledger": {
+          "time": 3.55399999999983,
+          "motion": 1.1011507543264545,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.7665422402570503
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671164,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.113114007665231,
+        "material_exposure": 0.3006373535469161,
+        "score_single_world": 13.413751361212148,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.713114007665274,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.3006373535469161
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.6904167210083005,
+        "material_exposure": 0.4945398350680864,
+        "score_single_world": 4.184956556076387,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1442,
+        "ledger": {
+          "time": 2.883999999999904,
+          "motion": 0.8064167210083965,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 0.4945398350680864
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671179,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 12.995765395262096,
+        "material_exposure": 0.7000337855766049,
+        "score_single_world": 13.6957991808387,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.5957653952621383,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.7000337855766049
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 14.195765395267795,
+        "material_exposure": 0.8104109706232555,
+        "score_single_world": 15.00617636589105,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 0.59576539526797,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.8104109706232555
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671182,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 12.974720145237274,
+        "material_exposure": 0.006707779131829743,
+        "score_single_world": 12.981427924369104,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.5747201452373162,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.006707779131829743
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 14.174721445229968,
+        "material_exposure": 0.006707779131829743,
+        "score_single_world": 14.181429224361798,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 0.5747214452301435,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.006707779131829743
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671185,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.21343399560147,
+        "material_exposure": 1.1182418106993102,
+        "score_single_world": 14.33167580630078,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.8134339956015116,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.1182418106993102
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 4.570303295322226,
+        "material_exposure": 1.568203048668798,
+        "score_single_world": 6.138506343991024,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1767,
+        "ledger": {
+          "time": 3.5339999999998324,
+          "motion": 1.0363032953223936,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.568203048668798
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671188,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.052684747897983,
+        "material_exposure": 0.5892229945957665,
+        "score_single_world": 13.64190774249375,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.6526847478980254,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.5892229945957665
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 14.407738273751528,
+        "material_exposure": 0.6109915934999797,
+        "score_single_world": 15.018729867251508,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1800,
+        "ledger": {
+          "time": 3.599999999999825,
+          "motion": 0.8077382737517034,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 0.6109915934999797
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671191,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.061888098261344,
+        "material_exposure": 1.0096609545250688,
+        "score_single_world": 14.071549052786413,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.6618880982613868,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.0096609545250688
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.268964744668622,
+        "material_exposure": 1.0798845180496508,
+        "score_single_world": 4.348849262718272,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1285,
+        "ledger": {
+          "time": 2.5699999999999386,
+          "motion": 0.6989647446686832,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.0798845180496508
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 671194,
+      "original_60s": {
+        "selected": [],
+        "mission_cost": 13.262909284467112,
+        "material_exposure": 1.3621145963544803,
+        "score_single_world": 14.625023880821592,
+        "success": false,
+        "failure_reason": "deadline",
+        "steps": 1200,
+        "ledger": {
+          "time": 2.3999999999999573,
+          "motion": 0.8629092844671539,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 10.0,
+          "material_exposure": 1.3621145963544803
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0
+      },
+      "empty_set_90s": {
+        "selected": [],
+        "mission_cost": 3.554472980307736,
+        "material_exposure": 1.426833660528074,
+        "score_single_world": 4.98130664083581,
+        "success": true,
+        "failure_reason": null,
+        "steps": 1322,
+        "ledger": {
+          "time": 2.6439999999999304,
+          "motion": 0.9104729803078058,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "failure": 0.0,
+          "material_exposure": 1.426833660528074
+        },
+        "measurements": 0,
+        "packets": 0,
+        "acquired": 0,
+        "delivered": 0,
+        "unsent_evidence": 0,
+        "rejected_sense": 0
+      }
+    }
+  ]
+}

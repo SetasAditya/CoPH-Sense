@@ -1,0 +1,1946 @@
+{
+  "schema_version": 1,
+  "seed_range": [
+    780000,
+    780119
+  ],
+  "summary": {
+    "open": {
+      "parents": 40,
+      "parents_with_shared_viewpoint": 40,
+      "total_shared_viewpoints": 80
+    },
+    "bottleneck": {
+      "parents": 40,
+      "parents_with_shared_viewpoint": 40,
+      "total_shared_viewpoints": 80
+    },
+    "labyrinth": {
+      "parents": 40,
+      "parents_with_shared_viewpoint": 40,
+      "total_shared_viewpoints": 80
+    }
+  },
+  "records": [
+    {
+      "family": "open",
+      "parent_seed": 780000,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780001,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780002,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780003,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780004,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780005,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780006,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780007,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780008,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780009,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780010,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780011,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780012,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780013,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780014,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780015,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780016,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780017,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780018,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780019,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780020,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780021,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780022,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780023,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780024,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780025,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780026,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780027,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780028,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780029,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780030,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780031,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780032,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780033,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780034,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780035,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780036,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780037,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780038,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780039,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780040,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780041,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780042,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780043,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780044,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780045,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780046,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780047,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780048,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780049,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780050,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780051,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780052,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780053,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780054,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780055,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780056,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780057,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780058,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780059,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780060,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780061,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780062,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780063,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780064,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780065,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780066,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780067,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780068,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780069,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780070,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780071,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780072,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780073,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780074,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780075,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780076,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780077,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780078,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780079,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780080,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780081,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780082,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780083,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780084,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780085,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780086,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780087,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780088,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780089,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780090,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780091,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780092,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780093,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780094,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780095,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780096,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780097,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780098,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780099,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780100,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780101,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780102,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780103,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780104,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780105,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780106,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780107,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780108,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780109,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780110,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780111,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780112,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780113,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780114,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780115,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780116,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "open",
+      "parent_seed": 780117,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "bottleneck",
+      "parent_seed": 780118,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    },
+    {
+      "family": "labyrinth",
+      "parent_seed": 780119,
+      "scout_geometry_viewpoints": 4,
+      "carrier_geometry_viewpoints": 4,
+      "common_viewpoints": [
+        [
+          12,
+          30
+        ],
+        [
+          20,
+          30
+        ]
+      ]
+    }
+  ]
+}

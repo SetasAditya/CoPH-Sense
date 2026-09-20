@@ -1,0 +1,99 @@
+{
+  "seed": 1802,
+  "models": {
+    "v1_with_warning_curriculum": {
+      "selected_epoch": 69,
+      "standard_test": {
+        "mean_regret": 0.0248414296656847,
+        "p90_regret": 0.10529755055904388,
+        "top1_accuracy": 0.82,
+        "wasteful_send_rate": 0.08500000089406967,
+        "missed_useful_rate": 0.019999999552965164,
+        "missed_useful_value": 0.003591760993003845,
+        "critical_recall_at_0_5": 1.0,
+        "critical_count": 45,
+        "mean_bytes": 56.49518878407776,
+        "value_rmse": 0.512311577796936,
+        "by_category": {
+          "complementary": {
+            "count": 40,
+            "mean_regret": 0.012827101163566113,
+            "top1": 0.9
+          },
+          "duplicate": {
+            "count": 40,
+            "mean_regret": 0.034943222999572754,
+            "top1": 0.8
+          },
+          "irrelevant_or_costly": {
+            "count": 40,
+            "mean_regret": 0.02884516492486,
+            "top1": 0.825
+          },
+          "novel_useful": {
+            "count": 40,
+            "mean_regret": 0.045661501586437225,
+            "top1": 0.625
+          },
+          "stale": {
+            "count": 40,
+            "mean_regret": 0.0019301592838019133,
+            "top1": 0.95
+          }
+        }
+      },
+      "warning_test": {
+        "count": 100,
+        "recall": 1.0,
+        "mean_regret": 0.0
+      }
+    },
+    "v2_without_warning_curriculum": {
+      "selected_epoch": 94,
+      "standard_test": {
+        "mean_regret": 0.012311098165810108,
+        "p90_regret": 0.0,
+        "top1_accuracy": 0.915,
+        "wasteful_send_rate": 0.054999999701976776,
+        "missed_useful_rate": 0.009999999776482582,
+        "missed_useful_value": 0.0004011821874883026,
+        "critical_recall_at_0_5": 1.0,
+        "critical_count": 45,
+        "mean_bytes": 51.02929983027279,
+        "value_rmse": 0.4287897050380707,
+        "by_category": {
+          "complementary": {
+            "count": 40,
+            "mean_regret": 0.0,
+            "top1": 1.0
+          },
+          "duplicate": {
+            "count": 40,
+            "mean_regret": 0.011543653905391693,
+            "top1": 0.95
+          },
+          "irrelevant_or_costly": {
+            "count": 40,
+            "mean_regret": 0.03993323817849159,
+            "top1": 0.8
+          },
+          "novel_useful": {
+            "count": 40,
+            "mean_regret": 0.00871904194355011,
+            "top1": 0.85
+          },
+          "stale": {
+            "count": 40,
+            "mean_regret": 0.0013595580821856856,
+            "top1": 0.975
+          }
+        }
+      },
+      "warning_test": {
+        "count": 100,
+        "recall": 1.0,
+        "mean_regret": 0.0
+      }
+    }
+  }
+}

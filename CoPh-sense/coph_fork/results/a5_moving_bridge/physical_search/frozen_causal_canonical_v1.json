@@ -1,0 +1,3068 @@
+[
+  {
+    "condition": "independent",
+    "world": {
+      "geometry_1": true,
+      "traction_1": 0.9,
+      "geometry_2": true,
+      "traction_2": 0.9,
+      "backup_traction_1": 0.18,
+      "backup_traction_2": 0.25
+    },
+    "success": true,
+    "team_cost": 3.036594422270524,
+    "ledger": {
+      "time": 2.9079999999999013,
+      "motion": 0.033500346552658974,
+      "risk": 0.015094075717963264,
+      "sensing": 0.08,
+      "communication": 0.0,
+      "collision": 0.0,
+      "invalid_action": 0.0,
+      "terminal_failure": 0.0
+    },
+    "steps": 1454,
+    "routes": {
+      "1": "top",
+      "2": "bottom"
+    },
+    "chosen_acquisition": [
+      [
+        1,
+        "geometry"
+      ],
+      [
+        1,
+        "traction"
+      ]
+    ],
+    "sent_ids": [],
+    "received_ids": [],
+    "stage_log": [
+      {
+        "phase": "APPROACH_R1",
+        "step": 0,
+        "positions": {
+          "scout": [
+            -1.2000000476837158,
+            0.4000000059604645
+          ],
+          "carrier": [
+            -1.2400000095367432,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.0,
+          "motion": 0.0,
+          "risk": 0.0,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_DECISION",
+        "step": 31,
+        "positions": {
+          "scout": [
+            -1.068726658821106,
+            0.268726646900177
+          ],
+          "carrier": [
+            -1.1939976215362549,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.06200000000000004,
+          "motion": 0.00048195893503725536,
+          "risk": 0.0,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_ACQUIRE",
+        "step": 33,
+        "positions": {
+          "scout": [
+            -1.063699722290039,
+            0.26369985938072205
+          ],
+          "carrier": [
+            -1.191227912902832,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.06600000000000004,
+          "motion": 0.0004913870185613633,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_SHARE",
+        "step": 38,
+        "positions": {
+          "scout": [
+            -1.0526827573776245,
+            0.2526828646659851
+          ],
+          "carrier": [
+            -1.1845933198928833,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.07600000000000005,
+          "motion": 0.0005114811497740448,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "CARRIER_ACQUISITION_DECISION",
+        "step": 38,
+        "positions": {
+          "scout": [
+            -1.0526827573776245,
+            0.2526828646659851
+          ],
+          "carrier": [
+            -1.1845933198928833,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.07600000000000005,
+          "motion": 0.0005114811497740448,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "protocol_posterior": [
+          0.0196,
+          0.029399999999999996,
+          0.029399999999999996,
+          0.044099999999999986,
+          0.0364,
+          0.054599999999999996,
+          0.054599999999999996,
+          0.08189999999999999,
+          0.0364,
+          0.054599999999999996,
+          0.054599999999999996,
+          0.08189999999999999,
+          0.06760000000000002,
+          0.10140000000000002,
+          0.1014,
+          0.15209999999999999
+        ]
+      },
+      {
+        "phase": "CARRIER_ACQUIRE",
+        "step": 113,
+        "positions": {
+          "scout": [
+            -0.5411337018013,
+            0.6787613034248352
+          ],
+          "carrier": [
+            -1.0647919178009033,
+            0.12812170386314392
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 111,
+            "delivery_time": 111,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 112,
+            "delivery_time": 112,
+            "source": "carrier"
+          }
+        ],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 0,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.22600000000000017,
+          "motion": 0.0034304397028870883,
+          "risk": 0.0,
+          "sensing": 0.08,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "FINISH",
+        "step": 1454,
+        "positions": {
+          "scout": [
+            1.1699929237365723,
+            0.17000088095664978
+          ],
+          "carrier": [
+            1.0747570991516113,
+            -0.19768624007701874
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 111,
+            "delivery_time": 111,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 112,
+            "delivery_time": 112,
+            "source": "carrier"
+          }
+        ],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 0,
+        "route_commitments": {
+          "1": "top",
+          "2": "bottom"
+        },
+        "ledger": {
+          "time": 2.9079999999999013,
+          "motion": 0.033500346552658974,
+          "risk": 0.015094075717963264,
+          "sensing": 0.08,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      }
+    ],
+    "events": [
+      {
+        "type": "acquisition",
+        "step": 31,
+        "agent": "scout",
+        "region": 1,
+        "route": "top",
+        "modality": "geometry",
+        "valid": true,
+        "distance": 0.09719415754079819,
+        "cost": 0.02,
+        "observation_id": "obs-00000",
+        "value": true
+      },
+      {
+        "type": "acquisition",
+        "step": 32,
+        "agent": "scout",
+        "region": 1,
+        "route": "top",
+        "modality": "traction",
+        "valid": true,
+        "distance": 0.0935722291469574,
+        "cost": 0.02,
+        "observation_id": "obs-00001",
+        "value": 0.9
+      },
+      {
+        "type": "acquisition",
+        "step": 111,
+        "agent": "carrier",
+        "region": 1,
+        "route": "top",
+        "modality": "geometry",
+        "valid": true,
+        "distance": 0.09957770258188248,
+        "cost": 0.02,
+        "observation_id": "obs-00002",
+        "value": true
+      },
+      {
+        "type": "acquisition",
+        "step": 112,
+        "agent": "carrier",
+        "region": 1,
+        "route": "top",
+        "modality": "traction",
+        "valid": true,
+        "distance": 0.09816396236419678,
+        "cost": 0.02,
+        "observation_id": "obs-00003",
+        "value": 0.9
+      },
+      {
+        "type": "route_commitment",
+        "step": 245,
+        "route": "top"
+      },
+      {
+        "type": "route_commitment",
+        "region": 2,
+        "step": 840,
+        "route": "bottom"
+      }
+    ]
+  },
+  {
+    "condition": "shared_reset",
+    "world": {
+      "geometry_1": true,
+      "traction_1": 0.9,
+      "geometry_2": true,
+      "traction_2": 0.9,
+      "backup_traction_1": 0.18,
+      "backup_traction_2": 0.25
+    },
+    "success": true,
+    "team_cost": 3.089388191990568,
+    "ledger": {
+      "time": 2.911999999999901,
+      "motion": 0.03349412422880595,
+      "risk": 0.015094067761860785,
+      "sensing": 0.08,
+      "communication": 0.048799999999999996,
+      "collision": 0.0,
+      "invalid_action": 0.0,
+      "terminal_failure": 0.0
+    },
+    "steps": 1456,
+    "routes": {
+      "1": "top",
+      "2": "bottom"
+    },
+    "chosen_acquisition": [
+      [
+        1,
+        "geometry"
+      ],
+      [
+        1,
+        "traction"
+      ]
+    ],
+    "sent_ids": [
+      "obs-00000",
+      "obs-00001"
+    ],
+    "received_ids": [
+      "obs-00000",
+      "obs-00001"
+    ],
+    "stage_log": [
+      {
+        "phase": "APPROACH_R1",
+        "step": 0,
+        "positions": {
+          "scout": [
+            -1.2000000476837158,
+            0.4000000059604645
+          ],
+          "carrier": [
+            -1.2400000095367432,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.0,
+          "motion": 0.0,
+          "risk": 0.0,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_DECISION",
+        "step": 31,
+        "positions": {
+          "scout": [
+            -1.068726658821106,
+            0.268726646900177
+          ],
+          "carrier": [
+            -1.1939976215362549,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.06200000000000004,
+          "motion": 0.00048195893503725536,
+          "risk": 0.0,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_ACQUIRE",
+        "step": 33,
+        "positions": {
+          "scout": [
+            -1.063699722290039,
+            0.26369985938072205
+          ],
+          "carrier": [
+            -1.191227912902832,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.06600000000000004,
+          "motion": 0.0004913870185613633,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_SHARE",
+        "step": 40,
+        "positions": {
+          "scout": [
+            -1.048829197883606,
+            0.24882939457893372
+          ],
+          "carrier": [
+            -1.182051658630371,
+            0.0
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "CARRIER_ACQUISITION_DECISION",
+        "step": 40,
+        "positions": {
+          "scout": [
+            -1.048829197883606,
+            0.24882939457893372
+          ],
+          "carrier": [
+            -1.182051658630371,
+            0.0
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "protocol_posterior": [
+          0.0196,
+          0.029399999999999996,
+          0.029399999999999996,
+          0.044099999999999986,
+          0.0364,
+          0.054599999999999996,
+          0.054599999999999996,
+          0.08189999999999999,
+          0.0364,
+          0.054599999999999996,
+          0.054599999999999996,
+          0.08189999999999999,
+          0.06760000000000002,
+          0.10140000000000002,
+          0.1014,
+          0.15209999999999999
+        ]
+      },
+      {
+        "phase": "CARRIER_ACQUIRE",
+        "step": 115,
+        "positions": {
+          "scout": [
+            -0.5407407879829407,
+            0.6784467697143555
+          ],
+          "carrier": [
+            -1.0639151334762573,
+            0.12812170386314392
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 113,
+            "delivery_time": 113,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 114,
+            "delivery_time": 114,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000",
+            "obs-00001"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 0,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.23000000000000018,
+          "motion": 0.0034318498822860427,
+          "risk": 0.0,
+          "sensing": 0.08,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "FINISH",
+        "step": 1456,
+        "positions": {
+          "scout": [
+            1.1699929237365723,
+            0.17000088095664978
+          ],
+          "carrier": [
+            1.0747570991516113,
+            -0.19768624007701874
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 113,
+            "delivery_time": 113,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 114,
+            "delivery_time": 114,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000",
+            "obs-00001"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 0,
+        "route_commitments": {
+          "1": "top",
+          "2": "bottom"
+        },
+        "ledger": {
+          "time": 2.911999999999901,
+          "motion": 0.03349412422880595,
+          "risk": 0.015094067761860785,
+          "sensing": 0.08,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      }
+    ],
+    "events": [
+      {
+        "type": "acquisition",
+        "step": 31,
+        "agent": "scout",
+        "region": 1,
+        "route": "top",
+        "modality": "geometry",
+        "valid": true,
+        "distance": 0.09719415754079819,
+        "cost": 0.02,
+        "observation_id": "obs-00000",
+        "value": true
+      },
+      {
+        "type": "acquisition",
+        "step": 32,
+        "agent": "scout",
+        "region": 1,
+        "route": "top",
+        "modality": "traction",
+        "valid": true,
+        "distance": 0.0935722291469574,
+        "cost": 0.02,
+        "observation_id": "obs-00001",
+        "value": 0.9
+      },
+      {
+        "type": "transmission",
+        "step": 33,
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00000",
+        "distance": 0.2929181754589081,
+        "in_range": true,
+        "owns_evidence": true,
+        "accepted": true,
+        "charged_bytes": 48,
+        "packet_id": "pkt-00000",
+        "delivery_step": 36,
+        "dropped": false
+      },
+      {
+        "type": "transmission",
+        "step": 34,
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00001",
+        "distance": 0.29122912883758545,
+        "in_range": true,
+        "owns_evidence": true,
+        "accepted": true,
+        "charged_bytes": 48,
+        "packet_id": "pkt-00001",
+        "delivery_step": 37,
+        "dropped": false
+      },
+      {
+        "type": "ack_transmission",
+        "step": 36,
+        "packet_id": "pkt-00002",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00000",
+        "transmission_step": 36,
+        "delivery_step": 39,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "charged_bytes": 40
+      },
+      {
+        "type": "packet_delivery",
+        "step": 36,
+        "packet_id": "pkt-00000",
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00000",
+        "transmission_step": 33,
+        "delivery_step": 36,
+        "payload_bytes": 16,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "evidence",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "ack_transmission",
+        "step": 37,
+        "packet_id": "pkt-00003",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00001",
+        "transmission_step": 37,
+        "delivery_step": 40,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "charged_bytes": 40
+      },
+      {
+        "type": "packet_delivery",
+        "step": 37,
+        "packet_id": "pkt-00001",
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00001",
+        "transmission_step": 34,
+        "delivery_step": 37,
+        "payload_bytes": 16,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "evidence",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "packet_delivery",
+        "step": 39,
+        "packet_id": "pkt-00002",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00000",
+        "transmission_step": 36,
+        "delivery_step": 39,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "packet_delivery",
+        "step": 40,
+        "packet_id": "pkt-00003",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00001",
+        "transmission_step": 37,
+        "delivery_step": 40,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "acquisition",
+        "step": 113,
+        "agent": "carrier",
+        "region": 1,
+        "route": "top",
+        "modality": "geometry",
+        "valid": true,
+        "distance": 0.09897592663764954,
+        "cost": 0.02,
+        "observation_id": "obs-00002",
+        "value": true
+      },
+      {
+        "type": "acquisition",
+        "step": 114,
+        "agent": "carrier",
+        "region": 1,
+        "route": "top",
+        "modality": "traction",
+        "valid": true,
+        "distance": 0.09757068753242493,
+        "cost": 0.02,
+        "observation_id": "obs-00003",
+        "value": 0.9
+      },
+      {
+        "type": "route_commitment",
+        "step": 247,
+        "route": "top"
+      },
+      {
+        "type": "route_commitment",
+        "region": 2,
+        "step": 842,
+        "route": "bottom"
+      }
+    ]
+  },
+  {
+    "condition": "persistent",
+    "world": {
+      "geometry_1": true,
+      "traction_1": 0.9,
+      "geometry_2": true,
+      "traction_2": 0.9,
+      "backup_traction_1": 0.18,
+      "backup_traction_2": 0.25
+    },
+    "success": true,
+    "team_cost": 2.1163276733193204,
+    "ledger": {
+      "time": 1.9640000000000015,
+      "motion": 0.02352767331931905,
+      "risk": 0.0,
+      "sensing": 0.08,
+      "communication": 0.048799999999999996,
+      "collision": 0.0,
+      "invalid_action": 0.0,
+      "terminal_failure": 0.0
+    },
+    "steps": 982,
+    "routes": {
+      "1": "top",
+      "2": "top"
+    },
+    "chosen_acquisition": [
+      [
+        2,
+        "geometry"
+      ],
+      [
+        2,
+        "traction"
+      ]
+    ],
+    "sent_ids": [
+      "obs-00000",
+      "obs-00001"
+    ],
+    "received_ids": [
+      "obs-00000",
+      "obs-00001"
+    ],
+    "stage_log": [
+      {
+        "phase": "APPROACH_R1",
+        "step": 0,
+        "positions": {
+          "scout": [
+            -1.2000000476837158,
+            0.4000000059604645
+          ],
+          "carrier": [
+            -1.2400000095367432,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.0,
+          "motion": 0.0,
+          "risk": 0.0,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_DECISION",
+        "step": 31,
+        "positions": {
+          "scout": [
+            -1.068726658821106,
+            0.268726646900177
+          ],
+          "carrier": [
+            -1.1939976215362549,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.06200000000000004,
+          "motion": 0.00048195893503725536,
+          "risk": 0.0,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_ACQUIRE",
+        "step": 33,
+        "positions": {
+          "scout": [
+            -1.063699722290039,
+            0.26369985938072205
+          ],
+          "carrier": [
+            -1.191227912902832,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.06600000000000004,
+          "motion": 0.0004913870185613633,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_SHARE",
+        "step": 40,
+        "positions": {
+          "scout": [
+            -1.048829197883606,
+            0.24882939457893372
+          ],
+          "carrier": [
+            -1.182051658630371,
+            0.0
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "evidence_only_posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "CARRIER_ACQUISITION_DECISION",
+        "step": 40,
+        "positions": {
+          "scout": [
+            -1.048829197883606,
+            0.24882939457893372
+          ],
+          "carrier": [
+            -1.182051658630371,
+            0.0
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "evidence_only_posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "protocol_posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.16000000000000003,
+          0.24000000000000002,
+          0.24,
+          0.35999999999999993
+        ]
+      },
+      {
+        "phase": "CARRIER_ACQUIRE",
+        "step": 115,
+        "positions": {
+          "scout": [
+            -0.5407407879829407,
+            0.6784467697143555
+          ],
+          "carrier": [
+            -1.0639151334762573,
+            -0.12812170386314392
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 2,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 113,
+            "delivery_time": 113,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 2,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 114,
+            "delivery_time": 114,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 2,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 113,
+            "delivery_time": 113,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 2,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 114,
+            "delivery_time": 114,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "evidence_only_posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000",
+            "obs-00001"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 0,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.23000000000000018,
+          "motion": 0.0034318498822860427,
+          "risk": 0.0,
+          "sensing": 0.08,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "FINISH",
+        "step": 982,
+        "positions": {
+          "scout": [
+            1.1699929237365723,
+            0.17000088095664978
+          ],
+          "carrier": [
+            0.9704144597053528,
+            0.08634283393621445
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 2,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 113,
+            "delivery_time": 113,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 2,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 114,
+            "delivery_time": 114,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 2,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 113,
+            "delivery_time": 113,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 2,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 114,
+            "delivery_time": 114,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "evidence_only_posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000",
+            "obs-00001"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 0,
+        "route_commitments": {
+          "1": "top",
+          "2": "top"
+        },
+        "ledger": {
+          "time": 1.9640000000000015,
+          "motion": 0.02352767331931905,
+          "risk": 0.0,
+          "sensing": 0.08,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      }
+    ],
+    "events": [
+      {
+        "type": "acquisition",
+        "step": 31,
+        "agent": "scout",
+        "region": 1,
+        "route": "top",
+        "modality": "geometry",
+        "valid": true,
+        "distance": 0.09719415754079819,
+        "cost": 0.02,
+        "observation_id": "obs-00000",
+        "value": true
+      },
+      {
+        "type": "acquisition",
+        "step": 32,
+        "agent": "scout",
+        "region": 1,
+        "route": "top",
+        "modality": "traction",
+        "valid": true,
+        "distance": 0.0935722291469574,
+        "cost": 0.02,
+        "observation_id": "obs-00001",
+        "value": 0.9
+      },
+      {
+        "type": "transmission",
+        "step": 33,
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00000",
+        "distance": 0.2929181754589081,
+        "in_range": true,
+        "owns_evidence": true,
+        "accepted": true,
+        "charged_bytes": 48,
+        "packet_id": "pkt-00000",
+        "delivery_step": 36,
+        "dropped": false
+      },
+      {
+        "type": "transmission",
+        "step": 34,
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00001",
+        "distance": 0.29122912883758545,
+        "in_range": true,
+        "owns_evidence": true,
+        "accepted": true,
+        "charged_bytes": 48,
+        "packet_id": "pkt-00001",
+        "delivery_step": 37,
+        "dropped": false
+      },
+      {
+        "type": "ack_transmission",
+        "step": 36,
+        "packet_id": "pkt-00002",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00000",
+        "transmission_step": 36,
+        "delivery_step": 39,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "charged_bytes": 40
+      },
+      {
+        "type": "packet_delivery",
+        "step": 36,
+        "packet_id": "pkt-00000",
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00000",
+        "transmission_step": 33,
+        "delivery_step": 36,
+        "payload_bytes": 16,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "evidence",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "ack_transmission",
+        "step": 37,
+        "packet_id": "pkt-00003",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00001",
+        "transmission_step": 37,
+        "delivery_step": 40,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "charged_bytes": 40
+      },
+      {
+        "type": "packet_delivery",
+        "step": 37,
+        "packet_id": "pkt-00001",
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00001",
+        "transmission_step": 34,
+        "delivery_step": 37,
+        "payload_bytes": 16,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "evidence",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "packet_delivery",
+        "step": 39,
+        "packet_id": "pkt-00002",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00000",
+        "transmission_step": 36,
+        "delivery_step": 39,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "packet_delivery",
+        "step": 40,
+        "packet_id": "pkt-00003",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00001",
+        "transmission_step": 37,
+        "delivery_step": 40,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "acquisition",
+        "step": 113,
+        "agent": "carrier",
+        "region": 2,
+        "route": "top",
+        "modality": "geometry",
+        "valid": true,
+        "distance": 0.09897592663764954,
+        "cost": 0.02,
+        "observation_id": "obs-00002",
+        "value": true
+      },
+      {
+        "type": "acquisition",
+        "step": 114,
+        "agent": "carrier",
+        "region": 2,
+        "route": "top",
+        "modality": "traction",
+        "valid": true,
+        "distance": 0.09757068753242493,
+        "cost": 0.02,
+        "observation_id": "obs-00003",
+        "value": 0.9
+      },
+      {
+        "type": "route_commitment",
+        "step": 295,
+        "route": "top"
+      },
+      {
+        "type": "route_commitment",
+        "region": 2,
+        "step": 714,
+        "route": "top"
+      }
+    ]
+  },
+  {
+    "condition": "shuffled",
+    "world": {
+      "geometry_1": true,
+      "traction_1": 0.9,
+      "geometry_2": true,
+      "traction_2": 0.9,
+      "backup_traction_1": 0.18,
+      "backup_traction_2": 0.25
+    },
+    "success": true,
+    "team_cost": 3.089388191990568,
+    "ledger": {
+      "time": 2.911999999999901,
+      "motion": 0.03349412422880595,
+      "risk": 0.015094067761860785,
+      "sensing": 0.08,
+      "communication": 0.048799999999999996,
+      "collision": 0.0,
+      "invalid_action": 0.0,
+      "terminal_failure": 0.0
+    },
+    "steps": 1456,
+    "routes": {
+      "1": "top",
+      "2": "bottom"
+    },
+    "chosen_acquisition": [
+      [
+        1,
+        "geometry"
+      ],
+      [
+        1,
+        "traction"
+      ]
+    ],
+    "sent_ids": [
+      "obs-00000",
+      "obs-00001"
+    ],
+    "received_ids": [
+      "obs-00000",
+      "obs-00001"
+    ],
+    "stage_log": [
+      {
+        "phase": "APPROACH_R1",
+        "step": 0,
+        "positions": {
+          "scout": [
+            -1.2000000476837158,
+            0.4000000059604645
+          ],
+          "carrier": [
+            -1.2400000095367432,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.0,
+          "motion": 0.0,
+          "risk": 0.0,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_DECISION",
+        "step": 31,
+        "positions": {
+          "scout": [
+            -1.068726658821106,
+            0.268726646900177
+          ],
+          "carrier": [
+            -1.1939976215362549,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.06200000000000004,
+          "motion": 0.00048195893503725536,
+          "risk": 0.0,
+          "sensing": 0.0,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_ACQUIRE",
+        "step": 33,
+        "positions": {
+          "scout": [
+            -1.063699722290039,
+            0.26369985938072205
+          ],
+          "carrier": [
+            -1.191227912902832,
+            0.0
+          ]
+        },
+        "delivered_evidence": [],
+        "acquisition_memory": [],
+        "evidence_only_posterior": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625
+        ],
+        "acks": {
+          "scout": [],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.06600000000000004,
+          "motion": 0.0004913870185613633,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.0,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "SCOUT_R1_SHARE",
+        "step": 40,
+        "positions": {
+          "scout": [
+            -1.048829197883606,
+            0.24882939457893372
+          ],
+          "carrier": [
+            -1.182051658630371,
+            0.0
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [
+          {
+            "evidence_id": "obs-00000",
+            "region": 2,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 2,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "evidence_only_posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "CARRIER_ACQUISITION_DECISION",
+        "step": 40,
+        "positions": {
+          "scout": [
+            -1.048829197883606,
+            0.24882939457893372
+          ],
+          "carrier": [
+            -1.182051658630371,
+            0.0
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [
+          {
+            "evidence_id": "obs-00000",
+            "region": 2,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 2,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "evidence_only_posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 2,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.08000000000000006,
+          "motion": 0.0005183546031825245,
+          "risk": 0.0,
+          "sensing": 0.04,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        },
+        "protocol_posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.12249999999999997,
+          0.0,
+          0.0,
+          0.0,
+          0.22749999999999998,
+          0.0,
+          0.0,
+          0.0,
+          0.22749999999999998,
+          0.0,
+          0.0,
+          0.0,
+          0.4225
+        ]
+      },
+      {
+        "phase": "CARRIER_ACQUIRE",
+        "step": 115,
+        "positions": {
+          "scout": [
+            -0.5407407879829407,
+            0.6784467697143555
+          ],
+          "carrier": [
+            -1.0639151334762573,
+            0.12812170386314392
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 113,
+            "delivery_time": 113,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 114,
+            "delivery_time": 114,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 2,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 113,
+            "delivery_time": 113,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 2,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 114,
+            "delivery_time": 114,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00000",
+            "region": 2,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 2,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "evidence_only_posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000",
+            "obs-00001"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 0,
+        "route_commitments": {
+          "1": null,
+          "2": null
+        },
+        "ledger": {
+          "time": 0.23000000000000018,
+          "motion": 0.0034318498822860427,
+          "risk": 0.0,
+          "sensing": 0.08,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      },
+      {
+        "phase": "FINISH",
+        "step": 1456,
+        "positions": {
+          "scout": [
+            1.1699929237365723,
+            0.17000088095664978
+          ],
+          "carrier": [
+            1.0747570991516113,
+            -0.19768624007701874
+          ]
+        },
+        "delivered_evidence": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 113,
+            "delivery_time": 113,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 114,
+            "delivery_time": 114,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00000",
+            "region": 1,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 1,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "acquisition_memory": [
+          {
+            "evidence_id": "obs-00002",
+            "region": 2,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 113,
+            "delivery_time": 113,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00003",
+            "region": 2,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 114,
+            "delivery_time": 114,
+            "source": "carrier"
+          },
+          {
+            "evidence_id": "obs-00000",
+            "region": 2,
+            "modality": "geometry",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 31,
+            "delivery_time": 36,
+            "source": "scout"
+          },
+          {
+            "evidence_id": "obs-00001",
+            "region": 2,
+            "modality": "traction",
+            "value": true,
+            "uncertainty": 0.0,
+            "acquisition_time": 32,
+            "delivery_time": 37,
+            "source": "scout"
+          }
+        ],
+        "evidence_only_posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.25
+        ],
+        "acks": {
+          "scout": [
+            "obs-00000",
+            "obs-00001"
+          ],
+          "carrier": []
+        },
+        "remaining_measurements": 0,
+        "route_commitments": {
+          "1": "top",
+          "2": "bottom"
+        },
+        "ledger": {
+          "time": 2.911999999999901,
+          "motion": 0.03349412422880595,
+          "risk": 0.015094067761860785,
+          "sensing": 0.08,
+          "communication": 0.048799999999999996,
+          "collision": 0.0,
+          "invalid_action": 0.0,
+          "terminal_failure": 0.0
+        }
+      }
+    ],
+    "events": [
+      {
+        "type": "acquisition",
+        "step": 31,
+        "agent": "scout",
+        "region": 1,
+        "route": "top",
+        "modality": "geometry",
+        "valid": true,
+        "distance": 0.09719415754079819,
+        "cost": 0.02,
+        "observation_id": "obs-00000",
+        "value": true
+      },
+      {
+        "type": "acquisition",
+        "step": 32,
+        "agent": "scout",
+        "region": 1,
+        "route": "top",
+        "modality": "traction",
+        "valid": true,
+        "distance": 0.0935722291469574,
+        "cost": 0.02,
+        "observation_id": "obs-00001",
+        "value": 0.9
+      },
+      {
+        "type": "transmission",
+        "step": 33,
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00000",
+        "distance": 0.2929181754589081,
+        "in_range": true,
+        "owns_evidence": true,
+        "accepted": true,
+        "charged_bytes": 48,
+        "packet_id": "pkt-00000",
+        "delivery_step": 36,
+        "dropped": false
+      },
+      {
+        "type": "transmission",
+        "step": 34,
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00001",
+        "distance": 0.29122912883758545,
+        "in_range": true,
+        "owns_evidence": true,
+        "accepted": true,
+        "charged_bytes": 48,
+        "packet_id": "pkt-00001",
+        "delivery_step": 37,
+        "dropped": false
+      },
+      {
+        "type": "ack_transmission",
+        "step": 36,
+        "packet_id": "pkt-00002",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00000",
+        "transmission_step": 36,
+        "delivery_step": 39,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "charged_bytes": 40
+      },
+      {
+        "type": "packet_delivery",
+        "step": 36,
+        "packet_id": "pkt-00000",
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00000",
+        "transmission_step": 33,
+        "delivery_step": 36,
+        "payload_bytes": 16,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "evidence",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "ack_transmission",
+        "step": 37,
+        "packet_id": "pkt-00003",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00001",
+        "transmission_step": 37,
+        "delivery_step": 40,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "charged_bytes": 40
+      },
+      {
+        "type": "packet_delivery",
+        "step": 37,
+        "packet_id": "pkt-00001",
+        "sender": "scout",
+        "receiver": "carrier",
+        "observation_id": "obs-00001",
+        "transmission_step": 34,
+        "delivery_step": 37,
+        "payload_bytes": 16,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "evidence",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "packet_delivery",
+        "step": 39,
+        "packet_id": "pkt-00002",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00000",
+        "transmission_step": 36,
+        "delivery_step": 39,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "packet_delivery",
+        "step": 40,
+        "packet_id": "pkt-00003",
+        "sender": "carrier",
+        "receiver": "scout",
+        "observation_id": "obs-00001",
+        "transmission_step": 37,
+        "delivery_step": 40,
+        "payload_bytes": 8,
+        "header_bytes": 32,
+        "dropped": false,
+        "kind": "ack",
+        "delivered": true,
+        "usable_before_decision": true
+      },
+      {
+        "type": "acquisition",
+        "step": 113,
+        "agent": "carrier",
+        "region": 1,
+        "route": "top",
+        "modality": "geometry",
+        "valid": true,
+        "distance": 0.09897592663764954,
+        "cost": 0.02,
+        "observation_id": "obs-00002",
+        "value": true
+      },
+      {
+        "type": "acquisition",
+        "step": 114,
+        "agent": "carrier",
+        "region": 1,
+        "route": "top",
+        "modality": "traction",
+        "valid": true,
+        "distance": 0.09757068753242493,
+        "cost": 0.02,
+        "observation_id": "obs-00003",
+        "value": 0.9
+      },
+      {
+        "type": "route_commitment",
+        "step": 247,
+        "route": "top"
+      },
+      {
+        "type": "route_commitment",
+        "region": 2,
+        "step": 842,
+        "route": "bottom"
+      }
+    ]
+  }
+]
