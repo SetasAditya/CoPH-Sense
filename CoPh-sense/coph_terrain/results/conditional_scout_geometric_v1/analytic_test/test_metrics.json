@@ -1,0 +1,18 @@
+{
+  "count": 4000,
+  "seed": 2701,
+  "margin": 0.0,
+  "value_mae": 0.035700973063969285,
+  "value_rmse": 0.07489513341870711,
+  "dispatch_accuracy": 0.9765,
+  "useful_scout_recall": 0.9707629054362723,
+  "false_dispatch_rate": 0.016565433462175594,
+  "tp": 2125,
+  "tn": 1781,
+  "fp": 30,
+  "fn": 64,
+  "mean_idle_cost": 2.852106990595442,
+  "mean_oracle_conditional_cost": 2.5886478414734784,
+  "mean_learned_conditional_cost": 2.5913278212593247,
+  "mean_learned_regret_to_oracle": 0.00267997978584616
+}

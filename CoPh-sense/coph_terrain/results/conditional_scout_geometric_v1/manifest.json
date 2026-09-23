@@ -1,0 +1,17 @@
+{
+  "scope": "frozen Yiwang geometric benchmark; not VMAS or material-pH",
+  "train_seed": 1701,
+  "test_seed": 2701,
+  "rollout_seed": 3701,
+  "n_train": 10000,
+  "n_val": 2000,
+  "n_test": 4000,
+  "epochs": 80,
+  "checkpoint": "learning/dispatch_value_best.pt",
+  "checkpoint_sha256": "e5849a48e3e9cd931a229cd88d7dd2a8a44a22c799ac44328217a9ea4ec7457f",
+  "source_sha256": {
+    "conditional_scout_benchmark.py": "7264aba0f41afc85ed2650ba9001c2cf2d9f06a712660a6e957b519db956b103",
+    "conditional_scout_learning.py": "4fe8fc17d4aa016855836bc0deb8a1df649cf5b8d1af34ab28291385ead69589",
+    "conditional_scout_long_horizon.py": "97b202ae05f8b2c49d6bf273443cbcb5f2e27f397fd7f53434d836a7c7c3db01"
+  }
+}

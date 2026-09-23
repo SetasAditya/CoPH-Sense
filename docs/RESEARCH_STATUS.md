@@ -1,6 +1,6 @@
 # CoPH-Sense: formulation and research status
 
-**Status: 19 September 2026.** The causal sensing/sharing/memory mechanism and material-aware pH integration have been demonstrated in restricted tasks. A complete learned A3→NEED→A4→A5→pH policy has **not** passed the acquisition gate, and no confirmatory unknown-terrain evaluation has been run.
+**Status: 22 September 2026.** The causal sensing/sharing/memory mechanism and material-aware pH integration have been demonstrated in restricted tasks. A complete learned A3→NEED→A4→A5→pH policy has **not** passed the acquisition gate, and no confirmatory unknown-terrain evaluation has been run.
 
 ## Problem Prof. Bajaj posed
 
@@ -58,8 +58,15 @@ The first finite oracle checks separated **what to sense (A3), what realized evi
 | Bidirectional NEED A4 | A charged receiver NEED packet makes positive and negative conditional SEND contexts identifiable in both directions. Learned history+NEED A4: **0.001419** mean test regret on 384 controlled cases; request-match: **0.001736**. [Frozen result](../CoPh-sense/coph_terrain/results/lookahead_bidirectional_a4/learning_frozen_v1.json). | The controlled requests are simple; learned A4 nearly matches a strong heuristic. It is not yet an end-to-end E2 gain. |
 | Material-pH Gate 1.1 | Seed-disjoint Natural/Complementarity/Moving-A5 teacher mixture was run under the calibrated executor. Validation exact rate **90%**, mean realized regret **0.0203418**. | The strict regret gate `<0.02` failed; validation had **0 pair-optimal** and **0 memory-switch** cases. |
 | A3/A5 micro-overfit | Same critic architecture fits the two-state R1→R2 memory switch exactly. | It fits only **25/32** full training decisions after 3,000 steps (mean regret **0.34094**); no deployable A3/A5 checkpoint exists. |
+| Conditional-scout geometry | Attributed frozen benchmark: **97.65%** analytic decision accuracy, **0.002680** analytic regret, and 48/48 successful collision-free rollouts with recovery. | Physical execution prefers IDLE in all three analytically useful cases. It is a kinematic diagnostic, not material-pH evidence. |
+| Material-pH dispatch integration | Public IDLE/task interface, compatible-world paired teacher, complete scout recovery accounting, value/ranking critic, hidden-terrain invariance tests, and causal audit are implemented. | The one-state admission smoke pool had **0 positive / 4 negative** tasks, so training stopped as designed. The full fixed admission pool has not run. |
 
 The decisive current record is [`CAMPAIGN_LOG.md`](../CoPh-sense/coph_terrain/results/material_campaign/CAMPAIGN_LOG.md), with the [Gate 1.1 report](../CoPh-sense/coph_terrain/results/material_campaign/gate11/gate11_report.json) and [micro-overfit report](../CoPh-sense/coph_terrain/results/material_campaign/gate11/micro_overfit_full_report.json). The included failed candidate checkpoint is retained for diagnosis only.
+
+The conditional-scout formulation and gate are recorded separately in
+[`CONDITIONAL_SCOUT_STATUS.md`](../CoPh-sense/coph_terrain/CONDITIONAL_SCOUT_STATUS.md),
+with the complete geometric result under
+[`conditional_scout_geometric_v1`](../CoPh-sense/coph_terrain/results/conditional_scout_geometric_v1/).
 
 ## Current roadblock and next decision
 

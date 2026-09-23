@@ -1,0 +1,8 @@
+{
+  "coverage": {
+    "negative": 4,
+    "positive": 0
+  },
+  "gate": "blocked_missing_value_sign_coverage",
+  "trained": false
+}

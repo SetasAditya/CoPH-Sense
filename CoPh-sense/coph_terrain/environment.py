@@ -48,6 +48,11 @@ class TerrainConfig:
     stuck_command: float = .3
     stuck_steps: int = 40
     appearance_noise_std: float = .18
+    # Optional-scout missions require carrier delivery.  A scout that was
+    # dispatched must also be recovered before success can terminate the
+    # episode, so an excursion cannot disappear from the team ledger.
+    carrier_primary: bool = False
+    scout_recovery_radius: float = .35
 
 
 @dataclass(frozen=True)
@@ -182,6 +187,7 @@ class CoPHTerrainEnv:
         self.last_passive_cell = {name: None for name in AGENTS}
         self.passive_visibility_cache = {}
         self.evidence_counter = 0
+        self.scout_ever_dispatched = False
         self.events = []
         self.action_trace = []
         self._default_observe()
@@ -512,10 +518,25 @@ class CoPHTerrainEnv:
                                       effort >= self.config.stuck_command
                                       and speed < self.config.stuck_speed else 0)
             if self.stuck_count[name] >= self.config.stuck_steps:
-                self.failure_reason = "immobilization"
+                if name == "carrier" or not self.config.carrier_primary:
+                    self.failure_reason = "immobilization"
+                else:
+                    self.events.append({"type": "scout_immobilized",
+                                        "step": self.step_index})
         goal = np.asarray((5., 0.))
-        self.success = all(np.linalg.norm(positions[name] - goal) <= self.config.goal_radius
-                           for name in AGENTS) and self.failure_reason is None
+        if self.config.carrier_primary:
+            carrier_arrived = (np.linalg.norm(positions["carrier"] - goal)
+                               <= self.config.goal_radius)
+            scout_recovered = (not self.scout_ever_dispatched or
+                               np.linalg.norm(positions["scout"] -
+                                              positions["carrier"])
+                               <= self.config.scout_recovery_radius)
+            self.success = (carrier_arrived and scout_recovered and
+                            self.failure_reason is None)
+        else:
+            self.success = all(
+                np.linalg.norm(positions[name] - goal) <= self.config.goal_radius
+                for name in AGENTS) and self.failure_reason is None
         if self.success or self.failure_reason or self.step_index >= self.config.horizon_steps:
             self.done = True
             if not self.success:

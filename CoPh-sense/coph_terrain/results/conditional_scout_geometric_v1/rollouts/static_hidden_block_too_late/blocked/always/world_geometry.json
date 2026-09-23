@@ -1,0 +1,56 @@
+{
+  "static_obstacles": [
+    {
+      "name": "central_island",
+      "center": [
+        -0.1,
+        0.0
+      ],
+      "radius": 0.72
+    },
+    {
+      "name": "goal_island",
+      "center": [
+        2.3,
+        0.0
+      ],
+      "radius": 0.58
+    },
+    {
+      "name": "scout_side_rock",
+      "center": [
+        -3.72,
+        0.78
+      ],
+      "radius": 0.38
+    },
+    {
+      "name": "upper_rock",
+      "center": [
+        0.9,
+        2.35
+      ],
+      "radius": 0.4
+    },
+    {
+      "name": "lower_rock",
+      "center": [
+        0.9,
+        -2.35
+      ],
+      "radius": 0.4
+    }
+  ],
+  "agent_radius": 0.16,
+  "safety_margin": 0.08,
+  "scout_site_policy": "generated_ahead_of_carrier_at_request_time",
+  "generated_scout_site": [
+    -3.3366103732778063,
+    -0.72
+  ],
+  "request_time": 0.7000000000000001,
+  "dock_offset": [
+    0.0,
+    0.22
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "manifest": {
+    "scope": "frozen Yiwang geometric benchmark; not VMAS or material-pH",
+    "train_seed": 1701,
+    "test_seed": 2701,
+    "rollout_seed": 3701,
+    "n_train": 10000,
+    "n_val": 2000,
+    "n_test": 4000,
+    "epochs": 80,
+    "checkpoint": "learning/dispatch_value_best.pt",
+    "checkpoint_sha256": "e5849a48e3e9cd931a229cd88d7dd2a8a44a22c799ac44328217a9ea4ec7457f",
+    "source_sha256": {
+      "conditional_scout_benchmark.py": "7264aba0f41afc85ed2650ba9001c2cf2d9f06a712660a6e957b519db956b103",
+      "conditional_scout_learning.py": "4fe8fc17d4aa016855836bc0deb8a1df649cf5b8d1af34ab28291385ead69589",
+      "conditional_scout_long_horizon.py": "97b202ae05f8b2c49d6bf273443cbcb5f2e27f397fd7f53434d836a7c7c3db01"
+    }
+  },
+  "analytic": {
+    "count": 4000,
+    "seed": 2701,
+    "margin": 0.0,
+    "value_mae": 0.035700973063969285,
+    "value_rmse": 0.07489513341870711,
+    "dispatch_accuracy": 0.9765,
+    "useful_scout_recall": 0.9707629054362723,
+    "false_dispatch_rate": 0.016565433462175594,
+    "tp": 2125,
+    "tn": 1781,
+    "fp": 30,
+    "fn": 64,
+    "mean_idle_cost": 2.852106990595442,
+    "mean_oracle_conditional_cost": 2.5886478414734784,
+    "mean_learned_conditional_cost": 2.5913278212593247,
+    "mean_learned_regret_to_oracle": 0.00267997978584616
+  },
+  "physical_rollout_count": 48,
+  "physical_success_rate": 1.0,
+  "physical_collision_rate": 0.0,
+  "recovery_rate_when_dispatched": 1.0,
+  "discrepancies": [
+    {
+      "case": "static_hidden_block_useful",
+      "analytic_dispatch": true,
+      "physical_dispatch_preferred": false,
+      "analytic_value": 0.6499999999999999,
+      "expected_physical_score": {
+        "never": 18.37004601785576,
+        "always": 19.049873503804495,
+        "oracle": 19.049873503804495,
+        "learned": 19.049873503804495
+      },
+      "analytic_physical_disagree": true
+    },
+    {
+      "case": "static_local_known_no_need",
+      "analytic_dispatch": false,
+      "physical_dispatch_preferred": false,
+      "analytic_value": -0.3500000000000001,
+      "expected_physical_score": {
+        "never": 18.37004601785576,
+        "always": 19.049873503804495,
+        "oracle": 18.37004601785576,
+        "learned": 18.37004601785576
+      },
+      "analytic_physical_disagree": false
+    },
+    {
+      "case": "static_hidden_block_too_late",
+      "analytic_dispatch": false,
+      "physical_dispatch_preferred": false,
+      "analytic_value": -0.3500000000000001,
+      "expected_physical_score": {
+        "never": 18.37004601785576,
+        "always": 19.839652876297215,
+        "oracle": 18.37004601785576,
+        "learned": 18.37004601785576
+      },
+      "analytic_physical_disagree": false
+    },
+    {
+      "case": "moving_blocker_prediction",
+      "analytic_dispatch": true,
+      "physical_dispatch_preferred": false,
+      "analytic_value": 0.6000000000000001,
+      "expected_physical_score": {
+        "never": 21.201653419543916,
+        "always": 22.122468815097584,
+        "oracle": 22.122468815097584,
+        "learned": 22.122468815097584
+      },
+      "analytic_physical_disagree": true
+    },
+    {
+      "case": "moving_cost_prediction",
+      "analytic_dispatch": true,
+      "physical_dispatch_preferred": false,
+      "analytic_value": 0.6499999999999999,
+      "expected_physical_score": {
+        "never": 18.37004601785576,
+        "always": 19.59192380115658,
+        "oracle": 19.59192380115658,
+        "learned": 19.59192380115658
+      },
+      "analytic_physical_disagree": true
+    },
+    {
+      "case": "moving_blocker_stale_report",
+      "analytic_dispatch": false,
+      "physical_dispatch_preferred": false,
+      "analytic_value": -0.3999999999999999,
+      "expected_physical_score": {
+        "never": 25.721425501407026,
+        "always": 26.73710124120842,
+        "oracle": 25.721425501407026,
+        "learned": 25.721425501407026
+      },
+      "analytic_physical_disagree": false
+    }
+  ]
+}

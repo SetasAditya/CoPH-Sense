@@ -13,6 +13,7 @@ The learning contribution under test is the information policy. The material-awa
 | Path | Purpose |
 | --- | --- |
 | [`CoPh-sense/coph_terrain/`](CoPh-sense/coph_terrain/) | Current procedural VMAS unknown-terrain environment, A3/A4/A5 code, material-pH adapter, teacher, tests, and campaign artifacts. |
+| [`CoPh-sense/coph_terrain/CONDITIONAL_SCOUT_STATUS.md`](CoPh-sense/coph_terrain/CONDITIONAL_SCOUT_STATUS.md) | Attributed geometric conditional-scout benchmark, material-pH dispatch formulation, measured results, and current gate. |
 | [`CoPh-sense/coph_fork/`](CoPh-sense/coph_fork/) | Finite and moving two-fork regression tasks for acquisition, sharing, memory, and actionability. |
 | [`full_code/`](full_code/) | Material-aware Hamiltonian model and its force/integration dependencies. |
 | [`repair_experiments/outputs/behavioral_soft_force_risk_encoder_recall_full/best.pt`](repair_experiments/outputs/behavioral_soft_force_risk_encoder_recall_full/best.pt) | Frozen material-aware model checkpoint used by the adapter. |
@@ -40,10 +41,20 @@ The material executor loads `full_code/train_material.py` and the included check
 
 For the current campaign, read [`CAMPAIGN_LOG.md`](CoPh-sense/coph_terrain/results/material_campaign/CAMPAIGN_LOG.md) before running training scripts. `material_full_stack_gate.py` intentionally fails closed without a **passed** A3/A5 checkpoint; the included `a3_a5_candidate_failed.pt` is diagnostic and must not be presented as a frozen deployable model.
 
+The conditional-scout stages run with:
+
+```bash
+cd CoPh-sense
+PYTHONPATH=. python -m coph_terrain.conditional_scout_geometric_benchmark
+PYTHONPATH=. python -m coph_terrain.run_conditional_scout_material
+```
+
 ## Current evidence
 
 - The restricted moving two-fork [replay GIF](CoPh-sense/coph_fork/results/a5_moving_bridge/physical_search/frozen_two_fork_information.gif) shows delivered Region-1 evidence redirecting the carrier to Region 2. The canonical paired team cost is **2.116 versus 3.089** with reset memory. This is a scripted-VMAS mechanism demonstration, not a held-out E2 result.
 - A separate frozen bidirectional NEED task demonstrates that receiver-side need information can make SEND/HOLD decisions identifiable. Its learned history+NEED A4 has mean decision regret **0.001419** on 384 controlled test cases, close to the request-match heuristic's **0.001736**.
 - The present material-pH A3/A5 Gate 1.1 **failed**: held-out acquisition regret **0.02034** missed the `<0.02` threshold, and validation contained **zero** pair-optimal and **zero** memory-switch cases. A 32-state training micro-overfit reached only **25/32** exact actions. The final paired ID/OOD evaluation is therefore pending.
+- The frozen conditional-scout geometric benchmark reaches **97.65%** analytic dispatch accuracy and **0.00268** analytic oracle regret, with 48/48 successful collision-free physical rollouts. Its physical objective nevertheless prefers IDLE in all three analytically useful cases, so the supplied analytic value does not transfer to the supplied rollout score.
+- The material-pH conditional-scout path now has a public candidate interface, compatible-world paired teacher, complete recovery semantics, variable-candidate critic, and causal audit. Its one-state admission smoke pool had **0 positive / 4 negative** tasks, so the fail-closed runner correctly did not train; a larger fixed admission pool is still required.
 
 These results and their limits are detailed in [`docs/RESEARCH_STATUS.md`](docs/RESEARCH_STATUS.md). No structural pH-versus-non-pH superiority or full E2 benefit is claimed.
