@@ -14,6 +14,7 @@ The learning contribution under test is the information policy. The material-awa
 | --- | --- |
 | [`CoPh-sense/coph_terrain/`](CoPh-sense/coph_terrain/) | Current procedural VMAS unknown-terrain environment, A3/A4/A5 code, material-pH adapter, teacher, tests, and campaign artifacts. |
 | [`CoPh-sense/coph_terrain/CONDITIONAL_SCOUT_STATUS.md`](CoPh-sense/coph_terrain/CONDITIONAL_SCOUT_STATUS.md) | Attributed geometric conditional-scout benchmark, material-pH dispatch formulation, measured results, and current gate. |
+| [`CoPh-sense/coph_terrain/CONDITIONAL_DISPATCH_FAILURES.md`](CoPh-sense/coph_terrain/CONDITIONAL_DISPATCH_FAILURES.md) | Confirmed material-dispatch failures, unresolved hypotheses, v9 assessment, and the smallest defensible next gate. |
 | [`CoPh-sense/coph_fork/`](CoPh-sense/coph_fork/) | Finite and moving two-fork regression tasks for acquisition, sharing, memory, and actionability. |
 | [`full_code/`](full_code/) | Material-aware Hamiltonian model and its force/integration dependencies. |
 | [`repair_experiments/outputs/behavioral_soft_force_risk_encoder_recall_full/best.pt`](repair_experiments/outputs/behavioral_soft_force_risk_encoder_recall_full/best.pt) | Frozen material-aware model checkpoint used by the adapter. |

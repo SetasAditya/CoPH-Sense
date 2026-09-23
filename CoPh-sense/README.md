@@ -14,6 +14,9 @@ gate record is summarized in
 corrected restricted gate stopped final E2: the critic met the mean-regret
 threshold but selected IDLE on every held-out state, missing all three useful
 dispatches and consequently failing the causal and recovery subgates.
+The confirmed failures, open hypotheses, v9 comparison, and smallest defensible
+next gate are recorded in
+[`CONDITIONAL_DISPATCH_FAILURES.md`](coph_terrain/CONDITIONAL_DISPATCH_FAILURES.md).
 
 [`coph_fork/`](coph_fork/README.md) contains the finite and moving two-fork mechanism checks used as regression controls. [`phmarl_reproduction/`](phmarl_reproduction/README.md) contains the separate native pH-MARL reproduction. [`reports/`](reports/) contains presentation artifacts; [`6aa17bc0c8c4eaab118e7968/`](6aa17bc0c8c4eaab118e7968/) contains the manuscript checkout.
 
