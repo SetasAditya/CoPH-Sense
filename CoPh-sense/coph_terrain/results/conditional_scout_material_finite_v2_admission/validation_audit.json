@@ -1,0 +1,74 @@
+[
+  {
+    "candidate_count": 5,
+    "infeasible": 3,
+    "state_id": "validation-0000",
+    "status": "labeled",
+    "unnecessary": 1,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "validation-0001",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "validation-0002",
+    "status": "labeled",
+    "unnecessary": 0,
+    "unresolved": 0,
+    "useful": 2
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "validation-0003",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 1,
+    "state_id": "validation-0004",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 1
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "validation-0005",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 3,
+    "state_id": "validation-0006",
+    "status": "labeled",
+    "unnecessary": 1,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 3,
+    "state_id": "validation-0007",
+    "status": "labeled",
+    "unnecessary": 1,
+    "unresolved": 0,
+    "useful": 0
+  }
+]

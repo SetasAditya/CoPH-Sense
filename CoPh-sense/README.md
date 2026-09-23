@@ -8,9 +8,12 @@ Yiwang's dock–dispatch–sense–report–recover system as an attributed kine
 diagnostic. The material integration in
 [`conditional_scout_material.py`](coph_terrain/conditional_scout_material.py)
 uses the same protocol inside VMAS and labels dispatch from complete paired
-material-pH continuations over compatible terrain hypotheses. The current
+material-pH continuations under a replay-conditioned finite terrain prior. The current
 gate record is summarized in
-[`CONDITIONAL_SCOUT_STATUS.md`](coph_terrain/CONDITIONAL_SCOUT_STATUS.md).
+[`CONDITIONAL_SCOUT_STATUS.md`](coph_terrain/CONDITIONAL_SCOUT_STATUS.md). The
+corrected restricted gate stopped final E2: the critic met the mean-regret
+threshold but selected IDLE on every held-out state, missing all three useful
+dispatches and consequently failing the causal and recovery subgates.
 
 [`coph_fork/`](coph_fork/README.md) contains the finite and moving two-fork mechanism checks used as regression controls. [`phmarl_reproduction/`](phmarl_reproduction/README.md) contains the separate native pH-MARL reproduction. [`reports/`](reports/) contains presentation artifacts; [`6aa17bc0c8c4eaab118e7968/`](6aa17bc0c8c4eaab118e7968/) contains the manuscript checkout.
 

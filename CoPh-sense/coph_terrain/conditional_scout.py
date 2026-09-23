@@ -49,6 +49,10 @@ class ScoutTask:
     target_region: Optional[Tuple[int, int]] = None
     predicted_value: float = 0.0
     max_task_cost: float = float("inf")
+    acquisition_dwell_steps: int = 0
+    estimated_delivery_cost: float = 0.0
+    provenance: str = "public_candidate"
+    actionability_slack_steps: int = 0
 
     def __post_init__(self):
         if self.modality not in ("geometry", "traction"):
@@ -252,6 +256,14 @@ def scout_task_from_candidate(env, candidate, request_id,
                        tuple(candidate.target_region)),
         latest_useful_step=int(deadline_step),
         predicted_value=float(value_estimate),
+        acquisition_dwell_steps=(env.config.scan_dwell_steps
+                                 if candidate.modality == "geometry"
+                                 else env.config.probe_dwell_steps),
+        estimated_delivery_cost=float(
+            env.config.communication_attempt_cost
+            + env.config.byte_cost * (env.config.header_bytes + 20)),
+        provenance="carrier_public_belief",
+        actionability_slack_steps=max(0, int(deadline_step-env.step_index)),
     )
 
 
@@ -321,4 +333,16 @@ def run_carrier_primary_episode(env, task: Optional[ScoutTask] = None,
         "scout_final_mode": controller.mode.value,
         "measurements": dict(env.measurement_count),
         "packets": int(env.packet_attempts),
+        "recovered": bool(not env.scout_ever_dispatched or
+                          np.linalg.norm(env.positions["scout"]-
+                                         env.positions["carrier"])
+                          <= env.config.scout_recovery_radius),
+        "stranded": bool(env.scout_ever_dispatched and
+                         np.linalg.norm(env.positions["scout"]-
+                                        env.positions["carrier"])
+                         > env.config.scout_recovery_radius),
+        "outstanding_packets": int(len(env.pending)),
+        "ledger": {name: float(getattr(env.ledger, name)) for name in (
+            "time", "motion", "sensing", "communication", "collision",
+            "failure", "material_exposure")},
     }

@@ -1,0 +1,150 @@
+{
+  "admission_coverage": {
+    "infeasible": 10,
+    "unnecessary": 13,
+    "unresolved": 0,
+    "useful": 1
+  },
+  "baselines": {
+    "always": {
+      "exact_rate": 0.18181818181818182,
+      "mean_regret": 4.383126570469285,
+      "mean_relative_cost": 4.364057917323306,
+      "states": 11
+    },
+    "heuristic": {
+      "exact_rate": 0.18181818181818182,
+      "mean_regret": 4.383126570469285,
+      "mean_relative_cost": 4.364057917323306,
+      "states": 11
+    },
+    "idle": {
+      "exact_rate": 0.7272727272727273,
+      "mean_regret": 0.01906865314597886,
+      "mean_relative_cost": 0.0,
+      "states": 11
+    },
+    "learned": {
+      "exact_rate": 0.7272727272727273,
+      "mean_regret": 0.01906865314597886,
+      "mean_relative_cost": 0.0,
+      "states": 11
+    },
+    "oracle": {
+      "exact_rate": 1.0,
+      "mean_regret": 0.0,
+      "mean_relative_cost": -0.01906865314597886,
+      "states": 11
+    }
+  },
+  "canonical": {
+    "known": false,
+    "too_late": true,
+    "useful": true
+  },
+  "causal": {
+    "passed": false,
+    "reason": "learned_policy_selected_idle"
+  },
+  "gate": "failed_complete_gate",
+  "gate_details": {
+    "checks": {
+      "canonical_useful_known_late": false,
+      "causal_delivery": false,
+      "complete_dispatch_benefit": false,
+      "coverage": true,
+      "exact_rate": false,
+      "mean_regret": true,
+      "recovery": false,
+      "unnecessary_rejection": true,
+      "useful_recall": false
+    },
+    "passed": false
+  },
+  "geometric_reconciliation": {
+    "analytic_objective": "declared route cost plus dispatch cost",
+    "cases": [
+      {
+        "analytic_conditional_cost": 2.35,
+        "analytic_idle_cost": 3.0,
+        "case": "static_hidden_block_useful",
+        "mean_reported_true_route_cost": null,
+        "physical_rows": 8
+      },
+      {
+        "analytic_conditional_cost": 2.0,
+        "analytic_idle_cost": 2.0,
+        "case": "static_local_known_no_need",
+        "mean_reported_true_route_cost": null,
+        "physical_rows": 8
+      },
+      {
+        "analytic_conditional_cost": 3.0,
+        "analytic_idle_cost": 3.0,
+        "case": "static_hidden_block_too_late",
+        "mean_reported_true_route_cost": null,
+        "physical_rows": 8
+      },
+      {
+        "analytic_conditional_cost": 2.4,
+        "analytic_idle_cost": 3.0,
+        "case": "moving_blocker_prediction",
+        "mean_reported_true_route_cost": null,
+        "physical_rows": 8
+      },
+      {
+        "analytic_conditional_cost": 2.35,
+        "analytic_idle_cost": 3.0,
+        "case": "moving_cost_prediction",
+        "mean_reported_true_route_cost": null,
+        "physical_rows": 8
+      },
+      {
+        "analytic_conditional_cost": 3.0,
+        "analytic_idle_cost": 3.0,
+        "case": "moving_blocker_stale_report",
+        "mean_reported_true_route_cost": null,
+        "physical_rows": 8
+      }
+    ],
+    "historical_artifacts_modified": false,
+    "physical_visual_score": "time + 0.10 carrier motion + 0.06 scout motion + dispatch cost + collision + dynamic pulse",
+    "route_cost_in_physical_score": false
+  },
+  "input_audit": {
+    "conflicting_groups": 0,
+    "groups": 120
+  },
+  "scope": "restricted finite-prior gate; not final E2",
+  "source_sha256": {
+    "conditional_scout.py": "f5ba21ddfb28725b0eb0e8e2044f4912f3b73efcd4d84b2405a3dbaba6c90794",
+    "conditional_scout_material.py": "1fe40a68ed4e3b5a099723a168693a8cfc6361ad9bc26561c8fe661a9bc45211",
+    "environment.py": "bcc49f50da8c4da03904aa0e50299515de60fb10f4efa9e098f2c35cba21e1a9",
+    "run_conditional_scout_material.py": "e59ee9ba96868fa006c79996ead5eab074aeef22db11c2905c9a4053cb0df68b"
+  },
+  "test": {
+    "exact_rate": 0.7272727272727273,
+    "mean_regret": 0.01906865314597886,
+    "states": 11,
+    "unnecessary_denominator": 8,
+    "unnecessary_rejection": 1.0,
+    "useful_denominator": 3,
+    "useful_recall": 0.0
+  },
+  "thresholds": {
+    "exact_rate": 0.9,
+    "mean_regret": 0.02,
+    "unnecessary_rejection": 0.9,
+    "useful_recall": 0.9
+  },
+  "trained": true,
+  "validation": {
+    "exact_rate": 0.75,
+    "mean_regret": 0.0028326321770785405,
+    "states": 8,
+    "unnecessary_denominator": 6,
+    "unnecessary_rejection": 1.0,
+    "useful_denominator": 2,
+    "useful_recall": 0.0
+  }
+}

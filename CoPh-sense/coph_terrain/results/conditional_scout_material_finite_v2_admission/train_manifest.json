@@ -1,0 +1,558 @@
+{
+  "name": "train",
+  "rows": [
+    {
+      "actual_realization_seed": 22000,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 21000,
+      "physics_seed": 21017,
+      "prefix_steps": 60,
+      "prior_realization_seeds": [
+        22000,
+        32000,
+        32001,
+        32002
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0000"
+    },
+    {
+      "actual_realization_seed": 22017,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 21101,
+      "physics_seed": 21118,
+      "prefix_steps": 75,
+      "prior_realization_seeds": [
+        22017,
+        32017,
+        32018,
+        32019
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0001"
+    },
+    {
+      "actual_realization_seed": 22034,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 21202,
+      "physics_seed": 21219,
+      "prefix_steps": 90,
+      "prior_realization_seeds": [
+        22034,
+        32034,
+        32035,
+        32036
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0002"
+    },
+    {
+      "actual_realization_seed": 22051,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 21303,
+      "physics_seed": 21320,
+      "prefix_steps": 105,
+      "prior_realization_seeds": [
+        22051,
+        32051,
+        32052,
+        32053
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0003"
+    },
+    {
+      "actual_realization_seed": 22068,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 21404,
+      "physics_seed": 21421,
+      "prefix_steps": 60,
+      "prior_realization_seeds": [
+        22068,
+        32068,
+        32069,
+        32070
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0004"
+    },
+    {
+      "actual_realization_seed": 22085,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 21505,
+      "physics_seed": 21522,
+      "prefix_steps": 75,
+      "prior_realization_seeds": [
+        22085,
+        32085,
+        32086,
+        32087
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0005"
+    },
+    {
+      "actual_realization_seed": 22102,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 21606,
+      "physics_seed": 21623,
+      "prefix_steps": 90,
+      "prior_realization_seeds": [
+        22102,
+        32102,
+        32103,
+        32104
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0006"
+    },
+    {
+      "actual_realization_seed": 22119,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 21707,
+      "physics_seed": 21724,
+      "prefix_steps": 105,
+      "prior_realization_seeds": [
+        22119,
+        32119,
+        32120,
+        32121
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0007"
+    },
+    {
+      "actual_realization_seed": 22136,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 21808,
+      "physics_seed": 21825,
+      "prefix_steps": 60,
+      "prior_realization_seeds": [
+        22136,
+        32136,
+        32137,
+        32138
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0008"
+    },
+    {
+      "actual_realization_seed": 22153,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 21909,
+      "physics_seed": 21926,
+      "prefix_steps": 75,
+      "prior_realization_seeds": [
+        22153,
+        32153,
+        32154,
+        32155
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0009"
+    },
+    {
+      "actual_realization_seed": 22170,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 22010,
+      "physics_seed": 22027,
+      "prefix_steps": 90,
+      "prior_realization_seeds": [
+        22170,
+        32170,
+        32171,
+        32172
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0010"
+    },
+    {
+      "actual_realization_seed": 22187,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 22111,
+      "physics_seed": 22128,
+      "prefix_steps": 105,
+      "prior_realization_seeds": [
+        22187,
+        32187,
+        32188,
+        32189
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0011"
+    },
+    {
+      "actual_realization_seed": 22204,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 22212,
+      "physics_seed": 22229,
+      "prefix_steps": 60,
+      "prior_realization_seeds": [
+        22204,
+        32204,
+        32205,
+        32206
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0012"
+    },
+    {
+      "actual_realization_seed": 22221,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 22313,
+      "physics_seed": 22330,
+      "prefix_steps": 75,
+      "prior_realization_seeds": [
+        22221,
+        32221,
+        32222,
+        32223
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0013"
+    },
+    {
+      "actual_realization_seed": 22238,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 22414,
+      "physics_seed": 22431,
+      "prefix_steps": 90,
+      "prior_realization_seeds": [
+        22238,
+        32238,
+        32239,
+        32240
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0014"
+    },
+    {
+      "actual_realization_seed": 22255,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 22515,
+      "physics_seed": 22532,
+      "prefix_steps": 105,
+      "prior_realization_seeds": [
+        22255,
+        32255,
+        32256,
+        32257
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0015"
+    },
+    {
+      "actual_realization_seed": 22272,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 22616,
+      "physics_seed": 22633,
+      "prefix_steps": 60,
+      "prior_realization_seeds": [
+        22272,
+        32272,
+        32273,
+        32274
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0016"
+    },
+    {
+      "actual_realization_seed": 22289,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 22717,
+      "physics_seed": 22734,
+      "prefix_steps": 75,
+      "prior_realization_seeds": [
+        22289,
+        32289,
+        32290,
+        32291
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0017"
+    },
+    {
+      "actual_realization_seed": 22306,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 22818,
+      "physics_seed": 22835,
+      "prefix_steps": 90,
+      "prior_realization_seeds": [
+        22306,
+        32306,
+        32307,
+        32308
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0018"
+    },
+    {
+      "actual_realization_seed": 22323,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 22919,
+      "physics_seed": 22936,
+      "prefix_steps": 105,
+      "prior_realization_seeds": [
+        22323,
+        32323,
+        32324,
+        32325
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0019"
+    },
+    {
+      "actual_realization_seed": 22340,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 23020,
+      "physics_seed": 23037,
+      "prefix_steps": 60,
+      "prior_realization_seeds": [
+        22340,
+        32340,
+        32341,
+        32342
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0020"
+    },
+    {
+      "actual_realization_seed": 22357,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 23121,
+      "physics_seed": 23138,
+      "prefix_steps": 75,
+      "prior_realization_seeds": [
+        22357,
+        32357,
+        32358,
+        32359
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0021"
+    },
+    {
+      "actual_realization_seed": 22374,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 23222,
+      "physics_seed": 23239,
+      "prefix_steps": 90,
+      "prior_realization_seeds": [
+        22374,
+        32374,
+        32375,
+        32376
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0022"
+    },
+    {
+      "actual_realization_seed": 22391,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 23323,
+      "physics_seed": 23340,
+      "prefix_steps": 105,
+      "prior_realization_seeds": [
+        22391,
+        32391,
+        32392,
+        32393
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "train-0023"
+    }
+  ],
+  "seed": 21000
+}

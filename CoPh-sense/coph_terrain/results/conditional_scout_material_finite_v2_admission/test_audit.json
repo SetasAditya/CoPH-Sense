@@ -1,0 +1,105 @@
+[
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "test-0000",
+    "status": "labeled",
+    "unnecessary": 0,
+    "unresolved": 0,
+    "useful": 2
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 0,
+    "state_id": "test-0001",
+    "status": "labeled",
+    "unnecessary": 1,
+    "unresolved": 0,
+    "useful": 3
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 0,
+    "state_id": "test-0002",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 2
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "test-0003",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 0,
+    "state_id": "test-0004",
+    "status": "labeled",
+    "unnecessary": 4,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "state_id": "test-0005",
+    "status": "prefix_terminated"
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "test-0006",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "test-0007",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "test-0008",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "test-0009",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "test-0010",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 0
+  },
+  {
+    "candidate_count": 5,
+    "infeasible": 2,
+    "state_id": "test-0011",
+    "status": "labeled",
+    "unnecessary": 2,
+    "unresolved": 0,
+    "useful": 0
+  }
+]

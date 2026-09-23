@@ -73,6 +73,15 @@ Implemented so far:
   batch 137 and 120.8k at batch 1024. This is **not full rollout throughput**:
   candidate planning, sensing, packets, VMAS state, and ledger updates still
   need batching before those GPU gains can be used by the teacher.
+- An attributed conditional-scout benchmark and a carrier-primary VMAS
+  integration. The geometric layer keeps Yiwang's route geometry and analytic
+  dispatch model intact, while reporting analytic decisions separately from
+  executed kinematic rollouts. The material layer exposes IDLE and public
+  `ScoutTask` candidates, charges the complete dispatch/recovery protocol, and
+  estimates dispatch value under a replay-conditioned finite prior of complete
+  terrain realizations with the frozen material-pH executor. Carrier success now requires recovery
+  of every dispatched scout; reaching the goal cannot erase an outstanding
+  resource.
 
 **Open before E2 training:** the revised resource/deadline nondegeneracy audit,
 controller-specific latest-actionable-switch guard, counterfactual teaching

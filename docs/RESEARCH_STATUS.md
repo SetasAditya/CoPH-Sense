@@ -59,19 +59,34 @@ The first finite oracle checks separated **what to sense (A3), what realized evi
 | Material-pH Gate 1.1 | Seed-disjoint Natural/Complementarity/Moving-A5 teacher mixture was run under the calibrated executor. Validation exact rate **90%**, mean realized regret **0.0203418**. | The strict regret gate `<0.02` failed; validation had **0 pair-optimal** and **0 memory-switch** cases. |
 | A3/A5 micro-overfit | Same critic architecture fits the two-state R1→R2 memory switch exactly. | It fits only **25/32** full training decisions after 3,000 steps (mean regret **0.34094**); no deployable A3/A5 checkpoint exists. |
 | Conditional-scout geometry | Attributed frozen benchmark: **97.65%** analytic decision accuracy, **0.002680** analytic regret, and 48/48 successful collision-free rollouts with recovery. | Physical execution prefers IDLE in all three analytically useful cases. It is a kinematic diagnostic, not material-pH evidence. |
-| Material-pH dispatch integration | Public IDLE/task interface, compatible-world paired teacher, complete scout recovery accounting, value/ranking critic, hidden-terrain invariance tests, and causal audit are implemented. | The one-state admission smoke pool had **0 positive / 4 negative** tasks, so training stopped as designed. The full fixed admission pool has not run. |
+| Material-pH dispatch integration | Carrier-side legal-history record; complete finite terrain prior with clipped-Gaussian appearance conditioning and causal replay; paired complete continuations; recovery/packet ledger; exact delivery intervention; and fail-closed gate are implemented. The frozen admission split contained **1 useful / 13 unnecessary / 10 infeasible** tasks. | The restricted gate failed. Test regret **0.01907** met the scalar threshold, but the learner selected IDLE in all 11 states: **72.7%** agreement and **0/3** useful recall. Causal, fully charged dispatch, recovery, and known-canonical subgates therefore did not pass. |
 
 The decisive current record is [`CAMPAIGN_LOG.md`](../CoPh-sense/coph_terrain/results/material_campaign/CAMPAIGN_LOG.md), with the [Gate 1.1 report](../CoPh-sense/coph_terrain/results/material_campaign/gate11/gate11_report.json) and [micro-overfit report](../CoPh-sense/coph_terrain/results/material_campaign/gate11/micro_overfit_full_report.json). The included failed candidate checkpoint is retained for diagnosis only.
 
 The conditional-scout formulation and gate are recorded separately in
 [`CONDITIONAL_SCOUT_STATUS.md`](../CoPh-sense/coph_terrain/CONDITIONAL_SCOUT_STATUS.md),
 with the complete geometric result under
-[`conditional_scout_geometric_v1`](../CoPh-sense/coph_terrain/results/conditional_scout_geometric_v1/).
+[`conditional_scout_geometric_v1`](../CoPh-sense/coph_terrain/results/conditional_scout_geometric_v1/)
+and the corrected finite-prior result under
+[`conditional_scout_material_finite_v2_admission`](../CoPh-sense/coph_terrain/results/conditional_scout_material_finite_v2_admission/).
 
 ## Current roadblock and next decision
 
-The full pipeline is present in code, but the A3/A5 learner has not earned the right to drive a confirmatory rollout. Natural terrain tends to favor SKIP, and the held-out challenge parents in Gate 1.1 did not actually contain the pair-optimal or memory-switch contrasts the gate was meant to test. The full training micro-overfit also failed, so simply increasing challenge labels or network size would be premature.
+The full pipeline is present in code, but neither the A3/A5 learner nor the
+conditional-dispatch learner has earned the right to drive a confirmatory
+rollout. The repaired dispatch teacher now finds legally supported decisions
+of both signs and avoids the old map-splicing error. The small frozen training
+set nevertheless contains very few useful dispatches, and the fitted critic
+learns the safe IDLE policy. Its low mean regret hides complete failure on the
+three useful held-out decisions. The complete acceptance gate correctly turns
+that into a failed result rather than a claimed success.
 
 Two specific training-target questions remain: (1) Natural and Moving-A5 labels currently use a **single realized-world** continuation where deployment requires a belief-conditional value; (2) the critic fits absolute mission values and risk quantiles while action selection uses the mission-plus-CVaR ordering. These are hypotheses about the failure, not established causes.
 
-The next controlled step is to audit belief-conditional teacher targets and decisive action-value ordering on existing rows, then certify challenge states under the **same frozen material-pH executor**. Only then should one final A3/A5 fit be attempted. If that passes, run the freely chosen full-stack causal gate, one on-policy refresh, matched complete baselines, and paired ID/OOD evaluation. The final comparison must report success, total team cost, risk-tail cost, duplicate sensing, disjoint explored support, effective look-ahead, and bytes across Natural and controlled Complementarity/Memory strata. No final-evaluation result is claimed yet.
+The next controlled decision is whether to expand the predeclared finite-prior
+training coverage while leaving the teacher, physics, prices, layouts, and
+untouched evaluation fixed, or to close this restricted dispatch route as a
+negative result. Any retry must be justified from training coverage alone and
+must retain the current test manifest. Only a policy that passes useful recall,
+causality, recovery, and fully charged cost can proceed to full-stack and E2
+evaluation. No final-evaluation result is claimed.

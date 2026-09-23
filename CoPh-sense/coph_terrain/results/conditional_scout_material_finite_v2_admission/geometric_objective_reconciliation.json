@@ -1,0 +1,50 @@
+{
+  "analytic_objective": "declared route cost plus dispatch cost",
+  "cases": [
+    {
+      "analytic_conditional_cost": 2.35,
+      "analytic_idle_cost": 3.0,
+      "case": "static_hidden_block_useful",
+      "mean_reported_true_route_cost": null,
+      "physical_rows": 8
+    },
+    {
+      "analytic_conditional_cost": 2.0,
+      "analytic_idle_cost": 2.0,
+      "case": "static_local_known_no_need",
+      "mean_reported_true_route_cost": null,
+      "physical_rows": 8
+    },
+    {
+      "analytic_conditional_cost": 3.0,
+      "analytic_idle_cost": 3.0,
+      "case": "static_hidden_block_too_late",
+      "mean_reported_true_route_cost": null,
+      "physical_rows": 8
+    },
+    {
+      "analytic_conditional_cost": 2.4,
+      "analytic_idle_cost": 3.0,
+      "case": "moving_blocker_prediction",
+      "mean_reported_true_route_cost": null,
+      "physical_rows": 8
+    },
+    {
+      "analytic_conditional_cost": 2.35,
+      "analytic_idle_cost": 3.0,
+      "case": "moving_cost_prediction",
+      "mean_reported_true_route_cost": null,
+      "physical_rows": 8
+    },
+    {
+      "analytic_conditional_cost": 3.0,
+      "analytic_idle_cost": 3.0,
+      "case": "moving_blocker_stale_report",
+      "mean_reported_true_route_cost": null,
+      "physical_rows": 8
+    }
+  ],
+  "historical_artifacts_modified": false,
+  "physical_visual_score": "time + 0.10 carrier motion + 0.06 scout motion + dispatch cost + collision + dynamic pulse",
+  "route_cost_in_physical_score": false
+}

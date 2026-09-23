@@ -1,0 +1,144 @@
+{
+  "name": "admission",
+  "rows": [
+    {
+      "actual_realization_seed": 12000,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 11000,
+      "physics_seed": 11017,
+      "prefix_steps": 60,
+      "prior_realization_seeds": [
+        12000,
+        22000,
+        22001,
+        22002
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "admission-0000"
+    },
+    {
+      "actual_realization_seed": 12017,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 11101,
+      "physics_seed": 11118,
+      "prefix_steps": 75,
+      "prior_realization_seeds": [
+        12017,
+        22017,
+        22018,
+        22019
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "admission-0001"
+    },
+    {
+      "actual_realization_seed": 12034,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 11202,
+      "physics_seed": 11219,
+      "prefix_steps": 90,
+      "prior_realization_seeds": [
+        12034,
+        22034,
+        22035,
+        22036
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "admission-0002"
+    },
+    {
+      "actual_realization_seed": 12051,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 11303,
+      "physics_seed": 11320,
+      "prefix_steps": 105,
+      "prior_realization_seeds": [
+        12051,
+        22051,
+        22052,
+        22053
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "admission-0003"
+    },
+    {
+      "actual_realization_seed": 12068,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 11404,
+      "physics_seed": 11421,
+      "prefix_steps": 60,
+      "prior_realization_seeds": [
+        12068,
+        22068,
+        22069,
+        22070
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "admission-0004"
+    },
+    {
+      "actual_realization_seed": 12085,
+      "family": "open",
+      "packet_seeds": [
+        0
+      ],
+      "parent_seed": 11505,
+      "physics_seed": 11522,
+      "prefix_steps": 75,
+      "prior_realization_seeds": [
+        12085,
+        22085,
+        22086,
+        22087
+      ],
+      "prior_weights": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "state_id": "admission-0005"
+    }
+  ],
+  "seed": 11000
+}

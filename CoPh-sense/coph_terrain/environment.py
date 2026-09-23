@@ -187,12 +187,31 @@ class CoPHTerrainEnv:
         self.last_passive_cell = {name: None for name in AGENTS}
         self.passive_visibility_cache = {}
         self.evidence_counter = 0
+        self.packet_random_schedule = None
+        self.packet_random_index = 0
         self.scout_ever_dispatched = False
         self.events = []
         self.action_trace = []
         self._default_observe()
         self.state_trace = [self._state_record()]
         return self.observations()
+
+    def set_packet_random_schedule(self, uniforms):
+        """Install evaluator-supplied common random numbers for packet trials."""
+        self.packet_random_schedule = tuple(float(value) for value in uniforms)
+        if not all(0. <= value < 1. for value in self.packet_random_schedule):
+            raise ValueError("packet uniforms must lie in [0,1)")
+        self.packet_random_index = 0
+
+    def _packet_dropped(self):
+        if self.packet_random_schedule is None:
+            value = float(self.rng.random())
+        else:
+            if self.packet_random_index >= len(self.packet_random_schedule):
+                raise RuntimeError("packet random schedule exhausted")
+            value = self.packet_random_schedule[self.packet_random_index]
+            self.packet_random_index += 1
+        return bool(value < self.config.packet_drop_probability)
 
     def _state_record(self):
         return {"step": self.step_index,
@@ -302,7 +321,7 @@ class CoPHTerrainEnv:
                         future.append(TerrainPacket(
                             packet.evidence_id, packet.receiver, packet.sender,
                             self.step_index + max(1, self.config.communication_delay_steps),
-                            bool(self.rng.random() < self.config.packet_drop_probability),
+                            self._packet_dropped(),
                             8, "ack"))
             self.events.append({"type": "packet_delivery", "step": self.step_index,
                                 "evidence_id": packet.evidence_id,
@@ -389,7 +408,7 @@ class CoPHTerrainEnv:
             self.pending.append(TerrainPacket(
                 evidence_id, name, receiver,
                 self.step_index + self.config.communication_delay_steps,
-                bool(self.rng.random() < self.config.packet_drop_probability),
+                self._packet_dropped(),
                 payload_bytes))
         self._deliver_packets(incremental)  # supports zero-delay packets
         pre = self.positions
