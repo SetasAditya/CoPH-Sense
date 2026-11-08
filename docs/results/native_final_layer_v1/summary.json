@@ -1,0 +1,137 @@
+{
+ "native": {
+  "base/coph_online_static_protected": {
+   "coverage": 99,
+   "mean_return": -71.27483250462778,
+   "new_contacts": 1,
+   "avoidable": 0,
+   "overlap_starts": 30
+  },
+  "base/phmarl_assigned_static_protected": {
+   "coverage": 57,
+   "mean_return": -176.44263525784015,
+   "new_contacts": 1,
+   "avoidable": 0,
+   "overlap_starts": 30
+  },
+  "final/coph_online_static_protected": {
+   "coverage": 99,
+   "mean_return": -71.06445841979433,
+   "new_contacts": 1,
+   "avoidable": 0,
+   "overlap_starts": 30
+  },
+  "final/phmarl_assigned_static_protected": {
+   "coverage": 58,
+   "mean_return": -176.318736204654,
+   "new_contacts": 1,
+   "avoidable": 0,
+   "overlap_starts": 30
+  },
+  "final_online_vs_phmarl": {
+   "mean": 105.25427778485962,
+   "interval95": [
+    97.93381593091692,
+    112.56356574858677
+   ],
+   "wins": 100
+  },
+  "final_minus_base_online": {
+   "mean": 0.21037408483344508,
+   "interval95": [
+    0.09726666485863955,
+    0.3522776810518167
+   ],
+   "wins": 31
+  }
+ },
+ "liveness": {
+  "base/pair_exact/attraction": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 128
+  },
+  "base/pair_exact/coph_online": {
+   "success": 30,
+   "new_contacts": 6,
+   "median_time": 76
+  },
+  "base/pair_swap/attraction": {
+   "success": 29,
+   "new_contacts": 0,
+   "median_time": 127
+  },
+  "base/pair_swap/coph_online": {
+   "success": 29,
+   "new_contacts": 3,
+   "median_time": 69
+  },
+  "base/circle_swap/attraction": {
+   "success": 0,
+   "new_contacts": 0,
+   "median_time": null
+  },
+  "base/circle_swap/coph_online": {
+   "success": 0,
+   "new_contacts": 0,
+   "median_time": null
+  },
+  "base/crossing/attraction": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 145
+  },
+  "base/crossing/coph_online": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 81
+  },
+  "final/pair_exact/attraction": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 129
+  },
+  "final/pair_exact/coph_online": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 73
+  },
+  "final/pair_swap/attraction": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 129
+  },
+  "final/pair_swap/coph_online": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 74
+  },
+  "final/circle_swap/attraction": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 261
+  },
+  "final/circle_swap/coph_online": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 140
+  },
+  "final/crossing/attraction": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 257
+  },
+  "final/crossing/coph_online": {
+   "success": 30,
+   "new_contacts": 0,
+   "median_time": 140
+  }
+ },
+ "gate": {
+  "native_coverage": true,
+  "native_avoidable": true,
+  "native_superiority": true,
+  "liveness": true
+ },
+ "passed": true
+}

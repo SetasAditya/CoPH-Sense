@@ -8,3 +8,25 @@ __pycache__/
 *.aux
 *.log
 *.out
+
+# New research outputs and local environments
+.venv*/
+external/
+**/results/
+**/output/
+**/outputs/
+**/build/
+*.egg-info/
+*.pkl
+*.pkl.gz
+# One frozen scene manifest used by source tests
+!CoPH-Stagewise/results/
+CoPH-Stagewise/results/*
+!CoPH-Stagewise/results/current_campaign_v1/
+CoPH-Stagewise/results/current_campaign_v1/*
+!CoPH-Stagewise/results/current_campaign_v1/reciprocity/
+CoPH-Stagewise/results/current_campaign_v1/reciprocity/*
+!CoPH-Stagewise/results/current_campaign_v1/reciprocity/manifest.json
+# Published compact summaries
+!docs/results/
+!docs/results/**

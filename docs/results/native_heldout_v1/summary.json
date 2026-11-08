@@ -1,0 +1,174 @@
+{
+  "starts": 50,
+  "excluded": [],
+  "summary": {
+    "phmarl": {
+      "full_coverage": 33,
+      "contact_free": 18,
+      "new_contacts": 327.0,
+      "mean_return": -207.14677353069186,
+      "median_return": -208.48249934613705,
+      "incomplete": [
+        85003,
+        85005,
+        85007,
+        85014,
+        85015,
+        85017,
+        85020,
+        85025,
+        85027,
+        85035,
+        85036,
+        85037,
+        85040,
+        85042,
+        85044,
+        85045,
+        85046
+      ]
+    },
+    "phmarl_assigned": {
+      "full_coverage": 33,
+      "contact_free": 46,
+      "new_contacts": 321.0,
+      "mean_return": -184.6429169410467,
+      "median_return": -181.03794538974762,
+      "incomplete": [
+        85003,
+        85005,
+        85007,
+        85014,
+        85015,
+        85017,
+        85020,
+        85025,
+        85027,
+        85035,
+        85036,
+        85037,
+        85040,
+        85042,
+        85044,
+        85045,
+        85046
+      ]
+    },
+    "phmarl_assigned_static_protected": {
+      "full_coverage": 31,
+      "contact_free": 49,
+      "new_contacts": 1.0,
+      "mean_return": -182.8224665811658,
+      "median_return": -181.04981736838818,
+      "incomplete": [
+        85003,
+        85005,
+        85007,
+        85014,
+        85015,
+        85017,
+        85020,
+        85022,
+        85025,
+        85027,
+        85035,
+        85036,
+        85037,
+        85040,
+        85041,
+        85042,
+        85044,
+        85045,
+        85046
+      ]
+    },
+    "coph_frozen_static_protected": {
+      "full_coverage": 50,
+      "contact_free": 49,
+      "new_contacts": 1.0,
+      "mean_return": -106.19691548614465,
+      "median_return": -103.60161109371074,
+      "incomplete": []
+    },
+    "coph_known_static_protected": {
+      "full_coverage": 50,
+      "contact_free": 49,
+      "new_contacts": 1.0,
+      "mean_return": -58.50516567288611,
+      "median_return": -50.606102625101016,
+      "incomplete": []
+    },
+    "coph_online_static_protected": {
+      "full_coverage": 50,
+      "contact_free": 49,
+      "new_contacts": 1.0,
+      "mean_return": -70.39725944506407,
+      "median_return": -63.861376612664856,
+      "incomplete": []
+    }
+  },
+  "paired": [
+    {
+      "treatment": "coph_online_static_protected",
+      "control": "phmarl",
+      "difference": 136.7495140856278,
+      "interval95": [
+        125.66949614274006,
+        148.12941564081336
+      ],
+      "wins": 50,
+      "median": 139.0613942117801
+    },
+    {
+      "treatment": "coph_online_static_protected",
+      "control": "phmarl_assigned",
+      "difference": 114.24565749598266,
+      "interval95": [
+        104.52896857210797,
+        124.24019888328311
+      ],
+      "wins": 50,
+      "median": 111.87610866102037
+    },
+    {
+      "treatment": "coph_online_static_protected",
+      "control": "phmarl_assigned_static_protected",
+      "difference": 112.42520713610173,
+      "interval95": [
+        102.38735684053479,
+        122.76558209291723
+      ],
+      "wins": 50,
+      "median": 111.87610866102037
+    },
+    {
+      "treatment": "coph_online_static_protected",
+      "control": "coph_frozen_static_protected",
+      "difference": 35.79965604108057,
+      "interval95": [
+        32.47513856786821,
+        39.05515000424214
+      ],
+      "wins": 50,
+      "median": 38.390622299164534
+    },
+    {
+      "treatment": "coph_online_static_protected",
+      "control": "coph_known_static_protected",
+      "difference": -11.89209377217797,
+      "interval95": [
+        -15.066593959980898,
+        -9.246489686250149
+      ],
+      "wins": 1,
+      "median": -8.906158336326257
+    }
+  ],
+  "gate": {
+    "coverage": true,
+    "contacts": false,
+    "superiority": true,
+    "passed": false
+  },
+  "seconds": 53.168840133119375
+}

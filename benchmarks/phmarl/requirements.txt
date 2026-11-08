@@ -1,0 +1,8 @@
+# Separate native checkpoint environment: Python 3.8.
+numpy==1.24.0
+torch==1.13.1
+scipy==1.10.1
+matplotlib==3.7.0
+Pillow==9.4.0
+gym==0.26.2
+vmas==1.2.6

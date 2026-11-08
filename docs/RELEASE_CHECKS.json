@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-07",
+  "baseline_commit": "071bd1787432a4adffcc158085b8ee23bebf4fe9",
+  "python": "3.12.4",
+  "dependencies": {
+    "numpy": "2.1.3",
+    "torch": "2.7.0+cu118",
+    "matplotlib": "3.10.9",
+    "Pillow": "10.4.0",
+    "scipy": "1.17.1",
+    "pytest": "9.1.0"
+  },
+  "stagewise_tests": {
+    "passed": 245,
+    "skipped": 41,
+    "subtests_passed": 7,
+    "failures": 0,
+    "scope": "source checkout without preserved experimental snapshots/source archives"
+  },
+  "native_tests": {
+    "passed": 26,
+    "python": "3.8.20",
+    "environment": "existing pinned native environment; no dependencies changed"
+  },
+  "install": {
+    "editable": true,
+    "environment": "isolated venv using system scientific packages; --no-deps --no-build-isolation"
+  },
+  "smoke": {
+    "single_agent": {
+      "success": true,
+      "collision": false,
+      "steps": 46
+    },
+    "crossing": {
+      "arms": 4,
+      "steps": 32,
+      "purpose": "runner/report smoke only; truncated missions do not complete"
+    }
+  },
+  "skipped_archive_note": "41 skips include tests requiring omitted snapshots. The historical frozen-source-hash mismatch remains unresolved and is not represented as a passing archive check.",
+  "source_hashes": "2711fe2c100eb0296bb051d1e182f0894fea25597d993cfc66e69d14dbd1437a",
+  "preserved_legacy_files": 915,
+  "full_campaigns_rerun": false
+}

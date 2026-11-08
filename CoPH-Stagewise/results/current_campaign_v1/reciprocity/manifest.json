@@ -1,0 +1,2147 @@
+{
+  "protocol": {
+    "schema": 1,
+    "suite": "reciprocity",
+    "development_only": true,
+    "device": "cpu",
+    "dtype": "float64",
+    "threads": 1,
+    "controller": {
+      "route_field_mode": "anchors",
+      "controller_mode": "routed",
+      "shaping_mode": "progress",
+      "shaping_k": 1.0,
+      "shaping_ell": 0.5,
+      "shaping_eta": 0.5,
+      "safety_margin": 0.05,
+      "obstacle_cap": 256,
+      "footprint_cap": 120,
+      "route_expansion_cap": 4096,
+      "navigation_target": "mission",
+      "replay_objective": "mission",
+      "replay_domain": "retained",
+      "replay_horizon_mode": "supported_boundary",
+      "replay_update_cap": 1024,
+      "boundary_max_steps": 32,
+      "boundary_follow_steps": 4,
+      "dt": 0.12,
+      "steps": 1800,
+      "stage_width": 3.0,
+      "stage_height": 4.0,
+      "overlap": 0.3,
+      "previous": 2,
+      "sample_cap": 240,
+      "transition_cap": 120,
+      "anchor_cap": 12,
+      "rbf_side": 4,
+      "rbf_width": 0.8,
+      "update_every": 8,
+      "replay_steps": 8,
+      "solver_steps": 8,
+      "damping_initial": 0.6,
+      "policy_initial": [
+        1.0,
+        2.0
+      ],
+      "damping_bounds": [
+        0.15,
+        1.5
+      ],
+      "policy_bounds": [
+        0.0,
+        10.0
+      ],
+      "damping_trust": 0.15,
+      "policy_trust": 0.25,
+      "fit_ridge": 0.02,
+      "validation_slack": 0.003,
+      "sensor_radius": 1.25,
+      "force_limit": 3.0
+    },
+    "policy_replay": false,
+    "communication_interval_seconds": 0.96,
+    "ttl": 300.0,
+    "support_unchanged": true,
+    "source_hashes": {
+      "__init__.py": "17d0637bc798bc0de143128f92adbd8b5f4484b864fff5c5259685cb3f01e85f",
+      "active_set_reporting.py": "373cab314fa78e1dceaba3d6b1cba5611c17d61dce27400bef19493d286b9f58",
+      "active_set_suite.py": "35907f07d1b830cbef396dedf8782e16b1639786ba4485e19afb81b6ebdb6d46",
+      "attribution.py": "2fd14b0346e8b2438d26ccd398bde96de8212f0aa00676b77947a81eedfb5a28",
+      "attribution_audits.py": "5fa57cfd77896ee9c0a9e8564e9a6df1b21b1daa85577b93a5647e4b729ba61b",
+      "attribution_reporting.py": "6dcb4b38b004ccea6cd1a43714b7dafa58a7ceb84bd8c26d46589495177af1c1",
+      "attribution_suite.py": "3394d7332e2e26f26ce5ce06b828f96a138bdd6a0037154404abbc3384928673",
+      "campaign_communication.py": "14b8ded369f160063c9e66abb7a72e33fca79e098257ac7c06ed59418f62ea64",
+      "cli.py": "97fb3031044de3c1d37025e4425ff54fe9818e5b3855b10838ccd1a54f0b9bbf",
+      "comparison.py": "31a2e3ecec64c01993d55e01b34035fc5aa47dded88e9a9c267e5549a162405f",
+      "complementary_reconstruction.py": "54c7a8e924195778325ead49d225348f1f279f5e27b553e577f4c2ed15110486",
+      "complementary_reporting.py": "8a86a5b2d5fb3f79fabf7ed6d3fba62f38d67ac0c9f417026bacba50fb8e1aa4",
+      "completion_checks.py": "82cc49f090a0c37c99fa2da30b4fae4803b510d09142d1da949563a11e28353f",
+      "completion_evaluation.py": "e956cbbe2116a2a75ae88a58c0d4c37d0673300078c11d50f2fa1e3562211373",
+      "complex_collision_audit.py": "0222fb7d785faa33b992b020d54153d2ba35b1ed6746c230a8d934d622ab7356",
+      "complex_environments.py": "12635c8bb1305d5cf9e1532447063221bbd442fa53976f7a239f402d1b1ec5c4",
+      "continuations.py": "b6077d06b4af718a66bbf3ae4113be509a7fe491660ac9ee20c192a764c27e18",
+      "cooperative.py": "6f03184d8bd44f944bf08a1cba8d108e936d145694558072cb1835871b242266",
+      "cooperative_evaluation.py": "6bc0bd92634cdd4ac0d12b340a4b6454d47bac0b900719f06ccb8839080577ad",
+      "cooperative_reporting.py": "752675995fddf9c249d1c36ecbfc23549f7b2ad9ae78cd7617bf7be26c264a7b",
+      "crossing_demo.py": "55eb4287eaf7c9dfa1f9f85de6fbe18e1c5fa2c37c00742f13916f66221d4edc",
+      "crossing_visuals.py": "f4547cfb6d7a52b3356ac557423e8396c93b6b4838bf4f6fdb21ceb87540ceb4",
+      "decision_audits.py": "3be3dcca26c8372cf33ff79b070f0ed527fea3e7bb37357d30e3bcf2ea90fc11",
+      "decision_reporting.py": "a802b9b8df94e3548b93a4c837b6c2850b6e4df518e955a480c2f0a8ab553c4c",
+      "decision_sensitive.py": "226851542d48131abea231fee416d4e97b1d771d3894d59ac9dead358102a336",
+      "decision_suite.py": "4ff38d14bc8d0aa9cf7df8b7519423e7dba9bdd3f4737d6b87f2c4b16a0411d9",
+      "decision_trace.py": "e1e664a9d55e0173aecdd9a32d50730c0177cb43f2cba5da819bb80004da0f17",
+      "diagnostics.py": "be7966b8f8ec0a7f44930f286cabe46686112600f8fa5de332133c0a57cc2181",
+      "evaluation.py": "cffcdd274eb52d486e6052fb6ac70e2d9272cdbcff249946e0085fac09d90bad",
+      "field_route_diagnostics.py": "32ee409b3accb30369ff0b0409d292ecfb90f5c96020ee425a1cc45d3e8e3bdc",
+      "field_route_reporting.py": "47188a7e8f18f7d2992065a1668d8889ba86d3b87c145d835de9c10ae41d0852",
+      "field_route_suite.py": "324c3872184ee60cc311eeeaa2f26e197aa2ed6ae1657100a3f8b16611253362",
+      "hazard_demo.py": "5171f38313e33796c8f2ba989a3415a08e578e1eeb4bc80450f794ab18f685a2",
+      "hazard_oracle.py": "30acb4db08d3db270d7d88f39fa9ff9cff00b26089bdfafb847231be91b0df7f",
+      "learner.py": "1a2f220fa9aa016e562fbff376b85fdc241ac261f2b633cf34087b23707d4e6b",
+      "maze_demo.py": "a0ff43a7aa09d30481b861bdb4db8b2e0716ad06ca83e33abebc71ba8485367e",
+      "maze_family.py": "c0b53b27baf8fdae6408459e08ba81268a5efac016d98a55514f150c640ba45f",
+      "maze_geometry.py": "1355e4ec7457e8dcf9a53a3271aee4fc548ec6cef7e1af185f0addd813e3cef8",
+      "maze_learning.py": "8c6a30dab4a1772ea207467df45792a3d2cedf80f16bfef658593cb6ba622c7a",
+      "maze_visuals.py": "3c32a53cff07981f861c4c2be7817243f3b66717e335579df54edd691c91f4d8",
+      "message_ablation.py": "f2ed2f586cfa64807ade197312a82876046c3fc6358041979158607bd84097e0",
+      "message_ablation_report.py": "ec42f511399dcb546bc13b4f074310aed7a585b6ba92927aa8f4b99593100c30",
+      "model.py": "8fffcb804f897dec21fa19e071bb32439cb5df93ede9d8b2307a3574d4870bf6",
+      "model_prediction.py": "2b5dec4bc84826c958702ddebc5bb94c64a941d397c8baa9163e55bf9a0147e6",
+      "navigation.py": "a09ce4f97adcb15da3c87baff3bc72943d78dcc697cc2e6ea44973b3f755f212",
+      "navigation_evaluation.py": "0f2258f75237e89435a9928859f58ac8abce076d9c435338c73e82eb0b35d14b",
+      "packet_feedback.py": "f8836368b22a10654b9f34bcfcf49aeff511c9b7cc4327398cb7673593ef7e99",
+      "physical_campaign.py": "188409165ffd3924e7010425bf53103d42dd7825232704410e43481cb2308037",
+      "physical_execution_campaign.py": "20f4eed7f2b2349fc8507c31c68547c687fc70b0583e40272b7e90efe76ef0cd",
+      "receiver_corrections.py": "6d86660db9f878d93b194da053d74c6c3804c6ea060ce3cad9a36003b997467a",
+      "receiver_corrections_report.py": "21b18be81e87ed636e63ca2c9dd8f1fc1a1aa042d1f2853443dce8bd9686484d",
+      "receiver_feedback_audit.py": "bdb87e0074dac55f86c426a7befd095d046807f6ddd5aa9621386beee8fd194e",
+      "receiver_feedback_evaluation.py": "6ea54f7ed0d608d1b28069f89829a303b3c06a12154760f2c34e969423e979bd",
+      "receiver_fitting.py": "7438f7154513f7316e4c747e546892a12de3d6c768628ce51bfc1a1dc1aed416",
+      "receiver_reconstruction.py": "d1631236872f88b2207532d772859eb35537fe4bdb3f37e06d42d063c028a971",
+      "receiver_summary.py": "adc87108c523dedb3bdb71b420e3492c8c1eeed25cdd0e2f5e4e6843bb422688",
+      "recipient_diagnostics.py": "3dbce8bfa3887561958babd4e3668d47d51d1ca6892ec0756046482411f67f88",
+      "reconstruction_diagnostics.py": "af2a5f729b8202e84754443b2ff9b93ed568550007a0d7abb2d207fa55b8fdd6",
+      "reconstruction_quality.py": "5120458faebac89829878eb80833bb6797323517bbe4b5249eeaa47dea4d8bc6",
+      "reconstruction_quality_report.py": "cd68d7aa6d751dce7b290bd8f763dfb73e419c8b8b0e591910de2816ea6f5570",
+      "reconstruction_reporting.py": "b08a8048a6ded873a3646f839755023945382d40ba5243c9196727ae9e99f4b3",
+      "records.py": "cfce0eec4b7d875e5f833986e89ae2ed566ffbf973baf8e1570377a1fa47e20c",
+      "replay_budget.py": "892219b14bc39ce0adda54daff844ebed22d334fa01674947aaf9ae4e33ae167",
+      "replay_gate.py": "670e04b7ac2b5804e5af34a8a743194233c383ba635d5185ffb50117c63d259b",
+      "report.py": "4298de451338773bb7a8c51e1ba7b976084ffa979741aa9e8e3d3c0728e08ac4",
+      "route_field.py": "f28d49520cb54094f9e76af524d3f8c0059adf9914924c4d93bdd69d0677e4f8",
+      "route_oracle.py": "1b5388e2fcae31093c525be1642e75638d889b9029651a3a7bf6c857f46fa671",
+      "routed_validation.py": "d899e2de66fc4c9aff995b630ce0fb91ea83402f9a9cd16671af65e158dcb6c3",
+      "scenarios.py": "8dc848403086158403077ff169d97c3a0eea95727958a65e7ff3f213262f404c",
+      "scheduling.py": "9f0414867f899188b61f09d538c7d98f118a914322cf153cc5fbe4620dbc1e59",
+      "shapes.py": "fa35a7db20edf4891a9de7810ffcdadd3ef7d22cb1a9aed9730a7bca54b722f5",
+      "sharing.py": "b4d27875ccc334424e4d8e12f86a38b3374ce67aee5da2b6f56bd2e4266a67c8",
+      "solver_diagnosis.py": "a8519b2374811faf5f89a6c75a006688256303bf0c17387d6492836e65aa1833",
+      "solver_diagnosis_report.py": "6af62b8b9473cc4cec519da647ec46fee5f9eb5a3e181730561224466d64e8a6",
+      "stage_prediction.py": "19ee11341df739b14dabfd46b721bc14b18ae2bfa730a0bdd662f9ccd6fc0d1c",
+      "stagewise_diagnostics.py": "32ee001549904daf884c62116d156c0514e011e2341c446ef57e1a72e81039f0",
+      "staggered_demo.py": "403b5cc5dd43864a9764c9bf0ea4a6bfbc0ebb27105f60c8b7c40a62b131382d",
+      "terrain_warning.py": "8c6fa3073dea2338ad95dea14dafe3b8b2af6ae5d4fb13c8cdbf3153d5378cdb",
+      "terrain_warning_demo.py": "193264b2da79aad9d4c6ed9e8517c61944c86e96b6629b0347a5a4709579789a",
+      "terrain_warning_visuals.py": "546d2c228cc44dc0fed13ffa985c971df827372c6fe401fcec437823f00c48d8",
+      "visualize.py": "3cf4bbf43d28da1a8275e52bd7129ebe03eaf8a2aa806d8491c2021836dda55c",
+      "world.py": "f8110160b88892d726afde0458f3c19624c884bd9856b779c6e5a0d066dd0dbb"
+    },
+    "python": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:12:24) [GCC 11.2.0]",
+    "numpy": "2.1.3",
+    "torch": "2.7.0+cu118",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "import_order": [
+      "numpy",
+      "torch"
+    ],
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "specs": [
+      {
+        "name": "unselected_89500",
+        "seed": 89500,
+        "initials": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            4.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "goals": [
+          [
+            10.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "initial": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "goal": [
+          10.0,
+          4.0
+        ],
+        "start_seconds": [
+          0.0,
+          0.0
+        ],
+        "steps": 2384,
+        "damping": 0.85,
+        "obstacles": [],
+        "patches": [],
+        "dynamic": false,
+        "network_nodes": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ],
+          [
+            10.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.0
+          ],
+          [
+            5.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "network_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "corridor_radius": 0.85,
+        "bounds": [
+          -1.0,
+          11.0,
+          -1.0,
+          5.0
+        ],
+        "prior": "Surveyed corridor layout only. Doors unknown. Independent plants; no inter-agent contact dynamics.",
+        "experiment": "unselected development layouts; no outcome or oracle-benefit screening"
+      },
+      {
+        "name": "unselected_89501",
+        "seed": 89501,
+        "initials": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "goals": [
+          [
+            10.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "initial": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "goal": [
+          10.0,
+          4.0
+        ],
+        "start_seconds": [
+          0.0,
+          5.0
+        ],
+        "steps": 2425,
+        "damping": 0.85,
+        "obstacles": [
+          [
+            2.3496662676024958,
+            0.0,
+            0.1,
+            -0.0,
+            0.75
+          ]
+        ],
+        "patches": [],
+        "dynamic": false,
+        "network_nodes": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ],
+          [
+            10.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.0
+          ],
+          [
+            5.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "network_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "corridor_radius": 0.85,
+        "bounds": [
+          -1.0,
+          11.0,
+          -1.0,
+          5.0
+        ],
+        "prior": "Surveyed corridor layout only. Doors unknown. Independent plants; no inter-agent contact dynamics.",
+        "experiment": "unselected development layouts; no outcome or oracle-benefit screening"
+      },
+      {
+        "name": "unselected_89502",
+        "seed": 89502,
+        "initials": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            4.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "goals": [
+          [
+            10.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "initial": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "goal": [
+          10.0,
+          4.0
+        ],
+        "start_seconds": [
+          0.0,
+          0.0
+        ],
+        "steps": 2384,
+        "damping": 0.85,
+        "obstacles": [
+          [
+            6.77424604104718,
+            0.0,
+            0.1,
+            -0.0,
+            0.75
+          ],
+          [
+            10.0,
+            2.0232706476473465,
+            0.1,
+            -0.75,
+            0.0
+          ]
+        ],
+        "patches": [],
+        "dynamic": false,
+        "network_nodes": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ],
+          [
+            10.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.0
+          ],
+          [
+            5.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "network_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "corridor_radius": 0.85,
+        "bounds": [
+          -1.0,
+          11.0,
+          -1.0,
+          5.0
+        ],
+        "prior": "Surveyed corridor layout only. Doors unknown. Independent plants; no inter-agent contact dynamics.",
+        "experiment": "unselected development layouts; no outcome or oracle-benefit screening"
+      },
+      {
+        "name": "unselected_89503",
+        "seed": 89503,
+        "initials": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "goals": [
+          [
+            10.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "initial": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "goal": [
+          10.0,
+          4.0
+        ],
+        "start_seconds": [
+          0.0,
+          5.0
+        ],
+        "steps": 2425,
+        "damping": 0.85,
+        "obstacles": [],
+        "patches": [],
+        "dynamic": false,
+        "network_nodes": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ],
+          [
+            10.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.0
+          ],
+          [
+            5.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "network_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "corridor_radius": 0.85,
+        "bounds": [
+          -1.0,
+          11.0,
+          -1.0,
+          5.0
+        ],
+        "prior": "Surveyed corridor layout only. Doors unknown. Independent plants; no inter-agent contact dynamics.",
+        "experiment": "unselected development layouts; no outcome or oracle-benefit screening"
+      },
+      {
+        "name": "unselected_89504",
+        "seed": 89504,
+        "initials": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            4.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "goals": [
+          [
+            10.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "initial": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "goal": [
+          10.0,
+          4.0
+        ],
+        "start_seconds": [
+          0.0,
+          0.0
+        ],
+        "steps": 2384,
+        "damping": 0.85,
+        "obstacles": [
+          [
+            10.0,
+            2.281555176163974,
+            0.1,
+            -0.75,
+            0.0
+          ]
+        ],
+        "patches": [],
+        "dynamic": false,
+        "network_nodes": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ],
+          [
+            10.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.0
+          ],
+          [
+            5.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "network_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "corridor_radius": 0.85,
+        "bounds": [
+          -1.0,
+          11.0,
+          -1.0,
+          5.0
+        ],
+        "prior": "Surveyed corridor layout only. Doors unknown. Independent plants; no inter-agent contact dynamics.",
+        "experiment": "unselected development layouts; no outcome or oracle-benefit screening"
+      },
+      {
+        "name": "unselected_89505",
+        "seed": 89505,
+        "initials": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "goals": [
+          [
+            10.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "initial": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "goal": [
+          10.0,
+          4.0
+        ],
+        "start_seconds": [
+          0.0,
+          5.0
+        ],
+        "steps": 2425,
+        "damping": 0.85,
+        "obstacles": [
+          [
+            7.077724026420592,
+            0.0,
+            0.1,
+            -0.0,
+            0.75
+          ],
+          [
+            5.0,
+            1.7931399257410985,
+            0.1,
+            -0.75,
+            0.0
+          ]
+        ],
+        "patches": [],
+        "dynamic": false,
+        "network_nodes": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ],
+          [
+            10.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.0
+          ],
+          [
+            5.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "network_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "corridor_radius": 0.85,
+        "bounds": [
+          -1.0,
+          11.0,
+          -1.0,
+          5.0
+        ],
+        "prior": "Surveyed corridor layout only. Doors unknown. Independent plants; no inter-agent contact dynamics.",
+        "experiment": "unselected development layouts; no outcome or oracle-benefit screening"
+      },
+      {
+        "name": "unselected_89506",
+        "seed": 89506,
+        "initials": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            4.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "goals": [
+          [
+            10.0,
+            4.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "initial": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "goal": [
+          10.0,
+          4.0
+        ],
+        "start_seconds": [
+          0.0,
+          0.0
+        ],
+        "steps": 2384,
+        "damping": 0.85,
+        "obstacles": [],
+        "patches": [],
+        "dynamic": false,
+        "network_nodes": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ],
+          [
+            10.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.0
+          ],
+          [
+            5.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "network_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "corridor_radius": 0.85,
+        "bounds": [
+          -1.0,
+          11.0,
+          -1.0,
+          5.0
+        ],
+        "prior": "Surveyed corridor layout only. Doors unknown. Independent plants; no inter-agent contact dynamics.",
+        "experiment": "unselected development layouts; no outcome or oracle-benefit screening"
+      },
+      {
+        "name": "unselected_89507",
+        "seed": 89507,
+        "initials": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "goals": [
+          [
+            10.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "initial": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "goal": [
+          10.0,
+          4.0
+        ],
+        "start_seconds": [
+          0.0,
+          5.0
+        ],
+        "steps": 2425,
+        "damping": 0.85,
+        "obstacles": [
+          [
+            7.519779987726561,
+            4.0,
+            0.1,
+            -0.0,
+            0.75
+          ]
+        ],
+        "patches": [],
+        "dynamic": false,
+        "network_nodes": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            5.0,
+            0.0
+          ],
+          [
+            10.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.0
+          ],
+          [
+            5.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ]
+        ],
+        "network_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "corridor_radius": 0.85,
+        "bounds": [
+          -1.0,
+          11.0,
+          -1.0,
+          5.0
+        ],
+        "prior": "Surveyed corridor layout only. Doors unknown. Independent plants; no inter-agent contact dynamics.",
+        "experiment": "unselected development layouts; no outcome or oracle-benefit screening"
+      }
+    ],
+    "catalogue": [
+      {
+        "seed": 89500,
+        "selected": true,
+        "truth_reachable": true,
+        "doors": 0,
+        "oracle": {
+          "disabled": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "one_way_01": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "one_way_10": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "reciprocal_fixed": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          }
+        }
+      },
+      {
+        "seed": 89501,
+        "selected": true,
+        "truth_reachable": true,
+        "doors": 1,
+        "oracle": {
+          "disabled": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "one_way_01": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "one_way_10": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "reciprocal_fixed": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          }
+        }
+      },
+      {
+        "seed": 89502,
+        "selected": true,
+        "truth_reachable": true,
+        "doors": 2,
+        "oracle": {
+          "disabled": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 15.259999999999929,
+                "wasted": 1.2599999999999287,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 15.269999999999719
+              }
+            },
+            "team_wasted": 1.2599999999998843,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 0.6300000000000003,
+                "agent": 1,
+                "door": [
+                  10.0,
+                  2.0232706476473465,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "q": [
+                  10.0,
+                  3.3700000000000134
+                ]
+              }
+            ]
+          },
+          "one_way_01": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 15.259999999999929,
+                "wasted": 1.2599999999999287,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 15.269999999999719
+              }
+            },
+            "team_wasted": 1.2599999999998843,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 0.6300000000000003,
+                "agent": 1,
+                "door": [
+                  10.0,
+                  2.0232706476473465,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "q": [
+                  10.0,
+                  3.3700000000000134
+                ]
+              }
+            ]
+          },
+          "one_way_10": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 15.259999999999929,
+                "wasted": 1.2599999999999287,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 15.269999999999719
+              }
+            },
+            "team_wasted": 1.2599999999998843,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 0.6300000000000003,
+                "agent": 1,
+                "door": [
+                  10.0,
+                  2.0232706476473465,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "q": [
+                  10.0,
+                  3.3700000000000134
+                ]
+              },
+              {
+                "kind": "received",
+                "time": 0.6300000000000003,
+                "agent": 0,
+                "door": [
+                  10.0,
+                  2.0232706476473465,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "sender": 1
+              }
+            ]
+          },
+          "reciprocal_fixed": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 15.259999999999929,
+                "wasted": 1.2599999999999287,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 15.269999999999719
+              }
+            },
+            "team_wasted": 1.2599999999998843,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 0.6300000000000003,
+                "agent": 1,
+                "door": [
+                  10.0,
+                  2.0232706476473465,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "q": [
+                  10.0,
+                  3.3700000000000134
+                ]
+              },
+              {
+                "kind": "received",
+                "time": 0.6300000000000003,
+                "agent": 0,
+                "door": [
+                  10.0,
+                  2.0232706476473465,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "sender": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "seed": 89503,
+        "selected": true,
+        "truth_reachable": true,
+        "doors": 0,
+        "oracle": {
+          "disabled": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "one_way_01": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "one_way_10": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "reciprocal_fixed": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          }
+        }
+      },
+      {
+        "seed": 89504,
+        "selected": true,
+        "truth_reachable": true,
+        "doors": 1,
+        "oracle": {
+          "disabled": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 14.73999999999994,
+                "wasted": 0.7399999999999398,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.74999999999973
+              }
+            },
+            "team_wasted": 0.7399999999998954,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 0.37000000000000016,
+                "agent": 1,
+                "door": [
+                  10.0,
+                  2.281555176163974,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "q": [
+                  10.0,
+                  3.630000000000008
+                ]
+              }
+            ]
+          },
+          "one_way_01": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 14.73999999999994,
+                "wasted": 0.7399999999999398,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.74999999999973
+              }
+            },
+            "team_wasted": 0.7399999999998954,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 0.37000000000000016,
+                "agent": 1,
+                "door": [
+                  10.0,
+                  2.281555176163974,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "q": [
+                  10.0,
+                  3.630000000000008
+                ]
+              }
+            ]
+          },
+          "one_way_10": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 14.73999999999994,
+                "wasted": 0.7399999999999398,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.74999999999973
+              }
+            },
+            "team_wasted": 0.7399999999998954,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 0.37000000000000016,
+                "agent": 1,
+                "door": [
+                  10.0,
+                  2.281555176163974,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "q": [
+                  10.0,
+                  3.630000000000008
+                ]
+              },
+              {
+                "kind": "received",
+                "time": 0.37000000000000016,
+                "agent": 0,
+                "door": [
+                  10.0,
+                  2.281555176163974,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "sender": 1
+              }
+            ]
+          },
+          "reciprocal_fixed": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 14.73999999999994,
+                "wasted": 0.7399999999999398,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.74999999999973
+              }
+            },
+            "team_wasted": 0.7399999999998954,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 0.37000000000000016,
+                "agent": 1,
+                "door": [
+                  10.0,
+                  2.281555176163974,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "q": [
+                  10.0,
+                  3.630000000000008
+                ]
+              },
+              {
+                "kind": "received",
+                "time": 0.37000000000000016,
+                "agent": 0,
+                "door": [
+                  10.0,
+                  2.281555176163974,
+                  0.1,
+                  -0.75,
+                  0.0
+                ],
+                "sender": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "seed": 89505,
+        "selected": true,
+        "truth_reachable": true,
+        "doors": 2,
+        "oracle": {
+          "disabled": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "one_way_01": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "one_way_10": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "reciprocal_fixed": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 19.010000000000172
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          }
+        }
+      },
+      {
+        "seed": 89506,
+        "selected": true,
+        "truth_reachable": true,
+        "doors": 0,
+        "oracle": {
+          "disabled": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "one_way_01": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "one_way_10": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          },
+          "reciprocal_fixed": {
+            "agents": {
+              "0": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              },
+              "1": {
+                "path": 13.999999999999956,
+                "wasted": -4.440892098500626e-14,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 14.009999999999746
+              }
+            },
+            "team_wasted": -8.881784197001252e-14,
+            "events": []
+          }
+        }
+      },
+      {
+        "seed": 89507,
+        "selected": true,
+        "truth_reachable": true,
+        "doors": 1,
+        "oracle": {
+          "disabled": {
+            "agents": {
+              "0": {
+                "path": 24.340000000001087,
+                "wasted": 10.340000000001087,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 24.350000000001007
+              },
+              "1": {
+                "path": 24.340000000001087,
+                "wasted": 10.340000000001087,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 29.35000000000179
+              }
+            },
+            "team_wasted": 20.680000000002174,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 10.169999999999828,
+                "agent": 0,
+                "door": [
+                  7.519779987726561,
+                  4.0,
+                  0.1,
+                  -0.0,
+                  0.75
+                ],
+                "q": [
+                  6.169999999999872,
+                  4.0
+                ]
+              },
+              {
+                "kind": "sensed",
+                "time": 15.169999999999721,
+                "agent": 1,
+                "door": [
+                  7.519779987726561,
+                  4.0,
+                  0.1,
+                  -0.0,
+                  0.75
+                ],
+                "q": [
+                  6.169999999999872,
+                  4.0
+                ]
+              }
+            ]
+          },
+          "one_way_01": {
+            "agents": {
+              "0": {
+                "path": 24.340000000001087,
+                "wasted": 10.340000000001087,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 24.350000000001007
+              },
+              "1": {
+                "path": 22.000000000000927,
+                "wasted": 8.000000000000927,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 27.010000000001423
+              }
+            },
+            "team_wasted": 18.340000000002014,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 10.169999999999828,
+                "agent": 0,
+                "door": [
+                  7.519779987726561,
+                  4.0,
+                  0.1,
+                  -0.0,
+                  0.75
+                ],
+                "q": [
+                  6.169999999999872,
+                  4.0
+                ]
+              },
+              {
+                "kind": "received",
+                "time": 10.169999999999828,
+                "agent": 1,
+                "door": [
+                  7.519779987726561,
+                  4.0,
+                  0.1,
+                  -0.0,
+                  0.75
+                ],
+                "sender": 0
+              }
+            ]
+          },
+          "one_way_10": {
+            "agents": {
+              "0": {
+                "path": 24.340000000001087,
+                "wasted": 10.340000000001087,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 24.350000000001007
+              },
+              "1": {
+                "path": 24.340000000001087,
+                "wasted": 10.340000000001087,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 29.35000000000179
+              }
+            },
+            "team_wasted": 20.680000000002174,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 10.169999999999828,
+                "agent": 0,
+                "door": [
+                  7.519779987726561,
+                  4.0,
+                  0.1,
+                  -0.0,
+                  0.75
+                ],
+                "q": [
+                  6.169999999999872,
+                  4.0
+                ]
+              },
+              {
+                "kind": "sensed",
+                "time": 15.169999999999721,
+                "agent": 1,
+                "door": [
+                  7.519779987726561,
+                  4.0,
+                  0.1,
+                  -0.0,
+                  0.75
+                ],
+                "q": [
+                  6.169999999999872,
+                  4.0
+                ]
+              }
+            ]
+          },
+          "reciprocal_fixed": {
+            "agents": {
+              "0": {
+                "path": 24.340000000001087,
+                "wasted": 10.340000000001087,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 24.350000000001007
+              },
+              "1": {
+                "path": 22.000000000000927,
+                "wasted": 8.000000000000927,
+                "shortest": 14.0,
+                "success": true,
+                "finish": 27.010000000001423
+              }
+            },
+            "team_wasted": 18.340000000002014,
+            "events": [
+              {
+                "kind": "sensed",
+                "time": 10.169999999999828,
+                "agent": 0,
+                "door": [
+                  7.519779987726561,
+                  4.0,
+                  0.1,
+                  -0.0,
+                  0.75
+                ],
+                "q": [
+                  6.169999999999872,
+                  4.0
+                ]
+              },
+              {
+                "kind": "received",
+                "time": 10.169999999999828,
+                "agent": 1,
+                "door": [
+                  7.519779987726561,
+                  4.0,
+                  0.1,
+                  -0.0,
+                  0.75
+                ],
+                "sender": 0
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "arms": [
+      "disabled",
+      "one_way_01",
+      "one_way_10",
+      "reciprocal_fixed"
+    ],
+    "expected_episodes": 32,
+    "animation_seed": 89500,
+    "byte_budget": 4000000,
+    "seed_semantics": "eight independent layouts; one indexed sensor stream per layout; all generated layouts retained"
+  },
+  "fingerprint": "9852caf7ab79f4f5ff86c9d39b1c70d12c4a2da30492477e091d137dc59a7d24",
+  "frozen_utc": "2026-11-03T05:46:57Z"
+}
