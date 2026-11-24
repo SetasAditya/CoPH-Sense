@@ -1,0 +1,20 @@
+{
+  "media_files": 15,
+  "frame_counts": {
+    "dynamics": 70,
+    "hazards": 65,
+    "reciprocity": 66,
+    "encounters": 65,
+    "uncertainty": 60
+  },
+  "local_links": 5,
+  "source_hashes_verified": true,
+  "paper_placeholders": 2,
+  "new_training_or_navigation_runs": false,
+  "archive_sources": 19,
+  "exact_model_snapshots": 262,
+  "force_checks": 119,
+  "max_force_error": 5.421010862427522e-20,
+  "regenerated_query_pairs": 12,
+  "original_inputs_unchanged": true
+}

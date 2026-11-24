@@ -1,0 +1,457 @@
+[
+  {
+    "video_frame": 0,
+    "video_seconds": 0.0,
+    "mission_seconds": 0.0,
+    "logged_sample": 0,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 1,
+    "video_seconds": 0.1,
+    "mission_seconds": 0.1,
+    "logged_sample": 1,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 2,
+    "video_seconds": 0.2,
+    "mission_seconds": 0.5,
+    "logged_sample": 2,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 3,
+    "video_seconds": 0.3,
+    "mission_seconds": 0.9,
+    "logged_sample": 3,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 4,
+    "video_seconds": 0.4,
+    "mission_seconds": 1.7000000000000002,
+    "logged_sample": 5,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 5,
+    "video_seconds": 0.5,
+    "mission_seconds": 2.1,
+    "logged_sample": 6,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 6,
+    "video_seconds": 0.6,
+    "mission_seconds": 2.9000000000000004,
+    "logged_sample": 8,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 7,
+    "video_seconds": 0.7,
+    "mission_seconds": 3.7,
+    "logged_sample": 10,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 8,
+    "video_seconds": 0.8,
+    "mission_seconds": 4.1,
+    "logged_sample": 11,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 9,
+    "video_seconds": 0.9,
+    "mission_seconds": 4.9,
+    "logged_sample": 13,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 10,
+    "video_seconds": 1.0,
+    "mission_seconds": 5.3,
+    "logged_sample": 14,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 11,
+    "video_seconds": 1.1,
+    "mission_seconds": 6.1,
+    "logged_sample": 16,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 12,
+    "video_seconds": 1.2,
+    "mission_seconds": 6.5,
+    "logged_sample": 17,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 13,
+    "video_seconds": 1.3,
+    "mission_seconds": 7.3,
+    "logged_sample": 19,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 14,
+    "video_seconds": 1.4,
+    "mission_seconds": 8.1,
+    "logged_sample": 21,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 15,
+    "video_seconds": 1.5,
+    "mission_seconds": 8.5,
+    "logged_sample": 22,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 16,
+    "video_seconds": 1.6,
+    "mission_seconds": 9.3,
+    "logged_sample": 24,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 17,
+    "video_seconds": 1.7,
+    "mission_seconds": 9.700000000000001,
+    "logged_sample": 25,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 18,
+    "video_seconds": 1.8,
+    "mission_seconds": 10.5,
+    "logged_sample": 27,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 19,
+    "video_seconds": 1.9,
+    "mission_seconds": 11.3,
+    "logged_sample": 29,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 20,
+    "video_seconds": 2.0,
+    "mission_seconds": 11.700000000000001,
+    "logged_sample": 30,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 21,
+    "video_seconds": 2.1,
+    "mission_seconds": 12.5,
+    "logged_sample": 32,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 22,
+    "video_seconds": 2.2,
+    "mission_seconds": 12.9,
+    "logged_sample": 33,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 23,
+    "video_seconds": 2.3,
+    "mission_seconds": 13.700000000000001,
+    "logged_sample": 35,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 24,
+    "video_seconds": 2.4,
+    "mission_seconds": 14.5,
+    "logged_sample": 37,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 25,
+    "video_seconds": 2.5,
+    "mission_seconds": 14.9,
+    "logged_sample": 38,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 26,
+    "video_seconds": 2.6,
+    "mission_seconds": 15.700000000000001,
+    "logged_sample": 40,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 27,
+    "video_seconds": 2.7,
+    "mission_seconds": 16.1,
+    "logged_sample": 41,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 28,
+    "video_seconds": 2.8,
+    "mission_seconds": 16.900000000000002,
+    "logged_sample": 43,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 29,
+    "video_seconds": 2.9,
+    "mission_seconds": 17.3,
+    "logged_sample": 44,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 30,
+    "video_seconds": 3.0,
+    "mission_seconds": 18.1,
+    "logged_sample": 46,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 31,
+    "video_seconds": 3.1,
+    "mission_seconds": 18.900000000000002,
+    "logged_sample": 48,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 32,
+    "video_seconds": 3.2,
+    "mission_seconds": 19.300000000000004,
+    "logged_sample": 49,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 33,
+    "video_seconds": 3.3,
+    "mission_seconds": 20.1,
+    "logged_sample": 51,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 34,
+    "video_seconds": 3.4,
+    "mission_seconds": 20.500000000000004,
+    "logged_sample": 52,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 35,
+    "video_seconds": 3.5,
+    "mission_seconds": 21.300000000000004,
+    "logged_sample": 54,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 36,
+    "video_seconds": 3.6,
+    "mission_seconds": 22.1,
+    "logged_sample": 56,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 37,
+    "video_seconds": 3.7,
+    "mission_seconds": 22.500000000000004,
+    "logged_sample": 57,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 38,
+    "video_seconds": 3.8,
+    "mission_seconds": 23.300000000000004,
+    "logged_sample": 59,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 39,
+    "video_seconds": 3.9,
+    "mission_seconds": 23.700000000000003,
+    "logged_sample": 60,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 40,
+    "video_seconds": 4.0,
+    "mission_seconds": 24.500000000000004,
+    "logged_sample": 62,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 41,
+    "video_seconds": 4.1,
+    "mission_seconds": 24.900000000000002,
+    "logged_sample": 63,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 42,
+    "video_seconds": 4.2,
+    "mission_seconds": 25.700000000000003,
+    "logged_sample": 65,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 43,
+    "video_seconds": 4.3,
+    "mission_seconds": 26.500000000000004,
+    "logged_sample": 67,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 44,
+    "video_seconds": 4.4,
+    "mission_seconds": 26.900000000000002,
+    "logged_sample": 68,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 45,
+    "video_seconds": 4.5,
+    "mission_seconds": 27.700000000000003,
+    "logged_sample": 70,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 46,
+    "video_seconds": 4.6,
+    "mission_seconds": 28.1,
+    "logged_sample": 71,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 47,
+    "video_seconds": 4.7,
+    "mission_seconds": 28.900000000000002,
+    "logged_sample": 73,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 48,
+    "video_seconds": 4.8,
+    "mission_seconds": 29.700000000000003,
+    "logged_sample": 75,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 49,
+    "video_seconds": 4.9,
+    "mission_seconds": 30.1,
+    "logged_sample": 76,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 50,
+    "video_seconds": 5.0,
+    "mission_seconds": 30.900000000000002,
+    "logged_sample": 78,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 51,
+    "video_seconds": 5.1,
+    "mission_seconds": 31.300000000000004,
+    "logged_sample": 79,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 52,
+    "video_seconds": 5.2,
+    "mission_seconds": 32.1,
+    "logged_sample": 81,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 53,
+    "video_seconds": 5.3,
+    "mission_seconds": 32.900000000000006,
+    "logged_sample": 83,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 54,
+    "video_seconds": 5.4,
+    "mission_seconds": 33.300000000000004,
+    "logged_sample": 84,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 55,
+    "video_seconds": 5.5,
+    "mission_seconds": 34.1,
+    "logged_sample": 86,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 56,
+    "video_seconds": 5.6,
+    "mission_seconds": 34.5,
+    "logged_sample": 87,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 57,
+    "video_seconds": 5.7,
+    "mission_seconds": 35.300000000000004,
+    "logged_sample": 89,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 58,
+    "video_seconds": 5.8,
+    "mission_seconds": 35.7,
+    "logged_sample": 90,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 59,
+    "video_seconds": 5.9,
+    "mission_seconds": 36.5,
+    "logged_sample": 92,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 60,
+    "video_seconds": 6.0,
+    "mission_seconds": 37.300000000000004,
+    "logged_sample": 94,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 61,
+    "video_seconds": 6.1,
+    "mission_seconds": 37.7,
+    "logged_sample": 95,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 62,
+    "video_seconds": 6.2,
+    "mission_seconds": 38.50000000000001,
+    "logged_sample": 97,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 63,
+    "video_seconds": 6.3,
+    "mission_seconds": 38.900000000000006,
+    "logged_sample": 98,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  },
+  {
+    "video_frame": 64,
+    "video_seconds": 6.4,
+    "mission_seconds": 39.7,
+    "logged_sample": 100,
+    "time_semantics": "post-integration subsamples; no interpolation"
+  }
+]

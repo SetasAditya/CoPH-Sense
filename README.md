@@ -2,6 +2,8 @@
 
 Cooperative port-Hamiltonian navigation with learned environmental fields. Agents identify dynamics from executed inputs, retain evidence across overlapping stages, and share supported field summaries that each receiver interprets using its own task preferences.
 
+**[Project gallery](https://setasaditya.github.io/CoPH-Sense/)** · Five recorded scenarios with synchronized model, control, and outcome views.
+
 ## Quick start
 
 Python 3.10+; CPU execution is supported. From the repository root:
@@ -34,3 +36,5 @@ python -m coph_stagewise.crossing_demo --out results/crossing --workers 2
 The current implementation uses static environments, bounded stage memory, float64 identification/replay, fixed-rate communication, and separate physical/shaping-energy accounting. Supported historical replay and receiver reconstruction are implemented; their additional navigation benefit is not established. Native VMAS studies isolate control and identification.
 
 Earlier material-sensing prototypes remain in `CoPh-sense/`, `full_code/`, and `repair_experiments/`; their original instructions are preserved in [docs/LEGACY_README.md](docs/LEGACY_README.md). Their Python 3.8 requirements are separate from the current package. Large generated runs, virtual environments and caches are excluded from new source additions.
+
+Scenario media and baseline-admission records are documented in [project-page/README.md](project-page/README.md) and [benchmarks/scenario_baselines/](benchmarks/scenario_baselines/).

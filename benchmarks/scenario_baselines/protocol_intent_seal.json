@@ -1,0 +1,10 @@
+{
+  "sealed_on": "2026-11-24",
+  "comparative_outcomes_observed": false,
+  "native_runs_executed": 0,
+  "sha256": {
+    "source_capture.json": "8c1aab1c9ca3f482202ad2b49bb8408e2f2fc3b4f728bb1a031e42acc04345f7",
+    "native_reproduction.json": "d3ecbd9e6b564b7187dc5c6df2502d43bb1e411c1abb826e8eafe52175a3ae34",
+    "matched_protocol_intent.json": "df6a52fad07abd2e8bc6d7ef898386c87af06c02e011b0bb3df999bc264a9b1e"
+  }
+}

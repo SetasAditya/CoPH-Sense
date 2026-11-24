@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-24",
+  "source_suite": {
+    "passed": 248,
+    "skipped": 41,
+    "subtests_passed": 7,
+    "historical_archive_hash_failure": "not repaired; archive-dependent check skipped because archives are not in source checkout"
+  },
+  "native_suite": {
+    "passed": 26,
+    "python": "3.8.20",
+    "environment": "pinned native environment"
+  },
+  "baseline_admission_tests": 4,
+  "new_training_or_navigation_runs": false
+}

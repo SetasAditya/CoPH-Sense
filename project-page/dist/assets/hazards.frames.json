@@ -1,0 +1,1781 @@
+[
+  {
+    "video_frame": 0,
+    "video_seconds": 0.0,
+    "mission_seconds": 0.0,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 0,
+        "logged_time": 0.0,
+        "model_version": 1
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 1,
+    "video_seconds": 0.1,
+    "mission_seconds": 1.3320634920634922,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 11,
+        "logged_time": 1.32,
+        "model_version": 2
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 2,
+    "video_seconds": 0.2,
+    "mission_seconds": 2.6641269841269843,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 22,
+        "logged_time": 2.64,
+        "model_version": 3
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 3,
+    "video_seconds": 0.3,
+    "mission_seconds": 3.9961904761904767,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 33,
+        "logged_time": 3.96,
+        "model_version": 5
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 4,
+    "video_seconds": 0.4,
+    "mission_seconds": 5.328253968253969,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 44,
+        "logged_time": 5.28,
+        "model_version": 6
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 5,
+    "video_seconds": 0.5,
+    "mission_seconds": 6.660317460317461,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 55,
+        "logged_time": 6.6,
+        "model_version": 7
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 6,
+    "video_seconds": 0.6,
+    "mission_seconds": 7.9923809523809535,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 66,
+        "logged_time": 7.92,
+        "model_version": 9
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 7,
+    "video_seconds": 0.7,
+    "mission_seconds": 9.324444444444445,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 77,
+        "logged_time": 9.24,
+        "model_version": 10
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 8,
+    "video_seconds": 0.8,
+    "mission_seconds": 10.656507936507937,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 88,
+        "logged_time": 10.56,
+        "model_version": 12
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 9,
+    "video_seconds": 0.9,
+    "mission_seconds": 11.98857142857143,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 99,
+        "logged_time": 11.88,
+        "model_version": 13
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 10,
+    "video_seconds": 1.0,
+    "mission_seconds": 13.320634920634921,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 111,
+        "logged_time": 13.32,
+        "model_version": 14
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 11,
+    "video_seconds": 1.1,
+    "mission_seconds": 14.652698412698413,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 122,
+        "logged_time": 14.64,
+        "model_version": 16
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 12,
+    "video_seconds": 1.2,
+    "mission_seconds": 15.984761904761907,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 133,
+        "logged_time": 15.96,
+        "model_version": 17
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 13,
+    "video_seconds": 1.3,
+    "mission_seconds": 17.316825396825397,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 144,
+        "logged_time": 17.28,
+        "model_version": 19
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 14,
+    "video_seconds": 1.4,
+    "mission_seconds": 18.64888888888889,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 155,
+        "logged_time": 18.6,
+        "model_version": 20
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 15,
+    "video_seconds": 1.5,
+    "mission_seconds": 19.98095238095238,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 166,
+        "logged_time": 19.92,
+        "model_version": 21
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 16,
+    "video_seconds": 1.6,
+    "mission_seconds": 21.313015873015875,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 177,
+        "logged_time": 21.24,
+        "model_version": 23
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 17,
+    "video_seconds": 1.7,
+    "mission_seconds": 22.64507936507937,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 188,
+        "logged_time": 22.56,
+        "model_version": 24
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 18,
+    "video_seconds": 1.8,
+    "mission_seconds": 23.97714285714286,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 199,
+        "logged_time": 23.88,
+        "model_version": 25
+      },
+      {
+        "agent": 1,
+        "trajectory_index": null,
+        "logged_time": null,
+        "model_version": null
+      }
+    ],
+    "surface": null,
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 19,
+    "video_seconds": 1.9,
+    "mission_seconds": 25.0,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 208,
+        "logged_time": 24.96,
+        "model_version": 27
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 0,
+        "logged_time": 25.0,
+        "model_version": 1
+      }
+    ],
+    "surface": {
+      "version": 1,
+      "stage": 0,
+      "supported": 664,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 25.0,
+      "max_supported_H": 2.2244358958968635,
+      "model_sha256": "882e2d285f8499cb3aefd41e6f249174c14508e81282fba02ab77a3d4367faa5"
+    },
+    "delivered_packets": 0
+  },
+  {
+    "video_frame": 20,
+    "video_seconds": 2.0,
+    "mission_seconds": 25.309206349206352,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 210,
+        "logged_time": 25.2,
+        "model_version": 28
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 2,
+        "logged_time": 25.24,
+        "model_version": 1
+      }
+    ],
+    "surface": {
+      "version": 1,
+      "stage": 0,
+      "supported": 666,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 25.24,
+      "max_supported_H": 2.4309355374396033,
+      "model_sha256": "8860e599ade796eea2859c97698ff2d6a34bae2ed5b423838b886a2fdb204d09"
+    },
+    "delivered_packets": 1
+  },
+  {
+    "video_frame": 21,
+    "video_seconds": 2.1,
+    "mission_seconds": 26.641269841269843,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 222,
+        "logged_time": 26.64,
+        "model_version": 30
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 13,
+        "logged_time": 26.56,
+        "model_version": 2
+      }
+    ],
+    "surface": {
+      "version": 2,
+      "stage": 0,
+      "supported": 742,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 26.56,
+      "max_supported_H": 3.125768188372032,
+      "model_sha256": "571640f0f1d7629bf8751bed980bbb4853d9a402e889ae7bbcd16431327e5ae7"
+    },
+    "delivered_packets": 3
+  },
+  {
+    "video_frame": 22,
+    "video_seconds": 2.2,
+    "mission_seconds": 27.973333333333336,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 233,
+        "logged_time": 27.96,
+        "model_version": 34
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 24,
+        "logged_time": 27.88,
+        "model_version": 4
+      }
+    ],
+    "surface": {
+      "version": 4,
+      "stage": 0,
+      "supported": 763,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 27.88,
+      "max_supported_H": 2.2114647769382927,
+      "model_sha256": "93d56cc14dd81d573078f95cf060eed17b2ae50e442d2239b29c9fe19224af30"
+    },
+    "delivered_packets": 7
+  },
+  {
+    "video_frame": 23,
+    "video_seconds": 2.3,
+    "mission_seconds": 29.305396825396826,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 244,
+        "logged_time": 29.28,
+        "model_version": 36
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 35,
+        "logged_time": 29.2,
+        "model_version": 5
+      }
+    ],
+    "surface": {
+      "version": 5,
+      "stage": 0,
+      "supported": 639,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 29.2,
+      "max_supported_H": 3.488183833891454,
+      "model_sha256": "d7e389a7b707d775ec10525d0d42b35e2c19ce012b1d9cb2a0a23f1656f8b2c4"
+    },
+    "delivered_packets": 9
+  },
+  {
+    "video_frame": 24,
+    "video_seconds": 2.4,
+    "mission_seconds": 30.63746031746032,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 255,
+        "logged_time": 30.6,
+        "model_version": 38
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 46,
+        "logged_time": 30.52,
+        "model_version": 6
+      }
+    ],
+    "surface": {
+      "version": 6,
+      "stage": 0,
+      "supported": 660,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 30.52,
+      "max_supported_H": 4.674811688979561,
+      "model_sha256": "d2f3a1b5eb36443cc24a7e4767998b344656ed0b3f2db970c86d90d5d6c94a8b"
+    },
+    "delivered_packets": 11
+  },
+  {
+    "video_frame": 25,
+    "video_seconds": 2.5,
+    "mission_seconds": 31.969523809523814,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 266,
+        "logged_time": 31.92,
+        "model_version": 42
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 58,
+        "logged_time": 31.96,
+        "model_version": 8
+      }
+    ],
+    "surface": {
+      "version": 8,
+      "stage": 0,
+      "supported": 687,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 31.96,
+      "max_supported_H": 5.436060262441854,
+      "model_sha256": "9c8b90495b026e03608a21bc243b60e49d918a80a709f5ba024b5ff23784d437"
+    },
+    "delivered_packets": 15
+  },
+  {
+    "video_frame": 26,
+    "video_seconds": 2.6,
+    "mission_seconds": 33.301587301587304,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 277,
+        "logged_time": 33.24,
+        "model_version": 44
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 69,
+        "logged_time": 33.28,
+        "model_version": 9
+      }
+    ],
+    "surface": {
+      "version": 9,
+      "stage": 0,
+      "supported": 638,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 33.28,
+      "max_supported_H": 5.568034084616691,
+      "model_sha256": "c9d8358ce007f28570fb01d06337616b34664d9af682b3d04d45931a35889c18"
+    },
+    "delivered_packets": 17
+  },
+  {
+    "video_frame": 27,
+    "video_seconds": 2.7,
+    "mission_seconds": 34.633650793650794,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 288,
+        "logged_time": 34.56,
+        "model_version": 47
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 80,
+        "logged_time": 34.6,
+        "model_version": 11
+      }
+    ],
+    "surface": {
+      "version": 11,
+      "stage": 1,
+      "supported": 507,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 34.6,
+      "max_supported_H": 2.1796273191242377,
+      "model_sha256": "057b8f94c368784b7c420a48d1bfcece42bcccc93b91d060e9425fa84bc39fd4"
+    },
+    "delivered_packets": 20
+  },
+  {
+    "video_frame": 28,
+    "video_seconds": 2.8,
+    "mission_seconds": 35.96571428571429,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 299,
+        "logged_time": 35.88,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 91,
+        "logged_time": 35.92,
+        "model_version": 12
+      }
+    ],
+    "surface": {
+      "version": 12,
+      "stage": 1,
+      "supported": 609,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 35.92,
+      "max_supported_H": 3.0343693536179743,
+      "model_sha256": "13bcadf8f32d3f95f37b1d1a25767c3c362af614e27e441ea7c7f3757527444e"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 29,
+    "video_seconds": 2.9,
+    "mission_seconds": 37.29777777777778,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 102,
+        "logged_time": 37.24,
+        "model_version": 13
+      }
+    ],
+    "surface": {
+      "version": 13,
+      "stage": 1,
+      "supported": 704,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 37.24,
+      "max_supported_H": 3.9174294259457434,
+      "model_sha256": "c9162bf66778110c3f0b5bf085621c7a99de431148e87e64311cb85dd17d0ca9"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 30,
+    "video_seconds": 3.0,
+    "mission_seconds": 38.62984126984127,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 113,
+        "logged_time": 38.56,
+        "model_version": 15
+      }
+    ],
+    "surface": {
+      "version": 15,
+      "stage": 1,
+      "supported": 764,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 38.56,
+      "max_supported_H": 3.0419566933227187,
+      "model_sha256": "dea8dff4954eb1fe8b8380e9916fdbd4d3b75de3a7f05bb3abdd1d7333d63c48"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 31,
+    "video_seconds": 3.1,
+    "mission_seconds": 39.96190476190476,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 124,
+        "logged_time": 39.88,
+        "model_version": 16
+      }
+    ],
+    "surface": {
+      "version": 16,
+      "stage": 1,
+      "supported": 752,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 39.88,
+      "max_supported_H": 3.420792487983108,
+      "model_sha256": "43c362a43d8828ca0632c27d1ba8486e8ff9fbda473bbd6f6afaa6425c9c98c7"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 32,
+    "video_seconds": 3.2,
+    "mission_seconds": 41.29396825396826,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 135,
+        "logged_time": 41.2,
+        "model_version": 17
+      }
+    ],
+    "surface": {
+      "version": 17,
+      "stage": 1,
+      "supported": 729,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 41.2,
+      "max_supported_H": 3.9680670910738436,
+      "model_sha256": "9551deed85952ea0ed90e50c50fb0f8699a68666d6965b613b32955073ca52f0"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 33,
+    "video_seconds": 3.3,
+    "mission_seconds": 42.62603174603175,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 146,
+        "logged_time": 42.52,
+        "model_version": 19
+      }
+    ],
+    "surface": {
+      "version": 19,
+      "stage": 2,
+      "supported": 643,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 42.52,
+      "max_supported_H": 3.600263163105006,
+      "model_sha256": "25d4b71a33bf835afafa024840f876e1a5a015a919a83444558ce1e70a023479"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 34,
+    "video_seconds": 3.4,
+    "mission_seconds": 43.95809523809524,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 157,
+        "logged_time": 43.84,
+        "model_version": 20
+      }
+    ],
+    "surface": {
+      "version": 20,
+      "stage": 2,
+      "supported": 741,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 43.84,
+      "max_supported_H": 3.2628816851846683,
+      "model_sha256": "795d616518be0ac059460a06dd3bdd77f61fa4d3a44751648f025e1f01f36d15"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 35,
+    "video_seconds": 3.5,
+    "mission_seconds": 45.29015873015874,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 169,
+        "logged_time": 45.28,
+        "model_version": 22
+      }
+    ],
+    "surface": {
+      "version": 22,
+      "stage": 2,
+      "supported": 807,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 45.28,
+      "max_supported_H": 3.6266181025511455,
+      "model_sha256": "ff7beeb6ac15e366aa471d24f820fa6424b3901d900c60e6bae4ba79ae4382a0"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 36,
+    "video_seconds": 3.6,
+    "mission_seconds": 46.62222222222223,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 180,
+        "logged_time": 46.6,
+        "model_version": 23
+      }
+    ],
+    "surface": {
+      "version": 23,
+      "stage": 2,
+      "supported": 787,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 46.6,
+      "max_supported_H": 3.9200066129217315,
+      "model_sha256": "253816f06af2f2880a19198eb43709f255ec1b03da3bac1b008f87535939ed08"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 37,
+    "video_seconds": 3.7,
+    "mission_seconds": 47.95428571428572,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 191,
+        "logged_time": 47.92,
+        "model_version": 24
+      }
+    ],
+    "surface": {
+      "version": 24,
+      "stage": 2,
+      "supported": 714,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 47.92,
+      "max_supported_H": 4.306286782422355,
+      "model_sha256": "8116512a9c3ceab6a422028b8bf9c04249e3c7336382b94f7dd03933d02f035b"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 38,
+    "video_seconds": 3.8,
+    "mission_seconds": 49.28634920634921,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 202,
+        "logged_time": 49.24,
+        "model_version": 26
+      }
+    ],
+    "surface": {
+      "version": 26,
+      "stage": 3,
+      "supported": 647,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 49.24,
+      "max_supported_H": 3.0013155262947264,
+      "model_sha256": "728753cf1bc08864574b867b9b388707629e2241ecf0de6842cfb0003088bdf1"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 39,
+    "video_seconds": 3.9,
+    "mission_seconds": 50.618412698412705,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 213,
+        "logged_time": 50.56,
+        "model_version": 27
+      }
+    ],
+    "surface": {
+      "version": 27,
+      "stage": 3,
+      "supported": 769,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 50.56,
+      "max_supported_H": 3.3153646863710864,
+      "model_sha256": "e588c3bb79e7fcf7c0d4e32a0bfe56f9bf37d538b874d3eb7d1d6c1abcc073d4"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 40,
+    "video_seconds": 4.0,
+    "mission_seconds": 51.950476190476195,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 224,
+        "logged_time": 51.88,
+        "model_version": 29
+      }
+    ],
+    "surface": {
+      "version": 29,
+      "stage": 3,
+      "supported": 814,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 51.88,
+      "max_supported_H": 3.7562313572475667,
+      "model_sha256": "55d33460ad371161b7cb4ee775d99315bbbbd3a107b9446040678f719b68ded4"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 41,
+    "video_seconds": 4.1,
+    "mission_seconds": 53.282539682539685,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 235,
+        "logged_time": 53.2,
+        "model_version": 30
+      }
+    ],
+    "surface": {
+      "version": 30,
+      "stage": 3,
+      "supported": 769,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 53.2,
+      "max_supported_H": 4.054947837600908,
+      "model_sha256": "b9a087cc9c34d1d9421fd7e0ef3c5a8166a5613d43ac6087623b1ed1162a1f44"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 42,
+    "video_seconds": 4.2,
+    "mission_seconds": 54.61460317460318,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 246,
+        "logged_time": 54.52,
+        "model_version": 31
+      }
+    ],
+    "surface": {
+      "version": 31,
+      "stage": 4,
+      "supported": 532,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 54.52,
+      "max_supported_H": 2.669134437500855,
+      "model_sha256": "1e8feb50240af5e975444adc90ea1d32938c6f02da94c64b7576268f40d39e7c"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 43,
+    "video_seconds": 4.3,
+    "mission_seconds": 55.94666666666667,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 257,
+        "logged_time": 55.84,
+        "model_version": 33
+      }
+    ],
+    "surface": {
+      "version": 33,
+      "stage": 4,
+      "supported": 663,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 55.84,
+      "max_supported_H": 3.353960292459164,
+      "model_sha256": "18ad9d363307bbd8ce9ef8434f34a69121a28d250049857edf692dae284cf639"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 44,
+    "video_seconds": 4.4,
+    "mission_seconds": 57.27873015873016,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 268,
+        "logged_time": 57.16,
+        "model_version": 34
+      }
+    ],
+    "surface": {
+      "version": 34,
+      "stage": 4,
+      "supported": 764,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 57.16,
+      "max_supported_H": 3.329986432376398,
+      "model_sha256": "c409bccde08672bc95d2f8e6443db35172ae07ddb09fd074a1d1ff93e6d56bd3"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 45,
+    "video_seconds": 4.5,
+    "mission_seconds": 58.61079365079365,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 280,
+        "logged_time": 58.6,
+        "model_version": 36
+      }
+    ],
+    "surface": {
+      "version": 36,
+      "stage": 4,
+      "supported": 801,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 58.6,
+      "max_supported_H": 3.9591869103957857,
+      "model_sha256": "c7fedfd0313f1660c32025ce0f92203ee420c3f5caea5d56d5a82261d569ed81"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 46,
+    "video_seconds": 4.6,
+    "mission_seconds": 59.94285714285715,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 291,
+        "logged_time": 59.92,
+        "model_version": 37
+      }
+    ],
+    "surface": {
+      "version": 37,
+      "stage": 4,
+      "supported": 728,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 59.92,
+      "max_supported_H": 4.02615456630957,
+      "model_sha256": "f90ec32bc6ec210dc2b63aeb6b3e26caf0cab0bca85402b69fe4feebcdf0c876"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 47,
+    "video_seconds": 4.7,
+    "mission_seconds": 61.27492063492064,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 302,
+        "logged_time": 61.24,
+        "model_version": 38
+      }
+    ],
+    "surface": {
+      "version": 38,
+      "stage": 5,
+      "supported": 554,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 61.24,
+      "max_supported_H": 2.745409466421315,
+      "model_sha256": "4442469ceb13d77d88cca14fef5ec438714296199483e5aac79245576de90c1e"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 48,
+    "video_seconds": 4.8,
+    "mission_seconds": 62.60698412698413,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 313,
+        "logged_time": 62.56,
+        "model_version": 40
+      }
+    ],
+    "surface": {
+      "version": 40,
+      "stage": 5,
+      "supported": 685,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 62.56,
+      "max_supported_H": 3.4780442264858706,
+      "model_sha256": "5c402c2ff277f7ad794dd2fa88c9219a11445fe85311a69377587e546429723e"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 49,
+    "video_seconds": 4.9,
+    "mission_seconds": 63.93904761904763,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 324,
+        "logged_time": 63.88,
+        "model_version": 41
+      }
+    ],
+    "surface": {
+      "version": 41,
+      "stage": 5,
+      "supported": 766,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 63.88,
+      "max_supported_H": 3.477432531595848,
+      "model_sha256": "b14fb1897de1c1a6f51804bfc290afdb520620ff8619815953890a3f6595790c"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 50,
+    "video_seconds": 5.0,
+    "mission_seconds": 65.27111111111111,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 335,
+        "logged_time": 65.2,
+        "model_version": 42
+      }
+    ],
+    "surface": {
+      "version": 42,
+      "stage": 5,
+      "supported": 782,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 65.2,
+      "max_supported_H": 3.8173975014255173,
+      "model_sha256": "261de13167f53e75aa8b45aa49986c5dee012bbd4c9f3a05c51fe9abd3b85ee5"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 51,
+    "video_seconds": 5.1,
+    "mission_seconds": 66.60317460317461,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 346,
+        "logged_time": 66.52,
+        "model_version": 44
+      }
+    ],
+    "surface": {
+      "version": 44,
+      "stage": 5,
+      "supported": 693,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 66.52,
+      "max_supported_H": 4.045893389491766,
+      "model_sha256": "7044a122fe64ffcc671356a306f6a613ea1c56562d30ac191339a108f6d211f0"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 52,
+    "video_seconds": 5.2,
+    "mission_seconds": 67.9352380952381,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 357,
+        "logged_time": 67.84,
+        "model_version": 45
+      }
+    ],
+    "surface": {
+      "version": 45,
+      "stage": 6,
+      "supported": 558,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 67.84,
+      "max_supported_H": 2.9857552595220254,
+      "model_sha256": "74eae810c9f5f0624bd8fdfd0d9eca68ad5b624fdc13547f58575f1aaffc4d27"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 53,
+    "video_seconds": 5.3,
+    "mission_seconds": 69.26730158730159,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 368,
+        "logged_time": 69.16,
+        "model_version": 47
+      }
+    ],
+    "surface": {
+      "version": 47,
+      "stage": 6,
+      "supported": 672,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 69.16,
+      "max_supported_H": 3.6208843988058774,
+      "model_sha256": "4cdb30a6d0ff8755aefee9b5c4b473e6259e10d0e5831ee3f8875bd3cc31698b"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 54,
+    "video_seconds": 5.4,
+    "mission_seconds": 70.59936507936509,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 379,
+        "logged_time": 70.48,
+        "model_version": 48
+      }
+    ],
+    "surface": {
+      "version": 48,
+      "stage": 6,
+      "supported": 733,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 70.48,
+      "max_supported_H": 3.259917194770112,
+      "model_sha256": "dc37b63df6c87b11a17feae77c6bc1357e81fae69eb46eecf748f9d9acc3f336"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 55,
+    "video_seconds": 5.5,
+    "mission_seconds": 71.93142857142858,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 391,
+        "logged_time": 71.92,
+        "model_version": 49
+      }
+    ],
+    "surface": {
+      "version": 49,
+      "stage": 6,
+      "supported": 741,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 71.92,
+      "max_supported_H": 3.769288430875193,
+      "model_sha256": "bba40aefc4357b85c85e0a47004aa5671cdb93423a4157b2bf13650ade0a2841"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 56,
+    "video_seconds": 5.6,
+    "mission_seconds": 73.26349206349207,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 402,
+        "logged_time": 73.24,
+        "model_version": 51
+      }
+    ],
+    "surface": {
+      "version": 51,
+      "stage": 6,
+      "supported": 659,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 73.24,
+      "max_supported_H": 3.400140527407895,
+      "model_sha256": "439e3e9c2966ad46eea5db5ab6ab098a89b9e6645b19ffc4755e024802c8b9b8"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 57,
+    "video_seconds": 5.7,
+    "mission_seconds": 74.59555555555556,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 413,
+        "logged_time": 74.56,
+        "model_version": 52
+      }
+    ],
+    "surface": {
+      "version": 52,
+      "stage": 6,
+      "supported": 606,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 74.56,
+      "max_supported_H": 3.643745199576891,
+      "model_sha256": "bc3e09925833467c4e271c1596f724b316ca27ef12cbfe208c4157c0f2079a94"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 58,
+    "video_seconds": 5.8,
+    "mission_seconds": 75.92761904761906,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 424,
+        "logged_time": 75.88,
+        "model_version": 54
+      }
+    ],
+    "surface": {
+      "version": 54,
+      "stage": 7,
+      "supported": 593,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 75.88,
+      "max_supported_H": 3.8150525300049356,
+      "model_sha256": "6bf2fff4a04c5e211a7046739c67887e487607783a92bd19a3fcd12c277a277d"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 59,
+    "video_seconds": 5.9,
+    "mission_seconds": 77.25968253968254,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 435,
+        "logged_time": 77.2,
+        "model_version": 55
+      }
+    ],
+    "surface": {
+      "version": 55,
+      "stage": 7,
+      "supported": 665,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 77.2,
+      "max_supported_H": 5.024697846816049,
+      "model_sha256": "acf4dee648571237e68cdb58088985172684dacbec5585f8e9e57f0f46d7e6c1"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 60,
+    "video_seconds": 6.0,
+    "mission_seconds": 78.59174603174604,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 446,
+        "logged_time": 78.52,
+        "model_version": 56
+      }
+    ],
+    "surface": {
+      "version": 56,
+      "stage": 7,
+      "supported": 686,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 78.52,
+      "max_supported_H": 6.571738554159505,
+      "model_sha256": "07a1af08b2259f4007cd0816da659593064743b5fdef49632df6a2b91047dc0c"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 61,
+    "video_seconds": 6.1,
+    "mission_seconds": 79.92380952380952,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 457,
+        "logged_time": 79.84,
+        "model_version": 58
+      }
+    ],
+    "surface": {
+      "version": 58,
+      "stage": 7,
+      "supported": 621,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 79.84,
+      "max_supported_H": 6.225810806737479,
+      "model_sha256": "c066ed1b0b1e4a5a3c7a5235a523ef06f34ade80a9b02defca3fcf1ff8b855b1"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 62,
+    "video_seconds": 6.2,
+    "mission_seconds": 81.25587301587302,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 468,
+        "logged_time": 81.16,
+        "model_version": 59
+      }
+    ],
+    "surface": {
+      "version": 59,
+      "stage": 8,
+      "supported": 534,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 81.16,
+      "max_supported_H": 2.6764230013184225,
+      "model_sha256": "f847a43c4a76fcbb271f78bd4483a606c07f8fa01296ff0dfd9ef550c433fbd0"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 63,
+    "video_seconds": 6.3,
+    "mission_seconds": 82.58793650793652,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 479,
+        "logged_time": 82.48,
+        "model_version": 60
+      }
+    ],
+    "surface": {
+      "version": 60,
+      "stage": 8,
+      "supported": 641,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 82.48,
+      "max_supported_H": 2.84830792243614,
+      "model_sha256": "cfc8bfc444d25d78b7f904b29ebb4f592942a4283a7e90518194806d93d5f4f1"
+    },
+    "delivered_packets": 23
+  },
+  {
+    "video_frame": 64,
+    "video_seconds": 6.4,
+    "mission_seconds": 83.92,
+    "agent_records": [
+      {
+        "agent": 0,
+        "trajectory_index": 303,
+        "logged_time": 36.48,
+        "model_version": 50
+      },
+      {
+        "agent": 1,
+        "trajectory_index": 490,
+        "logged_time": 83.92,
+        "model_version": 62
+      }
+    ],
+    "surface": {
+      "version": 62,
+      "stage": 8,
+      "supported": 694,
+      "queries": 1089,
+      "finite": true,
+      "control_time": 83.8,
+      "max_supported_H": 2.4176240480526427,
+      "model_sha256": "d146952c4e8956ab0a4760f2f44d8cdedefe15d8bc9a08a579211e92b2c535ad"
+    },
+    "delivered_packets": 23
+  }
+]

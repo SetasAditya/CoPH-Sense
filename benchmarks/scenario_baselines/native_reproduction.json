@@ -1,0 +1,63 @@
+{
+  "checked_on": "2026-11-24",
+  "native_runs_executed": 0,
+  "comparative_runs_executed": 0,
+  "baselines": {
+    "distgp": {
+      "baseline": "distgp",
+      "paper": "A Distributed Gaussian Process Model for Multi-Robot Mapping",
+      "paper_version": "arXiv:2603.07351v1",
+      "paper_url": "https://arxiv.org/html/2603.07351v1",
+      "status": "blocked_source_unavailable",
+      "source": {
+        "repository_url": null,
+        "commit": null,
+        "license": null,
+        "official_link_verified": false
+      },
+      "native_example": {
+        "command": null,
+        "input_hashes": null,
+        "environment": null,
+        "log_sha256": null,
+        "expected_checks": null,
+        "return_code": null,
+        "checks_passed": false
+      },
+      "adaptation_used_in_native_example": null,
+      "blocker": "No official implementation or native example was linked by the pinned manuscript or lead-author website, and no matching implementation was found in the lead-author public repository catalog or exact-name repository search.",
+      "not_substituted": [
+        "sethnabarro/gbp_learning (different published method)",
+        "hchen19/optimal-distgp (different distributed-GP aggregation method)"
+      ]
+    },
+    "ugv_exposure": {
+      "baseline": "ugv_exposure",
+      "paper": "UGV-Conditioned Multi-UAV Informative Planning on a Shared Exposure Belief",
+      "paper_version": "arXiv:2606.12306v3",
+      "paper_url": "https://arxiv.org/html/2606.12306v3",
+      "status": "blocked_source_unavailable",
+      "source": {
+        "repository_url": null,
+        "commit": null,
+        "license": null,
+        "official_link_verified": false
+      },
+      "native_example": {
+        "command": null,
+        "input_hashes": null,
+        "environment": null,
+        "log_sha256": null,
+        "expected_checks": null,
+        "return_code": null,
+        "checks_passed": false
+      },
+      "adaptation_used_in_native_example": null,
+      "blocker": "The pinned manuscript has no source link. The coauthor publication page lists this paper with a Paper link only, unlike neighboring entries with Code links; public coauthor repositories and exact-title repository search yielded no matching implementation.",
+      "not_substituted": [
+        "smoggy-P/Perception-Aware-Exploration (different method)",
+        "smoggy-P/gym-Drone2D-ActivePerception (different environment)"
+      ]
+    }
+  }
+}

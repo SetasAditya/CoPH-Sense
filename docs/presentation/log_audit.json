@@ -1,0 +1,2242 @@
+{
+  "schema": 1,
+  "archive_mutated": false,
+  "new_experiments": false,
+  "scenarios": {
+    "dynamics": {
+      "selected": {
+        "seed": 87000,
+        "drag_after": 0.45
+      },
+      "selection_status": "Original manifest declares seeds but no animation seed; lowest seed chosen for presentation.",
+      "available": [
+        "401 physical positions at .1 s",
+        "400 actual actions/rewards/contact flags",
+        "400 nominal/applied/target protection traces",
+        "per-agent drag updates",
+        "assigned true goals in both phases"
+      ],
+      "unavailable": [
+        "native velocities",
+        "force decomposition",
+        "spatial environmental field"
+      ],
+      "sources": [
+        {
+          "path": "native_drag_shift_v1/manifest.json",
+          "sha256": "d3d5d35733d18afcf1454d5733e373ba81ff6be9e44b10a654b79d1289a33a2f",
+          "bytes": 1562
+        },
+        {
+          "path": "native_drag_shift_v1/rows.json",
+          "sha256": "91ee5d306b95e904457070e5b37a025f824dcd07275f2d61c252d6d7fcdf876d",
+          "bytes": 1021348
+        },
+        {
+          "path": "native_drag_shift_v1/coph_online_static_protected_coph_online_static_protected_seed87000_d045.npz",
+          "sha256": "6c89103657c40f652c58114c045032de82ebb55c385e0a0709681e9760080b76",
+          "bytes": 24905
+        },
+        {
+          "path": "native_drag_shift_v1/coph_online_static_protected_coph_online_static_protected_seed87000_d045_trace.json.gz",
+          "sha256": "33381b7ca188798909419915323dffedd4c229b156da94c0b58d98cff9b55997",
+          "bytes": 92622
+        },
+        {
+          "path": "native_drag_shift_v1/coph_known_static_protected_coph_known_static_protected_seed87000_d045.npz",
+          "sha256": "8d591472c7a9a54f30087941f4159b93d7afc82bdc1ad7f4f8145c93f6519094",
+          "bytes": 25845
+        },
+        {
+          "path": "native_drag_shift_v1/coph_known_static_protected_coph_known_static_protected_seed87000_d045_trace.json.gz",
+          "sha256": "cdb9571a7696cec1216ebf6364b5aa1d223d851688a5197774e71d2c4de164d2",
+          "bytes": 96705
+        },
+        {
+          "path": "native_drag_shift_v1/phmarl_assigned_static_protected_phmarl_assigned_static_protected_seed87000_d045.npz",
+          "sha256": "33ef60d1d02fdf0a6564ddf05b0ad48a84fd5a100da7a15477cfac4f2018a841",
+          "bytes": 26327
+        },
+        {
+          "path": "native_drag_shift_v1/phmarl_assigned_static_protected_phmarl_assigned_static_protected_seed87000_d045_trace.json.gz",
+          "sha256": "2f0f55dee29d0cb23b8fd1556484222c035864a75dc7da0c6b1e4f0e0f9e9131",
+          "bytes": 67617
+        }
+      ],
+      "time": "State t=k*.1; command/reward k spans [k*.1,(k+1)*.1]; switch20s."
+    },
+    "hazards": {
+      "selected": {
+        "seed": 79000,
+        "scene": "double_mild"
+      },
+      "selection_status": "Existing manifest animation_seed retained.",
+      "available": [
+        "physical q,v",
+        "nominal/applied controls",
+        "attraction/shaping forces",
+        "exact control-time field coefficients/centers/target/policy/support",
+        "observed geometry/sensor footprint",
+        "route/waypoint",
+        "packets/delivery decisions",
+        "before/after committed models",
+        "version IDs",
+        "per-step cost components"
+      ],
+      "unavailable": [],
+      "sources": [
+        {
+          "path": "hazard_pilot_v2/double_mild/manifest.json",
+          "sha256": "d5e5b6022c401e617129a9add72219d94156ad4807f2fa8964d69f65be154bbd",
+          "bytes": 17915
+        },
+        {
+          "path": "hazard_pilot_v2/double_mild/episodes/79000_field.json.gz",
+          "sha256": "8c003f5c3bb6d5d5c0d0c84b7a2a4dfa6058fd33777f329cbe14bcc00701f6e7",
+          "bytes": 15824595
+        },
+        {
+          "path": "hazard_pilot_v2/double_mild/episodes/79000_decision.json.gz",
+          "sha256": "7598bbe8de5bbb2cfc9f30e8c009a2d03d383b901be68ee7cca29b986ff04d16",
+          "bytes": 11710740
+        }
+      ],
+      "counts": {
+        "field": {
+          "trajectory_lengths": [
+            304,
+            491
+          ],
+          "packet_count": 23,
+          "event_count": 48,
+          "update_counts": [
+            50,
+            62
+          ]
+        },
+        "decision": {
+          "trajectory_lengths": [
+            304,
+            304
+          ],
+          "packet_count": 23,
+          "event_count": 48,
+          "update_counts": [
+            50,
+            38
+          ]
+        }
+      },
+      "time": "Logged absolute mission seconds; no interpolation. Pre-activation state marked inactive; terminal state held from logged after."
+    },
+    "reciprocity": {
+      "selected": {
+        "seed": 76000,
+        "scene": null
+      },
+      "selection_status": "Existing manifest animation_seed retained.",
+      "available": [
+        "physical q,v",
+        "nominal/applied controls",
+        "attraction/shaping forces",
+        "exact control-time field coefficients/centers/target/policy/support",
+        "observed geometry/sensor footprint",
+        "route/waypoint",
+        "packets/delivery decisions",
+        "before/after committed models",
+        "version IDs",
+        "per-step cost components"
+      ],
+      "unavailable": [],
+      "sources": [
+        {
+          "path": "crossing_traverses_v1/manifest.json",
+          "sha256": "271df39ef6853f667e6409a76b1ecca5a3d96864972ad74739cfacecf49d4ee5",
+          "bytes": 11136
+        },
+        {
+          "path": "crossing_traverses_v1/episodes/76000_disabled.json.gz",
+          "sha256": "ea9475f1bf5875c26e4baa6ff45ce5bf962171764553d114eb6b937adea6f47e",
+          "bytes": 45713090
+        },
+        {
+          "path": "crossing_traverses_v1/episodes/76000_reciprocal_fixed.json.gz",
+          "sha256": "9a575de802ee48332cdc41706caad369d735d13c86052a6ccd42133a97d822db",
+          "bytes": 37791849
+        }
+      ],
+      "counts": {
+        "disabled": {
+          "trajectory_lengths": [
+            1106,
+            1120
+          ],
+          "packet_count": 0,
+          "event_count": 2,
+          "update_counts": [
+            139,
+            140
+          ]
+        },
+        "reciprocal_fixed": {
+          "trajectory_lengths": [
+            767,
+            771
+          ],
+          "packet_count": 192,
+          "event_count": 386,
+          "update_counts": [
+            96,
+            97
+          ]
+        }
+      },
+      "time": "Logged absolute mission seconds; no interpolation. Pre-activation state marked inactive; terminal state held from logged after."
+    },
+    "encounters": {
+      "selected": {
+        "seed": 300,
+        "family": "circle_swap",
+        "controller": "coph_online"
+      },
+      "selection_status": "Original manifest declares seeds but no animation seed; lowest seed and four-agent-swap family chosen for presentation.",
+      "available": [
+        "logged starts/goals",
+        "100 post-step path samples",
+        "success/contact count/time-to-goals"
+      ],
+      "unavailable": [
+        "nominal/applied controls",
+        "yield events",
+        "model revisions",
+        "velocities"
+      ],
+      "sources": [
+        {
+          "path": "native_final_layer_v1/manifest.json",
+          "sha256": "ed10318835dbebba8e6611548358ada088f638d79f42829d66e7c3a3415d246d",
+          "bytes": 2274
+        },
+        {
+          "path": "native_final_layer_v1/liveness_rows.json",
+          "sha256": "4a696da895f344936658c5d9e430c71881cb2504baffc20457aedcb81f29a203",
+          "bytes": 6458957
+        }
+      ],
+      "time": "Prepend t=0 start; samples q[::4] have times .1,.5,...39.7 s. No interpolation or invented force traces.",
+      "comparison": "base versus final protection; attraction and CoPH are encounter baselines, not phMARL.",
+      "learning": "Yielding is a programmed execution rule, not learned strategy discovery."
+    },
+    "uncertainty": {
+      "selected": {
+        "group": "complementary_79100_0",
+        "pairs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "selection_status": "First original group and first12 contiguous query pairs; not selected for favorable outcomes.",
+      "available": [
+        "saved true/predicted costs and regret",
+        "saved certified/flagged/correct indicators",
+        "recovered original candidate paths with all cost estimates checked to1e-12",
+        "matched anchors reconstructed from same original source measurements"
+      ],
+      "unavailable": [
+        "archived 400-sample cost-gap distributions",
+        "physical mission time/navigation trajectory"
+      ],
+      "sources": [
+        {
+          "path": "reconstruction_decision_v1/rows.json",
+          "sha256": "b06d16fd57c404385d7ff8d29cf3f23a06318f7cd8e56b054741629671bbb145",
+          "bytes": 2071148
+        },
+        {
+          "path": "route_certificate_v1/rows.json",
+          "sha256": "b8d3c3a1ae9015bdb02592007fac978463416eac86ef4a40cd4cc2aea80587e8",
+          "bytes": 1524377
+        },
+        {
+          "path": "complementary_reconstruction_v1/snapshots/complementary_79100_acquisition.pkl.gz",
+          "sha256": "8bf48ddbec36b6e1679e904d7a8aa54a3e3fb79f0df1ad0f7671819af7292f0e",
+          "bytes": 33282
+        }
+      ],
+      "time": "Saved-state query index, not simulation time.",
+      "regenerated": "paths regenerated from original seed/snapshot; all displayed costs checked against saved rows; uncertainty flags read directly, no Gaussian resampling"
+    }
+  },
+  "failure_inventory": [
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_known_static_protected",
+      "seed": 87003,
+      "d2": 0.1,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_online_static_protected",
+      "seed": 87003,
+      "d2": 0.1,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_frozen_static_protected",
+      "seed": 87003,
+      "d2": 0.1,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_known_static_protected",
+      "seed": 87005,
+      "d2": 0.1,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87001,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87003,
+      "d2": 0.1,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87000,
+      "d2": 0.1,
+      "phase2_coverage": 0.5,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87005,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87010,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87006,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87002,
+      "d2": 0.1,
+      "phase2_coverage": 0.5,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87008,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_known_static_protected",
+      "seed": 87014,
+      "d2": 0.1,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_known_static_protected",
+      "seed": 87019,
+      "d2": 0.1,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87016,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87019,
+      "d2": 0.1,
+      "phase2_coverage": 0.25,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_known_static_protected",
+      "seed": 87023,
+      "d2": 0.1,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 2
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_known_static_protected",
+      "seed": 87026,
+      "d2": 0.1,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87021,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87023,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87022,
+      "d2": 0.1,
+      "phase2_coverage": 0.5,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87024,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87026,
+      "d2": 0.1,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_frozen_static_protected",
+      "seed": 87000,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87025,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87027,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_frozen_static_protected",
+      "seed": 87002,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87028,
+      "d2": 0.1,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87000,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_frozen_static_protected",
+      "seed": 87003,
+      "d2": 0.45,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87002,
+      "d2": 0.45,
+      "phase2_coverage": 0.25,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_known_static_protected",
+      "seed": 87003,
+      "d2": 0.45,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_online_static_protected",
+      "seed": 87003,
+      "d2": 0.45,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87003,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87004,
+      "d2": 0.45,
+      "phase2_coverage": 0.5,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87006,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87007,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87008,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87011,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87015,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87016,
+      "d2": 0.45,
+      "phase2_coverage": 0.25,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87019,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87018,
+      "d2": 0.45,
+      "phase2_coverage": 0.5,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87021,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87023,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87022,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "coph_known_static_protected",
+      "seed": 87026,
+      "d2": 0.45,
+      "phase2_coverage": 1.0,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87026,
+      "d2": 0.45,
+      "phase2_coverage": 0.5,
+      "new_contact_onsets": 1
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87028,
+      "d2": 0.45,
+      "phase2_coverage": 0.75,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_drag_shift_v1",
+      "protocol": "phmarl_assigned_static_protected",
+      "seed": 87029,
+      "d2": 0.45,
+      "phase2_coverage": 0.5,
+      "new_contact_onsets": 0
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_exact",
+      "seed": 303,
+      "arm": "coph_online",
+      "success": true,
+      "new": 1,
+      "time": 64
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_exact",
+      "seed": 315,
+      "arm": "coph_online",
+      "success": true,
+      "new": 1,
+      "time": 82
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_exact",
+      "seed": 318,
+      "arm": "coph_online",
+      "success": true,
+      "new": 1,
+      "time": 70
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_exact",
+      "seed": 322,
+      "arm": "coph_online",
+      "success": true,
+      "new": 1,
+      "time": 74
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_exact",
+      "seed": 323,
+      "arm": "coph_online",
+      "success": true,
+      "new": 1,
+      "time": 67
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_exact",
+      "seed": 328,
+      "arm": "coph_online",
+      "success": true,
+      "new": 1,
+      "time": 68
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_swap",
+      "seed": 302,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_swap",
+      "seed": 302,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_swap",
+      "seed": 303,
+      "arm": "coph_online",
+      "success": true,
+      "new": 1,
+      "time": 99
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_swap",
+      "seed": 309,
+      "arm": "coph_online",
+      "success": true,
+      "new": 1,
+      "time": 68
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "pair_swap",
+      "seed": 321,
+      "arm": "coph_online",
+      "success": true,
+      "new": 1,
+      "time": 66
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 300,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 300,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 301,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 301,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 302,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 302,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 303,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 303,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 304,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 304,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 305,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 305,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 306,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 306,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 307,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 307,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 308,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 308,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 309,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 309,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 310,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 310,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 311,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 311,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 312,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 312,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 313,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 313,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 314,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 314,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 315,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 315,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 316,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 316,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 317,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 317,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 318,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 318,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 319,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 319,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 320,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 320,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 321,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 321,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 322,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 322,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 323,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 323,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 324,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 324,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 325,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 325,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 326,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 326,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 327,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 327,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 328,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 328,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 329,
+      "arm": "attraction",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/liveness",
+      "layer": "base",
+      "family": "circle_swap",
+      "seed": 329,
+      "arm": "coph_online",
+      "success": false,
+      "new": 0,
+      "time": null
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90029,
+      "arm": "coph_online_static_protected",
+      "coverage": true,
+      "new": 1,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90083,
+      "arm": "coph_online_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90000,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90001,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90003,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90005,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90007,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90008,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90010,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90017,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90023,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90025,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90027,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90029,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": true,
+      "new": 1,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90030,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90033,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90035,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90037,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90038,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90039,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90040,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90041,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90042,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90044,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90045,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90047,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90048,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90054,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90055,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90060,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90061,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90064,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90069,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90070,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90071,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90073,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90075,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90077,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90080,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90083,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90089,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90091,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90092,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90093,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90094,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "base",
+      "seed": 90098,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90029,
+      "arm": "coph_online_static_protected",
+      "coverage": true,
+      "new": 1,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90083,
+      "arm": "coph_online_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90000,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90001,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90003,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90005,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90007,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90008,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90010,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90017,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90023,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90025,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90027,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90029,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": true,
+      "new": 1,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90030,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90033,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90035,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90037,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90038,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90039,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90040,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90042,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90044,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90045,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90047,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90048,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90054,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90055,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90060,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90061,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90064,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90069,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90070,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90071,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90073,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90075,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90077,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90080,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90083,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90089,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90091,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90092,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90093,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90094,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    },
+    {
+      "study": "native_final_layer_v1/native",
+      "layer": "final",
+      "seed": 90098,
+      "arm": "phmarl_assigned_static_protected",
+      "coverage": false,
+      "new": 0,
+      "avoidable": 0
+    }
+  ],
+  "verification": {
+    "native_state_shapes": "401x4x2 positions,400 controls and trace entries",
+    "control_model_versions": "Every selected stagewise physical step matches its logged control_model version.",
+    "terminal_states": "Both agents in every selected stagewise arm use exact logged after state.",
+    "uncertainty_geometry": "12 original paths/pairs; truth and all3 representations match saved estimates within1e-12.",
+    "uncertainty_resampled": false,
+    "force_reconstruction_encounter": false
+  },
+  "selection_rule": "Existing animation seeds where declared; otherwise lowest declared seed. No outcome-based seed replacement.",
+  "completion_inventory": {
+    "hazard_pilot_v2": {
+      "episodes": 32,
+      "agent_goals": 64,
+      "incomplete_or_failed": [],
+      "source": {
+        "path": "hazard_pilot_v2/completion.json",
+        "sha256": "3ddc6522a63cbb4378c98fe9c7f734db616f9736aa194aa89d58dbadb7a8e0ce",
+        "bytes": 3256
+      }
+    },
+    "crossing_traverses_v1": {
+      "episodes": 8,
+      "agent_goals": 16,
+      "incomplete_or_failed": [],
+      "source": {
+        "path": "crossing_traverses_v1/completion.json",
+        "sha256": "eceb5410f614a8ce04c658e11bcbde247647f78bc374ac009a180002b9858d56",
+        "bytes": 704
+      }
+    }
+  }
+}

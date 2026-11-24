@@ -1,0 +1,43 @@
+{
+  "base": "http://127.0.0.1:18766/",
+  "scenarios": {
+    "dynamics": {
+      "duration": 7,
+      "expected_event_seek": 3.3,
+      "actual_event_seek": 3.3,
+      "decoded_frame_ready": true,
+      "video_error": null
+    },
+    "hazards": {
+      "duration": 6.5,
+      "expected_event_seek": 1.9,
+      "actual_event_seek": 1.9,
+      "decoded_frame_ready": true,
+      "video_error": null
+    },
+    "reciprocity": {
+      "duration": 6.6,
+      "expected_event_seek": 0.3,
+      "actual_event_seek": 0.3,
+      "decoded_frame_ready": true,
+      "video_error": null
+    },
+    "encounters": {
+      "duration": 6.5,
+      "expected_event_seek": 0.8,
+      "actual_event_seek": 0.8,
+      "decoded_frame_ready": true,
+      "video_error": null
+    },
+    "uncertainty": {
+      "duration": 6,
+      "expected_event_seek": 1.5,
+      "actual_event_seek": 1.5,
+      "decoded_frame_ready": true,
+      "video_error": null
+    }
+  },
+  "console_errors": [],
+  "keyboard_navigation": true,
+  "mobile_document_width": 390
+}

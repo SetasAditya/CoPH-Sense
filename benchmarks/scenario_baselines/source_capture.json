@@ -1,0 +1,122 @@
+{
+  "checked_on": "2026-11-24",
+  "method": "Primary manuscripts, author publication pages, and public GitHub repository metadata; no author contacted.",
+  "sources": {
+    "distgp_paper": {
+      "url": "https://arxiv.org/html/2603.07351v1",
+      "resolved_url": "https://arxiv.org/html/2603.07351v1",
+      "http_status": 200,
+      "content_sha256": "1ed30560c090afe46226864ea6e09f27d8169e628aded25351f8705d5b8dde59",
+      "bytes": 335434
+    },
+    "distgp_author": {
+      "url": "https://sethnabarro.github.io/",
+      "resolved_url": "https://sethnabarro.github.io/",
+      "http_status": 200,
+      "content_sha256": "77adca635538690c06b9e8440ef93b7ca1f8c27d16ba3de90be341cb219c54ff",
+      "bytes": 10919
+    },
+    "distgp_author_repositories": {
+      "url": "https://api.github.com/users/sethnabarro/repos?per_page=100&type=owner",
+      "resolved_url": "https://api.github.com/users/sethnabarro/repos?per_page=100&type=owner",
+      "http_status": 200,
+      "content_sha256": "5b2139d16265f82f5302fe44e688d4acb018a27370ca0e2fa279aa4e0cff8347",
+      "bytes": 37974,
+      "repository_names": [
+        "sethnabarro/al-folio",
+        "sethnabarro/bnn-data-aug",
+        "sethnabarro/gbp_learning",
+        "sethnabarro/gp-plots",
+        "sethnabarro/sethnabarro.github.io",
+        "sethnabarro/stance-detector",
+        "sethnabarro/stat-nlp-book"
+      ]
+    },
+    "exposure_paper": {
+      "url": "https://arxiv.org/html/2606.12306v3",
+      "resolved_url": "https://arxiv.org/html/2606.12306v3",
+      "http_status": 200,
+      "content_sha256": "84e1beffe22841fd0aae1778f21e731c696d3dd7e7bf122f992404b53f3139a2",
+      "bytes": 347791
+    },
+    "exposure_author_publications": {
+      "url": "https://smoggy-p.github.io/publications/",
+      "resolved_url": "https://smoggy-p.github.io/publications/",
+      "http_status": 200,
+      "content_sha256": "42964f2499e821ac4b5c5dd4245bb75d0da3051fa04cf3816142a0f3242a4697",
+      "bytes": 14487
+    },
+    "exposure_coauthor_repositories": {
+      "url": "https://api.github.com/users/smoggy-P/repos?per_page=100&type=owner",
+      "resolved_url": "https://api.github.com/users/smoggy-P/repos?per_page=100&type=owner",
+      "http_status": 200,
+      "content_sha256": "3ea543eb6f9dd6c8af76683eb5d0c1bae32396818e9948d964d77c56152d3da1",
+      "bytes": 216098,
+      "repository_names": [
+        "smoggy-P/acl-gazebo-px4",
+        "smoggy-P/acl-mapping-px4",
+        "smoggy-P/aerial-depth-completion-ros",
+        "smoggy-P/blog",
+        "smoggy-P/Cheetah-Software",
+        "smoggy-P/ChordNova",
+        "smoggy-P/Code_Management_Project",
+        "smoggy-P/Cylinder_Collision_Check",
+        "smoggy-P/Dynamic_Programming_Project",
+        "smoggy-P/elevation_mapping",
+        "smoggy-P/elevation_mapping_humanoid",
+        "smoggy-P/Evaluating_Dynamic_Difficulty",
+        "smoggy-P/faster-px4",
+        "smoggy-P/fast_lio_mid360_highfreq",
+        "smoggy-P/fizz_buzz_test",
+        "smoggy-P/FUEL",
+        "smoggy-P/GitCourse",
+        "smoggy-P/github-readme-stats",
+        "smoggy-P/gym-Drone2D-ActivePerception",
+        "smoggy-P/hexo-comment",
+        "smoggy-P/kPRM-star-planner",
+        "smoggy-P/LA-Planner",
+        "smoggy-P/lerobot-mecanum",
+        "smoggy-P/LIO-Livox",
+        "smoggy-P/m-explore",
+        "smoggy-P/metric_test_gazebo",
+        "smoggy-P/MPC-Collision-Avoidance",
+        "smoggy-P/paparazzi",
+        "smoggy-P/Perception-Aware-Exploration",
+        "smoggy-P/px4-offboard",
+        "smoggy-P/pyorca",
+        "smoggy-P/r2d2",
+        "smoggy-P/RAST_corridor_planning",
+        "smoggy-P/robot_statemachine",
+        "smoggy-P/smb_highlevel_controller",
+        "smoggy-P/smoggy-P",
+        "smoggy-P/smoggy-P.github.io",
+        "smoggy-P/steam-box",
+        "smoggy-P/traj_opt",
+        "smoggy-P/VINS-Fusion"
+      ]
+    },
+    "distgp_repository_search": {
+      "url": "https://api.github.com/search/repositories?q=DistGP&per_page=30",
+      "resolved_url": "https://api.github.com/search/repositories?q=DistGP&per_page=30",
+      "http_status": 200,
+      "content_sha256": "24eb70abb3fdae94cfc22917d9631c360bc491a3a857cde044a750168981de28",
+      "bytes": 21198,
+      "total_count": 4,
+      "repository_names": [
+        "rfrod/distgpt2",
+        "hchen19/optimal-distgp",
+        "DesmonDay/DistGPUGraph",
+        "tanzima-sultana/DistGpuEmbedding"
+      ]
+    },
+    "exposure_repository_search": {
+      "url": "https://api.github.com/search/repositories?q=%22UGV-Conditioned%22&per_page=30",
+      "resolved_url": "https://api.github.com/search/repositories?q=%22UGV-Conditioned%22&per_page=30",
+      "http_status": 200,
+      "content_sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+      "bytes": 55,
+      "total_count": 0,
+      "repository_names": []
+    }
+  }
+}

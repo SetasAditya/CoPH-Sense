@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "status": "intent_sealed_native_reproduction_blocked",
+  "final_protocol_frozen": false,
+  "comparative_outcomes_observed": false,
+  "common": {
+    "native_first": true,
+    "official_source_required": true,
+    "preserve_coph_controller_and_learning": true,
+    "truth_evaluator_only": true,
+    "comparative_seed_selection_uses_outcomes": false,
+    "analysis": "Paired differences with group-level resampling; report negative and missing results, actual bytes, and actual computation. No SOTA-superiority statement before matched outcomes."
+  },
+  "protocols": {
+    "distgp": {
+      "scenario": 5,
+      "question": "Accuracy, uncertainty, and supported route decisions under the same measurement evidence.",
+      "native_admission": [
+        "Exact official source commit and software license",
+        "Unmodified official small regression/mapping example with declared finite-output and upstream-check agreement criteria",
+        "Environment, input hashes, logs, and upstream outputs captured"
+      ],
+      "candidate_data": {
+        "reference": "reconstruction_decision_v1 and route_certificate_v1",
+        "groups": 12,
+        "path_pairs_per_group": 400,
+        "path_rng": "RandomState(187000 + group index)",
+        "route_spacing": 0.05,
+        "risk_weight": 6.0,
+        "unknown_risk": 0.02,
+        "route_density": "1 + 4 * risk_weight * predicted_risk",
+        "covariance_samples": 400,
+        "sample_rng": "RandomState(188000 + group index)",
+        "certified_fraction_threshold": 0.95,
+        "cost_gap_interval_percentiles": [
+          5,
+          95
+        ],
+        "support": "Identical existing 0.65-distance measurement support; common supported queries only, with missing estimates explicit."
+      },
+      "matched_stages": [
+        "Representation comparison on identical four-reading sender batches; this does not test distributed fusion.",
+        "Distributed extension only after a native example: identical local measurement streams and fixed communication opportunities, with actual messages/bytes counted."
+      ],
+      "common_downstream": "Use identical candidate paths, midpoint quadrature, clipping convention, receiver pricing and tie-breaking. DistGP inference may replace the field estimator only; retain all evaluation-world truth exclusion.",
+      "metrics": [
+        "value/gradient error",
+        "decision regret",
+        "interval coverage",
+        "wrong-choice rate vs fraction certified",
+        "supported coverage",
+        "actual bytes",
+        "fitting and prediction work",
+        "latency"
+      ],
+      "unresolved_until_native": [
+        "Official implementation and dependencies",
+        "Kernel/hyperparameter settings and inference defaults",
+        "Prediction-gradient and joint-covariance adapter checks",
+        "Exact distributed-message mapping, finite work ceilings, and calibration-only tuning split"
+      ],
+      "gate": "No comparisons while official source or native reproduction is missing. A fitted dense GP or independently reconstructed equations must not be labeled reproduced DistGP."
+    },
+    "ugv_exposure": {
+      "scenarios": [
+        2,
+        3
+      ],
+      "question": "Task-conditioned exposure belief and routing under matched sensing and execution.",
+      "native_admission": [
+        "Exact official source commit and software license",
+        "Run the official small published one-UGV/UAV setting without CoPH substitution",
+        "Capture original terrain prior, hazard-detection, sensing confidence, aerial mobility, planner budget, and expected checks"
+      ],
+      "candidate_data": {
+        "reference": "Existing hazard_demo specifications; crossing_demo for reciprocal descriptive comparison only",
+        "hazard_scenes": [
+          "mild",
+          "double_mild",
+          "moderate",
+          "severe"
+        ],
+        "hazard_seed": 79000,
+        "active_steps": 1800,
+        "scout_start_delay_seconds": 25.0,
+        "risk_weights": [
+          0.25,
+          6.0
+        ],
+        "unknown_risk": 0.02,
+        "byte_ceiling_per_agent": 4000000,
+        "packet_ttl_seconds": 300.0
+      },
+      "matched_stages": [
+        "Unadapted published role/configuration reproduction is a separate result.",
+        "Controlled-scout adapter: identical pre-recorded legal scout observations, shared downstream physical executor and common receiver objective; tests exposure belief/route scoring, not full UAV acquisition.",
+        "Full active-sensing comparison requires identical aerial mobility, sensing actions, acquisition budgets and public priors for both systems; freeze that protocol only after native reproduction."
+      ],
+      "reciprocal_boundary": "Original one-UGV/shared-belief role configuration is not automatically a reciprocal independent-agent baseline. Any reciprocal extension is a separately named adaptation, with neither its success nor failure attributed to the original publication.",
+      "metrics": [
+        "receiver-weighted exposure",
+        "travel time",
+        "coverage/completion",
+        "contacts",
+        "decision and warning lead times",
+        "discovery ordering",
+        "actual bytes",
+        "planner/receiver computation"
+      ],
+      "unresolved_until_native": [
+        "Official implementation and dependencies",
+        "Terrain prior and shared-belief initialization",
+        "Log-normal model and risk-aversion parameters",
+        "Native IPP motion/iteration budget",
+        "Source-validated role-preserving and controlled-scout adapters"
+      ],
+      "gate": "No CoPH-versus-exposure-planner performance table until native reproduction and adapter validation pass. Do not compare the printed 38-percent paper result with CoPH hazard costs."
+    }
+  }
+}

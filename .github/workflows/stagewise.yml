@@ -17,3 +17,6 @@ jobs:
           OPENBLAS_NUM_THREADS: '1'
           MKL_NUM_THREADS: '1'
           MPLBACKEND: Agg
+
+      - run: python benchmarks/scenario_baselines/audit.py verify
+      - run: python -m unittest discover -s benchmarks/scenario_baselines -p "test_*.py" -v

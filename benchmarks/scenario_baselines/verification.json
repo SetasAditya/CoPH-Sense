@@ -1,0 +1,19 @@
+{
+  "tests": {
+    "passed": 4,
+    "command": "python -m unittest discover -s benchmarks/scenario_baselines -p 'test_*.py' -v"
+  },
+  "source_records_verified": true,
+  "native_runs": 0,
+  "comparisons": 0,
+  "blocked_before_native": true,
+  "files": {
+    "audit.py": "f89b3d02c98a53625b86304802c09e1593c0ab5306e02d62f8faa95cde2abdf9",
+    "test_audit.py": "05ab7eb64bb36596736521ecea5d315a0f581370c9d66ddd366fd80007dab591",
+    "source_capture.json": "8c1aab1c9ca3f482202ad2b49bb8408e2f2fc3b4f728bb1a031e42acc04345f7",
+    "native_reproduction.json": "d3ecbd9e6b564b7187dc5c6df2502d43bb1e411c1abb826e8eafe52175a3ae34",
+    "matched_protocol_intent.json": "df6a52fad07abd2e8bc6d7ef898386c87af06c02e011b0bb3df999bc264a9b1e",
+    "README.md": "9f39517c86c67fb9610ead54dfa6900032531ac6b3aa3e438958368b256b018c",
+    "protocol_intent_seal.json": "81519c98554b78f2c27cf1e0e890b66fba5a42100baa6b9fbd151bdcbc3ac93d"
+  }
+}
