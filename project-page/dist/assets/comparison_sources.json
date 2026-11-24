@@ -1,0 +1,16 @@
+{
+  "summary_sha256": {
+    "docs/results/native_drag_shift_v1/summary.json": "91f19da1c5a85d478f047711e0c13d8932eadeedd5df470626b95a02747072f5",
+    "docs/results/native_heldout_v1/summary.json": "012843a0281cf9a09f6cf498ea3d47a5a79d60d56adbd881717121a70f679752",
+    "docs/results/native_final_layer_v1/summary.json": "53f8a5159232570b6d7159bcfb66eaf0bce0600096a8d75beea0a437beb7ce69",
+    "docs/results/reconstruction_decision_v1/summary.json": "02bf13f79f6055af7065a38f327915f2f5021eff7fa8a5d05fb2a178d90ab388",
+    "docs/results/route_certificate_v1/summary.json": "112accdcd9d9643c6a0a11940e4be7ff630e48787040ae332fdf8c4aec149e76"
+  },
+  "new_experiments": false,
+  "figures": [
+    "motivation_adaptation",
+    "comparison_native",
+    "comparison_representation",
+    "comparison_hazards"
+  ]
+}
