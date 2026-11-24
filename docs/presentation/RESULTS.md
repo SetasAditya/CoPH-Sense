@@ -29,4 +29,4 @@ The static site includes five MP4s, five GIF previews, five posters, and 326 per
 
 DistGP and UGV-conditioned exposure planning remain blocked at native admission: official implementations/examples were not located in the checked primary sources and author repository catalogs. Eight sources returned HTTP 200. This does not establish that implementations do not exist. `benchmarks/scenario_baselines/` records the pinned papers, source search, blocked native records and sealed comparison intents. No substitute algorithm or comparative win is presented. Final executable matched protocols await a source-pinned passing native example.
 
-The paper appends a scenario overview and exactly two labeled 3D placeholders; existing experiments and related work are preserved. The live gallery URL will be cited only after deployment is verified.
+The paper appends a scenario overview and exactly two labeled 3D placeholders; existing experiments and related work are preserved. The live gallery is https://setasaditya.github.io/CoPH-Sense/; GitHub Pages deployment and HTTP 200 were verified before the manuscript citation was added.

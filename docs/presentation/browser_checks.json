@@ -38,6 +38,7 @@
     }
   },
   "console_errors": [],
+  "playback_speed_control": true,
   "keyboard_navigation": true,
   "mobile_document_width": 390
 }

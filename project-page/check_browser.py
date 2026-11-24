@@ -25,8 +25,11 @@ with sync_playwright() as p:
         page.wait_for_function('(expected)=>{const v=document.querySelector("video");return !v.seeking&&v.readyState>=2&&Math.abs(v.currentTime-expected)<.05}',arg=expected)
         pos=page.locator('video').evaluate('(v)=>v.currentTime');assert abs(pos-expected)<.05
         assert page.locator('video').evaluate('(v)=>v.error ? v.error.message : null') is None
+        assert page.locator('video').evaluate('(v)=>v.playbackRate')==.5
         result['scenarios'][name]={'duration':duration,'expected_event_seek':expected,'actual_event_seek':pos,'decoded_frame_ready':True,'video_error':None}
         if name=='reciprocity':page.locator('.stage').screenshot(path='/tmp/coph-gallery-player.png')
+    page.locator('#playback-speed').select_option('1');assert page.locator('video').evaluate('(v)=>v.playbackRate')==1
+    page.locator('#playback-speed').select_option('0.5');result['playback_speed_control']=True
     page.locator('#tab-dynamics').focus();page.keyboard.press('ArrowRight');assert page.locator('#tab-hazards').get_attribute('aria-selected')=='true';result['keyboard_navigation']=True
     page.screenshot(path='/tmp/coph-gallery-desktop.png',full_page=True)
     page.set_viewport_size({'width':390,'height':844});page.goto(base,wait_until='networkidle');page.wait_for_function('document.querySelector("video").readyState>=2');page.screenshot(path='/tmp/coph-gallery-mobile.png',full_page=True)
