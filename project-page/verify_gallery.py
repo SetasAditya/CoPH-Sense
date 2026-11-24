@@ -11,7 +11,7 @@ class Links(HTMLParser):
     def __init__(self):super().__init__();self.links=[]
     def handle_starttag(self,tag,attrs):
         for k,v in attrs:
-            if k in ['href','src','poster'] and v and not v.startswith(('#','http:','https:','mailto:')):self.links.append(v.split('#')[0])
+            if k in ['href','src','poster'] and v and not v.startswith(('#','http:','https:','mailto:')):self.links.append(v.split('#')[0].split('?')[0])
 def verify(archive=None):
     meta=json.loads((SITE/'assets/provenance.json').read_text());assert set(meta['frames'])==set(NAMES)
     checked=[];counts={}
