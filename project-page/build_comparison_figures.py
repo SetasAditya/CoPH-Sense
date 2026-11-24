@@ -42,9 +42,9 @@ fig,axes=plt.subplots(1,2,figsize=(12,5));fig.subplots_adjust(wspace=.35,bottom=
 for ax,title,data,n in [(axes[0],'Original held-out cohort | 50 starts',native,50),(axes[1],'Fresh cohort, final protection | 100 starts',fresh,100)]:
  ks=['phmarl_assigned_static_protected','coph_online_static_protected'];prefix='final/' if n==100 else ''; vals=[data[prefix+k]['mean_return'] for k in ks];cov=[data[prefix+k]['coverage' if n==100 else 'full_coverage'] for k in ks]
  ax.barh([0,1],vals,color=[ORANGE,BLUE]);ax.set_yticks([0,1],['Matched phMARL','CoPH online']);ax.invert_yaxis();ax.set_xlim(-235,0);ax.set_xlabel('Mean episode return ↑');ax.set_title(title,fontsize=12)
- for i,(v,c) in enumerate(zip(vals,cov)):ax.text(v+5,i,f'{v:.1f}\nCoverage {c}/{n}',va='center',ha='left',fontsize=11,color='white',weight='bold')
+ for i,(v,c) in enumerate(zip(vals,cov)):ax.text(v+5,i,f'{v:.1f}\n{c}/{n}',va='center',ha='left',fontsize=11,color='white',weight='bold')
 fig.suptitle('Online CoPH versus the same pretrained phMARL checkpoint',fontsize=17,weight='bold')
-fig.text(.5,.035,'Same 4-agent task, task allocation, targets and protection within each cohort. Higher return is better.\nCoverage = all four landmarks covered. Each compared arm records one contact in each cohort. Cohorts are not pooled.',ha='center',fontsize=10)
+fig.text(.5,.035,'Same 4-agent task, task allocation, targets and protection within each cohort. Higher return is better.\nSecond bar label = episodes with all four landmarks covered. Each arm records one contact per cohort. Cohorts are not pooled.',ha='center',fontsize=10)
 save(fig,'comparison_native')
 # Representation comparison includes both uncertainty selectivity and error.
 fig,axes=plt.subplots(1,3,figsize=(13,5));fig.subplots_adjust(wspace=.34,bottom=.24,top=.78)
