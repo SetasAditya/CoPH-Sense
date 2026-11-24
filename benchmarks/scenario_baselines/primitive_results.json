@@ -1,0 +1,134 @@
+{
+  "kind": "independent_primitive_validation_only",
+  "native_reproduction": false,
+  "sota_comparison": false,
+  "manifest_sha256": "bba6d281b267fb7d1e6479360f64682f42bac5297bdaa1451d8276f9ec7344ab",
+  "distgp": {
+    "passed": true,
+    "kind": "independent_primitive_validation_only",
+    "native_reproduction": false,
+    "fitc_direct_conditioning_errors": [
+      {
+        "mean": 3.3306690738754696e-16,
+        "covariance": 1.222980050563649e-16
+      },
+      {
+        "mean": 4.996003610813204e-16,
+        "covariance": 1.6653345369377348e-16
+      },
+      {
+        "mean": 1.1102230246251565e-16,
+        "covariance": 1.5959455978986625e-16
+      }
+    ],
+    "tree_gbp_mean_max_error": 2.220446049250313e-16,
+    "tree_gbp_marginal_covariance_max_error": 8.673617379884035e-19,
+    "sweeps": 3,
+    "message_changes": [
+      4.880461056588525,
+      0.041879853082981144,
+      0.0
+    ],
+    "converged": true,
+    "comparison_target": "direct solve of the identical approximate Gaussian factor graph, not a full-GP prior or published metric"
+  },
+  "exposure": {
+    "passed": true,
+    "kind": "independent_primitive_validation_only",
+    "native_reproduction": false,
+    "moments_quadrature_max_error": 1.5881867761018131e-22,
+    "astar": {
+      "path": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "objective": 311.61447206508785,
+      "time": 88.2842712474619,
+      "exposure": 0.11166510040881297,
+      "expanded": 23,
+      "component_sum": 311.61447206508785
+    },
+    "dijkstra": {
+      "path": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "objective": 311.61447206508785,
+      "time": 88.2842712474619,
+      "exposure": 0.11166510040881297,
+      "expanded": 26,
+      "component_sum": 311.61447206508785
+    },
+    "objective_agreement": 0.0,
+    "comparison_target": "same fixed 8-connected objective with an admissible minimum-density heuristic; not the published IPP/acquisition loop"
+  },
+  "passed": true
+}

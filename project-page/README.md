@@ -28,4 +28,4 @@ Native drag and encounter cohorts did not preregister animation seeds: their low
 
 `python project-page/verify_gallery.py` checks resources, media hashes, decoded frame counts, provenance, and the paper placeholders. `--archive /path/to/original/results` also rechecks source hashes, exact model versions, model/nominal-force agreement, saved-query prices, and immutable input files. Browser checks are recorded in `docs/presentation/browser_checks.json`.
 
-New DistGP and exposure-planning comparisons remain blocked at native admission until official implementations are available. The page links checked sources and sealed comparison intents; it claims no unrun comparative result.
+New DistGP and exposure-planning comparisons remain blocked at native admission until the missing native assets/settings and reference checks are available. Independent paper-pinned implementations are allowed; their primitive correctness checks have passed. The page links checked sources and sealed comparison intents; it claims no unrun comparative result.

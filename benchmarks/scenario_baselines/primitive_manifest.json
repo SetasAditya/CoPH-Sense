@@ -1,0 +1,14 @@
+{
+  "kind": "preexecution_primitive_check_freeze",
+  "native_reproduction": false,
+  "sota_comparison": false,
+  "experimental_data_or_maps": false,
+  "source_equations": {
+    "distgp": "https://arxiv.org/html/2603.07351v1, equations 2--5 and 8--10",
+    "exposure": "https://arxiv.org/html/2606.12306v3, equations 1 and 3--5; Table I beta/alpha"
+  },
+  "sha256": {
+    "primitive_inputs.json": "39d168883f9d6994cd93b6a81f088ae02c1c5a467c325cd3c747b6877ba87e06",
+    "primitive_checks.py": "5865f783a5d38d0ad7e5a73a24bb032aea965f1613c727b5f50cb5a10b47c626"
+  }
+}

@@ -21,12 +21,12 @@ The static site includes five MP4s, five GIF previews, five posters, and 326 per
 - All 12 recovered path-pair prices agree with the saved truth and representation estimates to 1e-12.
 - Desktop/mobile browser checks decode all five videos, verify exact event-button seeking, keyboard navigation, no JavaScript errors, and no horizontal mobile overflow.
 - Current package tests: 248 passed, 7 subtests passed, 41 explicit archive-dependent skips. The historical archived-source-hash failure is not claimed repaired.
-- Native tests: 26 passed in the pinned Python 3.8 environment. Baseline admission: four tests passed.
+- Native tests: 26 passed in the pinned Python 3.8 environment. Baseline admission and independent primitives: nine tests passed.
 
 `log_audit.json` retains 212 adverse native/encounter records and complete hazard/crossing completion inventories. Missing native velocities, encounter controls/yield/model traces, and archived uncertainty sample distributions remain explicit.
 
 ## New prior-work comparisons
 
-DistGP and UGV-conditioned exposure planning remain blocked at native admission: official implementations/examples were not located in the checked primary sources and author repository catalogs. Eight sources returned HTTP 200. This does not establish that implementations do not exist. `benchmarks/scenario_baselines/` records the pinned papers, source search, blocked native records and sealed comparison intents. No substitute algorithm or comparative win is presented. Final executable matched protocols await a source-pinned passing native example.
+DistGP and UGV-conditioned exposure planning remain blocked at native admission by incomplete published experiment specifications. Official implementations/examples were not located in eight successfully consulted primary/API sources, but author code is not mandatory. Independent equation-level implementations now verify FITC/tree Gaussian belief propagation against dense conditioning (mean error 2.22e-16, covariance error 8.67e-19), log-normal moments against quadrature (error 1.59e-22), and A* against Dijkstra (equal objective). These are primitive correctness checks only, with frozen inputs and explicit assumptions. They do not reproduce the published native experiments or establish CoPH superiority. DistGP still lacks selected kernel, sampling and inference settings; exposure planning lacks the exact native map, sensing and search specification. `benchmarks/scenario_baselines/` preserves the original sealed intent, feasibility assessment and independent-source admission gate. No comparative evaluation was run.
 
 The paper appends a scenario overview and exactly two labeled 3D placeholders; existing experiments and related work are preserved. The live gallery is https://setasaditya.github.io/CoPH-Sense/; GitHub Pages deployment and HTTP 200 were verified before the manuscript citation was added.

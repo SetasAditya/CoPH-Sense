@@ -11,6 +11,7 @@
     "python": "3.8.20",
     "environment": "pinned native environment"
   },
-  "baseline_admission_tests": 4,
-  "new_training_or_navigation_runs": false
+  "baseline_admission_tests": 9,
+  "new_training_or_navigation_runs": false,
+  "baseline_primitive_validation": "FITC/tree GBP and exposure-cost/A* independently checked; not native reproduction or SOTA comparison"
 }

@@ -167,9 +167,12 @@ def stagewise(log,kind):
             x,y,sx,sy,amp=patch;X,Y=np.meshgrid(np.linspace(x-2*sx,x+2*sx,28),np.linspace(y-1.2,y+1.2,24))
             R=amp*np.exp(-.5*(((X-x)/sx)**2+((Y-y)/sy)**2))
             ax.plot_surface(X,Y,np.zeros_like(X),facecolors=plt.cm.YlOrRd(R/max(amp,1e-12)),alpha=.45,shade=False)
+        known={tuple(ob) for a in frame['agents'] if a.get('model') for ob in a['model'].get('geometry',[])}
+        local={tuple(ob) for a in frame['agents'] if a.get('model') for ob in a['model'].get('local_geometry',[])}
         for ob in ep['spec'].get('obstacles',[]):
             x,y,rad=ob[:3];dy=(ob[4] if len(ob)==5 else rad)
-            ax.plot([x,x],[y-dy,y+dy],zs=.15,color='#a9383b',lw=5)
+            color='#a9383b' if tuple(ob) in local else PURPLE if tuple(ob) in known else '#9aa8b6'
+            ax.plot([x,x],[y-dy,y+dy],zs=.15,color=color,lw=5)
         for i in range(2):
             sam=[s for s in ep['samples'][i] if s['time']<=now+1e-10];ghost=[s for s in ref['samples'][i] if s['time']<=now+1e-10]
             if sam:
@@ -177,6 +180,10 @@ def stagewise(log,kind):
             if ghost:
                 q=np.asarray([s['x'][:2] for s in ghost]);ax.plot(q[:,0],q[:,1],zs=.015,color=MUTED,ls='--',alpha=.45,lw=1)
             item=frame['agents'][i]
+            observation=item.get('observation')
+            if observation is not None and 'sensor_center' in observation and 'sensor_radius' in observation:
+                center=np.asarray(observation['sensor_center']);radius=observation['sensor_radius'];angle=np.linspace(0,2*np.pi,49)
+                ax.plot(center[0]+radius*np.cos(angle),center[1]+radius*np.sin(angle),zs=.01,color=COLORS[i],alpha=.45,lw=.8,ls=':')
             if item.get('active') and item.get('model'):
                 q=np.asarray(item['state'][:2]);target=np.asarray(item['model']['target']);ax.scatter(*target,zs=.06,marker='x',c=COLORS[i],s=30)
                 if item.get('control') is not None:ax.quiver(q[0],q[1],.08,item['control'][0]*.25,item['control'][1]*.25,0,color=COLORS[i],linewidth=1.5)
@@ -224,7 +231,7 @@ def stagewise(log,kind):
             ax.set(xlim=(0,max(end,max(a['finish_time'] for a in ref['agents']))),ylim=(0,70),ylabel='Logged weighted risk component',xlabel='Mission time (s)')
             if now>25.:ax.legend(frameon=False)
         current=float(now);ax.axvline(current,color=PURPLE,lw=.7,ls=':')
-        footer(fig,'Dashed world paths: matched reference. World truth is evaluator-only. Surface is the exact logged control model; unsupported regions masked. Applied arrows: 0.25 m/N.')
+        footer(fig,'Dashed paths: reference. Dotted disks: last logged sensor footprint. Gray doors: not in agent models; colored doors: known. Surface support is masked; arrows: 0.25 m/N.')
         return fig,{'mission_seconds':float(now),'agent_records':[{'agent':a['agent'],'trajectory_index':a.get('trajectory_index'),'logged_time':a.get('logged_time'),'model_version':a.get('model_version')} for a in frame['agents']],'surface':surface_record,'delivered_packets':len([e for e in frame['events'] if e['kind']=='delivered'])}
     return draw,end
 

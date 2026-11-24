@@ -1,5 +1,5 @@
 {
-  "renderer_sha256": "33d79b9c3a2f1708eb4b175c32922fc3335062e43ab4eca8d5b58a5bb31efa96",
+  "renderer_sha256": "8b1f89257c801b7d0d4703f8e6d613682ff3260de1326b35ce2c69a08e6b30b6",
   "extractor_sha256": "b68d21d24a760d61c1dfae3a95a1c34bf94e730c7776a07c282412bf51fe3558",
   "version": 1,
   "renderer": "scenario_presentation.py",
@@ -5644,28 +5644,28 @@
       "bytes": 1964350
     },
     "hazards.mp4": {
-      "sha256": "5539a22caf7aac67f62d3aadded8792890e1991364b51e97f6d7b33eef3d1798",
-      "bytes": 561503
+      "sha256": "853359c2bc6423c7cd51fc27748cbe5e11a51a47c5211c6a92a69cc95a09b83d",
+      "bytes": 571578
     },
     "hazards.png": {
-      "sha256": "60762920e980f92505be3602b9eb940fcf0ba6e780a6e06b6c461caf5920d289",
-      "bytes": 171125
+      "sha256": "94bd23316c3e28f0e5626ebf17d5b4923388fdbb43e31779cd44714ca13c2914",
+      "bytes": 171636
     },
     "hazards.gif": {
-      "sha256": "a79a74653ee15f23b1eea65053c98f6af04701414b8a53edffb00e0bd94a2eaf",
-      "bytes": 1824143
+      "sha256": "b7ac05b3dbbbc0df118903feead69f18abe2774e3cec4f6b2d8b2d60cf2aa320",
+      "bytes": 1823771
     },
     "reciprocity.mp4": {
-      "sha256": "92129ef6708c12695552d6c0de42741c5d2fed19d7e68c6ec1aff48a60505521",
-      "bytes": 413994
+      "sha256": "a2234bc408ccfe1c155ffbf70e22d35fadc80a9a1d910ddbe5b995ebf4347dd0",
+      "bytes": 421598
     },
     "reciprocity.png": {
-      "sha256": "6f1ddea5e45a44a85ebade7271d66786c194d9c3a271c8043df3c6123db39455",
-      "bytes": 180222
+      "sha256": "7e13a2027f3f9ffdc0b25a16f37a103a9dabb2330912c367a90025877ab02323",
+      "bytes": 180730
     },
     "reciprocity.gif": {
-      "sha256": "1a13444a93c19e169bcf41cd209441e03a613409ec23751234d63d4479ce202b",
-      "bytes": 1915958
+      "sha256": "784b1f13afeb92343da03ab4947e2f80fd16f39f8f690b0bddae16db8a38e4e6",
+      "bytes": 1911234
     },
     "encounters.mp4": {
       "sha256": "daef87e76a1152a75201af3dfa4546c01bf90ac51d472e77bae23045b5ec4a5c",

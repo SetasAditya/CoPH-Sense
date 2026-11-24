@@ -1,19 +1,28 @@
 {
   "tests": {
-    "passed": 4,
+    "passed": 9,
     "command": "python -m unittest discover -s benchmarks/scenario_baselines -p 'test_*.py' -v"
   },
   "source_records_verified": true,
+  "original_sealed_records_unchanged": true,
   "native_runs": 0,
   "comparisons": 0,
-  "blocked_before_native": true,
+  "primitive_checks_passed": true,
+  "admission_accepts_independent_implementation": true,
+  "primitive_check_cannot_pass_native_gate": true,
   "files": {
-    "audit.py": "f89b3d02c98a53625b86304802c09e1593c0ab5306e02d62f8faa95cde2abdf9",
-    "test_audit.py": "05ab7eb64bb36596736521ecea5d315a0f581370c9d66ddd366fd80007dab591",
+    "audit.py": "c984d8b9264227394bf41ffebd586d81ca41cce6f179e53ada18f3c9f86e986b",
+    "test_audit.py": "a1f0259883c521c06a352152d1c40bb5be705d2780e9968c30cb649c0e2e11e3",
     "source_capture.json": "8c1aab1c9ca3f482202ad2b49bb8408e2f2fc3b4f728bb1a031e42acc04345f7",
     "native_reproduction.json": "d3ecbd9e6b564b7187dc5c6df2502d43bb1e411c1abb826e8eafe52175a3ae34",
     "matched_protocol_intent.json": "df6a52fad07abd2e8bc6d7ef898386c87af06c02e011b0bb3df999bc264a9b1e",
-    "README.md": "9f39517c86c67fb9610ead54dfa6900032531ac6b3aa3e438958368b256b018c",
-    "protocol_intent_seal.json": "81519c98554b78f2c27cf1e0e890b66fba5a42100baa6b9fbd151bdcbc3ac93d"
+    "README.md": "a92d9fee9daf0ab05dc54cbee7b1b6eef36dedbdbcbc6b3ee047c93e26e8dc7d",
+    "protocol_intent_seal.json": "81519c98554b78f2c27cf1e0e890b66fba5a42100baa6b9fbd151bdcbc3ac93d",
+    "REIMPLEMENTATION_FEASIBILITY.md": "54123e33342fd21646d81b3a4bda350c83b4fb23ff970051a7fe9b828d1fa78e",
+    "primitive_checks.py": "5865f783a5d38d0ad7e5a73a24bb032aea965f1613c727b5f50cb5a10b47c626",
+    "primitive_inputs.json": "39d168883f9d6994cd93b6a81f088ae02c1c5a467c325cd3c747b6877ba87e06",
+    "primitive_manifest.json": "bba6d281b267fb7d1e6479360f64682f42bac5297bdaa1451d8276f9ec7344ab",
+    "primitive_results.json": "64fcd3f5d9da514c3b54f47855295d317e74a1ca16895ffc7f2d3f25764371e7",
+    "test_primitives.py": "9e2c24d9f7cb6834da5dabae4c99500137be375812fd72beaf5a0c13d126fb08"
   }
 }
