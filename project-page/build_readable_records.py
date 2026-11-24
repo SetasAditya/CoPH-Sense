@@ -28,13 +28,13 @@ def page(title, body):
 audit = load('log_audit.json')
 provenance = load('provenance.json')
 names = {'dynamics':'Dynamics change','hazards':'Different hazard preferences','reciprocity':'Reciprocal discovery','encounters':'Symmetric encounters','uncertainty':'Sparse evidence'}
-body = '<p>Recorded signals and presentation timing for the five animations. Missing signals are listed explicitly.</p>'
+body = '<p>What was saved for each animation, and what was not recorded.</p>'
 for key, record in audit['scenarios'].items():
     body += '<section id="'+key+'"><h2>'+names[key]+'</h2><p>'+cell(record.get('time',''))+'</p>'
     body += table([{'recorded signals': '; '.join(record['available']), 'unavailable signals': '; '.join(record['unavailable']) or 'None listed', 'selection': record['selection_status']}])
     body += '</section>'
-body += '<h2>Completed cohorts</h2>'+table([{'study':k, 'episodes':v['episodes'], 'agent goals':v['agent_goals'], 'incomplete or failed':len(v['incomplete_or_failed'])} for k,v in audit['completion_inventory'].items()])
-body += '<h2>Adverse records</h2><p>All '+str(len(audit['failure_inventory']))+' archived adverse records are retained below. A contact or incomplete coverage can both place an episode in this inventory; these are not all the same failure type.</p><details><summary>Open the complete adverse-record table</summary>'+table(audit['failure_inventory'])+'</details>'
+body += '<h2>Completed runs</h2>'+table([{'study':k, 'episodes':v['episodes'], 'agent goals':v['agent_goals'], 'incomplete or failed':len(v['incomplete_or_failed'])} for k,v in audit['completion_inventory'].items()])
+body += '<h2>Contacts and incomplete runs</h2><p>All '+str(len(audit['failure_inventory']))+' records below include runs with contacts or incomplete coverage. The columns distinguish these outcomes.</p><details><summary>Show all recorded outcomes</summary>'+table(audit['failure_inventory'])+'</details>'
 (DIST/'records.html').write_text(page('Recorded evidence',body))
 
 
